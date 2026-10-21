@@ -1,0 +1,36 @@
+A-cuadratico-doble_pozo: 16 barridos, 624 mitades (+176 sin vacio), lambda(0) > 0 en 392
+   finales {'bajo': 89, 'det': 302, 'horizonte': 108, 'sobre': 125}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 0.00, 0.10, 1.48, 1.57, 1.83   (pi/2 = 1.571)
+   separatrices 7, llegan al vacio 4, sanas 0, AF 0; r' al llegar (min, mediana, max) = -0.479, -0.450, -0.428
+A-cuadratico-masivo: 8 barridos, 48 mitades (+272 sin vacio), lambda(0) > 0 en 11
+   finales {'det': 37, 'horizonte': 11}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 1.57, 1.57, 1.59, 1.63, 1.65   (pi/2 = 1.571)
+   separatrices 0, llegan al vacio 0, sanas 0, AF 0
+A-exp-doble_pozo: 16 barridos, 528 mitades (+272 sin vacio), lambda(0) > 0 en 324
+   finales {'bajo': 2, 'det': 238, 'fallo': 1, 'horizonte': 93, 'phi': 26, 'r0': 8, 'sobre': 160}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 0.37, 0.65, 1.51, 1.57, 2.40   (pi/2 = 1.571)
+   separatrices 5, llegan al vacio 3, sanas 0, AF 0; r' al llegar (min, mediana, max) = -0.503, -0.476, -0.426
+A-exp-masivo: 7 barridos, 62 mitades (+218 sin vacio), lambda(0) > 0 en 31
+   finales {'det': 62}
+   separatrices 0, llegan al vacio 0, sanas 0, AF 0
+A-lineal-doble_pozo: 20 barridos, 666 mitades (+334 sin vacio), lambda(0) > 0 en 427
+   finales {'bajo': 69, 'det': 223, 'horizonte': 171, 'phi': 83, 'sobre': 120}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 0.01, 0.26, 1.40, 1.57, 1.57   (pi/2 = 1.571)
+   separatrices 11, llegan al vacio 7, sanas 0, AF 0; r' al llegar (min, mediana, max) = -0.499, -0.465, -0.091
+A-lineal-masivo: 7 barridos, 64 mitades (+216 sin vacio), lambda(0) > 0 en 64
+   finales {'det': 38, 'horizonte': 26}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 1.57, 1.57, 1.58, 1.61, 1.61   (pi/2 = 1.571)
+   separatrices 0, llegan al vacio 0, sanas 0, AF 0
+B-cuadratico-doble_pozo: 40 barridos, 1600 mitades (+0 sin vacio), lambda(0) > 0 en 1600
+   finales {'bajo': 199, 'det': 320, 'horizonte': 736, 'sobre': 345}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 0.12, 1.46, 1.57, 1.99, 3.17   (pi/2 = 1.571)
+   separatrices 13, llegan al vacio 6, sanas 0, AF 0; r' al llegar (min, mediana, max) = -0.544, -0.510, -0.477
+B-gauss-doble_pozo: 36 barridos, 1440 mitades (+0 sin vacio), lambda(0) > 0 en 1440
+   finales {'det': 276, 'horizonte': 983, 'phi': 181}
+   horizonte a l/r0 (min, p10, mediana, p90, max) = 0.05, 0.20, 1.57, 1.75, 2.68   (pi/2 = 1.571)
+   separatrices 13, llegan al vacio 6, sanas 0, AF 0; r' al llegar (min, mediana, max) = -0.536, -0.508, -0.365
+TOTAL: {'mitades': 5032, 'sin_vacio': 1488, 'seps': 49, 'llegan': 26, 'sanas': 0, 'AF': 0}
+horizontes: 2128; l/r0 mediana 1.568; fraccion a menos de 0.15 r0 de pi/2: 0.61
+ceros regulares de chi: 2678 (1565 ascendentes); identidad max rel 1.1e-08; max |num| 4.2e-05
+   ascendentes: K < 0 en 1565, G > 0 en 1565, lambda < 0 en 1565
+mitades con lambda(0) < 0 (garganta mal planteada): 743 de 5032

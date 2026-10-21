@@ -411,7 +411,10 @@ $$
 
 1. **Ingredientes que permitan $\Phi'(0)=0$ en la garganta.** La Proposición 1 depende de que en la ligadura $\ell\ell$ solo intervengan el término de Gauss–Bonnet y el escalar.
    - **Campo de Maxwell.** El agujero de tipo Ellis de Cañate–Sultana–Kazanas (EsGB en electrovacío) es liso y simétrico, sin fantasma. En simetría esférica el campo electromagnético no es dinámico (carga conservada), así que su estabilidad radial es exactamente el problema de §8, con las ecuaciones modificadas por los términos en $Q^2$. Es la prueba natural de la maquinaria sin empalmes. Hay que comprobar antes si el teorema de Evseev–Melichev se extiende a Horndeski más Maxwell. **Hecho en la [Fase 2d](../fase2d/fase2d_resultados.md):** su problema radial está mal planteado. El coeficiente cinético del escalar cambia de signo en una capa alrededor de la garganta, y hay una torre infinita de modos inestables.
-   - **Potencial escalar.** Con acción $R-\frac12(\partial\phi)^2-V(\phi)+F(\phi)\mathcal G$, la ligadura en una garganta con $\phi'(0)=\Phi'(0)=0$ exige $V(\phi_0)=2/r_0^2$. Ibadov et al. usan cáscaras; queda por ver si existen gargantas lisas y simétricas con un potencial positivo en el centro que se anule en los infinitos.
+   - **Potencial escalar.** Con acción $R-\frac12(\partial\phi)^2-V(\phi)+F(\phi)\mathcal G$, la ligadura en una garganta con $\phi'(0)=\Phi'(0)=0$ exige $V(\phi_0)=2/r_0^2$. Ibadov et al. usan cáscaras; queda por ver si existen gargantas lisas y simétricas con un potencial positivo en el centro que se anule en los infinitos. **Hecho en la [Fase 2e](../fase2e/fase2e_resultados.md):**
+     - con $a=0$ la garganta es un núcleo de Nariai, con el horizonte a $\pi r_0/2$;
+     - en las familias estudiadas no hay soluciones asintóticamente planas;
+     - un teorema muestra que, si las hubiera (con ecuaciones estáticas regulares), estarían mal planteadas.
 2. **Deducción analítica de la ley de la Fase 2b: hecha** ([fase2b §13](../fase2b/fase2b_resultados.md), v0.3).
    - En la zona de anchura $1/a$, el fondo es el de §5 y §3 de este informe: lapso de Rindler, con el término de Gauss–Bonnet concentrado en la garganta.
    - Con la cáscara $\mathbb Z_2$, la condición de contorno se vuelve local y los empalmes dan $C=1$ exactamente con $\zeta=0$, $\zeta_c$ en forma cerrada y la fase compleja.

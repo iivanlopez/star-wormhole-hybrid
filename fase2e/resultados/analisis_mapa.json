@@ -1,0 +1,244 @@
+{
+ "familias": {
+  "A-cuadratico-doble_pozo": {
+   "barridos": 16,
+   "mitades": 624,
+   "sin_vacio": 176,
+   "finales": {
+    "bajo": 89,
+    "det": 302,
+    "horizonte": 108,
+    "sobre": 125
+   },
+   "lambda0_pos": 392,
+   "horizonte_l": [
+    0.004431150313460526,
+    0.09657328454064214,
+    1.4796066169926627,
+    1.570778937756172,
+    1.8257227556661708
+   ],
+   "separatrices": 7,
+   "llegan": 4,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": [
+    -0.4793427000607678,
+    -0.4496795075040828,
+    -0.42828121900686966
+   ],
+   "chi_llegada_max": -0.3673635142448442
+  },
+  "A-cuadratico-masivo": {
+   "barridos": 8,
+   "mitades": 48,
+   "sin_vacio": 272,
+   "finales": {
+    "det": 37,
+    "horizonte": 11
+   },
+   "lambda0_pos": 11,
+   "horizonte_l": [
+    1.5687144879063593,
+    1.5704062295213477,
+    1.5872456675630684,
+    1.6317831965561274,
+    1.6545654245098464
+   ],
+   "separatrices": 0,
+   "llegan": 0,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": null,
+   "chi_llegada_max": null
+  },
+  "A-exp-doble_pozo": {
+   "barridos": 16,
+   "mitades": 528,
+   "sin_vacio": 272,
+   "finales": {
+    "bajo": 2,
+    "det": 238,
+    "fallo": 1,
+    "horizonte": 93,
+    "phi": 26,
+    "r0": 8,
+    "sobre": 160
+   },
+   "lambda0_pos": 324,
+   "horizonte_l": [
+    0.36703868132596296,
+    0.6452793215175138,
+    1.5121214576305708,
+    1.572149552491961,
+    2.3994037531346724
+   ],
+   "separatrices": 5,
+   "llegan": 3,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": [
+    -0.5025739826121123,
+    -0.47564504336419694,
+    -0.4260279656647767
+   ],
+   "chi_llegada_max": -0.38302771793803075
+  },
+  "A-exp-masivo": {
+   "barridos": 7,
+   "mitades": 62,
+   "sin_vacio": 218,
+   "finales": {
+    "det": 62
+   },
+   "lambda0_pos": 31,
+   "horizonte_l": null,
+   "separatrices": 0,
+   "llegan": 0,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": null,
+   "chi_llegada_max": null
+  },
+  "A-lineal-doble_pozo": {
+   "barridos": 20,
+   "mitades": 666,
+   "sin_vacio": 334,
+   "finales": {
+    "bajo": 69,
+    "det": 223,
+    "horizonte": 171,
+    "phi": 83,
+    "sobre": 120
+   },
+   "lambda0_pos": 427,
+   "horizonte_l": [
+    0.006065318649241953,
+    0.26057626896856956,
+    1.4021844364564051,
+    1.5676471778827719,
+    1.573904749238961
+   ],
+   "separatrices": 11,
+   "llegan": 7,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": [
+    -0.4994878679112413,
+    -0.4653900791073279,
+    -0.09058934120467314
+   ],
+   "chi_llegada_max": -0.06017136919813224
+  },
+  "A-lineal-masivo": {
+   "barridos": 7,
+   "mitades": 64,
+   "sin_vacio": 216,
+   "finales": {
+    "det": 38,
+    "horizonte": 26
+   },
+   "lambda0_pos": 64,
+   "horizonte_l": [
+    1.5694273532412593,
+    1.5705485987875116,
+    1.583447548242014,
+    1.6056709365977002,
+    1.6123892745265997
+   ],
+   "separatrices": 0,
+   "llegan": 0,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": null,
+   "chi_llegada_max": null
+  },
+  "B-cuadratico-doble_pozo": {
+   "barridos": 40,
+   "mitades": 1600,
+   "sin_vacio": 0,
+   "finales": {
+    "bajo": 199,
+    "det": 320,
+    "horizonte": 736,
+    "sobre": 345
+   },
+   "lambda0_pos": 1600,
+   "horizonte_l": [
+    0.11925979992300884,
+    1.4574921765199973,
+    1.5706260502543026,
+    1.9867111094322194,
+    3.168161333298341
+   ],
+   "separatrices": 13,
+   "llegan": 6,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": [
+    -0.5441813092034037,
+    -0.5095632513411938,
+    -0.47682548675402536
+   ],
+   "chi_llegada_max": -0.4075410640838381
+  },
+  "B-gauss-doble_pozo": {
+   "barridos": 36,
+   "mitades": 1440,
+   "sin_vacio": 0,
+   "finales": {
+    "det": 276,
+    "horizonte": 983,
+    "phi": 181
+   },
+   "lambda0_pos": 1440,
+   "horizonte_l": [
+    0.04696720429393105,
+    0.19806084610392607,
+    1.5664912010046557,
+    1.7463782986925058,
+    2.679936526410253
+   ],
+   "separatrices": 13,
+   "llegan": 6,
+   "sanas": 0,
+   "AF": 0,
+   "rp_llegada": [
+    -0.5360387175064991,
+    -0.5080670398267334,
+    -0.36487231519257707
+   ],
+   "chi_llegada_max": -0.2570557107827259
+  }
+ },
+ "total": {
+  "mitades": 5032,
+  "sin_vacio": 1488,
+  "seps": 49,
+  "llegan": 26,
+  "sanas": 0,
+  "AF": 0
+ },
+ "horizontes": {
+  "n": 2128,
+  "mediana": 1.5677911400241724,
+  "frac_cerca_pi2": 0.6109022556390977,
+  "percentiles": [
+   0.004431150313460526,
+   0.33676025179031954,
+   1.5677911400241724,
+   1.7820151121807815,
+   3.168161333298341
+  ]
+ },
+ "ceros_chi": {
+  "n": 2678,
+  "ascendentes": 1565,
+  "err_identidad": 1.1310048643397502e-08,
+  "max_num": 4.1697174310684204e-05,
+  "K_neg": 1565,
+  "G_pos": 1565,
+  "lam_neg": 1565
+ },
+ "lambda0_neg": 743
+}

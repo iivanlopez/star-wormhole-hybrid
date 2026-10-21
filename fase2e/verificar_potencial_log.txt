@@ -1,0 +1,26 @@
+1. Bianchi con V, correcto (-V'), componente t, jet 1: residuo 5.4e-166 (|nabla^m E_mt| = 6.66e-01)
+1. Bianchi con V, correcto (-V'), componente t, jet 2: residuo 5.4e-166 (|nabla^m E_mt| = 5.90e-02)
+1. Bianchi con V, control (+V'), componente t, jet 1: residuo 1.4e+00 (|nabla^m E_mt| = 1.06e+00)
+1. Bianchi con V, control (+V'), componente t, jet 2: residuo 3.7e+00 (|nabla^m E_mt| = 1.84e+01)
+1. Bianchi con V, correcto (-V'), componente l, jet 1: residuo 1.4e-166 (|nabla^m E_ml| = 1.78e-01)
+1. Bianchi con V, correcto (-V'), componente l, jet 2: residuo 2.2e-165 (|nabla^m E_ml| = 4.33e-01)
+1. Bianchi con V, control (+V'), componente l, jet 1: residuo 1.6e-01 (|nabla^m E_ml| = 1.48e+00)
+1. Bianchi con V, control (+V'), componente l, jet 2: residuo 1.2e+00 (|nabla^m E_ml| = 8.18e-01)
+2. estatico covariante con V frente a potencial.py (20 estados): residuo max 1.3e-12
+3. Schwarzschild-de Sitter (M = 1, Lambda = 0.01, V = 2 Lambda): max |r' - sqrt(f)|, |N - N_SdS| = 1.0e-13; ligadura 4.1e-15
+4. ligadura ll propagada, F = cuadratico (-0.2), V = masivo (0.8): max |E^l_l|/escala = 4.6e-13 en [0, 3.00]
+4. ligadura ll propagada, F = exp (0.15), V = doble_pozo (0.3): max |E^l_l|/escala = 7.1e-13 en [0, 3.00]
+4. ligadura ll propagada, F = lineal (0.3), V = cuartico (0.5): max |E^l_l|/escala = 1.2e-12 en [0, 3.00]
+5. fondo de prueba: clase A, F = 0.06 phi^2, doble pozo (v = 1, amp = 3.5556), phi0 = 0.5; r''(0) = 0.7402, Phi''(0) = -1.7402, phi''(0) = -6.1686, final 'bajo' en l = 1.219, ligadura en la garganta 0.0e+00
+5a. modo gauge, w = -2.5, l -1.10 -> -0.20: |y - g|/|g| = 3.2e-12, ligaduras <= 8.0e-11
+5a. modo gauge, w = -2.5, l -0.50 -> 0.70: |y - g|/|g| = 2.9e-13, ligaduras <= 1.3e-12
+5a. modo gauge, w = -2.5, l 0.30 -> 1.10: |y - g|/|g| = 2.5e-13, ligaduras <= 8.0e-11
+5a. modo gauge, w = 7.0, l -1.10 -> -0.20: |y - g|/|g| = 2.6e-12, ligaduras <= 8.1e-11
+5a. modo gauge, w = 7.0, l -0.50 -> 0.70: |y - g|/|g| = 1.1e-13, ligaduras <= 1.3e-12
+5a. modo gauge, w = 7.0, l 0.30 -> 1.10: |y - g|/|g| = 1.8e-13, ligaduras <= 8.1e-11
+5a. modo gauge, w = (-3+1.5j), l -1.10 -> -0.20: |y - g|/|g| = 3.5e-12, ligaduras <= 8.0e-11
+5a. modo gauge, w = (-3+1.5j), l -0.50 -> 0.70: |y - g|/|g| = 2.2e-13, ligaduras <= 1.3e-12
+5a. modo gauge, w = (-3+1.5j), l 0.30 -> 1.10: |y - g|/|g| = 1.9e-13, ligaduras <= 8.0e-11
+5b. solucion lineal generica, w = -4.0: ligaduras propagadas <= 5.6e-12 (relativo)
+5b. solucion lineal generica, w = (-1+2j): ligaduras propagadas <= 2.0e-12 (relativo)
+5c. derivada de la familia (F gaussiano, V cuartico) frente al sistema lineal con w = 0: error relativo 3.3e-10; ligadura E^l_l 8.5e-11

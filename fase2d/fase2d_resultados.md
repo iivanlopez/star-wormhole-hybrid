@@ -485,8 +485,10 @@ $$U=\frac{r'(1-r'^2)}{2(1-3r'^2)},\qquad \kappa=\frac{(1-3r'^2)^2}{24\,r'^2(1-r'
 
 ## 16. Próximos pasos
 
-1. **Generalizar la identidad a lapso variable.** Si existe una relación del tipo $K=-a\chi'+b\chi+\dots$ con $\Phi'\neq0$, cubriría la vía del potencial escalar y unificaría las Fases 2c y 2d.
-2. **Gargantas lisas con lapso variable y potencial escalar** ($V(\phi_0)=2/r_0^2$, Fase 2c §10). Es la única vía EsGB lisa no cubierta por este resultado.
+1. **Generalizar la identidad a lapso variable.** Si existe una relación del tipo $K=-a\chi'+b\chi+\dots$ con $\Phi'\neq0$, cubriría la vía del potencial escalar y unificaría las Fases 2c y 2d. **Hecho en la [Fase 2e](../fase2e/fase2e_resultados.md) (§5):**
+   - con cualquier lapso y cualquier potencial, $K=-a\chi'+b\chi+c\,\mathrm{num}$, con el mismo $b$ y un término proporcional a la ligadura $\ell\ell$;
+   - en un cero regular de $\chi$, $K=-16F'^2(1-r'^2)^2\chi'/r'^2$.
+2. **Gargantas lisas con lapso variable y potencial escalar** ($V(\phi_0)=2/r_0^2$, Fase 2c §10). Es la única vía EsGB lisa no cubierta por este resultado. **Hecho en la [Fase 2e](../fase2e/fase2e_resultados.md):** todo agujero liso asintóticamente plano con ecuaciones estáticas regulares está mal planteado.
 3. **Volver a la cáscara.** Las Fases 2b–2d indican que en EsGB la cáscara $\mathbb Z_2$ es el mal menor: inestable, pero con un modo de tasa acotada y conocida ($\kappa_t$). Para el híbrido, la pregunta que queda es si algún modelo de cáscara (o el propio Sol a su alrededor) puede estabilizar ese modo.
 
 ---

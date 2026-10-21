@@ -1,0 +1,3 @@
+figura: figuras/fig1_perfiles.png
+figura: figuras/fig2_teorema.png
+figura: figuras/fig3_mapa.png

@@ -1,0 +1,21 @@
+1. Garganta lisa con potencial (r0 = 1)
+   ligadura ll en la garganta con V0 = 2(1 + u^2/4 - 4 F1 a u): 0
+   N''/N(0) + (1 - 4 F1 a u)(1 + r'') + u^2/2 = 0
+2. Energia mecanica del escalar en la garganta: E(0) = 8*F1*a*u - 2
+   G + (8/(r^2 N)) [N' (1 - r'^2)]' = 0
+3. Clase A (u = 0, a = 0, V0 = 2)
+   r''(0) = -2*F1*(8*F1 - V1)/((4*F1 - 1)*(4*F1 + 1))   Phi''(0) = -(2*F1*V1 - 1)/((4*F1 - 1)*(4*F1 + 1))   phi''(0) = (8*F1 - V1)/((4*F1 - 1)*(4*F1 + 1))
+   det M(0) = -2*(4*F1 - 1)*(4*F1 + 1)    lambda(0) = -(4*F1 - 1)**2*(4*F1 + 1)**2/(1280*F1**4 - 192*F1**3*V1 + 32*F1**2 - 1)
+   comprobaciones (deben ser 0): [0, 0, 0, 0, 0]
+   con V1 = 0: r''(0) = -16*F1**2/((4*F1 - 1)*(4*F1 + 1)) ; lambda(0) = -(4*F1 - 1)**2*(4*F1 + 1)**2/(1280*F1**4 + 32*F1**2 - 1)
+   lambda(0) -> infinito (c1 = 0) en |F1| = [0.13460542999741773]
+4. Clase B (phi0 = 0, F1 = V1 = 0, a = 0, V0 = 2 + u^2/2)
+   r''(0) = -u**2*(8*F2 + 1)/4   Phi''(0) = (8*F2*u**2 - u**2 - 4)/4   phi''(0) = 0
+   det M(0) = 2    lambda(0) = 1    c2 = 0
+5. Formulas generales frente a potencial.segundas_V (30 gargantas aleatorias): error max 8.9e-16
+   coeficiente c2 del polinomio de dispersion en la garganta (debe ser 0): 0
+6. fila tt: (r^2/2) E^t_t - [r r'' + 2 X' - (1 - r'^2)/2 + r^2 rho/2] = 0
+   Komar: -(r^2 N/2)(E^t_t - E^l_l - 2 E^th_th) - [(r^2 N')' - (2NX + 4 r r' F_l N')' + 4 N' X + r^2 N V/2] = 0
+7. Nariai, F = 0.01 phi, V = 2: r''(0) = 1.60e-03, final 'horizonte' en l = 1.571533 (pi/2 = 1.570796); max |N - cos l| = 1.7e-03
+7. Nariai, F = 0.001 phi, V = 2: r''(0) = 1.60e-05, final 'horizonte' en l = 1.570804 (pi/2 = 1.570796); max |N - cos l| = 1.7e-05
+7. Nariai, F = 0.0001 phi, V = 2: r''(0) = 1.60e-07, final 'horizonte' en l = 1.570796 (pi/2 = 1.570796); max |N - cos l| = 1.7e-07

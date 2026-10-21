@@ -1,0 +1,12 @@
+150 barridos; 6520 mitades
+  B-cuadratico-doble_pozo: 1600 mitades (+0 sin vacio hacia el que avanzar), finales {'bajo': 199, 'det': 320, 'horizonte': 736, 'sobre': 345}; separatrices 13, sanas 0, AF 0; r' al llegar al vacio en [-0.544, -0.477] (6 llegan)
+  B-gauss-doble_pozo: 1440 mitades (+0 sin vacio hacia el que avanzar), finales {'det': 276, 'horizonte': 983, 'phi': 181}; separatrices 13, sanas 0, AF 0; r' al llegar al vacio en [-0.536, -0.365] (6 llegan)
+  A-lineal-doble_pozo: 666 mitades (+334 sin vacio hacia el que avanzar), finales {'bajo': 69, 'det': 223, 'horizonte': 171, 'phi': 83, 'sobre': 120}; separatrices 11, sanas 0, AF 0; r' al llegar al vacio en [-0.499, -0.091] (7 llegan)
+  A-exp-doble_pozo: 528 mitades (+272 sin vacio hacia el que avanzar), finales {'bajo': 2, 'det': 238, 'fallo': 1, 'horizonte': 93, 'phi': 26, 'r0': 8, 'sobre': 160}; separatrices 5, sanas 0, AF 0; r' al llegar al vacio en [-0.503, -0.426] (3 llegan)
+  A-cuadratico-doble_pozo: 624 mitades (+176 sin vacio hacia el que avanzar), finales {'bajo': 89, 'det': 302, 'horizonte': 108, 'sobre': 125}; separatrices 7, sanas 0, AF 0; r' al llegar al vacio en [-0.479, -0.428] (4 llegan)
+  A-cuadratico-masivo: 48 mitades (+272 sin vacio hacia el que avanzar), finales {'det': 37, 'horizonte': 11}; separatrices 0, sanas 0, AF 0
+  A-exp-masivo: 62 mitades (+218 sin vacio hacia el que avanzar), finales {'det': 62}; separatrices 0, sanas 0, AF 0
+  A-lineal-masivo: 64 mitades (+216 sin vacio hacia el que avanzar), finales {'det': 38, 'horizonte': 26}; separatrices 0, sanas 0, AF 0
+  ceros regulares de chi: 2678 (1565 ascendentes); max |K - K_teo|/(|K|+|K_teo|) = 1.1e-08; max |num| = 4.2e-05
+  en los ascendentes: K < 0 en 1565, G > 0 en 1565, lambda < 0 en 1565
+tiempo: 611 s
