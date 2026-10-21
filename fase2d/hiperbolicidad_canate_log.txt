@@ -1,0 +1,17 @@
+Qs/Q =   0.01: lambda(l=1e6) = 1.049466; min lambda = -43.21 en l = 4.606e+04; lambda < 0 en l/Q de [0.005, 46061.60311638783]; cambios: [('polo', 0.003779), ('cero', 0.010001), ('cero', 49.677591), ('polo', 47127.692138)]; |c2|/escala <= 5.8e-15; simetria 0.0e+00
+Qs/Q =   0.03: lambda(l=1e6) = 1.005269; min lambda = -94.47 en l = 5185; lambda < 0 en l/Q de [0.0125, 5184.906805274572]; cambios: [('polo', 0.011329), ('cero', 0.030036), ('cero', 16.335763), ('polo', 5239.798488)]; |c2|/escala <= 4.0e-15; simetria 0.0e+00
+Qs/Q =    0.1: lambda(l=1e6) = 1.000476; min lambda = -303.5 en l = 0.0375; lambda < 0 en l/Q de [0.0375, 466.79602183917314]; cambios: [('polo', 0.037447), ('cero', 0.101405), ('cero', 4.635545), ('polo', 475.051524)]; |c2|/escala <= 5.8e-15; simetria 0.0e+00
+Qs/Q =    0.2: lambda(l=1e6) = 1.000123; min lambda = -49.3 en l = 119.2; lambda < 0 en l/Q de [0.075, 119.19370987344246]; cambios: [('polo', 0.07286), ('cero', 0.21341), ('cero', 2.071116), ('polo', 121.62851)]; |c2|/escala <= 5.9e-15; simetria 0.0e+00
+Qs/Q =    0.3: lambda(l=1e6) = 1.000057; min lambda = -93.49 en l = 0.105; lambda < 0 en l/Q de [0.105, 55.21894432294331]; cambios: [('polo', 0.104502), ('cero', 0.368988), ('cero', 1.122572), ('polo', 56.188357)]; |c2|/escala <= 6.6e-15; simetria 0.0e+00
+Qs/Q =    0.5: lambda(l=1e6) = 1.000024; min lambda = -4664 en l = 22.7; lambda < 0 en l/Q de [0.1525, 22.700000000000003]; cambios: [('polo', 0.152178), ('polo', 22.705048)]; |c2|/escala <= 5.3e-15; simetria 0.0e+00
+Qs/Q =    0.7: lambda(l=1e6) = 1.000014; min lambda = -3091 en l = 13.5; lambda < 0 en l/Q de [0.18, 13.5]; cambios: [('polo', 0.177563), ('polo', 13.504638)]; |c2|/escala <= 6.0e-15; simetria 0.0e+00
+Qs/Q =      1: lambda(l=1e6) = 1.000009; min lambda = -199.1 en l = 8.6; lambda < 0 en l/Q de [0.185, 8.600000000000001]; cambios: [('polo', 0.182914), ('polo', 8.647288)]; |c2|/escala <= 6.8e-15; simetria 0.0e+00
+Qs/Q =    1.5: lambda(l=1e6) = 1.000007; min lambda = -166.8 en l = 6.05; lambda < 0 en l/Q de [0.1525, 6.05]; cambios: [('polo', 0.151737), ('polo', 6.090938)]; |c2|/escala <= 6.3e-15; simetria 0.0e+00
+Qs/Q =      2: lambda(l=1e6) = 1.000006; min lambda = -427.8 en l = 5.2; lambda < 0 en l/Q de [0.115, 5.2]; cambios: [('polo', 0.114282), ('polo', 5.213896)]; |c2|/escala <= 6.2e-15; simetria 0.0e+00
+Qs/Q =      3: lambda(l=1e6) = 1.000005; min lambda = -106.5 en l = 4.55; lambda < 0 en l/Q de [0.065, 4.550000000000001]; cambios: [('polo', 0.064426), ('polo', 4.599337)]; |c2|/escala <= 6.5e-15; simetria 0.0e+00
+Qs/Q =      5: lambda(l=1e6) = 1.000005; min lambda = -121.3 en l = 4.25; lambda < 0 en l/Q de [0.0275, 4.25]; cambios: [('polo', 0.026347), ('polo', 4.290605)]; |c2|/escala <= 7.0e-15; simetria 0.0e+00
+Qs/Q =     10: lambda(l=1e6) = 1.000005; min lambda = -402.6 en l = 4.15; lambda < 0 en l/Q de [0.0075, 4.15]; cambios: [('polo', 0.006948), ('polo', 4.161954)]; |c2|/escala <= 6.5e-15; simetria 0.0e+00
+Qs/Q =     30: lambda(l=1e6) = 1.000005; min lambda = -197.9 en l = 4.1; lambda < 0 en l/Q de [0.0025, 4.1]; cambios: [('polo', 0.000784), ('polo', 4.124044)]; |c2|/escala <= 8.6e-15; simetria 0.0e+00
+Qs/Q =    100: lambda(l=1e6) = 1.000005; min lambda = -241 en l = 4.1; lambda < 0 en l/Q de [0.0025, 4.1]; cambios: [('polo', 7.1e-05), ('polo', 4.119738)]; |c2|/escala <= 1.3e-14; simetria 0.0e+00
+fondos con lambda < 0 en algun intervalo: 15 de 15
+tiempo: 13 s

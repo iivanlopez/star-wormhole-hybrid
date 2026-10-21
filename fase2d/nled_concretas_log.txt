@@ -1,0 +1,15 @@
+BI    0.5: 9/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 9/9; max_D min K/norma = -0.8952; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 6.1e-11
+BI      1: 10/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 10/10; max_D min K/norma = -0.7871; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 4.9e-11
+BI      2: 10/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 10/10; max_D min K/norma = -0.6659; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 3.3e-11
+BI      5: 11/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 11/11; max_D min K/norma = -0.5805; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 4.0e-11
+BI     20: 13/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 13/13; max_D min K/norma = -0.5513; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 7.6e-11
+BI   1000: 15/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 15/15; max_D min K/norma = -0.5496; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 8.6e-11
+EH   -0.2: 8/9 con garganta regular (0 con B = 0, descartados); K cambia de signo en 8/8; max_D min K/norma = -0.9411; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 3.7e-11
+EH   -0.1: 9/10 con garganta regular (0 con B = 0, descartados); K cambia de signo en 9/9; max_D min K/norma = -0.8128; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 2.6e-11
+EH  -0.03: 11/11 con garganta regular (0 con B = 0, descartados); K cambia de signo en 11/11; max_D min K/norma = -0.6505; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 6.4e-11
+EH      0: 15/15 con garganta regular (0 con B = 0, descartados); K cambia de signo en 15/15; max_D min K/norma = -0.5496; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 4.4e-11
+EH   0.03: 11/15 con garganta regular (4 con B = 0, descartados); K cambia de signo en 11/11; max_D min K/norma = -0.5227; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 4.0e-11
+EH    0.1: 11/15 con garganta regular (4 con B = 0, descartados); K cambia de signo en 11/11; max_D min K/norma = -0.5518; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 4.0e-11
+EH    0.3: 10/15 con garganta regular (5 con B = 0, descartados); K cambia de signo en 10/10; max_D min K/norma = -0.6557; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 3.9e-11
+EH      1: 10/15 con garganta regular (5 con B = 0, descartados); K cambia de signo en 10/10; max_D min K/norma = -0.7146; r'(l_max) en [1.0000, 1.0000]; |B - (1 - r'^2)| <= 4.2e-11
+total con garganta regular: 153; con K > 0 en toda la linea: 0

@@ -1,0 +1,10 @@
+gauss: 22848 mitades
+   a > 0 (lapso creciente hacia fuera): 11424 -> {'AF': 5750, 'Phi+': 1999, 'det': 3611, 'fallo': 6, 'r0': 58}
+   a < 0 (lapso decreciente hacia fuera): 11424 -> {'det': 236, 'horizonte': 10321, 'phi': 867}
+   mitades AF con a < 0: 0
+   agujeros lisos (dos mitades AF): 0
+salida: resultados/mapa_gauss.json;  tiempo: 770 s
+
+real	12m51.701s
+user	0m0.015s
+sys	0m0.015s

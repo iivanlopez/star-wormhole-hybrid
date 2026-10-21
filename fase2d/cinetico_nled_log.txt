@@ -1,0 +1,61 @@
+c = 0:
+  hiperbola       0.1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.036e-01 (D = 10, l = 0.0526); lambda < 0 en 26/26
+  hiperbola       0.3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.189e-01 (D = 3.98, l = 0.197); lambda < 0 en 26/26
+  hiperbola         1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.579e-01 (D = 3.98, l = 0.515); lambda < 0 en 26/26
+  hiperbola         3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -6.837e-01 (D = 3.98, l = 4.87); lambda < 0 en 26/26
+  hiperbola        10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.169e-01 (D = 3.98, l = 25.9); lambda < 0 en 26/26
+  hiperbola        30: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.804e-01 (D = 6.31, l = 81.1); lambda < 0 en 26/26
+  hiperbola       100: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.968e-01 (D = 10, l = 1.41); lambda < 0 en 24/26
+  hiperbola       300: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.994e-01 (D = 10, l = 865); lambda < 0 en 23/26
+  hiperbola      1000: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.999e-01 (D = 15.8, l = 2.8e+03); lambda < 0 en 19/26
+  superelipse       1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.579e-01 (D = 3.98, l = 0.515); lambda < 0 en 26/26
+  superelipse       2: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -7.581e-01 (D = 2.51, l = 0.924); lambda < 0 en 26/26
+  superelipse       3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.259e-01 (D = 2.51, l = 0.949); lambda < 0 en 26/26
+  superelipse       5: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.866e-01 (D = 2.51, l = 0.97); lambda < 0 en 26/26
+  superelipse      10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.386e-01 (D = 2.51, l = 0.985); lambda < 0 en 26/26
+c = 0.1:
+  hiperbola       0.1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.506e-01 (D = 10, l = -0.0466); lambda < 0 en 26/26
+  hiperbola       0.3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.609e-01 (D = 6.31, l = -0.136); lambda < 0 en 26/26
+  hiperbola         1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.894e-01 (D = 3.98, l = -0.45); lambda < 0 en 26/26
+  hiperbola         3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -6.967e-01 (D = 3.98, l = -0.694); lambda < 0 en 26/26
+  hiperbola        10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.178e-01 (D = 3.98, l = -25.9); lambda < 0 en 26/26
+  hiperbola        30: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.805e-01 (D = 6.31, l = -81.1); lambda < 0 en 26/26
+  hiperbola       100: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.968e-01 (D = 10, l = -1.4); lambda < 0 en 26/26
+  hiperbola       300: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.994e-01 (D = 10, l = -864); lambda < 0 en 23/26
+  hiperbola      1000: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.999e-01 (D = 15.8, l = -2.8e+03); lambda < 0 en 19/26
+  superelipse       1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -5.894e-01 (D = 3.98, l = -0.45); lambda < 0 en 26/26
+  superelipse       2: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -7.829e-01 (D = 2.51, l = -0.885); lambda < 0 en 26/26
+  superelipse       3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.444e-01 (D = 2.51, l = -0.927); lambda < 0 en 26/26
+  superelipse       5: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.990e-01 (D = 2.51, l = -0.959); lambda < 0 en 26/26
+  superelipse      10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.456e-01 (D = 2.51, l = -0.98); lambda < 0 en 26/26
+c = 0.3:
+  hiperbola       0.1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -6.385e-01 (D = 10, l = -0.0344); lambda < 0 en 26/26
+  hiperbola       0.3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -6.395e-01 (D = 6.31, l = -0.101); lambda < 0 en 26/26
+  hiperbola         1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -6.525e-01 (D = 3.98, l = -0.324); lambda < 0 en 26/26
+  hiperbola         3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -7.328e-01 (D = 3.98, l = -0.561); lambda < 0 en 26/26
+  hiperbola        10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.196e-01 (D = 3.98, l = -25.8); lambda < 0 en 26/26
+  hiperbola        30: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.806e-01 (D = 6.31, l = -81.1); lambda < 0 en 26/26
+  hiperbola       100: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.969e-01 (D = 6.31, l = -300); lambda < 0 en 23/26
+  hiperbola       300: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.994e-01 (D = 10, l = -864); lambda < 0 en 24/26
+  hiperbola      1000: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.999e-01 (D = 15.8, l = -2.8e+03); lambda < 0 en 21/26
+  superelipse       1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -6.525e-01 (D = 3.98, l = -0.324); lambda < 0 en 26/26
+  superelipse       2: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.235e-01 (D = 2.51, l = -0.809); lambda < 0 en 26/26
+  superelipse       3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.736e-01 (D = 2.51, l = -0.886); lambda < 0 en 26/26
+  superelipse       5: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.182e-01 (D = 2.51, l = -0.938); lambda < 0 en 26/26
+  superelipse      10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.548e-01 (D = 3.98, l = -0.935); lambda < 0 en 26/26
+c = 1:
+  hiperbola       0.1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.453e-01 (D = 15.8, l = -0.0014); lambda < 0 en 26/26
+  hiperbola       0.3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.417e-01 (D = 10, l = -0.0095); lambda < 0 en 26/26
+  hiperbola         1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.434e-01 (D = 6.31, l = -0.0504); lambda < 0 en 26/26
+  hiperbola         3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.532e-01 (D = 3.98, l = -0.168); lambda < 0 en 26/26
+  hiperbola        10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.252e-01 (D = 3.98, l = -25.5); lambda < 0 en 26/26
+  hiperbola        30: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.809e-01 (D = 6.31, l = -80.9); lambda < 0 en 25/26
+  hiperbola       100: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.969e-01 (D = 6.31, l = -299); lambda < 0 en 23/26
+  hiperbola       300: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.994e-01 (D = 10, l = -864); lambda < 0 en 22/26
+  hiperbola      1000: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.999e-01 (D = 15.8, l = -2.8e+03); lambda < 0 en 21/26
+  superelipse       1: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -8.434e-01 (D = 6.31, l = -0.0504); lambda < 0 en 26/26
+  superelipse       2: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.082e-01 (D = 3.98, l = -0.346); lambda < 0 en 26/26
+  superelipse       3: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.303e-01 (D = 2.51, l = -0.754); lambda < 0 en 26/26
+  superelipse       5: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.526e-01 (D = 3.98, l = -0.64); lambda < 0 en 26/26
+  superelipse      10: K > 0 en toda la linea en  0/26 valores de D; max_D min_l K/norma = -9.676e-01 (D = 3.98, l = -0.915); lambda < 0 en 26/26
+total: 1456 configuraciones; con K > 0 en toda la linea: 0; sin lambda < 0: 45

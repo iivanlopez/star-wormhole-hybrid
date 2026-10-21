@@ -1,0 +1,16 @@
+24 ya resueltos o no hiperbolicos; 15 por calcular
+alpha/eta0^2=0.4717 f0=+10.91 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.6699', '-0.007534'];  (zeta=0) = []  res=2e-09
+alpha/eta0^2=0.4754 f0=-0.09491 ecuador=True: omega_inf^2 r0^2 (zeta=1) = ['-0.1016', '-0.0003683'];  (zeta=0) = ['-0.2539', '-0.001053']  res=2e-10
+alpha/eta0^2=0.4606 f0=+1.582 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.5444', '-0.006349'];  (zeta=0) = []  res=4e-11
+alpha/eta0^2=0.4738 f0=-0.06803 ecuador=True: omega_inf^2 r0^2 (zeta=1) = ['-0.1838'];  (zeta=0) = ['-0.2908', '-0.01017']  res=1e-11
+alpha/eta0^2=0.4507 f0=+1.41 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.5347', '-0.006186'];  (zeta=0) = []  res=3e-12
+alpha/eta0^2=0.4275 f0=+1.307 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.533', '-0.00675'];  (zeta=0) = []  res=1e-12
+alpha/eta0^2=0.3834 f0=+1.276 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.5501', '-0.01049'];  (zeta=0) = []  res=2e-13
+alpha/eta0^2=0.3395 f0=+1.296 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.5913', '-0.01986'];  (zeta=0) = ['-0.3085']  res=5e-14
+alpha/eta0^2=0.4909 f0=-2.009 ecuador=True: omega_inf^2 r0^2 (zeta=1) = ['-0.943', '-0.01763'];  (zeta=0) = ['-0.001021']  res=2e-11
+alpha/eta0^2=0.4921 f0=-0.5507 ecuador=True: omega_inf^2 r0^2 (zeta=1) = ['-0.02553'];  (zeta=0) = ['-0.263', '-0.003542']  res=1e-11
+alpha/eta0^2=0.4770 f0=+3.312 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.6054', '-0.01462'];  (zeta=0) = []  res=6e-12
+alpha/eta0^2=0.4779 f0=-0.3356 ecuador=True: omega_inf^2 r0^2 (zeta=1) = ['-0.06641'];  (zeta=0) = ['-0.3029', '-0.01549']  res=1e-12
+alpha/eta0^2=0.4463 f0=+1.814 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.5694', '-0.01561'];  (zeta=0) = []  res=1e-12
+alpha/eta0^2=0.3892 f0=+1.599 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.5943', '-0.02539'];  (zeta=0) = ['-0.2964', '-0.2291']  res=1e-13
+alpha/eta0^2=0.3848 f0=+3.451 ecuador=False: omega_inf^2 r0^2 (zeta=1) = ['-0.7368', '-0.08307'];  (zeta=0) = ['-0.4207', '-0.01639']  res=9e-15

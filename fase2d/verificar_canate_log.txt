@@ -1,0 +1,17 @@
+1. ec. (34) frente a d/dphi de (33): f' -> 0,  f'' -> 0
+2. Qs/Q = 0.1: |segundas - exactas| rel <= 1.8e-10;  |ligadura ll| r^4/Qe^2 <= 1.1e-10;  Qe^2 de la ligadura en [1.009999999887, 1.010000000024] (Q^2 + Qs^2 = 1.01)
+2. Qs/Q = 0.5: |segundas - exactas| rel <= 1.9e-10;  |ligadura ll| r^4/Qe^2 <= 5.3e-11;  Qe^2 de la ligadura en [1.249999999999, 1.250000000066] (Q^2 + Qs^2 = 1.25)
+2. Qs/Q = 1.0: |segundas - exactas| rel <= 5.6e-11;  |ligadura ll| r^4/Qe^2 <= 3.2e-11;  Qe^2 de la ligadura en [1.999999999936, 2.000000000024] (Q^2 + Qs^2 = 2.0)
+2. Qs/Q = 3.0: |segundas - exactas| rel <= 5.0e-12;  |ligadura ll| r^4/Qe^2 <= 1.1e-11;  Qe^2 de la ligadura en [9.999999999892, 10.000000000024] (Q^2 + Qs^2 = 10.0)
+3. Reissner-Nordstrom (M = 1, Qe^2 = 0.64) con segundas_Q: max |r' - sqrt(f)|, |N - N_RN| = 1.7e-13
+4. modo gauge, w = -2.5, l -3.0 -> -0.2: |y - g|/|g| = 1.7e-13, ligaduras <= 5.3e-15
+4. modo gauge, w = -2.5, l -0.5 -> 0.7: |y - g|/|g| = 1.3e-13, ligaduras <= 1.6e-15
+4. modo gauge, w = -2.5, l 0.3 -> 6.0: |y - g|/|g| = 1.5e-14, ligaduras <= 5.3e-15
+4. modo gauge, w = 7.0, l -3.0 -> -0.2: |y - g|/|g| = 9.8e-11, ligaduras <= 1.4e-14
+4. modo gauge, w = 7.0, l -0.5 -> 0.7: |y - g|/|g| = 1.4e-14, ligaduras <= 3.6e-15
+4. modo gauge, w = 7.0, l 0.3 -> 6.0: |y - g|/|g| = 1.7e-08, ligaduras <= 2.1e-14
+4. modo gauge, w = (-3+1.5j), l -3.0 -> -0.2: |y - g|/|g| = 1.2e-13, ligaduras <= 9.9e-15
+4. modo gauge, w = (-3+1.5j), l -0.5 -> 0.7: |y - g|/|g| = 1.7e-13, ligaduras <= 2.0e-15
+4. modo gauge, w = (-3+1.5j), l 0.3 -> 6.0: |y - g|/|g| = 8.6e-14, ligaduras <= 7.9e-15
+5. solucion generica, w = -4.0: ligaduras propagadas <= 6.0e-13 (relativo)
+5. solucion generica, w = (-1+2j): ligaduras propagadas <= 2.8e-12 (relativo)

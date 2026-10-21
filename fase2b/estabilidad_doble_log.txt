@@ -1,0 +1,2 @@
+alpha=0.02 phi1=-12.34: ecuador=True r_t=0.9977 alpha/eta0^2=0.0747: omega_inf^2 r0^2 (zeta=1) = ['-0.2432', '-0.005695']; (zeta=0) = ['-1.812', '-0.2932']  res=5e-13
+alpha=0.04 phi1=-4.534: ecuador=True r_t=0.9997 alpha/eta0^2=0.1161: omega_inf^2 r0^2 (zeta=1) = []; (zeta=0) = ['-0.4254']  res=4e-14

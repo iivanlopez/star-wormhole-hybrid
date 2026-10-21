@@ -1,0 +1,56 @@
+
+=== cuadratico: 26656 mitades
+   a > 0, F2>0: 6664 -> {'AF': 2888, 'Phi+': 30, 'det': 3255, 'fallo': 18, 'r0': 473}
+   a > 0, F2<0: 6664 -> {'AF': 2997, 'Phi+': 1327, 'det': 2340}
+   a < 0, F2>0: 6664 -> {'det': 139, 'horizonte': 4924, 'phi': 1214, 'r0': 387}
+   a < 0, F2<0: 6664 -> {'horizonte': 6664}
+   mitades repulsivas AF: 0;  agujeros lisos: 0
+   horizonte, |a| r0 en [0, 1):  2345; l_s|a| mediana 0.9609, p10-p90 0.017-1.611
+   horizonte, |a| r0 en [1, 10):  3175; l_s|a| mediana 1.0067, p10-p90 0.140-2.747
+   horizonte, |a| r0 en [10, 30):  1496; l_s|a| mediana 1.0031, p10-p90 1.000-2.021
+   horizonte, |a| r0 en [30, 100):  1678; l_s|a| mediana 1.0005, p10-p90 1.000-1.181
+   horizonte, |a| r0 en [100, 1e+09):  2894; l_s|a| mediana 1.0000, p10-p90 1.000-1.007
+   r'_fin maximo (repulsivas): 0.5773;  l_fin maximo: 22.13 r0;  finales phi/r0: 1601 (con r''(0) < 0: 1036)
+   mitades atractivas AF: 5885, a r0 en [1.25, 6.25e+04] (mediana 115)
+
+=== exp: 4896 mitades
+   a > 0, F2>0: 1224 -> {'AF': 346, 'det': 659, 'fallo': 1, 'noAF': 184, 'r0': 34}
+   a > 0, F2<0: 1224 -> {'AF': 387, 'Phi+': 389, 'det': 448}
+   a < 0, F2>0: 1224 -> {'horizonte': 1224}
+   a < 0, F2<0: 1224 -> {'horizonte': 1224}
+   mitades repulsivas AF: 0;  agujeros lisos: 0
+   horizonte, |a| r0 en [0, 1):   948; l_s|a| mediana 0.9928, p10-p90 0.013-3.029
+   horizonte, |a| r0 en [1, 10):   684; l_s|a| mediana 1.0020, p10-p90 0.382-2.024
+   horizonte, |a| r0 en [10, 30):   336; l_s|a| mediana 1.0023, p10-p90 0.890-1.369
+   horizonte, |a| r0 en [30, 100):   234; l_s|a| mediana 1.0005, p10-p90 0.941-1.330
+   horizonte, |a| r0 en [100, 1e+09):   246; l_s|a| mediana 1.0000, p10-p90 1.000-1.000
+   r'_fin maximo (repulsivas): 0.5770;  l_fin maximo: 291.9 r0;  finales phi/r0: 0 (con r''(0) < 0: 0)
+   mitades atractivas AF: 733, a r0 en [1.31, 2.5e+03] (mediana 32.4)
+
+=== gauss: 22848 mitades
+   a > 0, F2>0: 5712 -> {'AF': 2896, 'Phi+': 1026, 'det': 1726, 'fallo': 6, 'r0': 58}
+   a > 0, F2<0: 5712 -> {'AF': 2854, 'Phi+': 973, 'det': 1885}
+   a < 0, F2>0: 5712 -> {'det': 232, 'horizonte': 4660, 'phi': 820}
+   a < 0, F2<0: 5712 -> {'det': 4, 'horizonte': 5661, 'phi': 47}
+   mitades repulsivas AF: 0;  agujeros lisos: 0
+   horizonte, |a| r0 en [0, 1):  1287; l_s|a| mediana 0.0861, p10-p90 0.009-1.024
+   horizonte, |a| r0 en [1, 10):  2652; l_s|a| mediana 1.0028, p10-p90 0.046-1.355
+   horizonte, |a| r0 en [10, 30):  1633; l_s|a| mediana 1.0026, p10-p90 0.789-1.550
+   horizonte, |a| r0 en [30, 100):  1695; l_s|a| mediana 1.0010, p10-p90 1.000-1.934
+   horizonte, |a| r0 en [100, 1e+09):  3054; l_s|a| mediana 1.0000, p10-p90 0.999-1.098
+   r'_fin maximo (repulsivas): 0.5770;  l_fin maximo: 4.737 r0;  finales phi/r0: 867 (con r''(0) < 0: 629)
+   mitades atractivas AF: 5750, a r0 en [1.13, 6.75e+05] (mediana 97.4)
+
+=== lineal: 4896 mitades
+   a > 0, F2=0: 2448 -> {'AF': 1030, 'Phi+': 82, 'det': 1336}
+   a < 0, F2=0: 2448 -> {'horizonte': 1988, 'phi': 460}
+   mitades repulsivas AF: 0;  agujeros lisos: 0
+   horizonte, |a| r0 en [0, 1):   600; l_s|a| mediana 0.9714, p10-p90 0.177-1.007
+   horizonte, |a| r0 en [1, 10):   356; l_s|a| mediana 1.0048, p10-p90 1.000-1.153
+   horizonte, |a| r0 en [10, 30):   214; l_s|a| mediana 1.0080, p10-p90 1.000-1.071
+   horizonte, |a| r0 en [30, 100):   252; l_s|a| mediana 1.0044, p10-p90 1.000-1.028
+   horizonte, |a| r0 en [100, 1e+09):   566; l_s|a| mediana 1.0001, p10-p90 1.000-1.006
+   r'_fin maximo (repulsivas): 0.5773;  l_fin maximo: 44.33 r0;  finales phi/r0: 460 (con r''(0) < 0: 0)
+   mitades atractivas AF: 1030, a r0 en [1.8, 2.5e+04] (mediana 126)
+
+TOTAL: 59296 mitades, 29648 repulsivas, 0 repulsivas AF, 0 agujeros lisos

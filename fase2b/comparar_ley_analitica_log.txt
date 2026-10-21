@@ -1,0 +1,101 @@
+Modos reales (C = -w/a^2): numerico frente a zona cercana
+
+ zeta = 0: 98 modos reales numericos
+   rapidos (C > 0.3): 92;  |C_pred/C_num - 1|: mediana 6.85e-03, maximo 5.95e-01;  <= 1 %: 51,  <= 3 %: 66,  <= 10 %: 77
+   lentos (C <= 0.3): 6;  |C_pred/C_num - 1|: mediana 4.84e+01, maximo 2.47e+02;  <= 1 %: 0,  <= 3 %: 0,  <= 10 %: 0
+     KKK         :  19 rapidos;  mediana 1.07e-03;  peor -0.044 (C_num = 1.0456, C_pred = 1.0000, a r0 = 6.94)
+     cuadratico  :  24 rapidos;  mediana 5.92e-03;  peor -0.338 (C_num = 1.5100, C_pred = 1.0000, a r0 = 5.2)
+     doble       :   7 rapidos;  mediana 6.30e-02;  peor -0.130 (C_num = 1.1490, C_pred = 1.0000, a r0 = 8.46)
+     gauss       :  42 rapidos;  mediana 1.04e-02;  peor +0.595 (C_num = 0.3245, C_pred = 0.5176, a r0 = 8.7)
+     ajuste |C_pred/C_num - 1| ~ 2.10 (a r0)^(-1.88)
+
+ zeta = 1: 93 modos reales numericos
+   rapidos (C > 0.3): 66;  |C_pred/C_num - 1|: mediana 2.85e-03, maximo 1.76e-01;  <= 1 %: 46,  <= 3 %: 56,  <= 10 %: 63
+   lentos (C <= 0.3): 27;  |C_pred/C_num - 1|: mediana 8.79e+01, maximo 1.96e+04;  <= 1 %: 0,  <= 3 %: 0,  <= 10 %: 0
+     KKK         :  15 rapidos;  mediana 5.43e-04;  peor -0.027 (C_num = 2.4909, C_pred = 2.4230, a r0 = 6.94)
+     cuadratico  :  24 rapidos;  mediana 2.26e-03;  peor -0.100 (C_num = 2.6447, C_pred = 2.3798, a r0 = 5.2)
+     doble       :   4 rapidos;  mediana 1.14e-01;  peor -0.176 (C_num = 0.6850, C_pred = 0.5642, a r0 = 55.9)
+     gauss       :  23 rapidos;  mediana 5.78e-03;  peor -0.084 (C_num = 3.1461, C_pred = 2.8812, a r0 = 4.09)
+     ajuste |C_pred/C_num - 1| ~ 0.66 (a r0)^(-1.72)
+
+Rama de escalarizacion con zeta = 0 (F'' < 0): C = 64 F''(phi0)^2 r0^-4
+   gauss 0.2326                 F'' = -0.1191  64F''^2 =  0.9079   C numericos = [0.9999, 0.9007]   complejas predichas = []
+   gauss 0.2243                 F'' = -0.1164  64F''^2 =  0.8676   C numericos = [0.9999, 0.8404]   complejas predichas = []
+   gauss 0.2074                 F'' = -0.1061  64F''^2 =  0.7201   C numericos = [1.0001, 0.6215]   complejas predichas = []
+   gauss 0.1914                 F'' = -0.0899  64F''^2 =  0.5176   C numericos = [1.0013, 0.3245]   complejas predichas = []
+   gauss 0.3080                 F'' = -0.1588  64F''^2 =  1.6140   C numericos = [1.603, 1.0]   complejas predichas = []
+   gauss 0.2944                 F'' = -0.1552  64F''^2 =  1.5424   C numericos = [1.4975, 1.0002]   complejas predichas = []
+   gauss 0.2665                 F'' = -0.1414  64F''^2 =  1.2801   C numericos = [1.1128, 1.0021]   complejas predichas = []
+   gauss 0.2400                 F'' = -0.1199  64F''^2 =  0.9202   C numericos = [1.0067, 0.5996]   complejas predichas = []
+   gauss 0.3825                 F'' = -0.1985  64F''^2 =  2.5218   C numericos = [2.5008, 1.0001]   complejas predichas = []
+   gauss 0.3626                 F'' = -0.1940  64F''^2 =  2.4099   C numericos = [2.3256, 1.0006]   complejas predichas = []
+   gauss 0.3213                 F'' = -0.1768  64F''^2 =  2.0002   C numericos = [1.7031, 1.0056]   complejas predichas = []
+   gauss 0.2821                 F'' = -0.1499  64F''^2 =  1.4378   C numericos = []   complejas predichas = []
+   gauss 0.4563                 F'' = -0.2382  64F''^2 =  3.6314   C numericos = [3.5906, 1.0002]   complejas predichas = []
+   gauss 0.4289                 F'' = -0.2329  64F''^2 =  3.4703   C numericos = [3.3125, 1.0011]   complejas predichas = []
+   gauss 0.3719                 F'' = -0.2121  64F''^2 =  2.8803   C numericos = [2.37, 1.0096]   complejas predichas = []
+   gauss 0.3179                 F'' = -0.1799  64F''^2 =  2.0704   C numericos = []   complejas predichas = []
+   gauss 0.5293                 F'' = -0.2779  64F''^2 =  4.9428   C numericos = [4.8667, 1.0003]   complejas predichas = []
+   gauss 0.4934                 F'' = -0.2717  64F''^2 =  4.7235   C numericos = [4.4411, 1.0017]   complejas predichas = []
+   gauss 0.4184                 F'' = -0.2475  64F''^2 =  3.9204   C numericos = [3.0903, 1.0146]   complejas predichas = []
+   gauss 0.3476                 F'' = -0.2098  64F''^2 =  2.8181   C numericos = [1.4191, 1.1297]   complejas predichas = []
+   gauss 0.6015                 F'' = -0.3176  64F''^2 =  6.4559   C numericos = [6.3214, 1.0003]   complejas predichas = []
+   gauss 0.5561                 F'' = -0.3105  64F''^2 =  6.1694   C numericos = [5.6903, 1.0023]   complejas predichas = []
+   gauss 0.4609                 F'' = -0.2829  64F''^2 =  5.1205   C numericos = [3.8472, 1.0209]   complejas predichas = []
+
+Trayectorias en zeta (trayectorias_robustas.json): C numerico / C zona cercana
+   KKK referencia       zeta=-1:  num [np.float64(0.1288), np.float64(0.5684)]   pred [0.1014, 0.573]
+   KKK referencia       zeta=-0.5:  num [np.float64(0.2384), np.float64(0.6824)]   pred [0.2044, 0.6872]
+   KKK referencia       zeta=+0:  num [np.float64(1.0106)]   pred [1.0]
+   KKK referencia       zeta=+0.5:  num [np.float64(1.3304)]   pred [1.3209]
+   KKK referencia       zeta=+0.8:  num [np.float64(1.739)]   pred [1.7273]
+   KKK referencia       zeta=+1:  num [np.float64(2.1945)]   pred [2.1806]
+   KKK referencia       zeta=+1.2:  num [np.float64(2.98)]   pred [0.0013, 2.9632]
+   KKK referencia       zeta=+1.4:  num [np.float64(4.6619)]   pred [0.0034, 4.6427]
+   KKK referencia       zeta=+1.6:  num [np.float64(10.9711)]   pred [0.0055, 10.988]
+   KKK referencia       zeta=+1.8:  num []   pred [0.0073]   complejas ['-23.306-6.872i', '-23.306+6.872i']
+   KKK referencia       zeta=+2:  num []   pred [0.009]   complejas ['-6.362-0.959i', '-6.362+0.959i']
+   KKK referencia       zeta=+3:  num [np.float64(0.0038)]   pred [0.0145]   complejas ['-1.392-0.103i', '-1.392+0.103i']
+   cuadratico 0.3087    zeta=+3:  num [np.float64(0.0077)]   pred [0.009]   complejas ['-1.845-0.012i', '-1.845+0.012i']
+   cuadratico 0.3087    zeta=+2.5:  num [np.float64(0.0078)]   pred [0.008]   complejas ['-3.471-0.032i', '-3.471+0.032i']
+   cuadratico 0.3087    zeta=+2:  num [np.float64(0.0075)]   pred [0.0066]   complejas ['-30.678-0.838i', '-30.678+0.838i']
+   cuadratico 0.3087    zeta=+1.75:  num [np.float64(0.0071), np.float64(10.319)]   pred [0.0056, 10.2749]
+   cuadratico 0.3087    zeta=+1.5:  num [np.float64(0.0064), np.float64(4.4341)]   pred [0.0043, 4.4068]
+   cuadratico 0.3087    zeta=+1.25:  num [np.float64(0.0053), np.float64(2.8218)]   pred [0.0024, 2.8032]
+   cuadratico 0.3087    zeta=+1:  num [np.float64(0.0034), np.float64(2.0679)]   pred [2.054]
+   cuadratico 0.3087    zeta=+0.8:  num [np.float64(0.0009), np.float64(1.7029)]   pred [1.6915]
+   cuadratico 0.3087    zeta=+0.6:  num [np.float64(1.4469)]   pred [1.4373]
+   cuadratico 0.3087    zeta=+0.4:  num [np.float64(1.2575)]   pred [1.2493]
+   cuadratico 0.3087    zeta=+0.2:  num [np.float64(1.1125)]   pred [1.1049]
+   cuadratico 0.3087    zeta=+0:  num [np.float64(1.0177)]   pred [1.0]
+   cuadratico 0.3465    zeta=+0:  num [np.float64(1.0006)]   pred [1.0]
+   cuadratico 0.3465    zeta=+0.25:  num [np.float64(1.1431)]   pred [1.1428]
+   cuadratico 0.3465    zeta=+0.5:  num [np.float64(1.3363)]   pred [1.336]
+   cuadratico 0.3465    zeta=+0.75:  num [np.float64(1.6079)]   pred [1.6075]
+   cuadratico 0.3465    zeta=+1:  num [np.float64(0.0001), np.float64(2.0178)]   pred [2.0173]
+   cuadratico 0.3465    zeta=+1.25:  num [np.float64(0.0004), np.float64(2.7079)]   pred [0.0004, 2.7072]
+   cuadratico 0.3465    zeta=+1.5:  num [np.float64(0.0007), np.float64(4.1144)]   pred [0.0006, 4.1136]
+   cuadratico 0.3465    zeta=+1.75:  num [np.float64(0.0008), np.float64(8.559)]   pred [0.0008, 8.5583]
+   cuadratico 0.3465    zeta=+1.9:  num [np.float64(0.0009), np.float64(24.3284)]   pred [0.0009, 24.3362]
+   zeta_c = 2(1 - F0)/(1 + u^2/4) para KKK referencia: 1.7283
+   zeta_c = 2(1 - F0)/(1 + u^2/4) para cuadratico 0.3087: 1.9365
+   zeta_c = 2(1 - F0)/(1 + u^2/4) para cuadratico 0.3465: 1.9812
+
+Modos complejos conocidos: W = -w/a^2 numerico frente a zona cercana
+   gauss 0.2821           zeta=0 (a r0 = 5.59):  num +0.9587-0.0097i   pred +1.0000+0.0000i   |dW|/|W| = 0.044
+   gauss 0.3179           zeta=0 (a r0 = 4.73):  num +1.1184-0.0629i   pred +1.0000+0.0000i   |dW|/|W| = 0.120
+   doble exp a=0.04       zeta=1 (a r0 = 8.46):  num +0.1809-0.3613i   pred +0.1769-0.0789i   |dW|/|W| = 0.699
+   KKK referencia         zeta=2 (a r0 = 13.4):  num -6.4347-0.9560i   pred -6.3616-0.9595i   |dW|/|W| = 0.011
+   cuadratico 0.3087      zeta=2.5 (a r0 = 14.3):  num -3.4875+0.0170i   pred -3.4711+0.0320i   |dW|/|W| = 0.006
+   cuadratico 0.3087      zeta=3 (a r0 = 14.3):  num -1.8498-0.0059i   pred -1.8452-0.0125i   |dW|/|W| = 0.004
+
+Prediccion y verificacion (secante sobre Dc desde la prediccion):
+   KKK referencia zeta=1.8: predicho W = -23.3055-6.8721i  ->  secante W = -23.9915-7.0315i   |Dc| = 4.83e-08 (vecino 7.74e+03);  omega_inf r0 = 2.4934+0.3579j
+   cuadratico 0.3087 zeta=2.0: predicho W = -30.6776-0.8384i  ->  secante W = -31.4180-0.5566i   |Dc| = 1.42e-06 (vecino 1.92e+04);  omega_inf r0 = 2.7979+0.0248j
+   KKK 0.0035 1.0571 zeta=1.0: predicho W = -0.6064-0.6338i  ->  secante W = -0.6195-0.6312i   |Dc| = 1.23e-08 (vecino 6.20e+02);  omega_inf r0 = 0.4342+0.1822j
+   KKK 0.0141 1.2186 zeta=1.0: predicho W = -0.5996-0.6272i  ->  secante W = -0.5793-0.6128i   |Dc| = 3.91e-10 (vecino 3.09e+01);  omega_inf r0 = 0.4268+0.1839j
+   KKK 0.0333 1.5501 zeta=1.0: predicho W = -0.5901-0.6179i  ->  secante W = -0.5643-0.6624i   |Dc| = 1.65e-11 (vecino 8.04e+00);  omega_inf r0 = 0.4402+0.2033j
+   cuadratico 0.4921 zeta=1.0: predicho W = -2.8033-3.3562i  ->  secante W = -2.7755-3.4074i   |Dc| = 2.53e-08 (vecino 4.53e+03);  omega_inf r0 = 0.9593+0.4559j
+   cuadratico 0.4779 zeta=1.0: predicho W = -1.0104-0.9683i  ->  secante W = -0.9791-1.0833i   |Dc| = 7.23e-10 (vecino 5.52e+01);  omega_inf r0 = 0.5734+0.2547j
+
+Guardado: resultados/comparar_ley_analitica.json

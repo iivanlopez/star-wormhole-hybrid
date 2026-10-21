@@ -1,0 +1,9 @@
+(1) Kodama puro (r0 = 2.0074 km), Modelo L:
+    w=-3.00: u_inf/(dr0/r0) = -18.633182
+    w=-0.50: u_inf/(dr0/r0) = -1.656591
+    w=+0.00: u_inf/(dr0/r0) = +1.738727
+    w=+0.50: u_inf/(dr0/r0) = +5.134046
+    w=+3.00: u_inf/(dr0/r0) = +22.110637
+(2) Ellis puro: u_inf/(dr0/r0) = +1.570796  (pi/2 = 1.570796)
+(3) Kodama + fluido rho_bc=1e+14 (r0 = 2.0084): Modelo L omega^2<0: [-0.11559796282620426]   fantasma: [-0.11555660596676287]
+(3) Kodama + fluido rho_bc=1e+13 (r0 = 2.0075): Modelo L omega^2<0: [-0.11610885240375095]   fantasma: [-0.11606738811389475]

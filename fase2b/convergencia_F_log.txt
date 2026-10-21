@@ -1,0 +1,20 @@
+0.3087 referencia         rapido  w* = -424.7864065   omega_inf^2 r0^2 = -0.51518484
+0.3087 referencia         lento   w* = -0.6956704149   omega_inf^2 r0^2 = -0.00084371544
+0.3087 cola 60/kappa      rapido  w* = -424.7864065   omega_inf^2 r0^2 = -0.51518484
+0.3087 cola 60/kappa      lento   w* = -0.6956704149   omega_inf^2 r0^2 = -0.00084371544
+0.3087 rtol 1e-12         rapido  w* = -424.7864065   omega_inf^2 r0^2 = -0.51518484
+0.3087 rtol 1e-12         lento   w* = -0.6956704149   omega_inf^2 r0^2 = -0.00084371544
+0.3087 fondo rtol 1e-13   rapido  w* = -424.7864065   omega_inf^2 r0^2 = -0.51518484
+0.3087 fondo rtol 1e-13   lento   w* = -0.6956704149   omega_inf^2 r0^2 = -0.00084371544
+0.3087 fondo l_max 4e4    rapido  w* = -424.7864065   omega_inf^2 r0^2 = -0.51518484
+0.3087 fondo l_max 4e4    lento   w* = -0.6956704149   omega_inf^2 r0^2 = -0.00084371544
+0.3465 referencia         rapido  w* = -8303.3216   omega_inf^2 r0^2 = -0.50257533
+0.3465 referencia         lento   w* = -0.4229839787   omega_inf^2 r0^2 = -2.560196e-05
+0.3465 cola 60/kappa      rapido  w* = -8303.3216   omega_inf^2 r0^2 = -0.50257533
+0.3465 cola 60/kappa      lento   w* = -0.4229839787   omega_inf^2 r0^2 = -2.560196e-05
+0.3465 rtol 1e-12         rapido  w* = -8303.3216   omega_inf^2 r0^2 = -0.50257533
+0.3465 rtol 1e-12         lento   w* = -0.4229839787   omega_inf^2 r0^2 = -2.560196e-05
+0.3465 fondo rtol 1e-13   rapido  w* = -8303.3216   omega_inf^2 r0^2 = -0.50257533
+0.3465 fondo rtol 1e-13   lento   w* = -0.4229839787   omega_inf^2 r0^2 = -2.560196e-05
+0.3465 fondo l_max 4e4    rapido  w* = -8303.3216   omega_inf^2 r0^2 = -0.50257533
+0.3465 fondo l_max 4e4    lento   w* = -0.4229839787   omega_inf^2 r0^2 = -2.560196e-05

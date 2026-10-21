@@ -1,0 +1,10 @@
+[OK   ] Gauss-Bonnet de Schwarzschild = 48 M^2/r^6 
+[OK   ] Bianchi (t), jet 1 (residuo 3.3e-142; |nabla^m E_mt| = 7.11e-01)
+[OK   ] Bianchi (t), jet 2 (residuo -2.7e-138; |nabla^m E_mt| = 1.93e-01)
+[OK   ] Bianchi (l), jet 1 (residuo 5.2e-141; |nabla^m E_ml| = 7.61e-02)
+[OK   ] Bianchi (l), jet 2 (residuo 5.2e-141; |nabla^m E_ml| = 4.91e-01)
+[OK   ] estatico KKK, ec. ll  (4b, nu') (diferencia relativa max 0.0e+00)
+[OK   ] estatico KKK, ec. tt  (4a, f') (diferencia relativa max 3.9e-140)
+[OK   ] estatico KKK, ec. dil (4c, phi'') (diferencia relativa max 0.0e+00)
+
+8/8 comprobaciones superadas

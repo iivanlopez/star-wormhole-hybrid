@@ -1,0 +1,5 @@
+xi0=0.6 rho=1e+15: Re w en [-0.08741, 1.000e-03], |Im w| < 0.05827, d = 0.00763 (w interno) -> N = 1.000 + -0.000 + 2 x -0.000 = 1.000; raices reales = 1 en ['-5.963e-02']; puntos = 576; convergido = True  (84 s)
+xi0=0.6 rho=1e+14: Re w en [-0.254, 6.185e-04], |Im w| < 0.1693, d = 0.016 (w interno) -> N = 1.000 + 1.000 + 2 x -0.000 = 2.000; raices reales = 2 en ['-1.856e-01', '2.474e-04']; puntos = 1223; convergido = True  (271 s)
+xi0=0.1 rho=1e+15: Re w en [-4.913, 1.000e-03], |Im w| < 2, d = 0.126 (w interno) -> N = 1.000 + 1.000 + 2 x 0.000 = 2.000; raices reales = 2 en ['-3.332e+00', '-5.142e-03']; puntos = 1028; convergido = True  (417 s)
+xi0=0.1 rho=1e+14: Re w en [-42.89, 7.229e-04], |Im w| < 2, d = 0.219 (w interno) -> N = -5.000 + 1.000 + 2 x 0.000 = -4.000; raices reales = 2 en ['-3.192e+01', '3.012e-04']; puntos = 3832; convergido = True  (1874 s)
+tiempo: 1874 s

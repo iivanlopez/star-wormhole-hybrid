@@ -1,0 +1,20 @@
+
+ cuadratico 0.3465, zeta = 3, t = -60, s2 = 6317.67 (a r0 = 64.1):
+   predicho:  -20.6+0.003863i, -20.6-0.003863i
+   completo reales: ninguna
+   completo complejo: W = -20.601-0.004472i desde -20.6-0.003863i  (|Dc| 1.7e-05 / 4.6e+06)
+
+ cuadratico 0.3465, zeta = 3, t = -300, s2 = 29281.6 (a r0 = 64.1):
+   predicho:  -99.073+0.008471i, -99.073-0.008471i
+   completo reales: ninguna
+   completo complejo: W = -99.075-0.005457i desde -99.073-0.008471i  (|Dc| 2.0e-04 / 1.0e+08)
+
+ cuadratico 0.3465, zeta = 3, t = -1000, s2 = 96259.9 (a r0 = 64.1):
+   predicho:  -327.95+0.01541i, -327.95-0.01541i
+   completo reales: ninguna
+   completo complejo: W = -327.97-0.02081i desde -327.95-0.01541i  (|Dc| 2.8e-03 / 1.1e+09)
+
+ KKK referencia, zeta = 3, t = -300, s2 = 296.261 (a r0 = 13.4):
+   predicho:  -74.615+0.3942i, -74.615-0.3942i
+   completo reales: ninguna
+   completo complejo: W = -74.665-0.3907i desde -74.615-0.3942i  (|Dc| 2.0e-08 / 2.9e+04)

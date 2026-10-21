@@ -1,0 +1,13 @@
+KKK referencia     zeta=2 arranque w/a^2=6.43+0.96j: w = 1149.06 +170.71 i  (w/a^2 = 6.4347 +0.9560 i)  |Dc| = 7.8e-10 frente a 3.8e+02  convergido=True  omega_inf r0 = -1.2814 -0.0947 i
+cuadratico 0.3087  zeta=2 arranque w/a^2=6.43+0.96j: w = 1075.5 -44.7207 i  (w/a^2 = 5.2356 -0.2177 i)  |Dc| = 2.7e+06 frente a 2.7e+06  convergido=False  omega_inf r0 = +1.1423 -0.0237 i
+cuadratico 0.3087  zeta=2 arranque w/a^2=5.00+1.50j: w = 1014.58 +166.502 i  (w/a^2 = 4.9390 +0.8105 i)  |Dc| = 4.1e+06 frente a 4.1e+06  convergido=False  omega_inf r0 = -1.1130 -0.0907 i
+cuadratico 0.3087  zeta=2 arranque w/a^2=8.00+0.50j: w = 1075.76 +44.9459 i  (w/a^2 = 5.2368 +0.2188 i)  |Dc| = 2.7e+06 frente a 2.7e+06  convergido=False  omega_inf r0 = -1.1425 -0.0239 i
+cuadratico 0.3087  zeta=2 arranque w/a^2=4.00+0.30j: w = 1075.14 +44.8769 i  (w/a^2 = 5.2338 +0.2185 i)  |Dc| = 2.7e+06 frente a 2.7e+06  convergido=False  omega_inf r0 = -1.1422 -0.0238 i
+cuadratico 0.3087  zeta=2.5 arranque w/a^2=6.43+0.96j: w = 716.403 -3.482 i  (w/a^2 = 3.4875 -0.0170 i)  |Dc| = 1.4e-08 frente a 2.4e+03  convergido=True  omega_inf r0 = +0.9321 -0.0023 i
+cuadratico 0.3087  zeta=2.5 arranque w/a^2=5.00+1.50j: w = 716.403 +3.482 i  (w/a^2 = 3.4875 +0.0170 i)  |Dc| = 6.1e-09 frente a 2.4e+03  convergido=True  omega_inf r0 = -0.9321 -0.0023 i
+cuadratico 0.3087  zeta=2.5 arranque w/a^2=8.00+0.50j: w = 716.403 -3.482 i  (w/a^2 = 3.4875 -0.0170 i)  |Dc| = 1.5e-09 frente a 2.4e+03  convergido=True  omega_inf r0 = +0.9321 -0.0023 i
+cuadratico 0.3087  zeta=2.5 arranque w/a^2=4.00+0.30j: w = 716.403 -3.482 i  (w/a^2 = 3.4875 -0.0170 i)  |Dc| = 2.6e-07 frente a 2.4e+03  convergido=True  omega_inf r0 = +0.9321 -0.0023 i
+cuadratico 0.3087  zeta=3 arranque w/a^2=6.43+0.96j: w = 379.981 +1.22038 i  (w/a^2 = 1.8498 +0.0059 i)  |Dc| = 2.4e-09 frente a 1.5e+03  convergido=True  omega_inf r0 = -0.6789 -0.0011 i
+cuadratico 0.3087  zeta=3 arranque w/a^2=5.00+1.50j: w = 379.981 +1.22038 i  (w/a^2 = 1.8498 +0.0059 i)  |Dc| = 3.8e-07 frente a 1.5e+03  convergido=True  omega_inf r0 = -0.6789 -0.0011 i
+cuadratico 0.3087  zeta=3 arranque w/a^2=8.00+0.50j: w = 379.981 +1.22038 i  (w/a^2 = 1.8498 +0.0059 i)  |Dc| = 4.4e-09 frente a 1.5e+03  convergido=True  omega_inf r0 = -0.6789 -0.0011 i
+cuadratico 0.3087  zeta=3 arranque w/a^2=4.00+0.30j: w = 379.981 -1.22038 i  (w/a^2 = 1.8498 -0.0059 i)  |Dc| = 9.4e-09 frente a 1.5e+03  convergido=True  omega_inf r0 = +0.6789 -0.0011 i

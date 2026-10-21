@@ -1,0 +1,22 @@
+escala: xi0=0.001  r0=0.0114 km  omega^2 impar = ['-8.41739e-04', '2.08210e-04']
+escala: xi0=0.003  r0=0.0341 km  omega^2 impar = ['-8.41448e-04', '2.08623e-04']
+escala: xi0=0.01   r0=0.1137 km  omega^2 impar = ['-8.40459e-04', '2.10040e-04']
+escala: xi0=0.03   r0=0.3412 km  omega^2 impar = ['-8.37819e-04', '2.13927e-04']
+escala: xi0=0.1    r0=1.1374 km  omega^2 impar = ['-8.29948e-04', '2.26717e-04']
+autofuncion xi0=0.1: omega^2=-8.29948e-04  C/xi(0)=3.759e-03  Psi(0)/xi(0)=-1.4799e-03  Phi''(0)=1.1557e-03  perfil xi vs (r0/r)^2: 0.5154/0.5141, 0.1052/0.1054, 0.0065/0.0098
+autofuncion xi0=0.01: omega^2=-8.40459e-04  C/xi(0)=6.263e-05  Psi(0)/xi(0)=-1.4776e-03  Phi''(0)=1.1557e-03  perfil xi vs (r0/r)^2: 1.0000/1.0000, 0.0402/0.0402, 0.0103/0.0104
+secuencia xi0=0.1  rho=1e+13: w1 (garganta) = -1.1408e-04  |w1| / 4pi(eps0+3P0) = 1.196
+secuencia xi0=0.1  rho=3e+13: w1 (garganta) = -3.5036e-04  |w1| / 4pi(eps0+3P0) = 1.169
+secuencia xi0=0.1  rho=1e+14: w1 (garganta) = -1.2636e-03  |w1| / 4pi(eps0+3P0) = 1.093
+secuencia xi0=0.1  rho=3e+14: w1 (garganta) = -4.6381e-03  |w1| / 4pi(eps0+3P0) = 0.964
+secuencia xi0=0.1  rho=4e+14: w1 (garganta) = -6.7719e-03  |w1| / 4pi(eps0+3P0) = 0.926
+secuencia xi0=0.1  rho=5e+14: w1 (garganta) = -9.2208e-03  |w1| / 4pi(eps0+3P0) = 0.898
+secuencia xi0=0.1  rho=6e+14: w1 (garganta) = -1.2000e-02  |w1| / 4pi(eps0+3P0) = 0.878
+secuencia xi0=0.1  rho=8e+14: w1 (garganta) = -1.8608e-02  |w1| / 4pi(eps0+3P0) = 0.853
+secuencia xi0=0.1  rho=1e+15: w1 (garganta) = -2.6726e-02  |w1| / 4pi(eps0+3P0) = 0.842
+secuencia xi0=0.1  rho=2e+15: w1 (garganta) = -9.4733e-02  |w1| / 4pi(eps0+3P0) = 0.874
+secuencia xi0=0.1  rho=3e+15: w1 (garganta) = -2.2120e-01  |w1| / 4pi(eps0+3P0) = 0.962
+secuencia xi0=0.3  rho=1e+14: w1 (garganta) = -1.2137e-03  |w1| / 4pi(eps0+3P0) = 1.050
+secuencia xi0=0.3  rho=1e+15: w1 (garganta) = -3.2298e-02  |w1| / 4pi(eps0+3P0) = 1.017
+secuencia xi0=0.6  rho=1e+14: w1 (garganta) = -1.1359e-03  |w1| / 4pi(eps0+3P0) = 0.983
+secuencia xi0=0.6  rho=1e+15: w1 (garganta) = -4.3729e-02  |w1| / 4pi(eps0+3P0) = 1.377

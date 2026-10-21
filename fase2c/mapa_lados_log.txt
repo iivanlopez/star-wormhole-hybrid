@@ -1,0 +1,15 @@
+cuadratico: 26656 mitades
+   a > 0 (lapso creciente hacia fuera): 13328 -> {'AF': 5885, 'Phi+': 1357, 'det': 5595, 'fallo': 18, 'r0': 473}
+   a < 0 (lapso decreciente hacia fuera): 13328 -> {'det': 139, 'horizonte': 11588, 'phi': 1214, 'r0': 387}
+   mitades AF con a < 0: 0
+   agujeros lisos (dos mitades AF): 0
+exp: 4896 mitades
+   a > 0 (lapso creciente hacia fuera): 2448 -> {'AF': 733, 'Phi+': 389, 'det': 1107, 'fallo': 1, 'noAF': 184, 'r0': 34}
+   a < 0 (lapso decreciente hacia fuera): 2448 -> {'horizonte': 2448}
+   mitades AF con a < 0: 0
+   agujeros lisos (dos mitades AF): 0
+salida: resultados/mapa_lados.json;  tiempo: 1236 s
+
+real	20m37.447s
+user	0m0.000s
+sys	0m0.031s

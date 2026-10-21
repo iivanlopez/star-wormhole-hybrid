@@ -1,0 +1,13 @@
+iteracion 0: 458 puntos
+iteracion 1: 594 puntos
+iteracion 2: 630 puntos
+iteracion 3: 654 puntos
+iteracion 4: 670 puntos
+iteracion 5: 674 puntos
+par: N = 6.0000 ceros en Re w in [-7.0, -0.02], |Im w| <= 3.0; salto max 0.349
+impar: N = 6.0000 ceros en Re w in [-7.0, -0.02], |Im w| <= 3.0; salto max 0.337
+tiempo: 219 s
+
+real	3m45.032s
+user	0m0.000s
+sys	0m0.015s

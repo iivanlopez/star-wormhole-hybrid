@@ -1,0 +1,16 @@
+xi0=0.1  rho=1.0e+13  omega^2 impar: -1.08829e-04  3.49526e-05
+xi0=0.1  rho=3.0e+13  omega^2 impar: -3.05347e-04  9.48274e-05
+xi0=0.1  rho=1.0e+14  omega^2 impar: -8.29948e-04  2.26717e-04
+xi0=0.1  rho=3.0e+14  omega^2 impar: -1.65218e-03  2.82640e-04
+xi0=0.1  rho=4.0e+14  omega^2 impar: -1.90593e-03  2.38037e-04
+xi0=0.1  rho=5.0e+14  omega^2 impar: -2.11511e-03  1.74503e-04
+xi0=0.1  rho=6.0e+14  omega^2 impar: -2.29791e-03  1.00910e-04
+xi0=0.1  rho=8.0e+14  omega^2 impar: -2.62077e-03  -5.88159e-05
+xi0=0.1  rho=1.0e+15  omega^2 impar: -2.91611e-03  -2.21210e-04
+xi0=0.1  rho=2.0e+15  omega^2 impar: -4.32565e-03  -9.21005e-04
+xi0=0.1  rho=3.0e+15  omega^2 impar: -5.76919e-03  -1.40496e-03
+xi0=0.3  rho=1.0e+14  omega^2 impar: -8.11850e-04  2.69359e-04
+xi0=0.3  rho=1.0e+15  omega^2 impar: -3.95536e-03  nan
+xi0=0.6  rho=1.0e+14  omega^2 impar: -7.72069e-04  4.15377e-04
+xi0=0.6  rho=1.0e+15  omega^2 impar: -4.25811e-03  nan
+tiempo: 402 s

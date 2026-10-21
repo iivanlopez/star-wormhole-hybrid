@@ -1,0 +1,18 @@
+   ('cuadratico', 'det'): 139 mitades, 139 en la muestra
+   ('cuadratico', 'horizonte'): 11588 mitades, 150 en la muestra
+   ('cuadratico', 'phi'): 1214 mitades, 150 en la muestra
+   ('cuadratico', 'r0'): 387 mitades, 150 en la muestra
+   ('exp', 'horizonte'): 2448 mitades, 150 en la muestra
+   ('gauss', 'det'): 236 mitades, 150 en la muestra
+   ('gauss', 'horizonte'): 10321 mitades, 150 en la muestra
+   ('gauss', 'phi'): 867 mitades, 150 en la muestra
+   ('lineal', 'horizonte'): 1988 mitades, 150 en la muestra
+   ('lineal', 'phi'): 460 mitades, 150 en la muestra
+muestra: 1489; mismo final: 1353; AF con la integracion fina: 0
+cambios de clase: {('phi', 'r0'): 136}
+horizonte -> horizonte: 600; |dl_s|/l_s mediana 8.61e-07, maximo 2.48e-03
+tiempo: 88 s
+
+real	1m29.659s
+user	0m0.000s
+sys	0m0.031s

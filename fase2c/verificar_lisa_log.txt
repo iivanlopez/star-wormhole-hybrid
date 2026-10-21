@@ -1,0 +1,7 @@
+w = -5.0: L = 360; ligaduras en L 7.4e-23, en 0 6.5e-13; |renorm - sin renorm| = 0.0e+00; +c g(L): cambio de y(0) 3.05e-06, de (delta r_t, delta phi_t) 9.3e-13
+w = -400.0: L = 127; ligaduras en L 0.0e+00, en 0 6.0e-13; |renorm - sin renorm| = 0.0e+00; +c g(L): cambio de y(0) 8.10e-13, de (delta r_t, delta phi_t) 8.6e-13
+w = (-5+2j): L = 360; ligaduras en L 1.2e-24, en 0 7.9e-13; |renorm - sin renorm| = 0.0e+00; +c g(L): cambio de y(0) 2.51e-06, de (delta r_t, delta phi_t) 1.4e-12
+w = (-400+150j): L = 123; ligaduras en L 1.0e-22, en 0 5.2e-13; |renorm - sin renorm| = 0.0e+00; +c g(L): cambio de y(0) 1.31e-12, de (delta r_t, delta phi_t) 1.3e-12
+humo, w = -50.0: diferencia de fase entre Delta renormalizado y sin renormalizar = 0.0e+00 rad
+humo, w = (-50+10j): diferencia de fase entre Delta renormalizado y sin renormalizar = 6.2e-15 rad
+humo: raices_reales y hiperbolicidad ejecutadas (1 cambios de signo; lambda_min = [383.29032478   1.03849762 383.29032478])

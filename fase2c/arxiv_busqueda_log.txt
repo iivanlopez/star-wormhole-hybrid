@@ -1,0 +1,174 @@
+[1708.02324v3] Wormholes with fluid sources: A no-go theorem and new examples — K. A. Bronnikov, K. A. Baleevskikh, M. V. Skvortsova — Phys. Rev. D 96, 124039 (2017) (2017-08-07)
+[2204.08232v1] Symmetric wormholes in Einstein-vector-Gauss-Bonnet theory — Simon Barton, Claus Kiefer, Burkhard Kleihaus, Jutta Kunz — None (2022-04-18)
+[1111.4049v3] Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz — None (2011-11-17)
+[1812.07022v2] More about stable wormholes in beyond Horndeski theory — S. Mironov, V. Rubakov, V. Volkova — None (2018-12-17)
+[1503.01409v1] A bound on chaos — Juan Maldacena, Stephen H. Shenker, Douglas Stanford — None (2015-03-04)
+[1904.13091v2] Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz — Phys. Rev. D 101, 024033 (2020) (2019-04-30)
+[1509.08808v3] Can Galileons support Lorentzian wormholes? — V. A. Rubakov — None (2015-09-29)
+[1804.11170v2] No stable wormholes in Einstein-dilaton-Gauss-Bonnet theory — M. A. Cuyubamba, R. A. Konoplya, A. Zhidenko — Phys. Rev. D 98, 044040 (2018) (2018-04-30)
+[1711.04152v1] No static sphericaly symmetric wormholes in Horndeski theory — O. A. Evseev, O. I. Melichev — Phys. Rev. D 97, 124040 (2018) (2017-11-11)
+[1610.06070v2] Universality in Chaos of Particle Motion near Black Hole Horizon — Koji Hashimoto, Norihiro Tanahashi — Phys. Rev. D 95, 024007 (2017) (2016-10-19)
+[1108.3003v2] Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz — Phys.Rev.Lett. 107 (2011) 271101 (2011-08-15)
+[1907.09463v2] Ellis wormhole without a phantom scalar field — Pedro Cañate, Joseph Sultana, Demosthenes Kazanas — Phys. Rev. D 100, 064007 (2019) (2019-07-22)
+[2412.20296v1] Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond — Panagiota Kanti — None (2024-12-28)
+[2006.13008v1] Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov — Phys. Rev. D 102, 064010 (2020) (2020-06-23)
+[2609.18475v1] Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity — Sardor Murodov, Bekzod Rahmatov, Javlon Rayimbaev, Bobomurat Ahmedov — None (2026-09-16)
+
+### abs:wormhole AND abs:"Gauss-Bonnet" AND abs:asymmetric: 1 resultados
+  [2607.03673v2] 2026-07-04 Additional Observational Signatures of Asymmetric Thin-Shell Wormholes within 4D Einstein-Gauss-Bonnet Gravity — J. Song, X. G. Lan
+
+### abs:wormholes AND abs:"Gauss-Bonnet" AND abs:asymmetric: 1 resultados
+  [2607.03673v2] 2026-07-04 Additional Observational Signatures of Asymmetric Thin-Shell Wormholes within 4D Einstein-Gauss-Bonnet Gravity — J. Song, X. G. Lan
+
+### abs:wormhole AND abs:"Gauss-Bonnet" AND abs:"thin shell": 20 resultados
+  [2607.03673v2] 2026-07-04 Additional Observational Signatures of Asymmetric Thin-Shell Wormholes within 4D Einstein-Gauss-Bonnet Gravity — J. Song, X. G. Lan
+  [2511.15001v1] 2025-11-19 Tides and energy conditions in Einstein-Gauss-Bonnet thin-shell wormholes — Ernesto F. Eiroa, Emilio Rubín de Celis, Claudio Simeone
+  [2405.05476v2] 2024-05-09 A Review of Stable, Traversable Wormholes in f (R) Gravity Theories — Ramesh Radhakrishnan, Patrick Brown, Jacob Mutulevich, Eric Davis
+  [2211.03544v1] 2022-11-04 Thin-shell wormhole under non-commutative geometry inspired Einstein-Gauss-Bonnet gravity — N. Rahman, M. Kalam, A. Das, S. Islam
+  [2207.05965v1] 2022-07-13 Junction conditions in perfect fluid $f(\mathcal{G},~T)$ gravitational theory — M. Z. Bhatti, Z. Yousaf, M. Yousaf
+  [2204.08232v1] 2022-04-18 Symmetric wormholes in Einstein-vector-Gauss-Bonnet theory — Simon Barton, Claus Kiefer, Burkhard Kleihaus, Jutta Kunz
+  [2103.06314v2] 2021-03-10 Generalized Darmois-Israel junction conditions — Chong-Sun Chu, H. S. Tan
+  [2004.14267v4] 2020-04-29 Traversable Thin-shell Wormhole in the 4D Einstein-Gauss-Bonnet Theory — Peng Liu, Chao Niu, Wei-Liang Qian, Xiaobao Wang
+  [2002.08358v2] 2020-02-19 Thin-shell Wormholes with Ordinary Matter in Pure Gauss-Bonnet Gravity — S. Danial Forghani, S. Habib Mazharimousavi
+  [2002.02577v3] 2020-02-07 Thin-shell wormholes in Einstein and Einstein-Gauss-Bonnet theories of gravity — Takafumi Kokubu, Tomohiro Harada
+  [1506.08550v1] 2015-06-29 Does the Gauss-Bonnet term stabilize wormholes? — Takafumi Kokubu, Hideki Maeda, Tomohiro Harada
+  [1203.3755v1] 2012-03-16 Addendum to "Thin-shell wormholes supported by ordinary matter in Einstein-Gauss-Bonnet gravity" — Claudio Simeone
+  [1103.3019v2] 2011-03-15 Stable thin-shell wormholes with a Chaplygin gas in Einstein-Maxwell-Gauss-Bonnet gravity — Z. Amirabi, M. Halilsoy, S. Habib Mazharimousavi
+  [1007.4627v3] 2010-07-27 Higher dimensional thin-shell wormholes in Einstein-Yang-Mills-Gauss-Bonnet gravity — S. Habib Mazharimousavi, M. Halilsoy, Z. Amirabi
+  [1001.4384v3] 2010-01-25 Stability of thin-shell wormholes supported by ordinary matter in Einstein-Maxwell-Gauss-Bonnet gravity — S. Habib Mazharimousavi, M. Halilsoy, Z. Amirabi
+  [0908.3967v3] 2009-08-27 Black hole and thin-shell wormhole solutions in Einstein-Hoffman-Born-Infeld theory — S. Habib Mazharimousavi, M. Halilsoy, Z. Amirabi
+  [0805.3575v4] 2008-05-23 The Lovelock Black Holes — Cecilia Garraffo, Gaston Giribet
+  [0710.2041v3] 2007-10-10 Thin-shell wormholes supported by ordinary matter in Einstein--Gauss--Bonnet gravity — Martin Richarte, Claudio Simeone
+  [gr-qc/0701152v3] 2007-01-28 `Mass without mass' from thin shells in Gauss-Bonnet gravity — Elias Gravanis, Steven Willison
+  [gr-qc/0512029v2] 2005-12-05 Thin-shell wormholes in Einstein-Maxwell theory with a Gauss-Bonnet term — Marc Thibeault, Claudio Simeone, Ernesto F. Eiroa
+
+### abs:wormhole AND abs:"Gauss-Bonnet" AND abs:smooth: 4 resultados
+  [2609.18475v1] 2026-09-16 Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity — Sardor Murodov, Bekzod Rahmatov, Javlon Rayimbaev, Bobomurat Ahmedov
+  [2505.07028v3] 2025-05-11 Traversable wormholes from a smoothed string fluid in 4D Einstein-Gauss-Bonnet gravity — C. R. Muniz, M. S. Cunha, L. C. N. Santos
+  [2207.05965v1] 2022-07-13 Junction conditions in perfect fluid $f(\mathcal{G},~T)$ gravitational theory — M. Z. Bhatti, Z. Yousaf, M. Yousaf
+  [hep-th/0607062v2] 2006-07-11 Static wormhole solution for higher-dimensional gravity in vacuum — Gustavo Dotti, Julio Oliva, Ricardo Troncoso
+
+### abs:wormhole AND abs:"Gauss-Bonnet" AND abs:"without matter": 0 resultados
+
+### abs:wormhole AND abs:"scalar-Gauss-Bonnet": 13 resultados
+  [2609.18475v1] 2026-09-16 Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity — Sardor Murodov, Bekzod Rahmatov, Javlon Rayimbaev, Bobomurat Ahmedov
+  [2412.20296v1] 2024-12-28 Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond — Panagiota Kanti
+  [2310.08758v2] 2023-10-12 Simple method to generate magnetically charged ultra-static traversable wormholes without exotic matter in Einstein-scalar-Gauss-Bonnet gravity — Pedro Cañate
+  [2210.17533v1] 2022-10-31 Constraining modified gravity theories with scalar fields using black-hole images — Georgios Antoniou, Alexandros Papageorgiou, Panagiota Kanti
+  [2202.12463v2] 2022-02-25 Novel traversable wormhole in General Relativity and Einstein-Scalar-Gauss-Bonnet theory supported by nonlinear electrodynamics — Pedro Cañate, F. H. Maldonado-Villamizar
+  [2012.05178v1] 2020-12-09 Scalarized nutty wormholes — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2010.13189v1] 2020-10-25 Black holes and wormholes in the Einstein-scalar-Gauss-Bonnet generalized theories of gravity — Athanasios Bakopoulos
+  [2006.13008v1] 2020-06-23 Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2005.07650v1] 2020-05-15 Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1910.02121v2] 2019-10-04 Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1908.04690v1] 2019-08-13 New exact traversable wormhole solution to the Einstein-scalar-Gauss-Bonnet Equations coupled to a power-Maxwell electrodynamics — Pedro Cañate, Nora Breton
+  [1907.09463v2] 2019-07-22 Ellis wormhole without a phantom scalar field — Pedro Cañate, Joseph Sultana, Demosthenes Kazanas
+  [1904.13091v2] 2019-04-30 Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus
+
+### abs:wormholes AND abs:"scalar-Gauss-Bonnet": 13 resultados
+  [2609.18475v1] 2026-09-16 Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity — Sardor Murodov, Bekzod Rahmatov, Javlon Rayimbaev, Bobomurat Ahmedov
+  [2412.20296v1] 2024-12-28 Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond — Panagiota Kanti
+  [2310.08758v2] 2023-10-12 Simple method to generate magnetically charged ultra-static traversable wormholes without exotic matter in Einstein-scalar-Gauss-Bonnet gravity — Pedro Cañate
+  [2210.17533v1] 2022-10-31 Constraining modified gravity theories with scalar fields using black-hole images — Georgios Antoniou, Alexandros Papageorgiou, Panagiota Kanti
+  [2202.12463v2] 2022-02-25 Novel traversable wormhole in General Relativity and Einstein-Scalar-Gauss-Bonnet theory supported by nonlinear electrodynamics — Pedro Cañate, F. H. Maldonado-Villamizar
+  [2012.05178v1] 2020-12-09 Scalarized nutty wormholes — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2010.13189v1] 2020-10-25 Black holes and wormholes in the Einstein-scalar-Gauss-Bonnet generalized theories of gravity — Athanasios Bakopoulos
+  [2006.13008v1] 2020-06-23 Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2005.07650v1] 2020-05-15 Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1910.02121v2] 2019-10-04 Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1908.04690v1] 2019-08-13 New exact traversable wormhole solution to the Einstein-scalar-Gauss-Bonnet Equations coupled to a power-Maxwell electrodynamics — Pedro Cañate, Nora Breton
+  [1907.09463v2] 2019-07-22 Ellis wormhole without a phantom scalar field — Pedro Cañate, Joseph Sultana, Demosthenes Kazanas
+  [1904.13091v2] 2019-04-30 Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus
+
+### abs:wormhole AND abs:"dilatonic" AND abs:"Gauss-Bonnet": 17 resultados
+  [2405.05476v2] 2024-05-09 A Review of Stable, Traversable Wormholes in f (R) Gravity Theories — Ramesh Radhakrishnan, Patrick Brown, Jacob Mutulevich, Eric Davis
+  [2210.17533v1] 2022-10-31 Constraining modified gravity theories with scalar fields using black-hole images — Georgios Antoniou, Alexandros Papageorgiou, Panagiota Kanti
+  [2205.13007v4] 2022-05-25 Nonperturbative gedanken experiments in Einstein-dilaton-Gauss-Bonnet gravity: nonlinear transitions and tests of the cosmic censorship beyond General Relativity — Fabrizio Corelli, Marina De Amicis, Taishi Ikeda, Paolo Pani
+  [2111.14845v4] 2021-11-29 Wormhole inducing inflation with Einstein Gauss Bonnet dilaton interaction — Gargi Biswas, M K Dutta, B Modak
+  [2111.13913v2] 2021-11-27 Cosmic scenario of early Universe in context of Euclidean wormhole in dilatonic Einstein Gauss Bonnet gravity — Gargi Biswas, B Modak
+  [2006.04344v1] 2020-06-08 Euclidean wormholes in Gauss-Bonnet-dilaton gravity — Xiao Yan Chew, Gansukh Tumurtushaa, Dong-han Yeom
+  [2005.07650v1] 2020-05-15 Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1912.08382v1] 2019-12-18 Black Holes and Wormholes in Higher-Curvature Corrected Theories of Gravity — M. A. Cuyubamba
+  [1908.01647v2] 2019-08-05 Gravitational deflection of relativistic massive particles by wormholes — Zonghai Li, Guansheng He, Tao Zhou
+  [1808.01103v2] 2018-08-03 Quantum creation of traversable wormholes ex nihilo in Gauss-Bonnet-dilaton gravity — Gansukh Tumurtushaa, Dong-han Yeom
+  [1806.03719v2] 2018-06-10 Weak Gravitational lensing by phantom black holes and phantom wormholes using the Gauss-Bonnet theorem — Ali Övgün, Galin Gyulchev, Kimet Jusufi
+  [1804.11170v2] 2018-04-30 No stable wormholes in Einstein-dilaton-Gauss-Bonnet theory — M. A. Cuyubamba, R. A. Konoplya, A. Zhidenko
+  [1708.00935v3] 2017-08-02 Phantom wormholes in Einstein-Maxwell-dilaton theory — Prieslei Goulart
+  [1707.01416v2] 2017-07-05 Light deflection by charged wormholes in Einstein-Maxwell-dilaton theory — Kimet Jusufi, Ali Övgün, Ayan Banerjee
+  [1201.2417v1] 2012-01-11 f(R) Theories of Supergravities and Pseudo-supergravities — Haishan Liu, H. Lu, Zhao-Long Wang
+  [1111.4049v3] 2011-11-17 Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+  [1108.3003v2] 2011-08-15 Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+
+### au:Kleihaus AND abs:wormhole AND abs:"Gauss-Bonnet": 9 resultados
+  [2204.08232v1] 2022-04-18 Symmetric wormholes in Einstein-vector-Gauss-Bonnet theory — Simon Barton, Claus Kiefer, Burkhard Kleihaus, Jutta Kunz
+  [2111.09628v1] 2021-11-18 Wormhole solutions with NUT charge in higher curvature theories — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2012.05178v1] 2020-12-09 Scalarized nutty wormholes — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2006.13008v1] 2020-06-23 Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential — Rustam Ibadov, Burkhard Kleihaus, Jutta Kunz, Sardor Murodov
+  [2005.07650v1] 2020-05-15 Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1910.02121v2] 2019-10-04 Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1904.13091v2] 2019-04-30 Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus
+  [1111.4049v3] 2011-11-17 Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+  [1108.3003v2] 2011-08-15 Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+
+### au:Kanti AND abs:wormhole: 22 resultados
+  [2412.20296v1] 2024-12-28 Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond — Panagiota Kanti
+  [2210.17533v1] 2022-10-31 Constraining modified gravity theories with scalar fields using black-hole images — Georgios Antoniou, Alexandros Papageorgiou, Panagiota Kanti
+  [2203.14595v2] 2022-03-28 Compact objects of spherical symmetry in beyond Horndeski theories — Athanasios Bakopoulos, Christos Charmousis, Panagiota Kanti, Nicolas Lecoeur
+  [2111.09857v2] 2021-11-18 Traversable wormholes in beyond Horndeski theories — Athanasios Bakopoulos, Christos Charmousis, Panagiota Kanti
+  [2005.07650v1] 2020-05-15 Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1910.02121v2] 2019-10-04 Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories — Burkhard Kleihaus, Jutta Kunz, Panagiota Kanti
+  [1904.13091v2] 2019-04-30 Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus
+  [1111.4049v3] 2011-11-17 Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+  [1108.3003v2] 2011-08-15 Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+  [1107.5994v1] 2011-07-28 A Nonsingular Brans Wormhole: An Analogue to Naked Black Holes — Amrita Bhattacharya, Ramil Izmailov, Ettore Laserra, Kamal K. Nandi
+  [1006.4819v2] 2010-06-24 Brans-Dicke Wormhole Revisited -- II — Ramil Izmailov, Amrita Bhattacharya, Kamal K. Nandi
+  [0910.1109v2] 2009-10-06 Brans-Dicke Wormhole Revisited — Amrita Bhattacharya, Ilnur Nigmatzyanov, Ramil Izmailov, Kamal K. Nandi
+  [0906.0436v1] 2009-06-02 Brans wormholes — Kamal K. Nandi, Anwarul Islam
+  [0906.0181v1] 2009-05-31 Brans-Dicke wormholes in the Jordan and Einstein frames — K. K. Nandi, B. Bhattacharjee, S. M. K. Alam, J. Evans
+  [0809.4143v3] 2008-09-24 Energetics in Condensate Star and Wormholes — K. K. Nandi, Y. Z. Zhang, R. G. Cai, A. Panchenko
+  [0808.3240v1] 2008-08-24 New Features of Extended Wormhole Solutions in the Scalar Field Gravity Theories — Kamal K. Nandi, Ilnur Nigmatzyanov, Ramil Izmailov, Nail G. Migranov
+  [0806.4059v1] 2008-06-25 Gravitational lensing by wormholes — Tushar Kanti Dey, Surajit Sen
+  [gr-qc/0602062v4] 2006-02-16 Gravitational Lensing by Wormholes — Kamal Kanti Nandi, Yuan-Zhong Zhang, Alexander V. Zakharov
+  [gr-qc/0409085v5] 2004-09-22 Acoustic Wormholes — Kamal Kanti Nandi, Yuan-Zhong Zhang, Rong-Gen Cai
+  [gr-qc/0407079v5] 2004-07-21 Volume Integral Theorem for Exotic Matter — Kamal Kanti Nandi, Yuan-Zhong Zhang, K. B. Vijaya Kumar
+  [gr-qc/0407032v1] 2004-07-08 Semiclassical and Quantum Field Theoretic Bounds for Traversable Lorentzian Stringy Wormholes — Kamal Kanti Nandi, Yuan-Zhong Zhang, K. B. Vijaya Kumar
+  [gr-qc/0406014v2] 2004-06-04 Comments on "New Brans-Dicke Wormholes" — Arunava Bhadra, Ion Simaciu, Kamal Kanti Nandi, Yuan-Zhong Zhang
+
+### au:Antoniou AND abs:wormhole: 7 resultados
+  [2505.02210v4] 2025-05-04 Wormhole Nucleation via Topological Surgery in Lorentzian Geometry — Alessandro Pisana, Barak Shoshany, Stathis Antoniou, Louis H. Kauffman
+  [2308.03501v1] 2023-08-07 New perspectives on scalar fields in strong gravity — Georgios Antoniou
+  [2210.17533v1] 2022-10-31 Constraining modified gravity theories with scalar fields using black-hole images — Georgios Antoniou, Alexandros Papageorgiou, Panagiota Kanti
+  [1904.13091v2] 2019-04-30 Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus
+  [1812.07975v1] 2018-12-11 Topological surgery in the small and in the large — Stathis Antoniou, Louis H. Kauffman, Sofia Lambropoulou
+  [1812.00837v1] 2018-12-03 Topological surgery in cosmic phenomena — Stathis Antoniou, Louis H. Kauffman, Sofia Lambropoulou
+  [1808.00254v2] 2018-08-01 Black holes and topological surgery — Stathis Antoniou, Louis H. Kauffman, Sofia Lambropoulou
+
+### au:Bakopoulos AND abs:wormhole: 6 resultados
+  [2306.16768v3] 2023-06-29 Stealth Ellis Wormholes In Horndeski theories — Athanasios Bakopoulos, Nikos Chatzifotis, Cristian Erices, Eleftherios Papantonopoulos
+  [2209.09499v1] 2022-09-20 Compact objects in gravity theories — Athanasios Bakopoulos, Christos Charmousis, Nicolas Lecoeur
+  [2203.14595v2] 2022-03-28 Compact objects of spherical symmetry in beyond Horndeski theories — Athanasios Bakopoulos, Christos Charmousis, Panagiota Kanti, Nicolas Lecoeur
+  [2111.09857v2] 2021-11-18 Traversable wormholes in beyond Horndeski theories — Athanasios Bakopoulos, Christos Charmousis, Panagiota Kanti
+  [2010.13189v1] 2020-10-25 Black holes and wormholes in the Einstein-scalar-Gauss-Bonnet generalized theories of gravity — Athanasios Bakopoulos
+  [1904.13091v2] 2019-04-30 Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter — Georgios Antoniou, Athanasios Bakopoulos, Panagiota Kanti, Burkhard Kleihaus
+
+### abs:wormhole AND abs:"Gauss-Bonnet" AND abs:stability AND abs:radial: 9 resultados
+  [2608.15049v1] 2026-08-15 Five-Dimensional Traversable Wormholes in Einstein-Gauss-Bonnet Gravity with a Cloud of Strings — Jaydeep Goswami, Umananda Dev Goswami
+  [2106.04369v1] 2021-06-06 Non-exotic wormholes in 4-D Einstein-Gauss-Bonnet gravity — Ambuj Kumar Mishra,  Shweta, Umesh Kumar Sharma
+  [2004.14267v4] 2020-04-29 Traversable Thin-shell Wormhole in the 4D Einstein-Gauss-Bonnet Theory — Peng Liu, Chao Niu, Wei-Liang Qian, Xiaobao Wang
+  [2002.02577v3] 2020-02-07 Thin-shell wormholes in Einstein and Einstein-Gauss-Bonnet theories of gravity — Takafumi Kokubu, Tomohiro Harada
+  [1912.08382v1] 2019-12-18 Black Holes and Wormholes in Higher-Curvature Corrected Theories of Gravity — M. A. Cuyubamba
+  [1506.08550v1] 2015-06-29 Does the Gauss-Bonnet term stabilize wormholes? — Takafumi Kokubu, Hideki Maeda, Tomohiro Harada
+  [1108.3003v2] 2011-08-15 Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory — Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
+  [1103.3019v2] 2011-03-15 Stable thin-shell wormholes with a Chaplygin gas in Einstein-Maxwell-Gauss-Bonnet gravity — Z. Amirabi, M. Halilsoy, S. Habib Mazharimousavi
+  [gr-qc/0512029v2] 2005-12-05 Thin-shell wormholes in Einstein-Maxwell theory with a Gauss-Bonnet term — Marc Thibeault, Claudio Simeone, Ernesto F. Eiroa
+
+### abs:wormholes AND abs:Horndeski AND abs:"no-go": 2 resultados
+  [1812.07022v2] 2018-12-17 More about stable wormholes in beyond Horndeski theory — S. Mironov, V. Rubakov, V. Volkova
+  [1811.05832v1] 2018-11-14 Towards wormhole beyond Horndeski — S. Mironov, V. Rubakov, V. Volkova
+
+### au:Evseev AND abs:wormholes: 1 resultados
+  [1711.04152v1] 2017-11-11 No static sphericaly symmetric wormholes in Horndeski theory — O. A. Evseev, O. I. Melichev
+
+### au:Bronnikov AND au:Baleevskikh: 2 resultados
+  [1812.05704v1] 2018-12-13 On gravitational lensing by symmetric and asymmetric wormholes — K. A. Bronnikov, K. A. Baleevskikh
+  [1708.02324v3] 2017-08-07 Wormholes with fluid sources: A no-go theorem and new examples — K. A. Bronnikov, K. A. Baleevskikh, M. V. Skvortsova

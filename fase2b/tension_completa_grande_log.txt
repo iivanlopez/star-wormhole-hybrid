@@ -1,0 +1,4 @@
+ KKK referencia, zeta = 0, t = 6, s2 = 0: C predichas = [733.9782];  C completas (10 a 1e8) = [422.4955]
+ KKK referencia, zeta = 0, t = 2, s2 = 0: C predichas = [77.0466, 0.4362];  C completas (10 a 1e8) = [62.1718]
+ cuadratico 0.3465, zeta = 0, t = 2, s2 = 0: C predichas = [586025.3196, 0.4986];  C completas (10 a 1e8) = [14033.3971]
+ cuadratico 0.3465, zeta = 0, t = 6, s2 = 0: C predichas = [5287482.3836];  C completas (10 a 1e8) = [45007.6387]

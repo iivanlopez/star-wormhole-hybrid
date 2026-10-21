@@ -1,0 +1,11 @@
+1. Garganta lisa
+   ligadura ll en la garganta: 0
+   det M(0) = 2*(4*F1**2*u**2 + 1)
+   r''(0)   : comprobacion 0
+   Phi''(0) : comprobacion 0
+   N''/N(0) : comprobacion 0
+   N''(0)/P^2 = -128*F1**2*F2*u**6/((u**2 + 4)**2*(4*F1**2*u**2 + 1))
+2. Colapso del lapso
+   grado de det M en P: 1 ; coeficiente de P - d1 = 0
+   grado del numerador de Phi'' en P: 3 ; coeficiente de P^3 + d1 = 0
+   => Phi'' = -P^2 + O(P) si d1 != 0

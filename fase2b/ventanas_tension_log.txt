@@ -1,0 +1,59 @@
+1. Identidades
+   u^2 P(1) = 8*u**2*(-128*F0*F2*u**2*zeta**2 + 128*F0*F2*u**2*zeta + 16*F0*s2*u**2*zeta + 16*F0*u**2*zeta + 4*t**2 - 4*t*u**2*zeta - 16*t*zeta + u**4*zeta**2 + 8*u**2*zeta**2 + 16*zeta**2)
+   u^2 P(1) - 8u^2[(2t - zeta(u^2+4))^2 + 16 F0 zeta u^2 (1 + s2 + 8F2(1 - zeta))] = 0
+   coeficiente principal (u^2 LC) = u**2*zeta*(u**2 + 4)**2*(8*F0 + u**2*zeta + 4*zeta - 8)
+   zeta = 0:  u^2 P(1) = 32*t**2*u**2 ;  u^2 LC = -32*u**4
+
+2. Minimo de max Re s sobre (t, s2), t en [-60, 60], s2 = 10 sinh(y) con y en [-12, 12]:
+
+   KKK referencia: u = -0.7, F0 = 0.03, F2 = +0.03, zeta_c = 1.728
+      zeta = 0.00           : min max Re s = +1.00000 (doble precision: +1.00000) en t = -5.15e-06, s2 = +5.242e+05;   sin acotar t: +1.00000 en t = -5.15e-06
+      zeta = 0.25           : min max Re s = +1.00759 (doble precision: +1.00759) en t = +0.5393, s2 = +1.775e+05;   sin acotar t: +1.00759 en t = +0.539
+      zeta = 0.50           : min max Re s = +1.01536 (doble precision: +1.01536) en t = +1.095, s2 = +5.447e+05;   sin acotar t: +1.01536 en t = +1.1
+      zeta = 1.00           : min max Re s = +1.03148 (doble precision: +1.03148) en t = +2.261, s2 = +3.279e+05;   sin acotar t: +1.03148 en t = +2.26
+      zeta = 1.50           : min max Re s = +1.04844 (doble precision: +1.04844) en t = +3.503, s2 = +5.597e+05;   sin acotar t: +1.04844 en t = +3.5
+      zeta = 2.00 (> zeta_c): min max Re s = +0.16043 (doble precision: +0.16043) en t = -60, s2 = +117.6;   sin acotar t: +0.28550 en t = -4.79e+07
+      zeta = 2.50 (> zeta_c): min max Re s = +0.04561 (doble precision: +0.04561) en t = -60, s2 = +82.51;   sin acotar t: +0.04489 en t = -2.4e+06
+      zeta = 3.00 (> zeta_c): min max Re s = +0.02325 (doble precision: +0.02325) en t = -60, s2 = +64.03;   sin acotar t: +0.02270 en t = -1.14e+06
+
+   cuadratico 0.3087: u = 0.1957, F0 = 0.0225, F2 = +0.18, zeta_c = 1.936
+      zeta = 0.00           : min max Re s = +1.00000 (doble precision: +1.00000) en t = +3.361e-05, s2 = +5.835e+05;   sin acotar t: +1.00000 en t = +3.28e-05
+      zeta = 0.25           : min max Re s = +1.00567 (doble precision: +1.00567) en t = +0.4878, s2 = +6.246e+05;   sin acotar t: +1.00567 en t = +0.488
+      zeta = 0.50           : min max Re s = +1.01144 (doble precision: +1.01144) en t = +0.9868, s2 = +2.046e+05;   sin acotar t: +1.01144 en t = +0.987
+      zeta = 1.00           : min max Re s = +1.02329 (doble precision: +1.02329) en t = +2.02, s2 = +8.035e+05;   sin acotar t: +1.02329 en t = +2.02
+      zeta = 1.50           : min max Re s = +1.03557 (doble precision: +1.03557) en t = +3.103, s2 = +8.138e+05;   sin acotar t: +1.03557 en t = +3.1
+      zeta = 2.00 (> zeta_c): min max Re s = +0.07323 (doble precision: +0.07323) en t = -60, s2 = +1656;   sin acotar t: +0.07322 en t = -1.7e+06
+      zeta = 2.50 (> zeta_c): min max Re s = +0.00661 (doble precision: +0.00661) en t = -60, s2 = +1126;   sin acotar t: +0.00660 en t = -5.14e+05
+      zeta = 3.00 (> zeta_c): min max Re s = +0.00292 (doble precision: +0.00292) en t = -60, s2 = +860.2;   sin acotar t: +0.00292 en t = -2.07e+05
+
+   cuadratico 0.3465: u = 0.0723, F0 = 0.0081, F2 = +0.18, zeta_c = 1.981
+      zeta = 0.00           : min max Re s = +1.00000 (doble precision: +1.00000) en t = -9.473e-06, s2 = +7.209e+05;   sin acotar t: +1.00000 en t = -9.47e-06
+      zeta = 0.25           : min max Re s = +1.00203 (doble precision: +1.00203) en t = +0.4946, s2 = +7.069e+05;   sin acotar t: +1.00203 en t = +0.495
+      zeta = 0.50           : min max Re s = +1.00407 (doble precision: +1.00407) en t = +0.9932, s2 = +7.451e+05;   sin acotar t: +1.00407 en t = +0.993
+      zeta = 1.00           : min max Re s = +1.00820 (doble precision: +1.00820) en t = +2.003, s2 = +5.914e+05;   sin acotar t: +1.00820 en t = +2
+      zeta = 1.50           : min max Re s = +1.01238 (doble precision: +1.01238) en t = +3.029, s2 = +4.658e+05;   sin acotar t: +1.01238 en t = +3.03
+      zeta = 2.00 (> zeta_c): min max Re s = +0.03464 (doble precision: +0.03464) en t = -60, s2 = +1.223e+04;   sin acotar t: +0.03464 en t = -3.08e+05
+      zeta = 2.50 (> zeta_c): min max Re s = +0.00100 (doble precision: +0.00100) en t = -60, s2 = +8284;   sin acotar t: +0.00100 en t = -1e+05
+      zeta = 3.00 (> zeta_c): min max Re s = +0.00043 (doble precision: +0.00043) en t = -60, s2 = +6311;   sin acotar t: +0.00043 en t = -4.71e+04
+
+   gaussiano 0.2326: u = -0.7611, F0 = 0.05985, F2 = -0.1191, zeta_c = 1.642
+      zeta = 0.00           : min max Re s = +1.00000 (doble precision: +1.00000) en t = +4.146e-05, s2 = +4.564e+05;   sin acotar t: +1.00000 en t = +4.17e-05
+      zeta = 0.25           : min max Re s = +1.01532 (doble precision: +1.01532) en t = +0.5283, s2 = +6.385e+05;   sin acotar t: +1.01532 en t = +0.528
+      zeta = 0.50           : min max Re s = +1.03141 (doble precision: +1.03141) en t = +1.09, s2 = +3.341e+05;   sin acotar t: +1.03141 en t = +1.09
+      zeta = 1.00           : min max Re s = +1.06616 (doble precision: +1.06616) en t = +2.329, s2 = +6.04e+05;   sin acotar t: +1.06616 en t = +2.33
+      zeta = 1.50           : min max Re s = +1.10489 (doble precision: +1.10489) en t = +3.751, s2 = +2.238e+05;   sin acotar t: +1.10489 en t = +3.75
+      zeta = 2.00 (> zeta_c): min max Re s = +0.13630 (doble precision: +0.13630) en t = -60, s2 = +96.84;   sin acotar t: +0.13497 en t = -5.85e+06
+      zeta = 2.50 (> zeta_c): min max Re s = +0.04594 (doble precision: +0.04594) en t = -60, s2 = +67.29;   sin acotar t: +0.04502 en t = -1.81e+06
+      zeta = 3.00 (> zeta_c): min max Re s = +0.02440 (doble precision: +0.02440) en t = -60, s2 = +51.37;   sin acotar t: +0.02370 en t = -6.39e+05
+
+   KKK f0=1.06 (u=-3): u = -3.0, F0 = 0.003, F2 = +0.003, zeta_c = 0.614
+      zeta = 0.00           : min max Re s = +1.00000 (doble precision: +1.00000) en t = -0.0007892, s2 = +5.298e+05;   sin acotar t: +1.00000 en t = -0.000789
+      zeta = 0.25           : min max Re s = +1.00075 (doble precision: +1.00075) en t = +1.624, s2 = +5.036e+05;   sin acotar t: +1.00075 en t = +1.62
+      zeta = 0.50           : min max Re s = +1.00151 (doble precision: +1.00151) en t = +3.254, s2 = +2.714e+05;   sin acotar t: +1.00151 en t = +3.25
+      zeta = 1.00 (> zeta_c): min max Re s = +0.24127 (doble precision: +0.24127) en t = -4.986, s2 = +0.8435;   sin acotar t: +0.24127 en t = -4.99
+      zeta = 1.50 (> zeta_c): min max Re s = +0.16107 (doble precision: +0.16107) en t = -0.4097, s2 = -0.04122;   sin acotar t: +0.16107 en t = -0.41
+      zeta = 2.00 (> zeta_c): min max Re s = +0.14396 (doble precision: +0.14396) en t = +0.5355, s2 = -0.1576;   sin acotar t: +0.14396 en t = +0.536
+      zeta = 2.50 (> zeta_c): min max Re s = +0.13747 (doble precision: +0.13747) en t = +1.002, s2 = -0.1912;   sin acotar t: +0.13747 en t = +1
+      zeta = 3.00 (> zeta_c): min max Re s = +0.13478 (doble precision: +0.13478) en t = +1.223, s2 = -0.1944;   sin acotar t: +0.13478 en t = +1.22
+
+Guardado: resultados/ventanas_tension.json

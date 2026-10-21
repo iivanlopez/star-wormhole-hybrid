@@ -1,0 +1,1 @@
+238 raices verificadas con Dc: 238 ceros simples (cambio de signo y |Dc(w*)| < 1e-2 |Dc(w*(1 +- 0.0001))|); cociente maximo 2.2e-05

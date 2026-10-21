@@ -1,0 +1,20 @@
+s=0.1250 alpha_kkk=0.0237 f0=1.0458 zeta=2.000: w = 711.325+151.95j; omega_inf r0 = -0.9664-0.1021j
+  s=0.3125: sin convergencia, paso -> 0.0938
+  s=0.2188: sin convergencia, paso -> 0.0469
+s=0.1719 alpha_kkk=0.0220 f0=1.0508 zeta=2.000: w = 645.781+152.184j; omega_inf r0 = -0.8784-0.1021j
+s=0.2422 alpha_kkk=0.0195 f0=1.0573 zeta=2.000: w = 594.915+157.804j; omega_inf r0 = -0.7680-0.1001j
+s=0.3477 alpha_kkk=0.0159 f0=1.0644 zeta=2.000: w = 583.632+177.172j; omega_inf r0 = -0.6367-0.0945j
+s=0.5059 alpha_kkk=0.0114 f0=1.0694 zeta=2.000: w = 648.207+235.955j; omega_inf r0 = -0.4858-0.0857j
+s=0.7432 alpha_kkk=0.0065 f0=1.0671 zeta=2.000: w = 776.209+439.246j; omega_inf r0 = -0.3087-0.0813j
+  s=0.9932: sin convergencia, paso -> 0.1250
+  s=0.8682: sin convergencia, paso -> 0.0625
+s=0.8057 alpha_kkk=0.0056 f0=1.0651 zeta=2.000: w = 717.331+519.01j; omega_inf r0 = -0.2587-0.0838j
+s=0.8994 alpha_kkk=0.0045 f0=1.0615 zeta=2.000: w = 499.89+909.722j; omega_inf r0 = -0.1995-0.1180j
+s=1.0400 alpha_kkk=0.0035 f0=1.0571 zeta=1.960: w = 223.676+1554.6j; omega_inf r0 = -0.1661-0.1439j
+s=1.2510 alpha_kkk=0.0035 f0=1.0571 zeta=1.749: w = 445.064+1743.42j; omega_inf r0 = -0.1858-0.1443j
+s=1.5010 alpha_kkk=0.0035 f0=1.0571 zeta=1.499: w = 914.024+2035j; omega_inf r0 = -0.2199-0.1423j
+s=1.7510 alpha_kkk=0.0035 f0=1.0571 zeta=1.249: w = 2075.65+2511.85j; omega_inf r0 = -0.2864-0.1349j
+  s=2.0000: sin convergencia, paso -> 0.1250
+s=1.8760 alpha_kkk=0.0035 f0=1.0571 zeta=1.124: w = 3394.12+3300.84j; omega_inf r0 = -0.3536-0.1436j
+s=2.0000 alpha_kkk=0.0035 f0=1.0571 zeta=1.000: w = 5049.14+5144.34j; omega_inf r0 = -0.4342-0.1822j
+final s = 2.0

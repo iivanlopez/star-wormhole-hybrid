@@ -1,0 +1,12 @@
+w = -3.7: l 0.001 -> 0.5: |y - g|/|g| = 3.49e-13, max |ligaduras(g)| = 1.81e-12
+w = -3.7: l 0.3 -> 5.0: |y - g|/|g| = 3.80e-14, max |ligaduras(g)| = 8.40e-13
+w = -3.7: l 2.0 -> 40.0: |y - g|/|g| = 2.73e-14, max |ligaduras(g)| = 8.00e-14
+w = 12.5: l 0.001 -> 0.5: |y - g|/|g| = 3.51e-13, max |ligaduras(g)| = 1.81e-12
+w = 12.5: l 0.3 -> 5.0: |y - g|/|g| = 3.82e-14, max |ligaduras(g)| = 8.41e-13
+w = 12.5: l 2.0 -> 40.0: |y - g|/|g| = 2.80e-14, max |ligaduras(g)| = 8.00e-14
+w = (-40+7j): l 0.001 -> 0.5: |y - g|/|g| = 3.36e-13, max |ligaduras(g)| = 1.81e-12
+w = (-40+7j): l 0.3 -> 5.0: |y - g|/|g| = 3.88e-14, max |ligaduras(g)| = 8.41e-13
+w = (-40+7j): l 2.0 -> 40.0: |y - g|/|g| = 4.16e-14, max |ligaduras(g)| = 8.00e-14
+w = 0.0: l 0.001 -> 0.5: |y - g|/|g| = 3.48e-13, max |ligaduras(g)| = 1.81e-12
+w = 0.0: l 0.3 -> 5.0: |y - g|/|g| = 3.83e-14, max |ligaduras(g)| = 8.41e-13
+w = 0.0: l 2.0 -> 40.0: |y - g|/|g| = 2.63e-14, max |ligaduras(g)| = 8.00e-14

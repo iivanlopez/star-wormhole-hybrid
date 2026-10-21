@@ -1,0 +1,13 @@
+Empalmes y ligaduras en l = 0+ a orden dominante, con Lambda_s' = a^2 l1 y Lambda_s'' + rho beta mu = a s2:
+   lig_t   (orden a^0):  coef f = 0;   coef c = 0
+   lig_l   (orden a^1):  coef f = 0;   coef c = 0
+   J_tt    (orden a^0):  coef f = 0;   coef c = 0
+   J_thth  (orden a^2):  coef f = -(-2*l1*u + s**2*u**2*zeta + 4*s**2*zeta - 4*s**2 + 4)/2;   coef c = (2*F0*s**3*u**2*zeta + 8*F0*s**3*zeta - 2*F0*s**2*u**2*zeta + 8*F0*s**2*zeta + 2*l1*s*u + 2*l1*u - s**3*u**2*zeta - 4*s**3*zeta - s**2*u**2*zeta - 4*s**2*zeta)/(2*u*(s + 1))
+   J_phi   (orden a^1):  coef f = -(-16*F2*u**2*zeta + 16*F2*u**2 + s**2*u**2 + 4*s**2 + 2*s2*u**2 + u**2 - 4)/u;   coef c = -(-64*F2*s*u**2*zeta + 64*F2*s*u**2 - 64*F2*u**2*zeta + 64*F2*u**2 - 2*l1*s*u**3 - 8*l1*s*u + 2*l1*u**3 - 8*l1*u + s**3*u**4*zeta + 8*s**3*u**2*zeta + 16*s**3*zeta - s**2*u**4*zeta + 8*s**2*u**2 + 16*s**2*zeta + 8*s*s2*u**2 + 8*s*u**2 + 8*s2*u**2)/(4*u**2*(s + 1))
+
+Polinomio de grado 5 ; coeficiente principal: zeta*(u**2 + 4)**2*(8*F0 + u**2*zeta + 4*zeta - 8)
+zeta = 0: -4*u*(64*F2*s**3*u + 64*F2*s**2*u - 64*F2*s*u - 64*F2*u - l1**2*s*u**3 - 4*l1**2*s*u + l1**2*u**3 - 4*l1**2*u - 4*l1*s**3*u**2 - 16*l1*s**3 + 4*l1*s**2*u**2 - 16*l1*s**2 + 4*l1*s*u**2 + 16*l1*s - 4*l1*u**2 + 16*l1 + 8*s**4*u + 8*s**3*s2*u + 8*s**3*u + 8*s**2*s2*u - 8*s**2*u - 8*s*s2*u - 8*s*u - 8*s2*u)
+l1 = s2 = 0 (comprobacion frente a ley_analitica.json):
+   cociente = 1
+
+Guardado: resultados/tension_cercana.json

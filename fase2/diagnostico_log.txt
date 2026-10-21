@@ -1,0 +1,19 @@
+(a) theta_stop=1e-07 rtol=1e-10 l_max=2000: omega^2 = -0.4375933650
+(a) theta_stop=1e-07 rtol=1e-10 l_max=20000: omega^2 = -0.4743769006
+(a) theta_stop=1e-05 rtol=1e-10 l_max=20000: omega^2 = -0.4743769172
+(b) signo de D (compuesto vs directo):
+    w_fis=-0.5500: compuesto +1.786e-10   directo -1.141e+192
+    w_fis=-0.5250: compuesto +1.195e-10   directo +1.740e+187
+    w_fis=-0.5000: compuesto +6.047e-11   directo +0.000e+00
+    w_fis=-0.4750: compuesto +1.470e-12   directo +2.533e+177
+    w_fis=-0.4500: compuesto -5.748e-11   directo +1.256e+172
+    w_fis=-0.4250: compuesto -1.164e-10   directo +4.238e+166
+    w_fis=-0.4000: compuesto -1.752e-10   directo +4.218e+160
+(c) xi0=0.3 rho=1e+14: raices del Modelo L con omega^2 en [-30, -1]: []
+(c) xi0=0.1 rho=1e+14: raices del Modelo L con omega^2 en [-30, -1]: [-18.754410725406476]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\multiprocessing\queues.py", line 246, in _feed
+    send_bytes(obj)
+  File "C:\Python311\Lib\multiprocessing\connection.py", line 184, in send_bytes
+    self._check_closed()
+  File "C:\Python311\Lib\multiprocessing\connection.py", line 137, in _check_closed

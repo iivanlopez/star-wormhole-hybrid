@@ -1,0 +1,10 @@
+gauss 0.2821 zeta=0, rectangulo completo_y0=0.001 (-12, 12, 0.001, 12): +1.000 ceros (258 puntos, 0 sin resolver)
+gauss 0.2821 zeta=0, rectangulo Re<0 (-12, 0, 0.001, 12): +1.000 ceros (256 puntos, 0 sin resolver)
+gauss 0.2821 zeta=0, rectangulo Re>0 (0, 12, 0.001, 12): +0.000 ceros (256 puntos, 0 sin resolver)
+gauss 0.2821 zeta=0, rectangulo franja_Re>0_baja (0, 12, 0.001, 0.05): -0.000 ceros (256 puntos, 0 sin resolver)
+cuadratico 0.3087 zeta=2.5 l_extra=30: w = 716.402779 +3.482000 i  (omega_inf^2 r0^2 = 0.868860 +0.004223 i)  |Dc| = 1.7e-08
+cuadratico 0.3087 zeta=2.5 l_extra=60: w = 716.611536 +3.617226 i  (omega_inf^2 r0^2 = 0.869113 +0.004387 i)  |Dc| = 7.7e-08
+cuadratico 0.3087 zeta=2.5 l_extra=120: w = 716.747610 +3.505866 i  (omega_inf^2 r0^2 = 0.869278 +0.004252 i)  |Dc| = 1.6e-09
+cuadratico 0.3087 zeta=3 l_extra=30: w = 379.981467 +1.220380 i  (omega_inf^2 r0^2 = 0.460845 +0.001480 i)  |Dc| = 7.9e-09
+cuadratico 0.3087 zeta=3 l_extra=60: w = 379.892475 +1.232552 i  (omega_inf^2 r0^2 = 0.460737 +0.001495 i)  |Dc| = 1.3e-08
+cuadratico 0.3087 zeta=3 l_extra=120: w = 379.908557 +1.292756 i  (omega_inf^2 r0^2 = 0.460757 +0.001568 i)  |Dc| = 2.3e-09

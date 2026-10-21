@@ -1,0 +1,13 @@
+mitades repulsivas: 29648; fronteras de tipo de final en phi1: 800
+biseccion: 800 fronteras; con alguna mitad AF en la traza: 0
+         det | horizonte:  269 fronteras, l_s maximo en la frontera = 5.866 r0
+         det | phi      :  112 fronteras, l_s maximo en la frontera = 9.711 r0
+         det | r0       :   27 fronteras, l_s maximo en la frontera = 2.903 r0
+   horizonte | phi      :  303 fronteras, l_s maximo en la frontera = 18.43 r0
+         phi | r0       :   89 fronteras, l_s maximo en la frontera = 8.249 r0
+mitades repulsivas singulares: 29648; l_s/r0: max 291.9, percentil 99 18.6; l_s|a|: max 2598, mediana 1
+tiempo: 1506 s
+
+real	25m7.819s
+user	0m0.000s
+sys	0m0.031s

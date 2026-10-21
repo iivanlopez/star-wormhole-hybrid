@@ -1,0 +1,1743 @@
+{
+ "fecha_consulta": "2026-10-21",
+ "citados": [
+  {
+   "id": "1708.02324v3",
+   "titulo": "Wormholes with fluid sources: A no-go theorem and new examples",
+   "autores": [
+    "K. A. Bronnikov",
+    "K. A. Baleevskikh",
+    "M. V. Skvortsova"
+   ],
+   "revista": "Phys. Rev. D 96, 124039 (2017)",
+   "fecha": "2017-08-07",
+   "resumen": "For static, spherically symmetric space-times in general relativity (GR), a no-go theorem is proved: it excludes the existence of wormholes with flat and/or AdS asymptotic regions on both sides of the throat if the source matter is isotropic, i.e., the radial and tangential pressures coincide. It explains why in all previous attempts to build such solutions it was necessary to introduce boundaries with thin shells that manifestly violate the isotropy of matter. Under a simple assumption on the behavior of the spherical radius $r(x)$, we obtain a number of examples of wormholes with isotropic matter and one or both de Sitter asymptotic regions, allowed by the no-go theorem. We also obtain twice asymptotically flat wormholes with anisotropic matter, both symmetric and asymmetric with respect to the throat, under the assumption that the scalar curvature is zero. These solutions may be on equal grounds interpreted as those of GR with a traceless stress-energy tensor and as vacuum solutions in a brane world. For such wormholes, the traversability conditions and gravitational lensing properties are briefly discussed. As a by-product, we obtain twice asymptotically flat regular black hole solutions with up to four Killing horizons. As another by-product, we point out intersection points in families of integral curves for the function $A(x) = g_{tt}$, parametrized by its values on the throat."
+  },
+  {
+   "id": "2204.08232v1",
+   "titulo": "Symmetric wormholes in Einstein-vector-Gauss-Bonnet theory",
+   "autores": [
+    "Simon Barton",
+    "Claus Kiefer",
+    "Burkhard Kleihaus",
+    "Jutta Kunz"
+   ],
+   "revista": null,
+   "fecha": "2022-04-18",
+   "resumen": "We construct wormholes in Einstein-vector-Gauss-Bonnet theory where a real massless vector field is coupled to the higher curvature Gauss-Bonnet invariant. We consider three coupling functions which depend on the square of the vector field. The respective domains of existence of wormholes possess as their boundaries i) black holes, ii) solutions with a singular throat, iii) solutions with a degenerate throat and iv) solutions with cusp singularities. Depending on the coupling function wormhole solutions can feature a single throat or an equator surrounded by a double throat. The wormhole solutions need a thin shell of matter at the throat, in order to be symmetrically continued into the second asymptotically flat region. These wormhole spacetimes allow for bound and unbound particle motion as well as light rings."
+  },
+  {
+   "id": "1111.4049v3",
+   "titulo": "Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+   "autores": [
+    "Panagiota Kanti",
+    "Burkhard Kleihaus",
+    "Jutta Kunz"
+   ],
+   "revista": null,
+   "fecha": "2011-11-17",
+   "resumen": "We discuss the properties of Lorentzian wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions. These wormholes do not need any form of exotic matter for their existence. A subset of these wormholes is shown to be linearly stable with respect to radial perturbations. We perform a comprehensive study of their domain of existence, and derive a generalised Smarr relation for these wormholes. We also investigate their geodesics determining all possible particle trajectories, and perform a study of the acceleration and tidal forces that a traveler crossing the wormhole would feel."
+  },
+  {
+   "id": "1812.07022v2",
+   "titulo": "More about stable wormholes in beyond Horndeski theory",
+   "autores": [
+    "S. Mironov",
+    "V. Rubakov",
+    "V. Volkova"
+   ],
+   "revista": null,
+   "fecha": "2018-12-17",
+   "resumen": "It is known that Horndeski theories, like many other scalar-tensor gravities, do not support static, spherically symmetric wormholes: they always have either ghosts or gradient instabilities among parity-even linearized perturbations. Here we address the issue of whether or not this no-go theorem is valid in \"beyond Horndeski\" theories. We derive, in the latter class of theories, the conditions for the absence of ghost and gradient instabilities for non-spherical parity even perturbations propagating in the radial direction. We find, in agreement with existing arguments, that the proof of the above no-go theorem does not go through beyond Horndeski. We also obtain conditions ensuring the absence of ghosts and gradient instabilities for all parity odd modes. We give an example of beyond Horndeski Lagrangian which admits a wormhole solution obeying our (incomplete set of) stability conditions. Even though our stability analysis is incomplete, as we do not consider spherically symmetric parity even modes and parity even perturbations propagating in angular directions, as well as \"slow\" tachyonic instabilities, our findings indicate that beyond Horndeski theories may be viable candidates to support traversable wormholes."
+  },
+  {
+   "id": "1503.01409v1",
+   "titulo": "A bound on chaos",
+   "autores": [
+    "Juan Maldacena",
+    "Stephen H. Shenker",
+    "Douglas Stanford"
+   ],
+   "revista": null,
+   "fecha": "2015-03-04",
+   "resumen": "We conjecture a sharp bound on the rate of growth of chaos in thermal quantum systems with a large number of degrees of freedom. Chaos can be diagnosed using an out-of-time-order correlation function closely related to the commutator of operators separated in time. We conjecture that the influence of chaos on this correlator can develop no faster than exponentially, with Lyapunov exponent $λ_L \\le 2 πk_B T/\\hbar$. We give a precise mathematical argument, based on plausible physical assumptions, establishing this conjecture."
+  },
+  {
+   "id": "1904.13091v2",
+   "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+   "autores": [
+    "Georgios Antoniou",
+    "Athanasios Bakopoulos",
+    "Panagiota Kanti",
+    "Burkhard Kleihaus",
+    "Jutta Kunz"
+   ],
+   "revista": "Phys. Rev. D 101, 024033 (2020)",
+   "fecha": "2019-04-30",
+   "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+  },
+  {
+   "id": "1509.08808v3",
+   "titulo": "Can Galileons support Lorentzian wormholes?",
+   "autores": [
+    "V. A. Rubakov"
+   ],
+   "revista": null,
+   "fecha": "2015-09-29",
+   "resumen": "We discuss the possibility of constructing stable, static, spherically symmetric, asymptotically flat Lorentzian wormhole solutions in General Relativity coupled to a generalized Galileon field $π$. Assuming that Minkowski space-time is obtained at $\\partial π=0$, we find that there is tension between the properties of the energy-momentum tensor required to support a wormhole (violation of average null energy conditions) and stability of the Galileon perturbations about the putative solution (absence of ghosts and gradient instabilities). In 3-dimensional space-time, this tension is strong enough to rule out wormholes with above properties. In higher dimensions, including the most physically interesting case of 4-dimensional space-time, wormholes, if any, must have fairly contrived shapes."
+  },
+  {
+   "id": "1804.11170v2",
+   "titulo": "No stable wormholes in Einstein-dilaton-Gauss-Bonnet theory",
+   "autores": [
+    "M. A. Cuyubamba",
+    "R. A. Konoplya",
+    "A. Zhidenko"
+   ],
+   "revista": "Phys. Rev. D 98, 044040 (2018)",
+   "fecha": "2018-04-30",
+   "resumen": "In [P. Kanti, B. Kleihaus, J. Kunz, Phys. Rev. Lett. 107, 271101 (2011)] it was shown that the four-dimensional Einstein-dilaton-Gauss-Bonnet theory allows for wormholes without introducing any exotic matter. The numerical solution for the wormhole was obtained there and it was claimed that this solution is gravitationally stable against radial perturbations, what, by now, would mean the only known theoretical possibility for existence of an apparently stable, four-dimensional and asymptotically flat wormhole without exotic matter. Here, more detailed analysis of perturbations shows that the Kanti-Kleihaus-Kunz wormhole is unstable against small perturbations for any values of its parameters. The exponential growth appears in the time domain after a long period of damped oscillations, in the same way as it takes place in the case of unstable higher-dimensional black holes in the Einstein-Gauss-Bonnet theory. The instability is driven by the purely imaginary mode, which is nonperturbative in the Gauss-Bonnet coupling$α$."
+  },
+  {
+   "id": "1711.04152v1",
+   "titulo": "No static sphericaly symmetric wormholes in Horndeski theory",
+   "autores": [
+    "O. A. Evseev",
+    "O. I. Melichev"
+   ],
+   "revista": "Phys. Rev. D 97, 124040 (2018)",
+   "fecha": "2017-11-11",
+   "resumen": "We consider the Horndeski theory in four-dimensional space-time. We show that this theory does not admit stable, static, spherically symmetric, asymptotically flat, Lorentzian wormholes."
+  },
+  {
+   "id": "1610.06070v2",
+   "titulo": "Universality in Chaos of Particle Motion near Black Hole Horizon",
+   "autores": [
+    "Koji Hashimoto",
+    "Norihiro Tanahashi"
+   ],
+   "revista": "Phys. Rev. D 95, 024007 (2017)",
+   "fecha": "2016-10-19",
+   "resumen": "Motion of a particle near a horizon of a spherically symmetric black hole is shown to possess a universal Lyapunov exponent of a chaos provided by its surface gravity. To probe the horizon, we introduce electromagnetic or scalar force to the particle so that it does not fall into the horizon. There appears an unstable maximum of the total potential where the evaluated maximal Lyapunov exponent is found to be independent of the external forces and the particle mass. The Lyapunov exponent is universally given by the surface gravity of the black hole. Unless there are other sources of a chaos, the Lyapunov exponent is subject to an inequality $λ\\leq 2πT_{\\rm BH}/\\hbar$, which is identical to the bound recently discovered by Maldacena, Shenker and Stanford."
+  },
+  {
+   "id": "1108.3003v2",
+   "titulo": "Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+   "autores": [
+    "Panagiota Kanti",
+    "Burkhard Kleihaus",
+    "Jutta Kunz"
+   ],
+   "revista": "Phys.Rev.Lett. 107 (2011) 271101",
+   "fecha": "2011-08-15",
+   "resumen": "We construct traversable wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions, without needing any form of exotic matter. We determine their domain of existence, and show that these wormholes satisfy a generalised Smarr relation. We demonstrate linear stability with respect to radial perturbations for a subset of these wormholes."
+  },
+  {
+   "id": "1907.09463v2",
+   "titulo": "Ellis wormhole without a phantom scalar field",
+   "autores": [
+    "Pedro Cañate",
+    "Joseph Sultana",
+    "Demosthenes Kazanas"
+   ],
+   "revista": "Phys. Rev. D 100, 064007 (2019)",
+   "fecha": "2019-07-22",
+   "resumen": "In this paper, we present an exact solution for $(3+1)$-dimensional Einstein-scalar-Gauss-Bonnet theory (EsGB) in electrovacuum. The solution is characterized by only one parameter, $Q$, which in general can be associated with the electromagnetic field and the scalar field. We show that the solution corresponds to a charged wormhole with throat at the region $r = |Q|$, and is also supported by a real scalar field having a positive kinetic term. We show that the solution belongs to the most general class of solutions known as Ellis wormholes but without the need for `exotic matter' or a phantom scalar field."
+  },
+  {
+   "id": "2412.20296v1",
+   "titulo": "Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond",
+   "autores": [
+    "Panagiota Kanti"
+   ],
+   "revista": null,
+   "fecha": "2024-12-28",
+   "resumen": "In the context of General Relativity, black holes are not allowed to possess scalar hair, wormholes are not traversable and particle-like solutions are irregular. Therefore, in order to derive novel and physically interesting solutions that describe compact objects one needs to address generalised gravitational theories. One popular class of such theories is the Einstein-scalar-Gauss-Bonnet (EsGB) theory with a general coupling function between the scalar field of the theory and the quadratic Gauss-Bonnet term. Starting from black holes, we present a variety of spherically-symmetric solutions for several different forms of the coupling function and discuss their main features. We then proceed to wormhole solutions and demonstrate that the EsGB theory naturally supports traversable wormholes without the need for exotic matter. Regular scalarised particle-like solutions also emerge in the context of the same theory which also possess interesting observable features such as photon rings and echoes. Moving beyond this class of theories, we then address the more extended scalar-tensor Horndeski theory, briefly mention the types of black-hole solutions that arise, and demonstrate that an appropriately constructed disformal transformation of a black-hole solution, such as the Lu-Pang solution, results into a traversable wormhole in the context of the beyond-Horndeski theory."
+  },
+  {
+   "id": "2006.13008v1",
+   "titulo": "Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential",
+   "autores": [
+    "Rustam Ibadov",
+    "Burkhard Kleihaus",
+    "Jutta Kunz",
+    "Sardor Murodov"
+   ],
+   "revista": "Phys. Rev. D 102, 064010 (2020)",
+   "fecha": "2020-06-23",
+   "resumen": "We construct wormholes in Einstein-scalar-Gauss-Bonnet theories with a potential for the scalar field that includes a mass term and self-interaction terms. By varying the Gauss-Bonnet coupling constant we delimit the domain of existence of wormholes in these theories. The presence of the self-interaction enlarges the domain of existence significantly. There arise wormholes with a single throat and wormholes with an equator and a double throat. We determine the physical properties of these wormholes including their mass, their size and their geometry."
+  },
+  {
+   "id": "2609.18475v1",
+   "titulo": "Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity",
+   "autores": [
+    "Sardor Murodov",
+    "Bekzod Rahmatov",
+    "Javlon Rayimbaev",
+    "Bobomurat Ahmedov"
+   ],
+   "revista": null,
+   "fecha": "2026-09-16",
+   "resumen": "We investigate slowly rotating traversable wormholes in Einstein--scalar--Gauss--Bonnet gravity beyond the linear rotation regime. The static backgrounds are obtained without expanding in the Gauss--Bonnet coupling, while rotational effects are treated perturbatively up to second order. Both monopolar and quadrupolar deformations are included, allowing us to determine the spin-induced changes in the asymptotic charges, throat geometry, energy-condition behavior, and mass quadrupole. The quadrupolar equations develop an internal regular singular point, which is handled by selecting the regular local solution through a Frobenius analysis. The rotation-induced response of the throat source is incorporated consistently through the junction conditions. Independent shooting and collocation calculations of the quadrupolar sector give mutually consistent solutions. The rotating throat remains oblate throughout the fixed-coupling family, while at $χ=0.15$ the smooth-bulk near-throat radial null-energy-condition violation persists but its radial extent becomes latitude dependent. These results provide a self-consistent second-order description of rotating Einstein--scalar--Gauss--Bonnet wormholes."
+  }
+ ],
+ "busquedas": {
+  "abs:wormhole AND abs:\"Gauss-Bonnet\" AND abs:asymmetric": [
+   {
+    "id": "2607.03673v2",
+    "titulo": "Additional Observational Signatures of Asymmetric Thin-Shell Wormholes within 4D Einstein-Gauss-Bonnet Gravity",
+    "autores": [
+     "J. Song",
+     "X. G. Lan"
+    ],
+    "revista": null,
+    "fecha": "2026-07-04",
+    "resumen": "In this paper, we study the optical appearance of a 4D Einstein-Gauss-Bonnet asymmetric thin-shell wormhole. Using Visser's cut-and-paste construction, we determine the photon sphere radius and critical impact parameter for different values of the Gauss-Bonnet coupling $α$. We then investigate the effective potential and photon motion inside the wormhole spacetime. It is found that the effective potential, light ray paths, and azimuthal angle are closely tied to the mass ratio of the two spacetimes. Considering an optically thin accretion disk as the only light source, we find that the asymmetric thin-shell wormhole's images exhibit additional photon rings and lensing bands that are absent for a 4D Einstein-Gauss-Bonnet black hole. Furthermore, the size of these extra rings increases with $α$, contrary to the black hole case. Such exceptionally bright rings provide a reliable criterion for distinguishing and characterizing a thin-shell wormhole spacetime. We also verify that the mass ratio and throat radius significantly tune the morphology of these extra photon rings."
+   }
+  ],
+  "abs:wormholes AND abs:\"Gauss-Bonnet\" AND abs:asymmetric": [
+   {
+    "id": "2607.03673v2",
+    "titulo": "Additional Observational Signatures of Asymmetric Thin-Shell Wormholes within 4D Einstein-Gauss-Bonnet Gravity",
+    "autores": [
+     "J. Song",
+     "X. G. Lan"
+    ],
+    "revista": null,
+    "fecha": "2026-07-04",
+    "resumen": "In this paper, we study the optical appearance of a 4D Einstein-Gauss-Bonnet asymmetric thin-shell wormhole. Using Visser's cut-and-paste construction, we determine the photon sphere radius and critical impact parameter for different values of the Gauss-Bonnet coupling $α$. We then investigate the effective potential and photon motion inside the wormhole spacetime. It is found that the effective potential, light ray paths, and azimuthal angle are closely tied to the mass ratio of the two spacetimes. Considering an optically thin accretion disk as the only light source, we find that the asymmetric thin-shell wormhole's images exhibit additional photon rings and lensing bands that are absent for a 4D Einstein-Gauss-Bonnet black hole. Furthermore, the size of these extra rings increases with $α$, contrary to the black hole case. Such exceptionally bright rings provide a reliable criterion for distinguishing and characterizing a thin-shell wormhole spacetime. We also verify that the mass ratio and throat radius significantly tune the morphology of these extra photon rings."
+   }
+  ],
+  "abs:wormhole AND abs:\"Gauss-Bonnet\" AND abs:\"thin shell\"": [
+   {
+    "id": "2607.03673v2",
+    "titulo": "Additional Observational Signatures of Asymmetric Thin-Shell Wormholes within 4D Einstein-Gauss-Bonnet Gravity",
+    "autores": [
+     "J. Song",
+     "X. G. Lan"
+    ],
+    "revista": null,
+    "fecha": "2026-07-04",
+    "resumen": "In this paper, we study the optical appearance of a 4D Einstein-Gauss-Bonnet asymmetric thin-shell wormhole. Using Visser's cut-and-paste construction, we determine the photon sphere radius and critical impact parameter for different values of the Gauss-Bonnet coupling $α$. We then investigate the effective potential and photon motion inside the wormhole spacetime. It is found that the effective potential, light ray paths, and azimuthal angle are closely tied to the mass ratio of the two spacetimes. Considering an optically thin accretion disk as the only light source, we find that the asymmetric thin-shell wormhole's images exhibit additional photon rings and lensing bands that are absent for a 4D Einstein-Gauss-Bonnet black hole. Furthermore, the size of these extra rings increases with $α$, contrary to the black hole case. Such exceptionally bright rings provide a reliable criterion for distinguishing and characterizing a thin-shell wormhole spacetime. We also verify that the mass ratio and throat radius significantly tune the morphology of these extra photon rings."
+   },
+   {
+    "id": "2511.15001v1",
+    "titulo": "Tides and energy conditions in Einstein-Gauss-Bonnet thin-shell wormholes",
+    "autores": [
+     "Ernesto F. Eiroa",
+     "Emilio Rubín de Celis",
+     "Claudio Simeone"
+    ],
+    "revista": "Universe 11 (2025) 368",
+    "fecha": "2025-11-19",
+    "resumen": "In this article we study spherical thin-shell wormholes in five-dimensional Einstein-Gauss-Bonnet gravity. We show that configurations supported by non-exotic matter, that is matter satisfying the weak energy condition, are possible at the same time that traversability problems associated with strong radial tides at the throat can be avoided when suitable values of the parameters are adopted. Our construction is performed in such a way that it also allows for the admissible behaviour of the geometry in the whole spacetime."
+   },
+   {
+    "id": "2405.05476v2",
+    "titulo": "A Review of Stable, Traversable Wormholes in f (R) Gravity Theories",
+    "autores": [
+     "Ramesh Radhakrishnan",
+     "Patrick Brown",
+     "Jacob Mutulevich",
+     "Eric Davis",
+     "Delaram Mirfendereski",
+     "Gerald Cleaver"
+    ],
+    "revista": "Symmetry 2024, 16, 1007.",
+    "fecha": "2024-05-09",
+    "resumen": "It has been proven that in standard Einstein gravity, exotic matter is required to stabilize traversable wormholes. Quantum field theory permits these violations due to the quantum coherent effects found in any quantum field. Even reasonable classical scalar fields violate the energy conditions. In the case of the Casimir effect and squeezed vacuum states, these violations have been experimentally proven. It is advantageous to investigate methods to minimize the use of exotic matter. One such area of interest is extended theories of Einstein gravity. It has been claimed that in some extended theories, stable traversable wormholes solutions can be found without the use of exotic matter. There are many extended theories of gravity, and in this review paper, we first explore modified gravity theories and then explore some wormhole solutions in such theories, including Lovelock gravity and Einstein Dilaton Gauss Bonnet gravity. For completeness, we have also reviewed other wormholes such as Casimir wormholes, dark matter halo wormholes, thin-shell wormholes, and Nonlocal Gravity wormholes, where alternative techniques are used to either avoid or reduce the amount of exotic matter that is required."
+   },
+   {
+    "id": "2211.03544v1",
+    "titulo": "Thin-shell wormhole under non-commutative geometry inspired Einstein-Gauss-Bonnet gravity",
+    "autores": [
+     "N. Rahman",
+     "M. Kalam",
+     "A. Das",
+     "S. Islam",
+     "F. Rahaman",
+     "M. Murshid"
+    ],
+    "revista": null,
+    "fecha": "2022-11-04",
+    "resumen": "Einstein-Gauss-Bonnet gravity is a generalization of the general relativity to higher dimensions in which the first and second-order terms correspond to general relativity and Einstein-Gauss-Bonnet gravity respectively. We construct a new class of five-dimensional (5D) thin-shell wormholes by the `Cut-Paste' technique from black holes in Einstein-Gauss-Bonnet gravity inspired by non-commutative geometry starting with a static spherically symmetric, Gaussian mass distribution as a source and for this structural form of the thin shell wormhole we have explored several salient features of the solution, viz., pressure-density profile, equation of state, the nature of wormhole, total amount of exotic matter content at the shell. We have also analyzed the linearized stability of the constructed wormhole. From our study we can assert that our model is found to be plausible with reference to the other model of thin-shell wormhole available in literature."
+   },
+   {
+    "id": "2207.05965v1",
+    "titulo": "Junction conditions in perfect fluid $f(\\mathcal{G},~T)$ gravitational theory",
+    "autores": [
+     "M. Z. Bhatti",
+     "Z. Yousaf",
+     "M. Yousaf"
+    ],
+    "revista": null,
+    "fecha": "2022-07-13",
+    "resumen": "This manuscript aims to establish the gravitational junction conditions(JCs) for the $f(\\mathcal{G},~T)$ gravity. In this gravitational theory, $f$ is an arbitrary function of Gauss-Bonnet invariant $\\mathcal{G}$ and the trace of the energy-momentum tensor $T_{μν}$ i.e., $T$. We start by introducing this gravity theory in its usual geometrical representation and posteriorly obtain a dynamically equivalent scalar-tensor demonstration on which the arbitrary dependence on the generic function $f$ in both $\\mathcal G$ and $T$ is exchanged by two scalar fields and scalar potential. We then derive the JCs for matching between two different space-times across a separation hyper-surface $Σ$, assuming the matter sector to be described by an isotropic perfect fluid configuration. We take the general approach assuming the possibility of a thin-shell arising at $Σ$ between the two space-times. However, our results establish that, for the distribution formalism to be well-defined, thin-shells are not allowed to emerge in the general version of this theory. We thus obtain instead a complete set of JCs for a smooth matching at $Σ$ under the same conditions. The same results are then obtained in the scalar-tensor representation of the theory, thus emphasizing the equivalence between these two representations. Our results significantly constrain the possibility of developing models for alternative compact structures supported by thin-shells in $f(\\mathcal{G},~T)$ gravity, e.g. gravastars and thin-shell wormholes, but provide a suitable framework for the search of models presenting a smooth matching at their surface, from which perfect fluid stars are possible examples."
+   },
+   {
+    "id": "2204.08232v1",
+    "titulo": "Symmetric wormholes in Einstein-vector-Gauss-Bonnet theory",
+    "autores": [
+     "Simon Barton",
+     "Claus Kiefer",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": null,
+    "fecha": "2022-04-18",
+    "resumen": "We construct wormholes in Einstein-vector-Gauss-Bonnet theory where a real massless vector field is coupled to the higher curvature Gauss-Bonnet invariant. We consider three coupling functions which depend on the square of the vector field. The respective domains of existence of wormholes possess as their boundaries i) black holes, ii) solutions with a singular throat, iii) solutions with a degenerate throat and iv) solutions with cusp singularities. Depending on the coupling function wormhole solutions can feature a single throat or an equator surrounded by a double throat. The wormhole solutions need a thin shell of matter at the throat, in order to be symmetrically continued into the second asymptotically flat region. These wormhole spacetimes allow for bound and unbound particle motion as well as light rings."
+   },
+   {
+    "id": "2103.06314v2",
+    "titulo": "Generalized Darmois-Israel junction conditions",
+    "autores": [
+     "Chong-Sun Chu",
+     "H. S. Tan"
+    ],
+    "revista": null,
+    "fecha": "2021-03-10",
+    "resumen": "We present a general method to derive the appropriate Darmois-Israel junction conditions for gravitational theories with higher-order derivative terms by integrating the bulk equations of motion across the singular hypersurface. In higher derivative theories, the field equations can contain terms which are more singular than the Dirac delta distribution. To handle them appropriately, we formulate a regularization procedure based on representing the delta function as the limit of a sequence of classical functions. This procedure involves imposing suitable constraints on the extrinsic curvature such that the field equations are compatible with the singular source being a delta distribution. As explicit examples of our approach, we demonstrate in detail how to obtain the generalized junction conditions for quadratic gravity, $\\mathcal{F}(R)$ theories, a 4D low-energy effective action in string theory and action terms that are Euler densities. Our results are novel, and refine the accuracy of previously claimed results in $\\mathcal{F} (R)$ theories and quadratic gravity. In particular, when the coupling constants of quadratic gravity are those for the Gauss-Bonnet case, our junction conditions reduce to the known ones for the latter obtained independently by boundary variation of a surface term in the action. Finally, we briefly discuss a couple of applications to thin-shell wormholes and stellar models."
+   },
+   {
+    "id": "2004.14267v4",
+    "titulo": "Traversable Thin-shell Wormhole in the 4D Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Peng Liu",
+     "Chao Niu",
+     "Wei-Liang Qian",
+     "Xiaobao Wang",
+     "Cheng-Yong Zhang"
+    ],
+    "revista": "Chin.J.Phys. 83 (2023) 527-538",
+    "fecha": "2020-04-29",
+    "resumen": "This work investigates the spherically symmetric thin-shell wormhole solutions in four-dimensional Einstein-Gauss-Bonnet theory and explores their stabilities under radial, linear perturbations. These solutions are typically traversable and characterized by a thin-shell throat in accordance with Israel's junction conditions. In asymptotically flat and AdS spacetimes with a negative Gauss-Bonnet coupling constant, stable neutral wormholes are encountered when the magnitude of the coupling constant becomes significant. The throats of such wormholes are sustained by ordinary matter and possess finite radii. In asymptotically dS spacetimes, no stable neutral wormhole featuring ordinary matter is observed. On the other hand, for positive Gauss-Bonnet coupling constant, stable thin-shell wormhole solutions can be established when the throats are exclusively supported by exotic matter. Moreover, stable charged wormholes comprised of ordinary matter are found universally in the asymptotically flat, AdS, and dS spacetimes. Unlike their neutral counterparts, the throat radii of such charged wormholes can be arbitrarily small. However, as the charge becomes more significant, such solutions only remain stable when supported by exotic matter."
+   },
+   {
+    "id": "2002.08358v2",
+    "titulo": "Thin-shell Wormholes with Ordinary Matter in Pure Gauss-Bonnet Gravity",
+    "autores": [
+     "S. Danial Forghani",
+     "S. Habib Mazharimousavi"
+    ],
+    "revista": null,
+    "fecha": "2020-02-19",
+    "resumen": "In this paper, we introduce higher dimensional thin-shell wormholes in pure Gauss-Bonnet gravity. The focus is on thin-shell wormholes constructed by $N\\geq5$-dimensional spherically symmetric vacuum solutions. The results suggest that, under certain conditions, it is possible to have thin-shell wormholes that both satisfy the weak energy condition and be stable against radial perturbations."
+   },
+   {
+    "id": "2002.02577v3",
+    "titulo": "Thin-shell wormholes in Einstein and Einstein-Gauss-Bonnet theories of gravity",
+    "autores": [
+     "Takafumi Kokubu",
+     "Tomohiro Harada"
+    ],
+    "revista": "Universe 2020, 6(11), 197",
+    "fecha": "2020-02-07",
+    "resumen": "We review recent works on the possibility for eternal existence of thin-shell wormholes on Einstein and Einstein-Gauss-Bonnet gravity. We introduce thin-shell wormholes that are categorized into a class of traversable wormhole solutions. After that, we discuss stable thin-shell wormholes with negative-tension branes in Reissner-Nordström-(anti) de Sitter spacetimes in $d$ dimensional Einstein gravity. Imposing $Z_2$ symmetry, we construct and classify traversable static thin-shell wormholes in spherical, planar and hyperbolic symmetries. It is found that the spherical wormholes are stable against spherically symmetric perturbations. It is also found that some classes of wormholes in planar and hyperbolic symmetries with a negative cosmological constant are stable against perturbations preserving symmetries. In most cases, stable wormholes are found with the appropriate combination of an electric charge and a negative cosmological constant. However, as special cases, there are stable wormholes even with a vanishing cosmological constant in spherical symmetry and with a vanishing electric charge in hyperbolic symmetry. Subsequently, the existence and dynamical stability of traversable thin-shell wormholes with electrically neutral negative-tension branes is discussed in Einstein-Gauss-Bonnet theory of gravitation. We consider radial perturbations against the shell for the solutions, which have the $Z_2$ symmetry. The effect of the Gauss-Bonnet term on the stability depends on the spacetime symmetry."
+   },
+   {
+    "id": "1506.08550v1",
+    "titulo": "Does the Gauss-Bonnet term stabilize wormholes?",
+    "autores": [
+     "Takafumi Kokubu",
+     "Hideki Maeda",
+     "Tomohiro Harada"
+    ],
+    "revista": "Class.Quant.Grav. 32 (2015) 23, 235021",
+    "fecha": "2015-06-29",
+    "resumen": "The effect of the Gauss-Bonnet term on the existence and dynamical stability of thin-shell wormholes as negative tension branes is studied in the arbitrary dimensional spherically, planar, and hyperbolically symmetric spacetimes. We consider radial perturbations against the shell for the solutions which have the Z${}_2$ symmetry and admit the general relativistic limit. It is shown that the Gauss-Bonnet term shrinks the parameter region admitting static wormholes. The effect of the Gauss-Bonnet term on the stability depends on the spacetime symmetry. For planar symmetric wormholes, the Gauss-Bonnet term does not affect their stability. If the coupling constant is positive but small, the Gauss-Bonnet term tends to destabilize spherically symmetric wormholes, while it stabilizes hypebolically symmetric wormholes. The Gauss-Bonnet term can destabilize hypebolically symmetric wormholes as a non-perturbative effect, however, spherically symmetric wormholes cannot be stable."
+   },
+   {
+    "id": "1203.3755v1",
+    "titulo": "Addendum to \"Thin-shell wormholes supported by ordinary matter in Einstein-Gauss-Bonnet gravity\"",
+    "autores": [
+     "Claudio Simeone"
+    ],
+    "revista": "Phys. Rev. D 83, 087503 (2011)",
+    "fecha": "2012-03-16",
+    "resumen": "Thin-shell wormholes are constructed starting from the exotic branch of Wiltshire spherically symmetric solution of Einstein-Gauss-Bonnet gravity. The energy-momentum tensor of the shell is studied, and it is shown that configurations supported by matter satisfying the energy conditions exist for certain values of the parameters. Differing from the previous result associated to the normal branch of Wiltshire solution, this is achieved for small positive values of the Gauss-Bonnet parameter and for vanishing charge."
+   },
+   {
+    "id": "1103.3019v2",
+    "titulo": "Stable thin-shell wormholes with a Chaplygin gas in Einstein-Maxwell-Gauss-Bonnet gravity",
+    "autores": [
+     "Z. Amirabi",
+     "M. Halilsoy",
+     "S. Habib Mazharimousavi"
+    ],
+    "revista": "Phys. Rev. D 88, 124023 (2013)",
+    "fecha": "2011-03-15",
+    "resumen": "We study the stability of thin-shell wormholes in Einstein-Maxwell-Gauss-Bonnet gravity. The equation of state of the thin shell wormhole is considered first to obey a generalized Chaplygin gas and then we generalize it to an arbitrary state function which covers all known cases studied so far. In particular we study the modified Chaplygin gas and give an assessment for a general parotropic fluid. Our study is in d-dimensions and with numerical analysis in d=5 we show the effect of the GB parameter in the stability of thin-shell wormholes against the radial perturbations."
+   },
+   {
+    "id": "1007.4627v3",
+    "titulo": "Higher dimensional thin-shell wormholes in Einstein-Yang-Mills-Gauss-Bonnet gravity",
+    "autores": [
+     "S. Habib Mazharimousavi",
+     "M. Halilsoy",
+     "Z. Amirabi"
+    ],
+    "revista": "Class.Quant.Grav.28:025004,2011",
+    "fecha": "2010-07-27",
+    "resumen": "We present thin-shell wormhole solutions in Einstein-Yang-Mills-Gauss-Bonnet (EYMGB) theory in higher dimensions d\\geq5. Exact black hole solutions are employed for this purpose where the radius of thin-shell lies outside the event horizon. For some reasons the cases d=5 and d>5 are treated separately. The surface energy-momentum of the thin-shell creates surface pressures to resist against collapse and rendering stable wormholes possible. We test the stability of the wormholes against spherical perturbations through a linear energy-pressure relation and plot stability regions. Apart from this restricted stability we investigate the possibility of normal (i.e. non-exotic) matter which satisfies the energy conditions. For negative values of the Gauss-Bonnet (GB) parameter we obtain such physical wormholes."
+   },
+   {
+    "id": "1001.4384v3",
+    "titulo": "Stability of thin-shell wormholes supported by ordinary matter in Einstein-Maxwell-Gauss-Bonnet gravity",
+    "autores": [
+     "S. Habib Mazharimousavi",
+     "M. Halilsoy",
+     "Z. Amirabi"
+    ],
+    "revista": "Phys.Rev.D81:104002,2010",
+    "fecha": "2010-01-25",
+    "resumen": "Recently in (Phys. Rev. D 76, 087502 (2007) and Phys. Rev. D 77, 089903(E) (2008)) a thin-shell wormhole has been introduced in 5-dimensional Einstein-Maxwell-Gauss-Bonnet (EMGB) gravity which was supported by normal matter. We wish to consider this solution and investigate its stability. Our analysis shows that for the Gauss-Bonnet (GB) parameter $α<0,$ stability regions form for a narrow band of finely-tuned mass and charge. For the case $α>0$, we iterate once more that no stable, normal matter thin-shell wormhole exists."
+   },
+   {
+    "id": "0908.3967v3",
+    "titulo": "Black hole and thin-shell wormhole solutions in Einstein-Hoffman-Born-Infeld theory",
+    "autores": [
+     "S. Habib Mazharimousavi",
+     "M. Halilsoy",
+     "Z. Amirabi"
+    ],
+    "revista": "Physics A375:3649-3654,2011",
+    "fecha": "2009-08-27",
+    "resumen": "We employ an old field theory model, formulated and discussed by Born, Infeld, Hoffman and Rosen during 1930s. Our method of cutting-gluing of spacetimes resolves the double-valuedness in the displacement vector D(E), pointed out by these authors. A characteristic feature of their model is to contain a logarithmic term, and by bringing forth such a Lagrangian anew, we aim to attract the interest of field theorists to such a Lagrangian. We adopt the Hoffman-Born-Infeld (HBI) Lagrangian in general relativity to construct black holes and investigate the possibility of viable thin-shell wormholes. In particular, the stability of thin-shell wormholes supported by normal matter in 5-dimensional Einstein-HBI-Gauss-Bonnet gravity is highlighted."
+   },
+   {
+    "id": "0805.3575v4",
+    "titulo": "The Lovelock Black Holes",
+    "autores": [
+     "Cecilia Garraffo",
+     "Gaston Giribet"
+    ],
+    "revista": "Mod.Phys.Lett.A23:1801-1818,2008",
+    "fecha": "2008-05-23",
+    "resumen": "Lovelock theory is a natural extension of Einstein theory of gravity to higher dimensions, and it is of great interest in theoretical physics as it describes a wide class of models. In particular, it describes string theory inspired ultraviolet corrections to Einstein-Hilbert action, while admits the Einstein general relativiy and the so called Chern-Simons theories of gravity as particular cases. Recently, five-dimensional Lovelock theory has been considered in the literature as a working example to illustrate the effects of including higher-curvature terms in the context of AdS/CFT correspondence. Here, we give an introduction to the black hole solutions of Lovelock theory and analyze their most important properties. These solutions can be regarded as generalizations of the Boulware-Deser solution of Einstein-Gauss-Bonnet gravity, which we discuss in detail here. We briefly discuss some recent progress in understading these and other solutions, like topological black holes that represent black branes of the theory, and vacuum thin-shell wormhole-like geometries that connect two different asymptotically de-Sitter spaces. We also make some comments on solutions with time-like naked singularities."
+   },
+   {
+    "id": "0710.2041v3",
+    "titulo": "Thin-shell wormholes supported by ordinary matter in Einstein--Gauss--Bonnet gravity",
+    "autores": [
+     "Martin Richarte",
+     "Claudio Simeone"
+    ],
+    "revista": "Phys.Rev.D76:087502,2007; Erratum-ibid.D77:089903,2008",
+    "fecha": "2007-10-10",
+    "resumen": "The generalized Darmois--Israel formalism for Einstein--Gauss--Bonnet theory is applied to construct thin-shell Lorentzian wormholes with spherical symmetry. We calculate the energy localized on the shell, and we find that for certain values of the parameters wormholes could be supported by matter not violating the energy conditions."
+   },
+   {
+    "id": "gr-qc/0701152v3",
+    "titulo": "`Mass without mass' from thin shells in Gauss-Bonnet gravity",
+    "autores": [
+     "Elias Gravanis",
+     "Steven Willison"
+    ],
+    "revista": "Phys.Rev.D75:084025,2007",
+    "fecha": "2007-01-28",
+    "resumen": "Five tensor equations are obtained for a thin shell in Gauss-Bonnet gravity. There is the well known junction condition for the singular part of the stress tensor intrinsic to the shell, which we also prove to be well defined. There are also equations relating the geometry of the shell (jump and average of the extrinsic curvature as well as the intrinsic curvature) to the non-singular components of the bulk stress tensor on the sides of the thin shell. The equations are applied to spherically symmetric thin shells in vacuum. The shells are part of the vacuum, they carry no energy tensor. We classify these solutions of `thin shells of nothingness' in the pure Gauss-Bonnet theory. There are three types of solutions, with one, zero or two asymptotic regions respectively. The third kind of solution are wormholes. Although vacuum solutions, they have the appearance of mass in the asymptotic regions. It is striking that in this theory, exotic matter is not needed in order for wormholes to exist- they can exist even with no matter."
+   },
+   {
+    "id": "gr-qc/0512029v2",
+    "titulo": "Thin-shell wormholes in Einstein-Maxwell theory with a Gauss-Bonnet term",
+    "autores": [
+     "Marc Thibeault",
+     "Claudio Simeone",
+     "Ernesto F. Eiroa"
+    ],
+    "revista": "Gen.Rel.Grav.38:1593-1608,2006",
+    "fecha": "2005-12-05",
+    "resumen": "We study five dimensional thin-shell wormholes in Einstein-Maxwell theory with a Gauss-Bonnet term. The linearized stability under radial perturbations and the amount of exotic matter are analyzed as a function of the parameters of the model. We find that the inclusion of the quadratic correction substantially widens the range of possible stable configurations, and besides it allows for a reduction of the exotic matter required to construct the wormholes."
+   }
+  ],
+  "abs:wormhole AND abs:\"Gauss-Bonnet\" AND abs:smooth": [
+   {
+    "id": "2609.18475v1",
+    "titulo": "Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity",
+    "autores": [
+     "Sardor Murodov",
+     "Bekzod Rahmatov",
+     "Javlon Rayimbaev",
+     "Bobomurat Ahmedov"
+    ],
+    "revista": null,
+    "fecha": "2026-09-16",
+    "resumen": "We investigate slowly rotating traversable wormholes in Einstein--scalar--Gauss--Bonnet gravity beyond the linear rotation regime. The static backgrounds are obtained without expanding in the Gauss--Bonnet coupling, while rotational effects are treated perturbatively up to second order. Both monopolar and quadrupolar deformations are included, allowing us to determine the spin-induced changes in the asymptotic charges, throat geometry, energy-condition behavior, and mass quadrupole. The quadrupolar equations develop an internal regular singular point, which is handled by selecting the regular local solution through a Frobenius analysis. The rotation-induced response of the throat source is incorporated consistently through the junction conditions. Independent shooting and collocation calculations of the quadrupolar sector give mutually consistent solutions. The rotating throat remains oblate throughout the fixed-coupling family, while at $χ=0.15$ the smooth-bulk near-throat radial null-energy-condition violation persists but its radial extent becomes latitude dependent. These results provide a self-consistent second-order description of rotating Einstein--scalar--Gauss--Bonnet wormholes."
+   },
+   {
+    "id": "2505.07028v3",
+    "titulo": "Traversable wormholes from a smoothed string fluid in 4D Einstein-Gauss-Bonnet gravity",
+    "autores": [
+     "C. R. Muniz",
+     "M. S. Cunha",
+     "L. C. N. Santos"
+    ],
+    "revista": "Annals of Physics, 10 June 2026",
+    "fecha": "2025-05-11",
+    "resumen": "We investigate traversable wormhole solutions in four-dimensional Einstein-Gauss-Bonnet (EGB) gravity sourced by a smoothed string fluid. Originally proposed to model regular black holes, this energy density profile is adapted here to sustain wormhole geometries by allowing for a radially varying equation of state. We obtain zero-tidal-force solutions that satisfy all traversability criteria and remain globally regular. The Gauss-Bonnet (GB) coupling $α$ plays a central role in shaping the throat geometry. We identify a parameter region ($α\\geq 1$, $\\varepsilon \\leq 0.1$) in which the null energy condition is satisfied in the vicinity of the throat, representing a significant improvement over general relativistic counterparts. The interplay between the smoothing scale $a$ and the string density $\\varepsilon$ ensures finite curvature invariants while reducing the violation of energy conditions. An analysis of the volume integral quantifier and the complexity factor further shows that strong EGB coupling simultaneously suppresses gravitational complexity and the total amount of exotic matter. These results establish a unified framework in which the same string fluid source can generate both regular black holes and stable traversable wormholes, depending on the strength of higher-curvature corrections."
+   },
+   {
+    "id": "2207.05965v1",
+    "titulo": "Junction conditions in perfect fluid $f(\\mathcal{G},~T)$ gravitational theory",
+    "autores": [
+     "M. Z. Bhatti",
+     "Z. Yousaf",
+     "M. Yousaf"
+    ],
+    "revista": null,
+    "fecha": "2022-07-13",
+    "resumen": "This manuscript aims to establish the gravitational junction conditions(JCs) for the $f(\\mathcal{G},~T)$ gravity. In this gravitational theory, $f$ is an arbitrary function of Gauss-Bonnet invariant $\\mathcal{G}$ and the trace of the energy-momentum tensor $T_{μν}$ i.e., $T$. We start by introducing this gravity theory in its usual geometrical representation and posteriorly obtain a dynamically equivalent scalar-tensor demonstration on which the arbitrary dependence on the generic function $f$ in both $\\mathcal G$ and $T$ is exchanged by two scalar fields and scalar potential. We then derive the JCs for matching between two different space-times across a separation hyper-surface $Σ$, assuming the matter sector to be described by an isotropic perfect fluid configuration. We take the general approach assuming the possibility of a thin-shell arising at $Σ$ between the two space-times. However, our results establish that, for the distribution formalism to be well-defined, thin-shells are not allowed to emerge in the general version of this theory. We thus obtain instead a complete set of JCs for a smooth matching at $Σ$ under the same conditions. The same results are then obtained in the scalar-tensor representation of the theory, thus emphasizing the equivalence between these two representations. Our results significantly constrain the possibility of developing models for alternative compact structures supported by thin-shells in $f(\\mathcal{G},~T)$ gravity, e.g. gravastars and thin-shell wormholes, but provide a suitable framework for the search of models presenting a smooth matching at their surface, from which perfect fluid stars are possible examples."
+   },
+   {
+    "id": "hep-th/0607062v2",
+    "titulo": "Static wormhole solution for higher-dimensional gravity in vacuum",
+    "autores": [
+     "Gustavo Dotti",
+     "Julio Oliva",
+     "Ricardo Troncoso"
+    ],
+    "revista": "Phys.Rev.D75:024002,2007",
+    "fecha": "2006-07-11",
+    "resumen": "A static wormhole solution for gravity in vacuum is found for odd dimensions greater than four. In five dimensions the gravitational theory considered is described by the Einstein-Gauss-Bonnet action where the coupling of the quadratic term is fixed in terms of the cosmological constant. In higher dimensions d=2n+1, the theory corresponds to a particular case of the Lovelock action containing higher powers of the curvature, so that in general, it can be written as a Chern-Simons form for the AdS group. The wormhole connects two asymptotically locally AdS spacetimes each with a geometry at the boundary locally given by R times S^{1} times H_{d-3}. Gravity pulls towards a fixed hypersurface located at some arbitrary proper distance parallel to the neck. The causal structure shows that both asymptotic regions are connected by light signals in a finite time. The Euclidean continuation of the wormhole is smooth independently of the Euclidean time period, and it can be seen as instanton with vanishing Euclidean action. The mass can also be obtained from a surface integral and it is shown to vanish."
+   }
+  ],
+  "abs:wormhole AND abs:\"Gauss-Bonnet\" AND abs:\"without matter\"": [],
+  "abs:wormhole AND abs:\"scalar-Gauss-Bonnet\"": [
+   {
+    "id": "2609.18475v1",
+    "titulo": "Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity",
+    "autores": [
+     "Sardor Murodov",
+     "Bekzod Rahmatov",
+     "Javlon Rayimbaev",
+     "Bobomurat Ahmedov"
+    ],
+    "revista": null,
+    "fecha": "2026-09-16",
+    "resumen": "We investigate slowly rotating traversable wormholes in Einstein--scalar--Gauss--Bonnet gravity beyond the linear rotation regime. The static backgrounds are obtained without expanding in the Gauss--Bonnet coupling, while rotational effects are treated perturbatively up to second order. Both monopolar and quadrupolar deformations are included, allowing us to determine the spin-induced changes in the asymptotic charges, throat geometry, energy-condition behavior, and mass quadrupole. The quadrupolar equations develop an internal regular singular point, which is handled by selecting the regular local solution through a Frobenius analysis. The rotation-induced response of the throat source is incorporated consistently through the junction conditions. Independent shooting and collocation calculations of the quadrupolar sector give mutually consistent solutions. The rotating throat remains oblate throughout the fixed-coupling family, while at $χ=0.15$ the smooth-bulk near-throat radial null-energy-condition violation persists but its radial extent becomes latitude dependent. These results provide a self-consistent second-order description of rotating Einstein--scalar--Gauss--Bonnet wormholes."
+   },
+   {
+    "id": "2412.20296v1",
+    "titulo": "Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond",
+    "autores": [
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2024-12-28",
+    "resumen": "In the context of General Relativity, black holes are not allowed to possess scalar hair, wormholes are not traversable and particle-like solutions are irregular. Therefore, in order to derive novel and physically interesting solutions that describe compact objects one needs to address generalised gravitational theories. One popular class of such theories is the Einstein-scalar-Gauss-Bonnet (EsGB) theory with a general coupling function between the scalar field of the theory and the quadratic Gauss-Bonnet term. Starting from black holes, we present a variety of spherically-symmetric solutions for several different forms of the coupling function and discuss their main features. We then proceed to wormhole solutions and demonstrate that the EsGB theory naturally supports traversable wormholes without the need for exotic matter. Regular scalarised particle-like solutions also emerge in the context of the same theory which also possess interesting observable features such as photon rings and echoes. Moving beyond this class of theories, we then address the more extended scalar-tensor Horndeski theory, briefly mention the types of black-hole solutions that arise, and demonstrate that an appropriately constructed disformal transformation of a black-hole solution, such as the Lu-Pang solution, results into a traversable wormhole in the context of the beyond-Horndeski theory."
+   },
+   {
+    "id": "2310.08758v2",
+    "titulo": "Simple method to generate magnetically charged ultra-static traversable wormholes without exotic matter in Einstein-scalar-Gauss-Bonnet gravity",
+    "autores": [
+     "Pedro Cañate"
+    ],
+    "revista": null,
+    "fecha": "2023-10-12",
+    "resumen": "All the magnetically charged ultrastatic and spherically symmetric spacetime solutions in the framework of linear/nonlinear electrodynamics, with an arbitrary electromagnetic Lagrangian density $\\mathcal{L}(\\mathcal{F})$ depending only of the electromagnetic invariant $\\mathcal{F}\\!=\\!F_{αβ}F^{αβ}\\!/4$, minimally coupled to Einstein-scalar-Gauss-Bonnet gravity [EsGB-$\\mathcal{L}(\\mathcal{F})$], are found. We also show that a magnetically charged ultrastatic and spherically symmetric EsGB-$\\mathcal{L}(\\mathcal{F})$ solution with invariant $\\mathcal{F}$ having a strict global maximum value $\\mathcal{F}_{_{0}}$ in the entire domain of the solution, and such that $\\mathcal{L}_{_{0}}=\\mathcal{L}(\\mathcal{F}_{_{0}})>0$, can be interpreted as an ultrastatic wormhole spacetime geometry with throat radius determined by the scalar charge and the quantity $\\mathcal{L}_{_{0}}$. We provide some examples, including Maxwell's theory of electrodynamics (linear electrodynamics) $\\mathcal{L}_{_{_{\\mathrm{LED}}}} \\!=\\! \\mathcal{F}$, producing the magnetic dual of the purely electric Ellis-Bronnikov EsGB Maxwell wormhole derived in [P. Cañate, J. Sultana, D. Kazanas, Phys. Rev. D {\\bf100}, 064007 (2019)]; and the nonlinear electrodynamics (NLED) models given by Born-Infeld $\\mathcal{L}_{_{_{\\mathrm{BI}}}} \\!=\\! -4β^{2} + 4β^{2} \\sqrt{ 1 + \\mathcal{F}\\!/\\!(2β^{2})~}$, and Euler-Heisenberg in the approximation of the weak-field limit $\\mathcal{L}_{_{_{\\mathrm{EH}}}} \\!=\\! \\mathcal{L}_{_{_{\\mathrm{LED}}}} + γ\\mathcal{F}^{2}\\!/2$. With those NLED models, two novel magnetically charged ultrastatic traversable wormholes (EsGB Born-Infeld and EsGB Euler-Heisenberg wormholes) are presented as exact solutions without exotic matter in EsGB-$\\mathcal{L}(\\mathcal{F})$ gravity."
+   },
+   {
+    "id": "2210.17533v1",
+    "titulo": "Constraining modified gravity theories with scalar fields using black-hole images",
+    "autores": [
+     "Georgios Antoniou",
+     "Alexandros Papageorgiou",
+     "Panagiota Kanti"
+    ],
+    "revista": "Universe, 9(3), 147 (2023)",
+    "fecha": "2022-10-31",
+    "resumen": "We study a number of well-motivated theories of modified gravity with the common overarching theme that they predict the existence of compact objects such as black holes and wormholes endowed with scalar hair. We compute the shadow radius of the resulting compact objects and demonstrate that black hole images such as that of M87$^*$ or the more recent SgrA$^*$ by the Einstein Horizon Telescope (EHT) collaboration may provide a powerful way to constrain deviations of the metric functions from what is expected from general relativity (GR) solutions. We focus our attention on Einstein-scalar-Gauss-Bonnet (EsGB) theory with three well motivated couplings, including the dilatonic and $Z_2$ symmetric cases. We then analyze the shadow radius of black holes in the contest of the spontaneous scalarization scenario within EsGB theory with an additional coupling to the Ricci scalar (EsRGB). Finally, we turn our attention to spontaneous scalarization in the Einstein-Maxwell-Scalar (EMS) theory and demonstrate the impact of the parameters on the black hole shadow. Our results show that black hole imaging is an important tool for constraining black holes with scalar hair and for some part of the parameter space, black holes solutions with scalar hair may be marginally favoured compared to solutions of GR."
+   },
+   {
+    "id": "2202.12463v2",
+    "titulo": "Novel traversable wormhole in General Relativity and Einstein-Scalar-Gauss-Bonnet theory supported by nonlinear electrodynamics",
+    "autores": [
+     "Pedro Cañate",
+     "F. H. Maldonado-Villamizar"
+    ],
+    "revista": null,
+    "fecha": "2022-02-25",
+    "resumen": "Several traversable wormholes (T-WHs) of the Morris-Thorne type have been presented as exact solutions of Einstein-nonlinear electrodynamics gravity (GR-NLED), e.g. \\cite{Arellano2009, Bronnikov2018,Bronnikov_Walia2021, Canate_Breton2018, Canate_Breton_Ortiz2020, Canate_Magos_Breton2020}. However, none of these solutions is support by a nonlinear electrodynamics model satisfying plausible conditions. In this work, we present the first traversable wormhole solution of Einstein-nonlinear electrodynamics gravity coupled to a self-interacting phantom scalar field (GR-NLED-SF) with a NLED model such that in the limit of weak field becomes the Maxwell electrodynamics, is presented. Furthermore, we show that this novel T-WH spacetime is also an exact solution of the Einstein-scalar-Gauss-Bonnet (EsGB) theory with a nonlinear electrodynamics source, but now with a real scalar field having a positive kinetic term."
+   },
+   {
+    "id": "2012.05178v1",
+    "titulo": "Scalarized nutty wormholes",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": null,
+    "fecha": "2020-12-09",
+    "resumen": "We construct scalarized wormholes with a NUT charge in higher curvature theories. We consider both Einstein-scalar-Gauss-Bonnet and Einstein-scalar-Chern-Simons theories, following a recent paper by Brihaye et al. [1], where spontaneously scalarised Schwarzschild-NUT solutions were studied. By varying the coupling parameter and the scalar charge we determine the domain of existence of the scalarized nutty wormholes, and their dependence on the NUT charge. In the Gauss-Bonnet case the known set of scalarized wormholes [2] is reached in the limit of vanishing NUT charge. In the Chern-Simons case, however, the limit is peculiar, since with vanishing NUT charge the coupling constant diverges. We focus on scalarized nutty wormholes with a single throat and study their properties. All these scalarized nutty wormholes feature a critical polar angle, beyond which closed timelike curves are present."
+   },
+   {
+    "id": "2010.13189v1",
+    "titulo": "Black holes and wormholes in the Einstein-scalar-Gauss-Bonnet generalized theories of gravity",
+    "autores": [
+     "Athanasios Bakopoulos"
+    ],
+    "revista": null,
+    "fecha": "2020-10-25",
+    "resumen": "In this Ph.D. dissertation we study the emergence of black-hole and wormhole solutions in the framework of the Einstein-scalar-Gauss-Bonnet (EsGB) theory. Particularly we study a family of theories where the coupling function $f(φ)$ between the scalar field of the theory and the quadratic Gauss-Bonnet gravitational term has an arbitrary form. At first, we analytically derive that the aforementioned family of theories may evade the constraints imposed by Bekenstein's No-Scalar Hair theorems and new solutions for black holes may be found. Then, using numerical integration methods we find solutions for black holes for many different forms of the coupling function. Also we derive their physical characteristics namely their mass, scalar charge, horizon area and entropy as well. Subsequently, by introducing a cosmological constant in the theory we investigate the existence of novel black-hole solutions. Specifically, assuming that the cosmological constant may be positive or negative we find numerical solutions which are asymptotically de Sitter or anti-de Sitter. In addition, as in the case of the asymptotically flat black holes, for each case we derive their physical characteristics. Finally, in the framework of the EsGB theory we derive novel wormhole solutions. The Gauss-Bonnet wormholes are traversable, may have a single or a double throat and do not demand the existence of exotic matter."
+   },
+   {
+    "id": "2006.13008v1",
+    "titulo": "Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": "Phys. Rev. D 102, 064010 (2020)",
+    "fecha": "2020-06-23",
+    "resumen": "We construct wormholes in Einstein-scalar-Gauss-Bonnet theories with a potential for the scalar field that includes a mass term and self-interaction terms. By varying the Gauss-Bonnet coupling constant we delimit the domain of existence of wormholes in these theories. The presence of the self-interaction enlarges the domain of existence significantly. There arise wormholes with a single throat and wormholes with an equator and a double throat. We determine the physical properties of these wormholes including their mass, their size and their geometry."
+   },
+   {
+    "id": "2005.07650v1",
+    "titulo": "Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": "Phys. Rev. D 102, 024070 (2020)",
+    "fecha": "2020-05-15",
+    "resumen": "Besides scalarized black holes and wormholes, Einstein-scalar-Gauss-Bonnet theories allow also for particle-like solutions. The scalar field of these particle-like solutions diverges at the origin, akin to the divergence of the Coulomb potential at the location of a charged particle. However, these particle-like solutions possess a globally regular metric, and their effective stress energy tensor is free from pathologies, as well. We determine the domain of existence for particle-like solutions in a number of Einstein-scalar-Gauss-Bonnet theories, considering dilatonic and power-law coupling functions, and we analyze the physical properties of the solutions. Interestingly, the solutions may possess pairs of lightrings, and thus represent ultra-compact objects. We determine the location of these lightrings, and study the effective potential for the occurrence of echoes in the gravitational-wave spectrum. We also address the relation of these particle-like solutions to the respective wormhole and black-hole solutions, and clarify the limiting procedure to recover the Fisher solution (also known as Janis-Newman-Winicourt-Wyman solution)."
+   },
+   {
+    "id": "1910.02121v2",
+    "titulo": "Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2019-10-04",
+    "resumen": "We present a new type of ultracompact objects, featuring lightrings and echoes in the gravitational-wave spectrum. These particle-like solutions arise in Einstein-scalar-Gauss-Bonnet theories in four spacetime dimensions, representing globally regular spacetime manifolds. The scalar field diverges at the center, but the effective stress-energy tensor is free from pathologies. We determine their domain of existence and compare with wormhole solutions, black holes and the Fisher solution."
+   },
+   {
+    "id": "1908.04690v1",
+    "titulo": "New exact traversable wormhole solution to the Einstein-scalar-Gauss-Bonnet Equations coupled to a power-Maxwell electrodynamics",
+    "autores": [
+     "Pedro Cañate",
+     "Nora Breton"
+    ],
+    "revista": "Phys. Rev. D 100, 064067 (2019)",
+    "fecha": "2019-08-13",
+    "resumen": "We present a novel, exact, traversable wormhole (T-WH) solution for $(3+1)$-dimensional Einstein-scalar-Gauss-Bonnet theory (EsGB) coupled to a power-Maxwell nonlinear electrodynamics (NLED). The solution is characterized by two parameters, $\\mathcal{Q}\\!_{\\rm e}$ and $\\mathcal{Q}\\!_{_{ \\mathcal{S} }}$, associated respectively with the electromagnetic field and the scalar field. We show that for $\\mathcal{Q}^2_{\\rm e} - \\mathcal{Q}\\!_{_{ \\mathcal{S} }}>0$ the solution can be interpreted as a traversable wormhole. In the general case, with non-vanishing electromagnetic field, the scalar-Gauss-Bonnet term (sGB) is the only responsible for the negative energy density necessary for the traversability. In the limiting case of vanishing electromagnetic field, the scalar field becomes a phantom one keeping the WH throat open and in this case the Ellis WH solution \\cite{Ellis} is recovered."
+   },
+   {
+    "id": "1907.09463v2",
+    "titulo": "Ellis wormhole without a phantom scalar field",
+    "autores": [
+     "Pedro Cañate",
+     "Joseph Sultana",
+     "Demosthenes Kazanas"
+    ],
+    "revista": "Phys. Rev. D 100, 064007 (2019)",
+    "fecha": "2019-07-22",
+    "resumen": "In this paper, we present an exact solution for $(3+1)$-dimensional Einstein-scalar-Gauss-Bonnet theory (EsGB) in electrovacuum. The solution is characterized by only one parameter, $Q$, which in general can be associated with the electromagnetic field and the scalar field. We show that the solution corresponds to a charged wormhole with throat at the region $r = |Q|$, and is also supported by a real scalar field having a positive kinetic term. We show that the solution belongs to the most general class of solutions known as Ellis wormholes but without the need for `exotic matter' or a phantom scalar field."
+   },
+   {
+    "id": "1904.13091v2",
+    "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+    "autores": [
+     "Georgios Antoniou",
+     "Athanasios Bakopoulos",
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys. Rev. D 101, 024033 (2020)",
+    "fecha": "2019-04-30",
+    "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+   }
+  ],
+  "abs:wormholes AND abs:\"scalar-Gauss-Bonnet\"": [
+   {
+    "id": "2609.18475v1",
+    "titulo": "Second-order slow rotation of wormholes in Einstein-scalar-Gauss-Bonnet gravity",
+    "autores": [
+     "Sardor Murodov",
+     "Bekzod Rahmatov",
+     "Javlon Rayimbaev",
+     "Bobomurat Ahmedov"
+    ],
+    "revista": null,
+    "fecha": "2026-09-16",
+    "resumen": "We investigate slowly rotating traversable wormholes in Einstein--scalar--Gauss--Bonnet gravity beyond the linear rotation regime. The static backgrounds are obtained without expanding in the Gauss--Bonnet coupling, while rotational effects are treated perturbatively up to second order. Both monopolar and quadrupolar deformations are included, allowing us to determine the spin-induced changes in the asymptotic charges, throat geometry, energy-condition behavior, and mass quadrupole. The quadrupolar equations develop an internal regular singular point, which is handled by selecting the regular local solution through a Frobenius analysis. The rotation-induced response of the throat source is incorporated consistently through the junction conditions. Independent shooting and collocation calculations of the quadrupolar sector give mutually consistent solutions. The rotating throat remains oblate throughout the fixed-coupling family, while at $χ=0.15$ the smooth-bulk near-throat radial null-energy-condition violation persists but its radial extent becomes latitude dependent. These results provide a self-consistent second-order description of rotating Einstein--scalar--Gauss--Bonnet wormholes."
+   },
+   {
+    "id": "2412.20296v1",
+    "titulo": "Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond",
+    "autores": [
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2024-12-28",
+    "resumen": "In the context of General Relativity, black holes are not allowed to possess scalar hair, wormholes are not traversable and particle-like solutions are irregular. Therefore, in order to derive novel and physically interesting solutions that describe compact objects one needs to address generalised gravitational theories. One popular class of such theories is the Einstein-scalar-Gauss-Bonnet (EsGB) theory with a general coupling function between the scalar field of the theory and the quadratic Gauss-Bonnet term. Starting from black holes, we present a variety of spherically-symmetric solutions for several different forms of the coupling function and discuss their main features. We then proceed to wormhole solutions and demonstrate that the EsGB theory naturally supports traversable wormholes without the need for exotic matter. Regular scalarised particle-like solutions also emerge in the context of the same theory which also possess interesting observable features such as photon rings and echoes. Moving beyond this class of theories, we then address the more extended scalar-tensor Horndeski theory, briefly mention the types of black-hole solutions that arise, and demonstrate that an appropriately constructed disformal transformation of a black-hole solution, such as the Lu-Pang solution, results into a traversable wormhole in the context of the beyond-Horndeski theory."
+   },
+   {
+    "id": "2310.08758v2",
+    "titulo": "Simple method to generate magnetically charged ultra-static traversable wormholes without exotic matter in Einstein-scalar-Gauss-Bonnet gravity",
+    "autores": [
+     "Pedro Cañate"
+    ],
+    "revista": null,
+    "fecha": "2023-10-12",
+    "resumen": "All the magnetically charged ultrastatic and spherically symmetric spacetime solutions in the framework of linear/nonlinear electrodynamics, with an arbitrary electromagnetic Lagrangian density $\\mathcal{L}(\\mathcal{F})$ depending only of the electromagnetic invariant $\\mathcal{F}\\!=\\!F_{αβ}F^{αβ}\\!/4$, minimally coupled to Einstein-scalar-Gauss-Bonnet gravity [EsGB-$\\mathcal{L}(\\mathcal{F})$], are found. We also show that a magnetically charged ultrastatic and spherically symmetric EsGB-$\\mathcal{L}(\\mathcal{F})$ solution with invariant $\\mathcal{F}$ having a strict global maximum value $\\mathcal{F}_{_{0}}$ in the entire domain of the solution, and such that $\\mathcal{L}_{_{0}}=\\mathcal{L}(\\mathcal{F}_{_{0}})>0$, can be interpreted as an ultrastatic wormhole spacetime geometry with throat radius determined by the scalar charge and the quantity $\\mathcal{L}_{_{0}}$. We provide some examples, including Maxwell's theory of electrodynamics (linear electrodynamics) $\\mathcal{L}_{_{_{\\mathrm{LED}}}} \\!=\\! \\mathcal{F}$, producing the magnetic dual of the purely electric Ellis-Bronnikov EsGB Maxwell wormhole derived in [P. Cañate, J. Sultana, D. Kazanas, Phys. Rev. D {\\bf100}, 064007 (2019)]; and the nonlinear electrodynamics (NLED) models given by Born-Infeld $\\mathcal{L}_{_{_{\\mathrm{BI}}}} \\!=\\! -4β^{2} + 4β^{2} \\sqrt{ 1 + \\mathcal{F}\\!/\\!(2β^{2})~}$, and Euler-Heisenberg in the approximation of the weak-field limit $\\mathcal{L}_{_{_{\\mathrm{EH}}}} \\!=\\! \\mathcal{L}_{_{_{\\mathrm{LED}}}} + γ\\mathcal{F}^{2}\\!/2$. With those NLED models, two novel magnetically charged ultrastatic traversable wormholes (EsGB Born-Infeld and EsGB Euler-Heisenberg wormholes) are presented as exact solutions without exotic matter in EsGB-$\\mathcal{L}(\\mathcal{F})$ gravity."
+   },
+   {
+    "id": "2210.17533v1",
+    "titulo": "Constraining modified gravity theories with scalar fields using black-hole images",
+    "autores": [
+     "Georgios Antoniou",
+     "Alexandros Papageorgiou",
+     "Panagiota Kanti"
+    ],
+    "revista": "Universe, 9(3), 147 (2023)",
+    "fecha": "2022-10-31",
+    "resumen": "We study a number of well-motivated theories of modified gravity with the common overarching theme that they predict the existence of compact objects such as black holes and wormholes endowed with scalar hair. We compute the shadow radius of the resulting compact objects and demonstrate that black hole images such as that of M87$^*$ or the more recent SgrA$^*$ by the Einstein Horizon Telescope (EHT) collaboration may provide a powerful way to constrain deviations of the metric functions from what is expected from general relativity (GR) solutions. We focus our attention on Einstein-scalar-Gauss-Bonnet (EsGB) theory with three well motivated couplings, including the dilatonic and $Z_2$ symmetric cases. We then analyze the shadow radius of black holes in the contest of the spontaneous scalarization scenario within EsGB theory with an additional coupling to the Ricci scalar (EsRGB). Finally, we turn our attention to spontaneous scalarization in the Einstein-Maxwell-Scalar (EMS) theory and demonstrate the impact of the parameters on the black hole shadow. Our results show that black hole imaging is an important tool for constraining black holes with scalar hair and for some part of the parameter space, black holes solutions with scalar hair may be marginally favoured compared to solutions of GR."
+   },
+   {
+    "id": "2202.12463v2",
+    "titulo": "Novel traversable wormhole in General Relativity and Einstein-Scalar-Gauss-Bonnet theory supported by nonlinear electrodynamics",
+    "autores": [
+     "Pedro Cañate",
+     "F. H. Maldonado-Villamizar"
+    ],
+    "revista": null,
+    "fecha": "2022-02-25",
+    "resumen": "Several traversable wormholes (T-WHs) of the Morris-Thorne type have been presented as exact solutions of Einstein-nonlinear electrodynamics gravity (GR-NLED), e.g. \\cite{Arellano2009, Bronnikov2018,Bronnikov_Walia2021, Canate_Breton2018, Canate_Breton_Ortiz2020, Canate_Magos_Breton2020}. However, none of these solutions is support by a nonlinear electrodynamics model satisfying plausible conditions. In this work, we present the first traversable wormhole solution of Einstein-nonlinear electrodynamics gravity coupled to a self-interacting phantom scalar field (GR-NLED-SF) with a NLED model such that in the limit of weak field becomes the Maxwell electrodynamics, is presented. Furthermore, we show that this novel T-WH spacetime is also an exact solution of the Einstein-scalar-Gauss-Bonnet (EsGB) theory with a nonlinear electrodynamics source, but now with a real scalar field having a positive kinetic term."
+   },
+   {
+    "id": "2012.05178v1",
+    "titulo": "Scalarized nutty wormholes",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": null,
+    "fecha": "2020-12-09",
+    "resumen": "We construct scalarized wormholes with a NUT charge in higher curvature theories. We consider both Einstein-scalar-Gauss-Bonnet and Einstein-scalar-Chern-Simons theories, following a recent paper by Brihaye et al. [1], where spontaneously scalarised Schwarzschild-NUT solutions were studied. By varying the coupling parameter and the scalar charge we determine the domain of existence of the scalarized nutty wormholes, and their dependence on the NUT charge. In the Gauss-Bonnet case the known set of scalarized wormholes [2] is reached in the limit of vanishing NUT charge. In the Chern-Simons case, however, the limit is peculiar, since with vanishing NUT charge the coupling constant diverges. We focus on scalarized nutty wormholes with a single throat and study their properties. All these scalarized nutty wormholes feature a critical polar angle, beyond which closed timelike curves are present."
+   },
+   {
+    "id": "2010.13189v1",
+    "titulo": "Black holes and wormholes in the Einstein-scalar-Gauss-Bonnet generalized theories of gravity",
+    "autores": [
+     "Athanasios Bakopoulos"
+    ],
+    "revista": null,
+    "fecha": "2020-10-25",
+    "resumen": "In this Ph.D. dissertation we study the emergence of black-hole and wormhole solutions in the framework of the Einstein-scalar-Gauss-Bonnet (EsGB) theory. Particularly we study a family of theories where the coupling function $f(φ)$ between the scalar field of the theory and the quadratic Gauss-Bonnet gravitational term has an arbitrary form. At first, we analytically derive that the aforementioned family of theories may evade the constraints imposed by Bekenstein's No-Scalar Hair theorems and new solutions for black holes may be found. Then, using numerical integration methods we find solutions for black holes for many different forms of the coupling function. Also we derive their physical characteristics namely their mass, scalar charge, horizon area and entropy as well. Subsequently, by introducing a cosmological constant in the theory we investigate the existence of novel black-hole solutions. Specifically, assuming that the cosmological constant may be positive or negative we find numerical solutions which are asymptotically de Sitter or anti-de Sitter. In addition, as in the case of the asymptotically flat black holes, for each case we derive their physical characteristics. Finally, in the framework of the EsGB theory we derive novel wormhole solutions. The Gauss-Bonnet wormholes are traversable, may have a single or a double throat and do not demand the existence of exotic matter."
+   },
+   {
+    "id": "2006.13008v1",
+    "titulo": "Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": "Phys. Rev. D 102, 064010 (2020)",
+    "fecha": "2020-06-23",
+    "resumen": "We construct wormholes in Einstein-scalar-Gauss-Bonnet theories with a potential for the scalar field that includes a mass term and self-interaction terms. By varying the Gauss-Bonnet coupling constant we delimit the domain of existence of wormholes in these theories. The presence of the self-interaction enlarges the domain of existence significantly. There arise wormholes with a single throat and wormholes with an equator and a double throat. We determine the physical properties of these wormholes including their mass, their size and their geometry."
+   },
+   {
+    "id": "2005.07650v1",
+    "titulo": "Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": "Phys. Rev. D 102, 024070 (2020)",
+    "fecha": "2020-05-15",
+    "resumen": "Besides scalarized black holes and wormholes, Einstein-scalar-Gauss-Bonnet theories allow also for particle-like solutions. The scalar field of these particle-like solutions diverges at the origin, akin to the divergence of the Coulomb potential at the location of a charged particle. However, these particle-like solutions possess a globally regular metric, and their effective stress energy tensor is free from pathologies, as well. We determine the domain of existence for particle-like solutions in a number of Einstein-scalar-Gauss-Bonnet theories, considering dilatonic and power-law coupling functions, and we analyze the physical properties of the solutions. Interestingly, the solutions may possess pairs of lightrings, and thus represent ultra-compact objects. We determine the location of these lightrings, and study the effective potential for the occurrence of echoes in the gravitational-wave spectrum. We also address the relation of these particle-like solutions to the respective wormhole and black-hole solutions, and clarify the limiting procedure to recover the Fisher solution (also known as Janis-Newman-Winicourt-Wyman solution)."
+   },
+   {
+    "id": "1910.02121v2",
+    "titulo": "Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2019-10-04",
+    "resumen": "We present a new type of ultracompact objects, featuring lightrings and echoes in the gravitational-wave spectrum. These particle-like solutions arise in Einstein-scalar-Gauss-Bonnet theories in four spacetime dimensions, representing globally regular spacetime manifolds. The scalar field diverges at the center, but the effective stress-energy tensor is free from pathologies. We determine their domain of existence and compare with wormhole solutions, black holes and the Fisher solution."
+   },
+   {
+    "id": "1908.04690v1",
+    "titulo": "New exact traversable wormhole solution to the Einstein-scalar-Gauss-Bonnet Equations coupled to a power-Maxwell electrodynamics",
+    "autores": [
+     "Pedro Cañate",
+     "Nora Breton"
+    ],
+    "revista": "Phys. Rev. D 100, 064067 (2019)",
+    "fecha": "2019-08-13",
+    "resumen": "We present a novel, exact, traversable wormhole (T-WH) solution for $(3+1)$-dimensional Einstein-scalar-Gauss-Bonnet theory (EsGB) coupled to a power-Maxwell nonlinear electrodynamics (NLED). The solution is characterized by two parameters, $\\mathcal{Q}\\!_{\\rm e}$ and $\\mathcal{Q}\\!_{_{ \\mathcal{S} }}$, associated respectively with the electromagnetic field and the scalar field. We show that for $\\mathcal{Q}^2_{\\rm e} - \\mathcal{Q}\\!_{_{ \\mathcal{S} }}>0$ the solution can be interpreted as a traversable wormhole. In the general case, with non-vanishing electromagnetic field, the scalar-Gauss-Bonnet term (sGB) is the only responsible for the negative energy density necessary for the traversability. In the limiting case of vanishing electromagnetic field, the scalar field becomes a phantom one keeping the WH throat open and in this case the Ellis WH solution \\cite{Ellis} is recovered."
+   },
+   {
+    "id": "1907.09463v2",
+    "titulo": "Ellis wormhole without a phantom scalar field",
+    "autores": [
+     "Pedro Cañate",
+     "Joseph Sultana",
+     "Demosthenes Kazanas"
+    ],
+    "revista": "Phys. Rev. D 100, 064007 (2019)",
+    "fecha": "2019-07-22",
+    "resumen": "In this paper, we present an exact solution for $(3+1)$-dimensional Einstein-scalar-Gauss-Bonnet theory (EsGB) in electrovacuum. The solution is characterized by only one parameter, $Q$, which in general can be associated with the electromagnetic field and the scalar field. We show that the solution corresponds to a charged wormhole with throat at the region $r = |Q|$, and is also supported by a real scalar field having a positive kinetic term. We show that the solution belongs to the most general class of solutions known as Ellis wormholes but without the need for `exotic matter' or a phantom scalar field."
+   },
+   {
+    "id": "1904.13091v2",
+    "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+    "autores": [
+     "Georgios Antoniou",
+     "Athanasios Bakopoulos",
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys. Rev. D 101, 024033 (2020)",
+    "fecha": "2019-04-30",
+    "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+   }
+  ],
+  "abs:wormhole AND abs:\"dilatonic\" AND abs:\"Gauss-Bonnet\"": [
+   {
+    "id": "2405.05476v2",
+    "titulo": "A Review of Stable, Traversable Wormholes in f (R) Gravity Theories",
+    "autores": [
+     "Ramesh Radhakrishnan",
+     "Patrick Brown",
+     "Jacob Mutulevich",
+     "Eric Davis",
+     "Delaram Mirfendereski",
+     "Gerald Cleaver"
+    ],
+    "revista": "Symmetry 2024, 16, 1007.",
+    "fecha": "2024-05-09",
+    "resumen": "It has been proven that in standard Einstein gravity, exotic matter is required to stabilize traversable wormholes. Quantum field theory permits these violations due to the quantum coherent effects found in any quantum field. Even reasonable classical scalar fields violate the energy conditions. In the case of the Casimir effect and squeezed vacuum states, these violations have been experimentally proven. It is advantageous to investigate methods to minimize the use of exotic matter. One such area of interest is extended theories of Einstein gravity. It has been claimed that in some extended theories, stable traversable wormholes solutions can be found without the use of exotic matter. There are many extended theories of gravity, and in this review paper, we first explore modified gravity theories and then explore some wormhole solutions in such theories, including Lovelock gravity and Einstein Dilaton Gauss Bonnet gravity. For completeness, we have also reviewed other wormholes such as Casimir wormholes, dark matter halo wormholes, thin-shell wormholes, and Nonlocal Gravity wormholes, where alternative techniques are used to either avoid or reduce the amount of exotic matter that is required."
+   },
+   {
+    "id": "2210.17533v1",
+    "titulo": "Constraining modified gravity theories with scalar fields using black-hole images",
+    "autores": [
+     "Georgios Antoniou",
+     "Alexandros Papageorgiou",
+     "Panagiota Kanti"
+    ],
+    "revista": "Universe, 9(3), 147 (2023)",
+    "fecha": "2022-10-31",
+    "resumen": "We study a number of well-motivated theories of modified gravity with the common overarching theme that they predict the existence of compact objects such as black holes and wormholes endowed with scalar hair. We compute the shadow radius of the resulting compact objects and demonstrate that black hole images such as that of M87$^*$ or the more recent SgrA$^*$ by the Einstein Horizon Telescope (EHT) collaboration may provide a powerful way to constrain deviations of the metric functions from what is expected from general relativity (GR) solutions. We focus our attention on Einstein-scalar-Gauss-Bonnet (EsGB) theory with three well motivated couplings, including the dilatonic and $Z_2$ symmetric cases. We then analyze the shadow radius of black holes in the contest of the spontaneous scalarization scenario within EsGB theory with an additional coupling to the Ricci scalar (EsRGB). Finally, we turn our attention to spontaneous scalarization in the Einstein-Maxwell-Scalar (EMS) theory and demonstrate the impact of the parameters on the black hole shadow. Our results show that black hole imaging is an important tool for constraining black holes with scalar hair and for some part of the parameter space, black holes solutions with scalar hair may be marginally favoured compared to solutions of GR."
+   },
+   {
+    "id": "2205.13007v4",
+    "titulo": "Nonperturbative gedanken experiments in Einstein-dilaton-Gauss-Bonnet gravity: nonlinear transitions and tests of the cosmic censorship beyond General Relativity",
+    "autores": [
+     "Fabrizio Corelli",
+     "Marina De Amicis",
+     "Taishi Ikeda",
+     "Paolo Pani"
+    ],
+    "revista": null,
+    "fecha": "2022-05-25",
+    "resumen": "As the only gravity theory with quadratic curvature terms and second-order field equations, Einstein-dilaton-Gauss-Bonnet gravity is a natural testbed to probe the high-curvature regime beyond General Relativity in a fully nonperturbative way. Due to nonperturbative effects of the dilatonic coupling, black holes in this theory have a minimum mass which separates a stable branch from an unstable one. The minimum mass solution is a double point in the phase diagram of the theory, wherein the critical black hole and a wormhole solution coexist. We perform extensive nonlinear simulations of the spherical collapse onto black holes with scalar hair in this theory, especially focusing on the region near the minimum mass. We study the nonlinear transition from the unstable to the stable branch and assess the nonlinear stability of the latter. Furthermore, motivated by modeling the mass loss induced by Hawking radiation near the minimum mass at the classical level, we study the collapse of a phantom field onto the black hole. When the black-hole mass decreases past the critical value, the apparent horizon shrinks significantly, eventually unveiling a high-curvature elliptic region. We argue that evaporation in this theory is bound to either violate the weak cosmic censorship or produce horizonless remnants. Addressing the end-state might require a different evolution scheme."
+   },
+   {
+    "id": "2111.14845v4",
+    "titulo": "Wormhole inducing inflation with Einstein Gauss Bonnet dilaton interaction",
+    "autores": [
+     "Gargi Biswas",
+     "M K Dutta",
+     "B Modak"
+    ],
+    "revista": null,
+    "fecha": "2021-11-29",
+    "resumen": "We present a few Euclidean wormhole configurations using both the analytic and numerical solutions of the field equations considering Einstein Gauss-Bonnet dilaton interaction in 4-dimensional Robertson Walker Euclidean background. In one analytic solution we present transition from a wormhole to an exponential expansion with Lorentzian time $t$ using $τ=it$ after passing through an era of oscillating Euclidean wormhole. The numerical solutions of the scale factor $a(τ)$ show multiple local maxima and minima about a global minimum for inverse power law potentials, while for exponential potential the wormholes have a single minimum. The Hubble parameter and deceleration parameter obtained by curve fit of $a(τ)$ of the numerical solution show an inflation away from the throat of the wormhole invoking analytic continuation by $τ=it$. A sharp decay of the potential is also observed."
+   },
+   {
+    "id": "2111.13913v2",
+    "titulo": "Cosmic scenario of early Universe in context of Euclidean wormhole in dilatonic Einstein Gauss Bonnet gravity",
+    "autores": [
+     "Gargi Biswas",
+     "B Modak"
+    ],
+    "revista": null,
+    "fecha": "2021-11-27",
+    "resumen": "We present some wormhole configurations using analytic and numerical solutions of the Euclidean field equations considering Einstein Gauss Bonnet dilaton coupled interaction in the Robertson Walker metric. Analytic solutions invoking slow-roll type approximation for some potentials yield identical wormholes in the early era. Eventually, in a later era, the universe enters to an expanding era much faster than usual inflation accompanied by oscillations with analytic continuation τ=it. The numerical solutions of wormholes in terms of the scale factor a(τ) are almost identical for some standard potentials of the dilaton field, except for the evolution of potentials. The Hubble parameter and deceleration parameter obtained by curve fit of a(τ) of the numerical solution of wormhole yield an inflationary era away from the throat of the wormhole using τ=it. A sharp decay of the potential is also observed."
+   },
+   {
+    "id": "2006.04344v1",
+    "titulo": "Euclidean wormholes in Gauss-Bonnet-dilaton gravity",
+    "autores": [
+     "Xiao Yan Chew",
+     "Gansukh Tumurtushaa",
+     "Dong-han Yeom"
+    ],
+    "revista": null,
+    "fecha": "2020-06-08",
+    "resumen": "We investigate Euclidean wormholes in Gauss-Bonnet-dilaton gravity to explain the creation of the universe from nothing. We considered two types of dilaton couplings (i.e., the string-inspired model and the Gaussian model) and we obtained qualitatively similar results. There can exist Euclidean wormholes that explain the possible origin of our universe, where the dilaton field is located over the barrier of dilaton potential. This solution can exist even if dilaton potential does not satisfy slow-roll conditions. In addition, the probability is higher than that of the Hawking-Moss instanton with the same final condition. Therefore, Euclidean wormholes in Gauss-Bonnet-dilaton gravity are a possible and probable scenario, which explains the origin of our universe."
+   },
+   {
+    "id": "2005.07650v1",
+    "titulo": "Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": "Phys. Rev. D 102, 024070 (2020)",
+    "fecha": "2020-05-15",
+    "resumen": "Besides scalarized black holes and wormholes, Einstein-scalar-Gauss-Bonnet theories allow also for particle-like solutions. The scalar field of these particle-like solutions diverges at the origin, akin to the divergence of the Coulomb potential at the location of a charged particle. However, these particle-like solutions possess a globally regular metric, and their effective stress energy tensor is free from pathologies, as well. We determine the domain of existence for particle-like solutions in a number of Einstein-scalar-Gauss-Bonnet theories, considering dilatonic and power-law coupling functions, and we analyze the physical properties of the solutions. Interestingly, the solutions may possess pairs of lightrings, and thus represent ultra-compact objects. We determine the location of these lightrings, and study the effective potential for the occurrence of echoes in the gravitational-wave spectrum. We also address the relation of these particle-like solutions to the respective wormhole and black-hole solutions, and clarify the limiting procedure to recover the Fisher solution (also known as Janis-Newman-Winicourt-Wyman solution)."
+   },
+   {
+    "id": "1912.08382v1",
+    "titulo": "Black Holes and Wormholes in Higher-Curvature Corrected Theories of Gravity",
+    "autores": [
+     "M. A. Cuyubamba"
+    ],
+    "revista": null,
+    "fecha": "2019-12-18",
+    "resumen": "The presented thesis is devoted to the study of instabilities of compact objects within the Einstein-Gauss-Bonnet theory. This theory includes higher-order corrections in curvature, which are inspired by the low energy limit of string theory. We study linear instability of higher-dimensional black holes in the de Sitter universe. The time-domain picture allows us to obtain the parametric region of stability for the gravitational perturbations in all three channels, i.e., for scalar-type, vector-type, and tensor-type perturbations. We observed that while the scalar and tensor channels show instability for some choice of the parameters, the vector-type perturbations are always stable. Furthermore, we show that the quasinormal frequencies of the scalar type of gravitational perturbations do not obey Hod's inequality, however, the other two channels, vector and tensor, have lower-lying modes that confirm Hod's conjecture. We also studied stability of the wormholes in the four-dimensional Einstein-dilaton-Gauss-Bonnet gravity proposed by P. Kanti, B. Kleihaus, J. Kunz in arXiv:1108.3003 . These wormholes were claimed to be stable against linear radial perturbations. However, our time-domain analysis allowed us to prove such wormholes are linearly unstable against general radial perturbations for any values of their parameters. We observed that the exponential growth appears after a long period of damped oscillations. This behaviour is qualitatively similar to the instability profile of the higher-dimensional black holes in the Einstein-Gauss-Bonnet theory."
+   },
+   {
+    "id": "1908.01647v2",
+    "titulo": "Gravitational deflection of relativistic massive particles by wormholes",
+    "autores": [
+     "Zonghai Li",
+     "Guansheng He",
+     "Tao Zhou"
+    ],
+    "revista": "Phys. Rev. D 101, 044001 (2020)",
+    "fecha": "2019-08-05",
+    "resumen": "In this paper, the gravitational deflection of relativistic massive particles up to the second post-Minkowskian order by static and spherically symmetric wormholes is investigated in the weak-field limit. These wormholes include the Janis-Newman-Winicour wormhole, a class of zero Ricci scalar scalar-tensor wormholes, and a class of charged Einstein-Maxwell-dilaton wormholes. With the Jacobi metric approach, the Gauss-Bonnet theorem is employed to study the gravitational deflection. In this scheme, the deflection angle as a topological effect is considered. Moreover, we analyze the influence of the spacetime parameters on the results."
+   },
+   {
+    "id": "1808.01103v2",
+    "titulo": "Quantum creation of traversable wormholes ex nihilo in Gauss-Bonnet-dilaton gravity",
+    "autores": [
+     "Gansukh Tumurtushaa",
+     "Dong-han Yeom"
+    ],
+    "revista": "Eur.Phys.J. C79 (2019) no.6, 488",
+    "fecha": "2018-08-03",
+    "resumen": "We investigate a nucleation of a Euclidean wormhole and its analytic continuation to Lorentzian signatures in Gauss-Bonnet-dilaton gravity, where this model can be embedded by the type-II superstring theory. We show that there exists a Euclidean wormhole solution in this model by choosing a suitable shape of the dilaton potential. After the analytic continuation, this explains a quantum creation of a time-like traversable wormhole. Finally, we discuss relations to the information loss problem and the current literature."
+   },
+   {
+    "id": "1806.03719v2",
+    "titulo": "Weak Gravitational lensing by phantom black holes and phantom wormholes using the Gauss-Bonnet theorem",
+    "autores": [
+     "Ali Övgün",
+     "Galin Gyulchev",
+     "Kimet Jusufi"
+    ],
+    "revista": "Annals of Physics 406 (2019) 152-172",
+    "fecha": "2018-06-10",
+    "resumen": "In this paper, we study the deflection of light by a class of phantom black hole and wormhole solutions in the weak limit approximation. More specifically, in the first part of this work, we study the deflection of light by Garfinkle-Horowitz-Ströminger black hole and Einstein-Maxwell anti-dilaton black hole using the optical geometry and the Gauss-Bonnet theorem. Our calculations show that gravitational lensing is affected by the phantom scalar field (phantom dilaton). In the second part of this work, we explore the deflection of light by a class of asymptotically flat phantom wormholes. In particular, we have used three types of wormholes: wormhole with a bounded/unbounded mass function, and a wormhole with a vanishing redshift function. We show that the particular choice of the shape function and mass function plays a crucial role in the final expression for the deflection angle of light. In the third part of the paper, we verify our findings with the help of standard geodesics equations. Finally, in the fourth part of this paper, we consider the problem for the observational relevance of our results studying the creation of the weak field Einstein rings."
+   },
+   {
+    "id": "1804.11170v2",
+    "titulo": "No stable wormholes in Einstein-dilaton-Gauss-Bonnet theory",
+    "autores": [
+     "M. A. Cuyubamba",
+     "R. A. Konoplya",
+     "A. Zhidenko"
+    ],
+    "revista": "Phys. Rev. D 98, 044040 (2018)",
+    "fecha": "2018-04-30",
+    "resumen": "In [P. Kanti, B. Kleihaus, J. Kunz, Phys. Rev. Lett. 107, 271101 (2011)] it was shown that the four-dimensional Einstein-dilaton-Gauss-Bonnet theory allows for wormholes without introducing any exotic matter. The numerical solution for the wormhole was obtained there and it was claimed that this solution is gravitationally stable against radial perturbations, what, by now, would mean the only known theoretical possibility for existence of an apparently stable, four-dimensional and asymptotically flat wormhole without exotic matter. Here, more detailed analysis of perturbations shows that the Kanti-Kleihaus-Kunz wormhole is unstable against small perturbations for any values of its parameters. The exponential growth appears in the time domain after a long period of damped oscillations, in the same way as it takes place in the case of unstable higher-dimensional black holes in the Einstein-Gauss-Bonnet theory. The instability is driven by the purely imaginary mode, which is nonperturbative in the Gauss-Bonnet coupling$α$."
+   },
+   {
+    "id": "1708.00935v3",
+    "titulo": "Phantom wormholes in Einstein-Maxwell-dilaton theory",
+    "autores": [
+     "Prieslei Goulart"
+    ],
+    "revista": null,
+    "fecha": "2017-08-02",
+    "resumen": "In this paper we give an electrically charged traversable wormhole solution for the Einstein-Maxwell-dilaton theory when the dilaton is a phantom field, i.e. it has flipped sign kinetic term appearing in the action. In the limit when the charge is zero, we recover the anti-Fisher solution, which can be reduced to the Bronnikov-Ellis solution under certain choices of integration constants. The equations of motion of this theory share the same S-duality invariance of string theory, so the electrically charged solution is rotated into the magnetically charged one by applying such transformations. The scalar field is topological, so we compute its topological charge, and discuss that under appropriate boundary conditions we can have a lump, a kink, or an anti-kink profile. We determine the position of the throat, and show the embedding diagram of the wormhole. As a physical application, we apply the Gauss-Bonnet theorem to compute the deflection angle of a light-ray that passes close to the wormhole."
+   },
+   {
+    "id": "1707.01416v2",
+    "titulo": "Light deflection by charged wormholes in Einstein-Maxwell-dilaton theory",
+    "autores": [
+     "Kimet Jusufi",
+     "Ali Övgün",
+     "Ayan Banerjee"
+    ],
+    "revista": "Phys. Rev. D 96, 084036 (2017)",
+    "fecha": "2017-07-05",
+    "resumen": "In this paper, we study the deflection of light by a class of charged wormholes within the context of the Einstein-Maxwell-dilaton theory. The primordial wormholes are predicted to exist in the early universe, where inflation driven by the dilaton field. We perform our analysis through optical geometry using the Gibbons-Werner method (GW), by adopting the Gauss-Bonnet theorem and the standard geodesics approach. We report an interesting result for the deflection angle in leading-order terms--namely, the deflection angle increases due to the electric charge $Q$ and the magnetic charge $P$, whereas it decreases due to the dilaton charge $Σ$. Finally, we confirm our findings by means of geodesics equations. Our computations show that the GW method gives an exact result in leading order terms."
+   },
+   {
+    "id": "1201.2417v1",
+    "titulo": "f(R) Theories of Supergravities and Pseudo-supergravities",
+    "autores": [
+     "Haishan Liu",
+     "H. Lu",
+     "Zhao-Long Wang"
+    ],
+    "revista": null,
+    "fecha": "2012-01-11",
+    "resumen": "We present f(R) theories of ten-dimensional supergravities, including the fermionic sector up to the quadratic order in fermion fields. They are obtained by performing the conformal scaling on the usual supergravities to the f(R) frame in which the dilaton becomes an auxiliary field and can be integrated out. The f(R) frame coincides with that of M-theory, D2-branes or NS-NS 5-branes. We study various BPS p-brane solutions and their near-horizon AdS \\times sphere geometries in the context of the f(R) theories. We find that new solutions emerge with global structures that do not exist in the corresponding solutions of the original supergravity description. In lower dimensions, We construct the f(R) theory of N=2, D=5 gauged supergravity with a vector multiplet, and that for the four-dimensional U(1)^4 gauged theory with three vector fields set equal. We find that some previously-known BPS singular \"superstars\" become wormholes in the f(R) theories. We also construct a large class of f(R) (gauged) pseudo-supergravities. In addition we show that the breathing mode in the Kaluza-Klein reduction of Gauss-Bonnet gravity on S^1 is an auxiliary field and can be integrated out."
+   },
+   {
+    "id": "1111.4049v3",
+    "titulo": "Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": null,
+    "fecha": "2011-11-17",
+    "resumen": "We discuss the properties of Lorentzian wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions. These wormholes do not need any form of exotic matter for their existence. A subset of these wormholes is shown to be linearly stable with respect to radial perturbations. We perform a comprehensive study of their domain of existence, and derive a generalised Smarr relation for these wormholes. We also investigate their geodesics determining all possible particle trajectories, and perform a study of the acceleration and tidal forces that a traveler crossing the wormhole would feel."
+   },
+   {
+    "id": "1108.3003v2",
+    "titulo": "Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys.Rev.Lett. 107 (2011) 271101",
+    "fecha": "2011-08-15",
+    "resumen": "We construct traversable wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions, without needing any form of exotic matter. We determine their domain of existence, and show that these wormholes satisfy a generalised Smarr relation. We demonstrate linear stability with respect to radial perturbations for a subset of these wormholes."
+   }
+  ],
+  "au:Kleihaus AND abs:wormhole AND abs:\"Gauss-Bonnet\"": [
+   {
+    "id": "2204.08232v1",
+    "titulo": "Symmetric wormholes in Einstein-vector-Gauss-Bonnet theory",
+    "autores": [
+     "Simon Barton",
+     "Claus Kiefer",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": null,
+    "fecha": "2022-04-18",
+    "resumen": "We construct wormholes in Einstein-vector-Gauss-Bonnet theory where a real massless vector field is coupled to the higher curvature Gauss-Bonnet invariant. We consider three coupling functions which depend on the square of the vector field. The respective domains of existence of wormholes possess as their boundaries i) black holes, ii) solutions with a singular throat, iii) solutions with a degenerate throat and iv) solutions with cusp singularities. Depending on the coupling function wormhole solutions can feature a single throat or an equator surrounded by a double throat. The wormhole solutions need a thin shell of matter at the throat, in order to be symmetrically continued into the second asymptotically flat region. These wormhole spacetimes allow for bound and unbound particle motion as well as light rings."
+   },
+   {
+    "id": "2111.09628v1",
+    "titulo": "Wormhole solutions with NUT charge in higher curvature theories",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": null,
+    "fecha": "2021-11-18",
+    "resumen": "We present wormholes with a Newman-Unti-Tamburino (NUT) charge that arise in certain higher curvature theories, where a scalar field is coupled to a higher curvature invariant. For the invariants we employ i) a Gauss-Bonnet term and ii) a Chern-Simons term, which then act as source terms for the scalar field. We map out the domain of existence of wormhole solutions by varying the coupling parameter and the scalar charge for a set of fixed values of the NUT charge. The domain of existence for a given NUT charge is then delimited by the set of scalarized nutty black holes, a set of wormhole solutions with a degenerate throat and a set of singular solutions."
+   },
+   {
+    "id": "2012.05178v1",
+    "titulo": "Scalarized nutty wormholes",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": null,
+    "fecha": "2020-12-09",
+    "resumen": "We construct scalarized wormholes with a NUT charge in higher curvature theories. We consider both Einstein-scalar-Gauss-Bonnet and Einstein-scalar-Chern-Simons theories, following a recent paper by Brihaye et al. [1], where spontaneously scalarised Schwarzschild-NUT solutions were studied. By varying the coupling parameter and the scalar charge we determine the domain of existence of the scalarized nutty wormholes, and their dependence on the NUT charge. In the Gauss-Bonnet case the known set of scalarized wormholes [2] is reached in the limit of vanishing NUT charge. In the Chern-Simons case, however, the limit is peculiar, since with vanishing NUT charge the coupling constant diverges. We focus on scalarized nutty wormholes with a single throat and study their properties. All these scalarized nutty wormholes feature a critical polar angle, beyond which closed timelike curves are present."
+   },
+   {
+    "id": "2006.13008v1",
+    "titulo": "Wormholes in Einstein-scalar-Gauss-Bonnet theories with a scalar self-interaction potential",
+    "autores": [
+     "Rustam Ibadov",
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Sardor Murodov"
+    ],
+    "revista": "Phys. Rev. D 102, 064010 (2020)",
+    "fecha": "2020-06-23",
+    "resumen": "We construct wormholes in Einstein-scalar-Gauss-Bonnet theories with a potential for the scalar field that includes a mass term and self-interaction terms. By varying the Gauss-Bonnet coupling constant we delimit the domain of existence of wormholes in these theories. The presence of the self-interaction enlarges the domain of existence significantly. There arise wormholes with a single throat and wormholes with an equator and a double throat. We determine the physical properties of these wormholes including their mass, their size and their geometry."
+   },
+   {
+    "id": "2005.07650v1",
+    "titulo": "Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": "Phys. Rev. D 102, 024070 (2020)",
+    "fecha": "2020-05-15",
+    "resumen": "Besides scalarized black holes and wormholes, Einstein-scalar-Gauss-Bonnet theories allow also for particle-like solutions. The scalar field of these particle-like solutions diverges at the origin, akin to the divergence of the Coulomb potential at the location of a charged particle. However, these particle-like solutions possess a globally regular metric, and their effective stress energy tensor is free from pathologies, as well. We determine the domain of existence for particle-like solutions in a number of Einstein-scalar-Gauss-Bonnet theories, considering dilatonic and power-law coupling functions, and we analyze the physical properties of the solutions. Interestingly, the solutions may possess pairs of lightrings, and thus represent ultra-compact objects. We determine the location of these lightrings, and study the effective potential for the occurrence of echoes in the gravitational-wave spectrum. We also address the relation of these particle-like solutions to the respective wormhole and black-hole solutions, and clarify the limiting procedure to recover the Fisher solution (also known as Janis-Newman-Winicourt-Wyman solution)."
+   },
+   {
+    "id": "1910.02121v2",
+    "titulo": "Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2019-10-04",
+    "resumen": "We present a new type of ultracompact objects, featuring lightrings and echoes in the gravitational-wave spectrum. These particle-like solutions arise in Einstein-scalar-Gauss-Bonnet theories in four spacetime dimensions, representing globally regular spacetime manifolds. The scalar field diverges at the center, but the effective stress-energy tensor is free from pathologies. We determine their domain of existence and compare with wormhole solutions, black holes and the Fisher solution."
+   },
+   {
+    "id": "1904.13091v2",
+    "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+    "autores": [
+     "Georgios Antoniou",
+     "Athanasios Bakopoulos",
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys. Rev. D 101, 024033 (2020)",
+    "fecha": "2019-04-30",
+    "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+   },
+   {
+    "id": "1111.4049v3",
+    "titulo": "Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": null,
+    "fecha": "2011-11-17",
+    "resumen": "We discuss the properties of Lorentzian wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions. These wormholes do not need any form of exotic matter for their existence. A subset of these wormholes is shown to be linearly stable with respect to radial perturbations. We perform a comprehensive study of their domain of existence, and derive a generalised Smarr relation for these wormholes. We also investigate their geodesics determining all possible particle trajectories, and perform a study of the acceleration and tidal forces that a traveler crossing the wormhole would feel."
+   },
+   {
+    "id": "1108.3003v2",
+    "titulo": "Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys.Rev.Lett. 107 (2011) 271101",
+    "fecha": "2011-08-15",
+    "resumen": "We construct traversable wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions, without needing any form of exotic matter. We determine their domain of existence, and show that these wormholes satisfy a generalised Smarr relation. We demonstrate linear stability with respect to radial perturbations for a subset of these wormholes."
+   }
+  ],
+  "au:Kanti AND abs:wormhole": [
+   {
+    "id": "2412.20296v1",
+    "titulo": "Compact Objects in Einstein-scalar-Gauss-Bonnet Theory and beyond",
+    "autores": [
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2024-12-28",
+    "resumen": "In the context of General Relativity, black holes are not allowed to possess scalar hair, wormholes are not traversable and particle-like solutions are irregular. Therefore, in order to derive novel and physically interesting solutions that describe compact objects one needs to address generalised gravitational theories. One popular class of such theories is the Einstein-scalar-Gauss-Bonnet (EsGB) theory with a general coupling function between the scalar field of the theory and the quadratic Gauss-Bonnet term. Starting from black holes, we present a variety of spherically-symmetric solutions for several different forms of the coupling function and discuss their main features. We then proceed to wormhole solutions and demonstrate that the EsGB theory naturally supports traversable wormholes without the need for exotic matter. Regular scalarised particle-like solutions also emerge in the context of the same theory which also possess interesting observable features such as photon rings and echoes. Moving beyond this class of theories, we then address the more extended scalar-tensor Horndeski theory, briefly mention the types of black-hole solutions that arise, and demonstrate that an appropriately constructed disformal transformation of a black-hole solution, such as the Lu-Pang solution, results into a traversable wormhole in the context of the beyond-Horndeski theory."
+   },
+   {
+    "id": "2210.17533v1",
+    "titulo": "Constraining modified gravity theories with scalar fields using black-hole images",
+    "autores": [
+     "Georgios Antoniou",
+     "Alexandros Papageorgiou",
+     "Panagiota Kanti"
+    ],
+    "revista": "Universe, 9(3), 147 (2023)",
+    "fecha": "2022-10-31",
+    "resumen": "We study a number of well-motivated theories of modified gravity with the common overarching theme that they predict the existence of compact objects such as black holes and wormholes endowed with scalar hair. We compute the shadow radius of the resulting compact objects and demonstrate that black hole images such as that of M87$^*$ or the more recent SgrA$^*$ by the Einstein Horizon Telescope (EHT) collaboration may provide a powerful way to constrain deviations of the metric functions from what is expected from general relativity (GR) solutions. We focus our attention on Einstein-scalar-Gauss-Bonnet (EsGB) theory with three well motivated couplings, including the dilatonic and $Z_2$ symmetric cases. We then analyze the shadow radius of black holes in the contest of the spontaneous scalarization scenario within EsGB theory with an additional coupling to the Ricci scalar (EsRGB). Finally, we turn our attention to spontaneous scalarization in the Einstein-Maxwell-Scalar (EMS) theory and demonstrate the impact of the parameters on the black hole shadow. Our results show that black hole imaging is an important tool for constraining black holes with scalar hair and for some part of the parameter space, black holes solutions with scalar hair may be marginally favoured compared to solutions of GR."
+   },
+   {
+    "id": "2203.14595v2",
+    "titulo": "Compact objects of spherical symmetry in beyond Horndeski theories",
+    "autores": [
+     "Athanasios Bakopoulos",
+     "Christos Charmousis",
+     "Panagiota Kanti",
+     "Nicolas Lecoeur"
+    ],
+    "revista": "JHEP 08 (2022) 055",
+    "fecha": "2022-03-28",
+    "resumen": "We analyse in all generality beyond Horndeski theories of shift symmetry in a static and spherically symmetric spacetime. By introducing four auxiliary functions, we write the field equations in a particularly compact form. We show that assuming additionally parity symmetry renders the system directly integrable giving multiple families of black-hole solutions. These have typically an asymptotically-flat Reissner-Nordstrom behaviour, and emerge in the presence of a canonical kinetic term for the scalar field. In the absence of parity symmetry, we present a general method which allows us to integrate the field equations by choosing the form of only one coupling function and an auxiliary quantity. This method leads to asymptotically flat and AdS black hole solutions with differing properties. We finally discuss disformal transformations within this context as a means of obtaining wormhole and black hole solutions in different theories."
+   },
+   {
+    "id": "2111.09857v2",
+    "titulo": "Traversable wormholes in beyond Horndeski theories",
+    "autores": [
+     "Athanasios Bakopoulos",
+     "Christos Charmousis",
+     "Panagiota Kanti"
+    ],
+    "revista": "JCAP05(2022)022",
+    "fecha": "2021-11-18",
+    "resumen": "We construct a large class of explicit, asymptotically flat and regular wormhole solutions in higher order scalar tensor theories. The solutions are vacuum solutions of scalar tensor theory and no matter (exotic or regular) is introduced in order to support them. They are constructed via a general disformal transformation of a seed black hole solution. The seed solutions belong to a particular Horndeski theory which requires the presence of all extended Galileons and has a higher dimensional Lovelock origin. As a result, the resulting wormholes are always solutions of general beyond Horndeski theory. The particular class of wormholes we study are parametrised by their ADM mass and two coupling constants of the theory, one related to their higher dimensional Lovelock origin and one to the disformal transformation itself. The latter of the coupling constants affects the throat size of the wormhole solutions, thus giving them a compact or non-compact nature, as well as their properties."
+   },
+   {
+    "id": "2005.07650v1",
+    "titulo": "Properties of ultra-compact particle-like solutions in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": "Phys. Rev. D 102, 024070 (2020)",
+    "fecha": "2020-05-15",
+    "resumen": "Besides scalarized black holes and wormholes, Einstein-scalar-Gauss-Bonnet theories allow also for particle-like solutions. The scalar field of these particle-like solutions diverges at the origin, akin to the divergence of the Coulomb potential at the location of a charged particle. However, these particle-like solutions possess a globally regular metric, and their effective stress energy tensor is free from pathologies, as well. We determine the domain of existence for particle-like solutions in a number of Einstein-scalar-Gauss-Bonnet theories, considering dilatonic and power-law coupling functions, and we analyze the physical properties of the solutions. Interestingly, the solutions may possess pairs of lightrings, and thus represent ultra-compact objects. We determine the location of these lightrings, and study the effective potential for the occurrence of echoes in the gravitational-wave spectrum. We also address the relation of these particle-like solutions to the respective wormhole and black-hole solutions, and clarify the limiting procedure to recover the Fisher solution (also known as Janis-Newman-Winicourt-Wyman solution)."
+   },
+   {
+    "id": "1910.02121v2",
+    "titulo": "Particle-like ultracompact objects in Einstein-scalar-Gauss-Bonnet theories",
+    "autores": [
+     "Burkhard Kleihaus",
+     "Jutta Kunz",
+     "Panagiota Kanti"
+    ],
+    "revista": null,
+    "fecha": "2019-10-04",
+    "resumen": "We present a new type of ultracompact objects, featuring lightrings and echoes in the gravitational-wave spectrum. These particle-like solutions arise in Einstein-scalar-Gauss-Bonnet theories in four spacetime dimensions, representing globally regular spacetime manifolds. The scalar field diverges at the center, but the effective stress-energy tensor is free from pathologies. We determine their domain of existence and compare with wormhole solutions, black holes and the Fisher solution."
+   },
+   {
+    "id": "1904.13091v2",
+    "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+    "autores": [
+     "Georgios Antoniou",
+     "Athanasios Bakopoulos",
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys. Rev. D 101, 024033 (2020)",
+    "fecha": "2019-04-30",
+    "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+   },
+   {
+    "id": "1111.4049v3",
+    "titulo": "Stable Lorentzian Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": null,
+    "fecha": "2011-11-17",
+    "resumen": "We discuss the properties of Lorentzian wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions. These wormholes do not need any form of exotic matter for their existence. A subset of these wormholes is shown to be linearly stable with respect to radial perturbations. We perform a comprehensive study of their domain of existence, and derive a generalised Smarr relation for these wormholes. We also investigate their geodesics determining all possible particle trajectories, and perform a study of the acceleration and tidal forces that a traveler crossing the wormhole would feel."
+   },
+   {
+    "id": "1108.3003v2",
+    "titulo": "Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys.Rev.Lett. 107 (2011) 271101",
+    "fecha": "2011-08-15",
+    "resumen": "We construct traversable wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions, without needing any form of exotic matter. We determine their domain of existence, and show that these wormholes satisfy a generalised Smarr relation. We demonstrate linear stability with respect to radial perturbations for a subset of these wormholes."
+   },
+   {
+    "id": "1107.5994v1",
+    "titulo": "A Nonsingular Brans Wormhole: An Analogue to Naked Black Holes",
+    "autores": [
+     "Amrita Bhattacharya",
+     "Ramil Izmailov",
+     "Ettore Laserra",
+     "Kamal K. Nandi"
+    ],
+    "revista": "Class.Quant.Grav.28:155009,2011",
+    "fecha": "2011-07-28",
+    "resumen": "In a recent paper, we showed the Jordan frame vacuum Brans Class I solution provided a wormhole analogue to Horowitz-Ross naked black hole in the wormhole range -3/2<ω<-4/3. Thereafter, the solution has been criticized by some authors that, because of the presence of singularity in that solution within this range, a wormhole interpretation of it is untenable. While the criticism is correct, we show here that (i) a singularity-free wormhole can actually be obtained from Class I solution by performing a kind of Wick rotation on it, resulting into what Brans listed as his independent Class II solution (ii) the Class II solution has all the necessary properties of a regular wormhole in a revised range -2<ω<-3/2 and finally, (iii) naked black holes, as described by Horowitz and Ross, are spacetimes where the tidal forces attain their maxima above the black hole horizon. We show that in the non-singular Class II spacetime this maxima is attained above the throat and thus can be treated as a wormhole analogue. Some related issues are also addressed."
+   },
+   {
+    "id": "1006.4819v2",
+    "titulo": "Brans-Dicke Wormhole Revisited -- II",
+    "autores": [
+     "Ramil Izmailov",
+     "Amrita Bhattacharya",
+     "Kamal K. Nandi"
+    ],
+    "revista": null,
+    "fecha": "2010-06-24",
+    "resumen": "In a recent paper [arXiv:0910.1109], a wormhole range in the Jordan frame, -3/2<ω<-4/3 for the vacuum Brans-Dicke Class I solution was derived. On general grounds and under certain conditions, it is shown in a theorem that static wormhole solutions in the scalar-tensor theory are not possible. We agree with the conclusion within its framework but report that a singularity-free wormhole can be obtained from Class I solution by performing certain operations on it, a fact possibly not yet widely known. The transformed solution is regular everywhere, produces a wormhole with two asymtotically flat regions for a revised new range -2<ω<-3/2, together with a wormhole analogue (of Horowitz-Ross naked black hole) that we discovered earlier. This new range lies in the ghost regime in the Einstein frame consistent with the theorem. We further conclude that there is a fixed point at ω=-3/2, the values ω>-3/2 correspond to singular wormholes, while values ω<-3/2 correspond to singularity-free wormholes."
+   },
+   {
+    "id": "0910.1109v2",
+    "titulo": "Brans-Dicke Wormhole Revisited",
+    "autores": [
+     "Amrita Bhattacharya",
+     "Ilnur Nigmatzyanov",
+     "Ramil Izmailov",
+     "Kamal K. Nandi"
+    ],
+    "revista": "Class.Quant.Grav.26:235017,2009",
+    "fecha": "2009-10-06",
+    "resumen": "A basic constraint to be satisfied by Brans class I solution for being a traversible wormhole is derived. It is argued that the solution could be a wormhole analogue of the Horowitz-Ross naked black hole. It is further demonstrated that the wormhole is traversible only \"in principle\", but not in practice. Using a recently proposed measure of total gravitational energy inside a static wormhole configuration, it is shown that the wormhole contains repulsive gravity required for the defocussing of orbits at the throat."
+   },
+   {
+    "id": "0906.0436v1",
+    "titulo": "Brans wormholes",
+    "autores": [
+     "Kamal K. Nandi",
+     "Anwarul Islam"
+    ],
+    "revista": "Phys.Rev.D55:2497-2500,1997",
+    "fecha": "2009-06-02",
+    "resumen": "It is shown that three of the four Brans solutions of classes I--IV admit wormhole geometry. Two-way traversable wormholes in the Brans-Dicke theory are allowed not only for the negative values of the coupling parameter w (w<-2), as concluded earlier, but also for arbitrary positive values of w (w<infinity). It also follows that the scalar field f plays the role of exotic matter violating the weak energy condition."
+   },
+   {
+    "id": "0906.0181v1",
+    "titulo": "Brans-Dicke wormholes in the Jordan and Einstein frames",
+    "autores": [
+     "K. K. Nandi",
+     "B. Bhattacharjee",
+     "S. M. K. Alam",
+     "J. Evans"
+    ],
+    "revista": "Phys.Rev.D57:823-828,1998",
+    "fecha": "2009-05-31",
+    "resumen": "We examine the possibility of static wormhole solutions in the vacuum Brans-Dicke theory both in the original (Jordan) frame and in the conformally rescaled (Einstein) frame. It turns out that, in the former frame, wormholes exist only in a very narrow interval of the coupling parameter, viz., -3/2<omega<-4/3. It is shown that these wormholes are not traversable in practice. In the latter frame, wormhole solutions do not exist at all unless energy conditions are violated by hand."
+   },
+   {
+    "id": "0809.4143v3",
+    "titulo": "Energetics in Condensate Star and Wormholes",
+    "autores": [
+     "K. K. Nandi",
+     "Y. Z. Zhang",
+     "R. G. Cai",
+     "A. Panchenko"
+    ],
+    "revista": "Phys.Rev.D79:024011,2009",
+    "fecha": "2008-09-24",
+    "resumen": "It is known that the total gravitational energy in localized sources having static spherical symmetry and satisfying energy conditions is negative (attractive gravity). A natural query is how the gravitational energy behaves under circumstances where energy conditions are violated. To answer this, the known expression for the gravitational energy is suitably modified to account for situations like the ones occurring in wormhole spacetime. It is then exemplified that in many cases the modified expression yields desirable answers. The implications are discussed."
+   },
+   {
+    "id": "0808.3240v1",
+    "titulo": "New Features of Extended Wormhole Solutions in the Scalar Field Gravity Theories",
+    "autores": [
+     "Kamal K. Nandi",
+     "Ilnur Nigmatzyanov",
+     "Ramil Izmailov",
+     "Nail G. Migranov"
+    ],
+    "revista": "Class.Quant.Grav.25:165020,2008",
+    "fecha": "2008-08-24",
+    "resumen": "The present paper reports interesting new features that wormhole solutions in the scalar field gravity theory have. To demonstrate these, we obtain, by using a slightly modified form of the Matos-Nunez algorithm, an extended class of asymptotically flat wormhole solutions belonging to Einstein minimally coupled scalar field theory. Generally, solutions in these theories do not represent traversable wormholes due to the occurrence of curvature singularities. However, the Ellis I solution of the Einstein minimally coupled theory, when Wick rotated, yields Ellis class III solution, the latter representing a singularity-free traversable wormhole. We see that Ellis I and III are not essentially independent solutions. The Wick rotated seed solutions, extended by the algorithm, contain two new parameters a and δ;. The effect of the parameter a on the geodesic motion of test particles reveals some remarkable features. By arguing for Sagnac effect in the extended Wick rotated solution, we find that the parameter a can indeed be interpreted as a rotation parameter of the wormhole. The analyses reported here have wider applicability in that they can very well be adopted in other theories, including in the string theory."
+   },
+   {
+    "id": "0806.4059v1",
+    "titulo": "Gravitational lensing by wormholes",
+    "autores": [
+     "Tushar Kanti Dey",
+     "Surajit Sen"
+    ],
+    "revista": "Mod.Phys.Lett.A23:953-962,2008",
+    "fecha": "2008-06-25",
+    "resumen": "We have investigated the gravitational lensing by two wormholes, viz., Janis-Newman-Winnicour (JNW) wormhole and Ellis wormhole. The deflection angle in the strong field limit is calculated and various lens parameters of two wormholes are compared. It is shown that the JNW wormhole exhibits the relativistic images, while the Ellis wormhole does not have any relativistic images due to the absence of its photon sphere."
+   },
+   {
+    "id": "gr-qc/0602062v4",
+    "titulo": "Gravitational Lensing by Wormholes",
+    "autores": [
+     "Kamal Kanti Nandi",
+     "Yuan-Zhong Zhang",
+     "Alexander V. Zakharov"
+    ],
+    "revista": "Phys.Rev. D74 (2006) 024020",
+    "fecha": "2006-02-16",
+    "resumen": "Gravitational lensing by traversable Lorentzian wormholes is a ew possibility which is analyzed here in the strong field limit. Wormhole solutions are considered in the Einstein minimally coupled theory and in the brane world model. The observables in both the theories show significant differences from those arising in the Schwarzschild black hole lensing. As a corollary, it follows that wormholes with zero Keplerian mass exhibit lensing properties which are qualitatively (though not quantitatively) the same as those of a Schwarzschild black hole. Some special features of the considered solutions are pointed out."
+   },
+   {
+    "id": "gr-qc/0409085v5",
+    "titulo": "Acoustic Wormholes",
+    "autores": [
+     "Kamal Kanti Nandi",
+     "Yuan-Zhong Zhang",
+     "Rong-Gen Cai"
+    ],
+    "revista": null,
+    "fecha": "2004-09-22",
+    "resumen": "Acoustic analogs of static, spherically symmetric massive traversable Lorentzian wormholes are constructed as a {\\em formal} extension of acoustic black holes. The method is straightforward but the idea is interesting in itself. The analysis leads to a new acoustic invariant for the massless counterpart of the Einstein-Rosen model of an elementary particle. It is shown that there is a marked, in a sense even counterintuitive, physical difference between the acoustic analogs of black holes and wormholes. The analogy allows us to also portray the nature of curvature singularity in the acoustic language. It is demonstrated that the light ray trajectories in an optical medium are the same as the sound trajectories in its acoustic analog. The implications of these analogies in the laboratory set up and in the different context of phantom energy accretion have been speculated."
+   },
+   {
+    "id": "gr-qc/0407079v5",
+    "titulo": "Volume Integral Theorem for Exotic Matter",
+    "autores": [
+     "Kamal Kanti Nandi",
+     "Yuan-Zhong Zhang",
+     "K. B. Vijaya Kumar"
+    ],
+    "revista": "Phys.Rev. D70 (2004) 127503",
+    "fecha": "2004-07-21",
+    "resumen": "We answer an important question in general relativity about the volume integral theorem for exotic matter by suggesting an exact integral quantifier for matter violating Averaged Null Energy Condition (ANEC). It is checked against some well known static, spherically symmetric traversable wormhole solutions of general relativity with a sign reversed kinetic term minimally coupled scalar field. The improved quantifier is consistent with the principle that traversable wormholes can be supported by arbitrarily small quantities of exotic matter."
+   },
+   {
+    "id": "gr-qc/0407032v1",
+    "titulo": "Semiclassical and Quantum Field Theoretic Bounds for Traversable Lorentzian Stringy Wormholes",
+    "autores": [
+     "Kamal Kanti Nandi",
+     "Yuan-Zhong Zhang",
+     "K. B. Vijaya Kumar"
+    ],
+    "revista": "Phys.Rev. D70 (2004) 064018",
+    "fecha": "2004-07-08",
+    "resumen": "A lower bound on the size of a Lorentzian wormhole can be obtained by semiclassically introducing the Planck cut-off on the magnitude of tidal forces (Horowitz-Ross constraint). Also, an upper bound is provided by the quantum field theoretic constraint in the form of the Ford-Roman Quantum Inequality for massless minimally coupled scalar fields. To date, however, exact static solutions belonging to this scalar field theory have not been worked out to verify these bounds. To fill this gap, we examine the wormhole features of two examples from the Einstein frame description of the vacuum low energy string theory in four dimensions which is the same as the minimally coupled scalar field theory. Analyses in this paper support the conclusion of Ford and Roman that wormholes in this theory can have sizes that are indeed only a few order of magnitudes larger than the Planck scale. It is shown that the two types of bounds are also compatible. In the process, we point out a \"wormhole\" analog of naked black holes."
+   },
+   {
+    "id": "gr-qc/0406014v2",
+    "titulo": "Comments on \"New Brans-Dicke Wormholes\"",
+    "autores": [
+     "Arunava Bhadra",
+     "Ion Simaciu",
+     "Kamal Kanti Nandi",
+     "Yuan-Zhong Zhang"
+    ],
+    "revista": "Phys.Rev. D71 (2005) 128501",
+    "fecha": "2004-06-04",
+    "resumen": "It is shown that the recently claimed two new Brans-Dicke wormhole solutions [F. He and S-W. Kim, Phys. Rev. D{\\bf 65}, 084022 (2002)] are not really new solutions. They are just the well known Brans-Dicke solutions of Class I and II in a different conformal gauge."
+   }
+  ],
+  "au:Antoniou AND abs:wormhole": [
+   {
+    "id": "2505.02210v4",
+    "titulo": "Wormhole Nucleation via Topological Surgery in Lorentzian Geometry",
+    "autores": [
+     "Alessandro Pisana",
+     "Barak Shoshany",
+     "Stathis Antoniou",
+     "Louis H. Kauffman",
+     "Sofia Lambropoulou"
+    ],
+    "revista": "Phys. Rev. D 112, 064067 (2025)",
+    "fecha": "2025-05-04",
+    "resumen": "We construct a model for the nucleation of a wormhole within a Lorentzian spacetime by employing techniques from topological surgery and Morse theory. In our framework, a 0-surgery process describes the neighborhood of the nucleation point inside a compact region of spacetime, yielding a singular Lorentzian cobordism that connects two spacelike regions with different topologies. To avoid the singularity at the critical point of the Morse function, we employ the Misner trick of taking a connected sum with a closed 4-manifold -- namely $\\mathbb{CP}^{2}$ -- to obtain an everywhere nondegenerate Lorentzian metric. This connected sum replaces the naked singularity with a region containing closed timelike curves. The obtained spacetime is nonsingular, but violates all the standard energy conditions. Our construction, thus, shows that a wormhole can be \"created\" without singularities in classical general relativity."
+   },
+   {
+    "id": "2308.03501v1",
+    "titulo": "New perspectives on scalar fields in strong gravity",
+    "autores": [
+     "Georgios Antoniou"
+    ],
+    "revista": null,
+    "fecha": "2023-08-07",
+    "resumen": "Recent developments in the field of gravitational physics, including the emergence of gravitational wave astronomy, black hole images, and more accurate telescopes, have allowed us to probe the strong-field character of gravity in a novel and revolutionary manner. This accessibility related to strong gravity brings into the foreground discussions about potential modifications to General Relativity (GR) that are particularly relevant in high curvature regimes. The most straightforward way to generalise GR is to consider an additional degree of freedom, in the form of a scalar field. In this thesis, we study generalised scalar tensor theories that predict interesting strong-gravity phenomenology. First, we review scalar no-hair theorems and the conditions under which they can be evaded. Next, we study solutions of black holes with scalar hair and the way in which higher derivative terms alter their properties. We then move our discussion to the spontaneously scalarized solutions, which only deviate from GR in the strong-field regime. We propose a model consistent with compact object scalarization, that allows for a GR attractor at late times, without fine-tuning (EsRGB model). Then, we proceed to study properties of black holes and neutron stars in this theory, revealing the interesting phenomenology of the solutions. We also study the radial stability of black holes in EsRGB and perform a preliminary analysis of the hyperbolicity of the problem. Finally, we take a look at the shadows of black holes and wormholes in theories with scalar fields, in light of recent observations of black hole shadows."
+   },
+   {
+    "id": "2210.17533v1",
+    "titulo": "Constraining modified gravity theories with scalar fields using black-hole images",
+    "autores": [
+     "Georgios Antoniou",
+     "Alexandros Papageorgiou",
+     "Panagiota Kanti"
+    ],
+    "revista": "Universe, 9(3), 147 (2023)",
+    "fecha": "2022-10-31",
+    "resumen": "We study a number of well-motivated theories of modified gravity with the common overarching theme that they predict the existence of compact objects such as black holes and wormholes endowed with scalar hair. We compute the shadow radius of the resulting compact objects and demonstrate that black hole images such as that of M87$^*$ or the more recent SgrA$^*$ by the Einstein Horizon Telescope (EHT) collaboration may provide a powerful way to constrain deviations of the metric functions from what is expected from general relativity (GR) solutions. We focus our attention on Einstein-scalar-Gauss-Bonnet (EsGB) theory with three well motivated couplings, including the dilatonic and $Z_2$ symmetric cases. We then analyze the shadow radius of black holes in the contest of the spontaneous scalarization scenario within EsGB theory with an additional coupling to the Ricci scalar (EsRGB). Finally, we turn our attention to spontaneous scalarization in the Einstein-Maxwell-Scalar (EMS) theory and demonstrate the impact of the parameters on the black hole shadow. Our results show that black hole imaging is an important tool for constraining black holes with scalar hair and for some part of the parameter space, black holes solutions with scalar hair may be marginally favoured compared to solutions of GR."
+   },
+   {
+    "id": "1904.13091v2",
+    "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+    "autores": [
+     "Georgios Antoniou",
+     "Athanasios Bakopoulos",
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys. Rev. D 101, 024033 (2020)",
+    "fecha": "2019-04-30",
+    "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+   },
+   {
+    "id": "1812.07975v1",
+    "titulo": "Topological surgery in the small and in the large",
+    "autores": [
+     "Stathis Antoniou",
+     "Louis H. Kauffman",
+     "Sofia Lambropoulou"
+    ],
+    "revista": null,
+    "fecha": "2018-12-11",
+    "resumen": "We directly connect topological changes that can occur in mathematical three-space via surgery, with black hole formation, the formation of wormholes and new generalizations of these phenomena. This work widens the bridge between topology and natural sciences and creates a new platform for exploring geometrical physics."
+   },
+   {
+    "id": "1812.00837v1",
+    "titulo": "Topological surgery in cosmic phenomena",
+    "autores": [
+     "Stathis Antoniou",
+     "Louis H. Kauffman",
+     "Sofia Lambropoulou"
+    ],
+    "revista": null,
+    "fecha": "2018-12-03",
+    "resumen": "We connect topological changes that can occur in $3$-space via surgery, with black hole formation, the formation of wormholes and new generalizations of these phenomena, including relationships between quantum entanglement and wormhole formation. By considering the initial manifold as the $3$-dimensional spatial section of spacetime, we describe the changes of topology occurring in these processes by determining the resulting $3$-manifold and its fundamental group. As these global changes are induced by local processes, we use the local form of Morse functions to provide an algebraic formulation of their temporal evolution and propose a potential energy function which, in some cases, could give rise to the local forces related to surgery. We further show how this topological perspective gives new insight for natural phenomena exhibiting surgery, in all dimensions, while emphasizing the $3$-dimensional case, which describes cosmic phenomena. This work makes new bridges between topology and natural sciences and creates a platform for exploring geometrical physics."
+   },
+   {
+    "id": "1808.00254v2",
+    "titulo": "Black holes and topological surgery",
+    "autores": [
+     "Stathis Antoniou",
+     "Louis H. Kauffman",
+     "Sofia Lambropoulou"
+    ],
+    "revista": null,
+    "fecha": "2018-08-01",
+    "resumen": "We directly connect topological changes that can occur in mathematical three-space via surgery, with black hole formation, the formation of wormholes and new generalizations of these phenomena. This work widens the bridge between topology and natural sciences and creates a new platform for exploring geometrical physics."
+   }
+  ],
+  "au:Bakopoulos AND abs:wormhole": [
+   {
+    "id": "2306.16768v3",
+    "titulo": "Stealth Ellis Wormholes In Horndeski theories",
+    "autores": [
+     "Athanasios Bakopoulos",
+     "Nikos Chatzifotis",
+     "Cristian Erices",
+     "Eleftherios Papantonopoulos"
+    ],
+    "revista": null,
+    "fecha": "2023-06-29",
+    "resumen": "In this work we are revisiting the well studied Ellis wormhole solution in a generalized Horndeski theory motivated from the Kaluza-Klein compactification procedure of the more fundamental higher dimensional Lovelock gravity. We show that the Ellis wormhole is analytically supported by a gravitational theory with a non-trivial coupling to the Gauss-Bonnet term and we expand upon this notion by introducing higher derivative contributions of the scalar field. The extension of the gravitational theory does not yield any back-reacting component on the spacetime metric, which establishes the Ellis wormhole as a stealth solution in the generalized framework. We propose two simple mechanisms that dress the wormhole with an effective ADM mass. The first procedure is related to a conformal transformation of the metric which maps the theory to another Horndeski subclass, while the second one is inspired by the spontaneous scalarization effect on black holes."
+   },
+   {
+    "id": "2209.09499v1",
+    "titulo": "Compact objects in gravity theories",
+    "autores": [
+     "Athanasios Bakopoulos",
+     "Christos Charmousis",
+     "Nicolas Lecoeur"
+    ],
+    "revista": null,
+    "fecha": "2022-09-20",
+    "resumen": "We briefly discuss explicit compact object solutions in higher-order scalar-tensor theories. We start by so-called stealth solutions, whose metric are General Relativity (GR) solutions, but accompanied by a non-trivial scalar field, in both spherically-symmetric and rotating cases. The latter then enables to construct an analytic stationary solution of scalar tensor theory which is called disformed Kerr metric. This solution constitutes a measurable departure from the usual Kerr geometry of GR. We finally consider a scalar-tensor theory stemming from a Kaluza-Klein reduction of a higher-dimensional Lovelock theory, and which enables to obtain non-stealth black holes, highly compact neutron stars and finally wormhole solutions."
+   },
+   {
+    "id": "2203.14595v2",
+    "titulo": "Compact objects of spherical symmetry in beyond Horndeski theories",
+    "autores": [
+     "Athanasios Bakopoulos",
+     "Christos Charmousis",
+     "Panagiota Kanti",
+     "Nicolas Lecoeur"
+    ],
+    "revista": "JHEP 08 (2022) 055",
+    "fecha": "2022-03-28",
+    "resumen": "We analyse in all generality beyond Horndeski theories of shift symmetry in a static and spherically symmetric spacetime. By introducing four auxiliary functions, we write the field equations in a particularly compact form. We show that assuming additionally parity symmetry renders the system directly integrable giving multiple families of black-hole solutions. These have typically an asymptotically-flat Reissner-Nordstrom behaviour, and emerge in the presence of a canonical kinetic term for the scalar field. In the absence of parity symmetry, we present a general method which allows us to integrate the field equations by choosing the form of only one coupling function and an auxiliary quantity. This method leads to asymptotically flat and AdS black hole solutions with differing properties. We finally discuss disformal transformations within this context as a means of obtaining wormhole and black hole solutions in different theories."
+   },
+   {
+    "id": "2111.09857v2",
+    "titulo": "Traversable wormholes in beyond Horndeski theories",
+    "autores": [
+     "Athanasios Bakopoulos",
+     "Christos Charmousis",
+     "Panagiota Kanti"
+    ],
+    "revista": "JCAP05(2022)022",
+    "fecha": "2021-11-18",
+    "resumen": "We construct a large class of explicit, asymptotically flat and regular wormhole solutions in higher order scalar tensor theories. The solutions are vacuum solutions of scalar tensor theory and no matter (exotic or regular) is introduced in order to support them. They are constructed via a general disformal transformation of a seed black hole solution. The seed solutions belong to a particular Horndeski theory which requires the presence of all extended Galileons and has a higher dimensional Lovelock origin. As a result, the resulting wormholes are always solutions of general beyond Horndeski theory. The particular class of wormholes we study are parametrised by their ADM mass and two coupling constants of the theory, one related to their higher dimensional Lovelock origin and one to the disformal transformation itself. The latter of the coupling constants affects the throat size of the wormhole solutions, thus giving them a compact or non-compact nature, as well as their properties."
+   },
+   {
+    "id": "2010.13189v1",
+    "titulo": "Black holes and wormholes in the Einstein-scalar-Gauss-Bonnet generalized theories of gravity",
+    "autores": [
+     "Athanasios Bakopoulos"
+    ],
+    "revista": null,
+    "fecha": "2020-10-25",
+    "resumen": "In this Ph.D. dissertation we study the emergence of black-hole and wormhole solutions in the framework of the Einstein-scalar-Gauss-Bonnet (EsGB) theory. Particularly we study a family of theories where the coupling function $f(φ)$ between the scalar field of the theory and the quadratic Gauss-Bonnet gravitational term has an arbitrary form. At first, we analytically derive that the aforementioned family of theories may evade the constraints imposed by Bekenstein's No-Scalar Hair theorems and new solutions for black holes may be found. Then, using numerical integration methods we find solutions for black holes for many different forms of the coupling function. Also we derive their physical characteristics namely their mass, scalar charge, horizon area and entropy as well. Subsequently, by introducing a cosmological constant in the theory we investigate the existence of novel black-hole solutions. Specifically, assuming that the cosmological constant may be positive or negative we find numerical solutions which are asymptotically de Sitter or anti-de Sitter. In addition, as in the case of the asymptotically flat black holes, for each case we derive their physical characteristics. Finally, in the framework of the EsGB theory we derive novel wormhole solutions. The Gauss-Bonnet wormholes are traversable, may have a single or a double throat and do not demand the existence of exotic matter."
+   },
+   {
+    "id": "1904.13091v2",
+    "titulo": "Novel Einstein-Scalar-Gauss-Bonnet Wormholes without Exotic Matter",
+    "autores": [
+     "Georgios Antoniou",
+     "Athanasios Bakopoulos",
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys. Rev. D 101, 024033 (2020)",
+    "fecha": "2019-04-30",
+    "resumen": "Novel wormholes are obtained in Einstein-scalar-Gauss-Bonnet theory for several coupling functions. The wormholes may feature a single-throat or a double-throat geometry and do not demand any exotic matter. The scalar field may asymptotically vanish or be finite, and it may possess radial excitations. The domain of existence is fully mapped out for several forms of the coupling function."
+   }
+  ],
+  "abs:wormhole AND abs:\"Gauss-Bonnet\" AND abs:stability AND abs:radial": [
+   {
+    "id": "2608.15049v1",
+    "titulo": "Five-Dimensional Traversable Wormholes in Einstein-Gauss-Bonnet Gravity with a Cloud of Strings",
+    "autores": [
+     "Jaydeep Goswami",
+     "Umananda Dev Goswami"
+    ],
+    "revista": null,
+    "fecha": "2026-08-15",
+    "resumen": "We present an exact static and spherically symmetric traversable wormhole solution in 5D Einstein-Gauss-Bonnet (EGB) gravity supported by a Letelier cloud of strings. The physically admissible parameter space is determined by imposing the flare-out condition together with the positivity of the string-cloud density, and the resulting spacetime is shown to be asymptotically flat. An analysis of the Ricci scalar, Ricci tensor squared, and Kretschmann scalar confirms that the geometry is free from curvature singularities. The effective null, weak, strong and dominant energy conditions are either satisfied or saturated at the throat. The generalized TOV equation demonstrates that the wormhole remains in mechanical equilibrium. We further investigate its traversability by studying the proper radial distance, embedding diagrams, traversal time, proper acceleration, and tidal accelerations, showing that the solution satisfies the Morris-Thorne criteria for traversable wormholes. The optical properties of the spacetime are explored through null geodesics, unstable photon circular orbits, and the corresponding shadow, revealing the influence of both the Gauss-Bonnet coupling and the string-cloud density. Finally, scalar perturbations are analyzed using the sixth-order WKB approximation method together with time-domain evolution. The quasinormal mode spectra exhibit negative imaginary frequencies throughout the considered parameter space, indicating linear stability, while the close agreement between the WKB, time-domain, and eikonal results provides additional consistency for the analysis. These results demonstrate that higher-curvature effects in 5D EGB gravity can support a regular, traversable and dynamically stable wormhole sustained by a physically motivated string-cloud matter source."
+   },
+   {
+    "id": "2106.04369v1",
+    "titulo": "Non-exotic wormholes in 4-D Einstein-Gauss-Bonnet gravity",
+    "autores": [
+     "Ambuj Kumar Mishra",
+     " Shweta",
+     "Umesh Kumar Sharma"
+    ],
+    "revista": null,
+    "fecha": "2021-06-06",
+    "resumen": "In the present paper, we investigate wormholes in 4D-Einstein-Gauss-Bonnet gravity without the requirement of exotic matters. We have taken the radial dependent red-shift function $φ=\\ln \\left( {\\frac {r_{0}}{r}}+1 \\right)$ and shape function $b(r)={\\frac{r_{0}\\ln(r+1)}{\\ln({r_0}+1)}}$ as well as anisotropic matter sources through equation of state (EoS) $p_r(r) = ωρ(r)$. We examine the energy conditions, flaring out condition, throat condition and anisotropic parameter. The volume integral quantifier is also analyzed to validate the existence and stability of the WH solution. We find, for -ve branch wormhole solutions satisfy the null energy conditions (NEC) throughout the entire space time and +ve branch reduces exactly to Morris-Thorne of GR."
+   },
+   {
+    "id": "2004.14267v4",
+    "titulo": "Traversable Thin-shell Wormhole in the 4D Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Peng Liu",
+     "Chao Niu",
+     "Wei-Liang Qian",
+     "Xiaobao Wang",
+     "Cheng-Yong Zhang"
+    ],
+    "revista": "Chin.J.Phys. 83 (2023) 527-538",
+    "fecha": "2020-04-29",
+    "resumen": "This work investigates the spherically symmetric thin-shell wormhole solutions in four-dimensional Einstein-Gauss-Bonnet theory and explores their stabilities under radial, linear perturbations. These solutions are typically traversable and characterized by a thin-shell throat in accordance with Israel's junction conditions. In asymptotically flat and AdS spacetimes with a negative Gauss-Bonnet coupling constant, stable neutral wormholes are encountered when the magnitude of the coupling constant becomes significant. The throats of such wormholes are sustained by ordinary matter and possess finite radii. In asymptotically dS spacetimes, no stable neutral wormhole featuring ordinary matter is observed. On the other hand, for positive Gauss-Bonnet coupling constant, stable thin-shell wormhole solutions can be established when the throats are exclusively supported by exotic matter. Moreover, stable charged wormholes comprised of ordinary matter are found universally in the asymptotically flat, AdS, and dS spacetimes. Unlike their neutral counterparts, the throat radii of such charged wormholes can be arbitrarily small. However, as the charge becomes more significant, such solutions only remain stable when supported by exotic matter."
+   },
+   {
+    "id": "2002.02577v3",
+    "titulo": "Thin-shell wormholes in Einstein and Einstein-Gauss-Bonnet theories of gravity",
+    "autores": [
+     "Takafumi Kokubu",
+     "Tomohiro Harada"
+    ],
+    "revista": "Universe 2020, 6(11), 197",
+    "fecha": "2020-02-07",
+    "resumen": "We review recent works on the possibility for eternal existence of thin-shell wormholes on Einstein and Einstein-Gauss-Bonnet gravity. We introduce thin-shell wormholes that are categorized into a class of traversable wormhole solutions. After that, we discuss stable thin-shell wormholes with negative-tension branes in Reissner-Nordström-(anti) de Sitter spacetimes in $d$ dimensional Einstein gravity. Imposing $Z_2$ symmetry, we construct and classify traversable static thin-shell wormholes in spherical, planar and hyperbolic symmetries. It is found that the spherical wormholes are stable against spherically symmetric perturbations. It is also found that some classes of wormholes in planar and hyperbolic symmetries with a negative cosmological constant are stable against perturbations preserving symmetries. In most cases, stable wormholes are found with the appropriate combination of an electric charge and a negative cosmological constant. However, as special cases, there are stable wormholes even with a vanishing cosmological constant in spherical symmetry and with a vanishing electric charge in hyperbolic symmetry. Subsequently, the existence and dynamical stability of traversable thin-shell wormholes with electrically neutral negative-tension branes is discussed in Einstein-Gauss-Bonnet theory of gravitation. We consider radial perturbations against the shell for the solutions, which have the $Z_2$ symmetry. The effect of the Gauss-Bonnet term on the stability depends on the spacetime symmetry."
+   },
+   {
+    "id": "1912.08382v1",
+    "titulo": "Black Holes and Wormholes in Higher-Curvature Corrected Theories of Gravity",
+    "autores": [
+     "M. A. Cuyubamba"
+    ],
+    "revista": null,
+    "fecha": "2019-12-18",
+    "resumen": "The presented thesis is devoted to the study of instabilities of compact objects within the Einstein-Gauss-Bonnet theory. This theory includes higher-order corrections in curvature, which are inspired by the low energy limit of string theory. We study linear instability of higher-dimensional black holes in the de Sitter universe. The time-domain picture allows us to obtain the parametric region of stability for the gravitational perturbations in all three channels, i.e., for scalar-type, vector-type, and tensor-type perturbations. We observed that while the scalar and tensor channels show instability for some choice of the parameters, the vector-type perturbations are always stable. Furthermore, we show that the quasinormal frequencies of the scalar type of gravitational perturbations do not obey Hod's inequality, however, the other two channels, vector and tensor, have lower-lying modes that confirm Hod's conjecture. We also studied stability of the wormholes in the four-dimensional Einstein-dilaton-Gauss-Bonnet gravity proposed by P. Kanti, B. Kleihaus, J. Kunz in arXiv:1108.3003 . These wormholes were claimed to be stable against linear radial perturbations. However, our time-domain analysis allowed us to prove such wormholes are linearly unstable against general radial perturbations for any values of their parameters. We observed that the exponential growth appears after a long period of damped oscillations. This behaviour is qualitatively similar to the instability profile of the higher-dimensional black holes in the Einstein-Gauss-Bonnet theory."
+   },
+   {
+    "id": "1506.08550v1",
+    "titulo": "Does the Gauss-Bonnet term stabilize wormholes?",
+    "autores": [
+     "Takafumi Kokubu",
+     "Hideki Maeda",
+     "Tomohiro Harada"
+    ],
+    "revista": "Class.Quant.Grav. 32 (2015) 23, 235021",
+    "fecha": "2015-06-29",
+    "resumen": "The effect of the Gauss-Bonnet term on the existence and dynamical stability of thin-shell wormholes as negative tension branes is studied in the arbitrary dimensional spherically, planar, and hyperbolically symmetric spacetimes. We consider radial perturbations against the shell for the solutions which have the Z${}_2$ symmetry and admit the general relativistic limit. It is shown that the Gauss-Bonnet term shrinks the parameter region admitting static wormholes. The effect of the Gauss-Bonnet term on the stability depends on the spacetime symmetry. For planar symmetric wormholes, the Gauss-Bonnet term does not affect their stability. If the coupling constant is positive but small, the Gauss-Bonnet term tends to destabilize spherically symmetric wormholes, while it stabilizes hypebolically symmetric wormholes. The Gauss-Bonnet term can destabilize hypebolically symmetric wormholes as a non-perturbative effect, however, spherically symmetric wormholes cannot be stable."
+   },
+   {
+    "id": "1108.3003v2",
+    "titulo": "Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory",
+    "autores": [
+     "Panagiota Kanti",
+     "Burkhard Kleihaus",
+     "Jutta Kunz"
+    ],
+    "revista": "Phys.Rev.Lett. 107 (2011) 271101",
+    "fecha": "2011-08-15",
+    "resumen": "We construct traversable wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions, without needing any form of exotic matter. We determine their domain of existence, and show that these wormholes satisfy a generalised Smarr relation. We demonstrate linear stability with respect to radial perturbations for a subset of these wormholes."
+   },
+   {
+    "id": "1103.3019v2",
+    "titulo": "Stable thin-shell wormholes with a Chaplygin gas in Einstein-Maxwell-Gauss-Bonnet gravity",
+    "autores": [
+     "Z. Amirabi",
+     "M. Halilsoy",
+     "S. Habib Mazharimousavi"
+    ],
+    "revista": "Phys. Rev. D 88, 124023 (2013)",
+    "fecha": "2011-03-15",
+    "resumen": "We study the stability of thin-shell wormholes in Einstein-Maxwell-Gauss-Bonnet gravity. The equation of state of the thin shell wormhole is considered first to obey a generalized Chaplygin gas and then we generalize it to an arbitrary state function which covers all known cases studied so far. In particular we study the modified Chaplygin gas and give an assessment for a general parotropic fluid. Our study is in d-dimensions and with numerical analysis in d=5 we show the effect of the GB parameter in the stability of thin-shell wormholes against the radial perturbations."
+   },
+   {
+    "id": "gr-qc/0512029v2",
+    "titulo": "Thin-shell wormholes in Einstein-Maxwell theory with a Gauss-Bonnet term",
+    "autores": [
+     "Marc Thibeault",
+     "Claudio Simeone",
+     "Ernesto F. Eiroa"
+    ],
+    "revista": "Gen.Rel.Grav.38:1593-1608,2006",
+    "fecha": "2005-12-05",
+    "resumen": "We study five dimensional thin-shell wormholes in Einstein-Maxwell theory with a Gauss-Bonnet term. The linearized stability under radial perturbations and the amount of exotic matter are analyzed as a function of the parameters of the model. We find that the inclusion of the quadratic correction substantially widens the range of possible stable configurations, and besides it allows for a reduction of the exotic matter required to construct the wormholes."
+   }
+  ],
+  "abs:wormholes AND abs:Horndeski AND abs:\"no-go\"": [
+   {
+    "id": "1812.07022v2",
+    "titulo": "More about stable wormholes in beyond Horndeski theory",
+    "autores": [
+     "S. Mironov",
+     "V. Rubakov",
+     "V. Volkova"
+    ],
+    "revista": null,
+    "fecha": "2018-12-17",
+    "resumen": "It is known that Horndeski theories, like many other scalar-tensor gravities, do not support static, spherically symmetric wormholes: they always have either ghosts or gradient instabilities among parity-even linearized perturbations. Here we address the issue of whether or not this no-go theorem is valid in \"beyond Horndeski\" theories. We derive, in the latter class of theories, the conditions for the absence of ghost and gradient instabilities for non-spherical parity even perturbations propagating in the radial direction. We find, in agreement with existing arguments, that the proof of the above no-go theorem does not go through beyond Horndeski. We also obtain conditions ensuring the absence of ghosts and gradient instabilities for all parity odd modes. We give an example of beyond Horndeski Lagrangian which admits a wormhole solution obeying our (incomplete set of) stability conditions. Even though our stability analysis is incomplete, as we do not consider spherically symmetric parity even modes and parity even perturbations propagating in angular directions, as well as \"slow\" tachyonic instabilities, our findings indicate that beyond Horndeski theories may be viable candidates to support traversable wormholes."
+   },
+   {
+    "id": "1811.05832v1",
+    "titulo": "Towards wormhole beyond Horndeski",
+    "autores": [
+     "S. Mironov",
+     "V. Rubakov",
+     "V. Volkova"
+    ],
+    "revista": "EPJ Web Conf. 191 (2018) 07014",
+    "fecha": "2018-11-14",
+    "resumen": "We address the issue of whether a no-go theorem for static, spherically symmetric wormholes, proven in Horndeski theories, can be circumvented by going beyond Horndeski. We show that the ghost instabilities which are at the heart of the no-go theorem, can indeed be avoided. The wormhole solutions with the latter property are, however, strongly fine tuned, and hence it is likely that they are unstable. Furthermore, it remains unclear whether these solutions have other pathologies, like gradient instabilities along angular and radial directions."
+   }
+  ],
+  "au:Evseev AND abs:wormholes": [
+   {
+    "id": "1711.04152v1",
+    "titulo": "No static sphericaly symmetric wormholes in Horndeski theory",
+    "autores": [
+     "O. A. Evseev",
+     "O. I. Melichev"
+    ],
+    "revista": "Phys. Rev. D 97, 124040 (2018)",
+    "fecha": "2017-11-11",
+    "resumen": "We consider the Horndeski theory in four-dimensional space-time. We show that this theory does not admit stable, static, spherically symmetric, asymptotically flat, Lorentzian wormholes."
+   }
+  ],
+  "au:Bronnikov AND au:Baleevskikh": [
+   {
+    "id": "1812.05704v1",
+    "titulo": "On gravitational lensing by symmetric and asymmetric wormholes",
+    "autores": [
+     "K. A. Bronnikov",
+     "K. A. Baleevskikh"
+    ],
+    "revista": "Grav. Cosmol. 25, 44-49 (2019)",
+    "fecha": "2018-12-13",
+    "resumen": "We discuss the peculiarities of gravitational lensing by spherically symmetric wormholes if they are not symmetric with respect to their throats. It is noticed, in particular, that wormholes always contain the so-called photon spheres, near which the photon deflection angles can be arbitrarily large, but, in general, the throat is such a sphere only for symmetric wormholes. In some cases, photons from outside can cross the throat and return back from a neighborhood of a photon sphere if the latter is located beyond the throat. Two families of generally asymmetric wormhole configurations are considered as examples: (1) anti-Fisher wormholes with a massless phantom scalar field as a source of gravity, and (2) wormholes with a zero Ricci scalar that may be interpreted as vacuum configurations in a brane world. For these metrics, the photon effective potentials and deflection angles are found and discussed."
+   },
+   {
+    "id": "1708.02324v3",
+    "titulo": "Wormholes with fluid sources: A no-go theorem and new examples",
+    "autores": [
+     "K. A. Bronnikov",
+     "K. A. Baleevskikh",
+     "M. V. Skvortsova"
+    ],
+    "revista": "Phys. Rev. D 96, 124039 (2017)",
+    "fecha": "2017-08-07",
+    "resumen": "For static, spherically symmetric space-times in general relativity (GR), a no-go theorem is proved: it excludes the existence of wormholes with flat and/or AdS asymptotic regions on both sides of the throat if the source matter is isotropic, i.e., the radial and tangential pressures coincide. It explains why in all previous attempts to build such solutions it was necessary to introduce boundaries with thin shells that manifestly violate the isotropy of matter. Under a simple assumption on the behavior of the spherical radius $r(x)$, we obtain a number of examples of wormholes with isotropic matter and one or both de Sitter asymptotic regions, allowed by the no-go theorem. We also obtain twice asymptotically flat wormholes with anisotropic matter, both symmetric and asymmetric with respect to the throat, under the assumption that the scalar curvature is zero. These solutions may be on equal grounds interpreted as those of GR with a traceless stress-energy tensor and as vacuum solutions in a brane world. For such wormholes, the traversability conditions and gravitational lensing properties are briefly discussed. As a by-product, we obtain twice asymptotically flat regular black hole solutions with up to four Killing horizons. As another by-product, we point out intersection points in families of integral curves for the function $A(x) = g_{tt}$, parametrized by its values on the throat."
+   }
+  ]
+ }
+}

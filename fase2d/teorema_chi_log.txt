@@ -1,0 +1,79 @@
+PARTE A (SymPy)
+  a = 48*h**2*r**4*(s - 1)**2*(s + 1)**2*(-4*h*s + r)/(D**2*s*(-4*h + r*s))
+  b = r**2*(-24*D**2*h**2*s**3 + 40*D**2*h**2*s - 2*D**2*h*r*s**2 - 6*D**2*h*r + D**2*r**2*s + 32*h**2*r**2*s**5 - 64*h**2*r**2*s**3 + 32*h**2*r**2*s)/(D**2*s*(-4*h + r*s))
+  a no depende de r'': True
+  K - (-a chi' + b chi) = 0
+  chi' en la capa de masas - forma compacta = 0
+  denominador de b: D**2*s*(-4*h + r*s)
+  numerador de b - r^2 [D^2 (r^2 r' - 2 h r (r'^2 + 3) + 8 h^2 r' (5 - 3 r'^2)) + 32 h^2 r^2 r' B^2] = 0  -> b > 0 si r' in (0, 1) y h < 0
+  garganta: chi(0) = 2*c , chi'(0) = -D**2/4
+  infinito: lim chi/r^2 = 4*sigma/beta  (sigma = |B h| en el infinito, beta > 0)
+  en chi = 0: a/(A^2 r^2) = 4*r**2/D**2 ; b*chi = 0
+  G - K - 64 F'^2 B (A r'' - B h') = 0 ; A r'' - B h' - [r''(r - 6 h r') + r^2 P/2] = 0
+  a, b con B explicita - a, b: 0 0
+
+PARTE C (SymPy)
+  garganta: chi = -D**2/4 * l + rho0*(D**2 + 4*rho0)*(6*rho0 + 1)/12 * l^3 + O(l^5)
+  en el cero l_chi = D/(2 sqrt(k3)): chi' = D**2/2  -> q = 4 r^2 chi'/D^2 = 2 + O(D^2), K/norma = -q/(2 + q) = -1/2 + O(D^2)
+  interior: U = r'(1 - r'^2)/(2(1 - 3 r'^2)), kappa = (1 - 3 r'^2)^2/(24 r'^2 B):
+    dU/ds - (1/2 + 1/(8 kappa)) = 0 ; K = 0 ; chi = r' - 2 U (1 - 3 r'^2)/B = 0
+
+PARTE B (numerica): lado(s) con h r' < 0
+  configuraciones (lados): 210; con h r' < 0 en todo el lado: 210
+  a > 0 y b > 0 en todos los puntos con r' > 1e-6: True
+  max |K - (-a chi' + b chi)|/(|a chi'| + |b chi| + |K|) = 6.8e-11
+  max |chi - chi(0) - int chi'_capa de masas|/max|chi| = 2.5e-04
+  chi'(0) = -D^2/4: max error relativo = 3.9e-16
+  chi(0) = 2c_lado: max error = 0.0e+00
+  chi > 0 al final de la malla: 210/210
+  con minimo interior de chi: 210/210; chi < 0 alli: 210; K < 0 alli: 210; max |K - b chi|/norma alli = 4.6e-06
+  con cero ascendente de chi: 210/210; K <= 0 en ese cero: 210
+  K < 0 en algun punto: 210/210
+  G > 0 en todos los ceros de K: 210/210
+
+  muestra (lado creciente, c = 0):
+    hiperbola L=0.03       D =    0.1: K < 0 en l = [0.000106, 2.25]; min de chi en l = 0.000106 (K/norma = -0.000); cero de chi en l = 0.000183 (K/norma = -0.500); min K/norma = -1.000
+    hiperbola L=0.03       D =      2: K < 0 en l = [0.00206, 0.155]; min de chi en l = 0.00209 (K/norma = -0.013); cero de chi en l = 0.00362 (K/norma = -0.498); min K/norma = -0.934
+    hiperbola L=0.03       D =     30: K < 0 en l = [0.00248, 0.0516]; min de chi en l = 0.0115 (K/norma = -0.585); cero de chi en l = 0.02 (K/norma = -0.498); min K/norma = -0.587
+    hiperbola L=0.3        D =    0.1: K < 0 en l = [0.00328, 128]; min de chi en l = 0.00327 (K/norma = -0.000); cero de chi en l = 0.00567 (K/norma = -0.500); min K/norma = -0.998
+    hiperbola L=0.3        D =      2: K < 0 en l = [0.0509, 1.18]; min de chi en l = 0.0581 (K/norma = -0.117); cero de chi en l = 0.102 (K/norma = -0.498); min K/norma = -0.680
+    hiperbola L=0.3        D =     30: K < 0 en l = [0.00307, 0.609]; min de chi en l = 0.12 (K/norma = -0.690); cero de chi en l = 0.211 (K/norma = -0.521); min K/norma = -0.899
+    hiperbola L=1 (Maxwell) D =    0.1: K < 0 en l = [0.0189, 400]; min de chi en l = 0.0189 (K/norma = -0.001); cero de chi en l = 0.0327 (K/norma = -0.500); min K/norma = -0.997
+    hiperbola L=1 (Maxwell) D =      2: K < 0 en l = [0.183, 8.65]; min de chi en l = 0.273 (K/norma = -0.294); cero de chi en l = 0.481 (K/norma = -0.533); min K/norma = -0.602
+    hiperbola L=1 (Maxwell) D =     30: K < 0 en l = [0.00312, 4.14]; min de chi en l = 0.394 (K/norma = -0.713); cero de chi en l = 0.705 (K/norma = -0.566); min K/norma = -0.966
+    hiperbola L=3          D =    0.1: K < 0 en l = [0.086, 1.2e+03]; min de chi en l = 0.0863 (K/norma = -0.004); cero de chi en l = 0.149 (K/norma = -0.502); min K/norma = -0.998
+    hiperbola L=3          D =      2: K < 0 en l = [0.372, 127]; min de chi en l = 0.924 (K/norma = -0.508); cero de chi en l = 1.68 (K/norma = -0.630); min K/norma = -0.756
+    hiperbola L=3          D =     30: K < 0 en l = [0.00314, 56.5]; min de chi en l = 1.12 (K/norma = -0.746); cero de chi en l = 2.12 (K/norma = -0.665); min K/norma = -0.988
+    hiperbola L=30         D =    0.1: K < 0 en l = [1.27, 1.2e+04]; min de chi en l = 1.32 (K/norma = -0.045); cero de chi en l = 2.29 (K/norma = -0.541); min K/norma = -1.000
+    hiperbola L=30         D =      2: K < 0 en l = [0.556, 1.2e+04]; min de chi en l = 7.46 (K/norma = -0.843); cero de chi en l = 16.8 (K/norma = -0.923); min K/norma = -0.990
+    hiperbola L=30         D =     30: K < 0 en l = [0.00315, 1.2e+04]; min de chi en l = 8.28 (K/norma = -0.869); cero de chi en l = 21.2 (K/norma = -0.945); min K/norma = -0.999
+    hiperbola L=300        D =    0.1: K < 0 en l = [8.57, 1.2e+05]; min de chi en l = 11.9 (K/norma = -0.317); cero de chi en l = 21.3 (K/norma = -0.731); min K/norma = -1.000
+    hiperbola L=300        D =      2: K < 0 en l = [0.58, 1.2e+05]; min de chi en l = 43.3 (K/norma = -0.976); cero de chi en l = 140 (K/norma = -0.995); min K/norma = -1.000
+    hiperbola L=300        D =     30: K < 0 en l = [0.00315, 1.2e+05]; min de chi en l = 48.4 (K/norma = -0.958); cero de chi en l = 211 (K/norma = -0.998); min K/norma = -1.000
+    superelipse n=2        D =    0.1: K < 0 en l = [0.31, 16.6]; min de chi en l = 0.312 (K/norma = -0.018); cero de chi en l = 0.417 (K/norma = -0.785); min K/norma = -0.998
+    superelipse n=2        D =      2: K < 0 en l = [0.384, 2.9]; min de chi en l = 0.62 (K/norma = -0.606); cero de chi en l = 0.88 (K/norma = -0.761); min K/norma = -0.770
+    superelipse n=2        D =     30: K < 0 en l = [0.00315, 2.35]; min de chi en l = 0.67 (K/norma = -0.872); cero de chi en l = 0.98 (K/norma = -0.751); min K/norma = -0.999
+    superelipse n=5        D =    0.1: K < 0 en l = [0.67, 2.84]; min de chi en l = 0.672 (K/norma = -0.043); cero de chi en l = 0.772 (K/norma = -0.921); min K/norma = -0.999
+    superelipse n=5        D =      2: K < 0 en l = [0.541, 1.59]; min de chi en l = 0.819 (K/norma = -0.780); cero de chi en l = 0.983 (K/norma = -0.889); min K/norma = -0.890
+    superelipse n=5        D =     30: K < 0 en l = [0.00315, 1.49]; min de chi en l = 0.832 (K/norma = -0.952); cero de chi en l = 1.02 (K/norma = -0.877); min K/norma = -1.000
+    BI 0.5                 D =    0.1: K < 0 en l = [0.0867, 400]; min de chi en l = 0.087 (K/norma = -0.004); cero de chi en l = 0.151 (K/norma = -0.503); min K/norma = -0.998
+    BI 0.5                 D =    0.5: K < 0 en l = [0.439, 223]; min de chi en l = 0.485 (K/norma = -0.102); cero de chi en l = 0.825 (K/norma = -0.566); min K/norma = -0.954
+    BI 0.5                 D =      1: K < 0 en l = [0.941, 91.6]; min de chi en l = 1.53 (K/norma = -0.469); cero de chi en l = 2.37 (K/norma = -0.762); min K/norma = -0.895
+    BI 2                   D =    0.1: K < 0 en l = [0.0223, 400]; min de chi en l = 0.0223 (K/norma = -0.001); cero de chi en l = 0.0387 (K/norma = -0.500); min K/norma = -0.997
+    BI 2                   D =    0.5: K < 0 en l = [0.107, 86.8]; min de chi en l = 0.11 (K/norma = -0.033); cero de chi en l = 0.192 (K/norma = -0.507); min K/norma = -0.931
+    BI 2                   D =      1: K < 0 en l = [0.189, 25.9]; min de chi en l = 0.216 (K/norma = -0.122); cero de chi en l = 0.376 (K/norma = -0.525); min K/norma = -0.797
+    BI 2                   D =      3: K < 0 en l = [0.273, 19.3]; min de chi en l = 1.58 (K/norma = -0.801); cero de chi en l = 2.35 (K/norma = -0.802); min K/norma = -0.804
+    BI 20                  D =    0.1: K < 0 en l = [0.0189, 400]; min de chi en l = 0.0189 (K/norma = -0.001); cero de chi en l = 0.0328 (K/norma = -0.500); min K/norma = -0.997
+    BI 20                  D =    0.5: K < 0 en l = [0.0894, 79.3]; min de chi en l = 0.0921 (K/norma = -0.029); cero de chi en l = 0.16 (K/norma = -0.504); min K/norma = -0.929
+    BI 20                  D =      1: K < 0 en l = [0.153, 22.7]; min de chi en l = 0.171 (K/norma = -0.104); cero de chi en l = 0.298 (K/norma = -0.514); min K/norma = -0.790
+    BI 20                  D =      3: K < 0 en l = [0.153, 6.16]; min de chi en l = 0.329 (K/norma = -0.445); cero de chi en l = 0.582 (K/norma = -0.548); min K/norma = -0.552
+    EH -0.1                D =    0.1: K < 0 en l = [0.0287, 400]; min de chi en l = 0.0287 (K/norma = -0.002); cero de chi en l = 0.0497 (K/norma = -0.501); min K/norma = -0.997
+    EH -0.1                D =    0.5: K < 0 en l = [0.141, 95.5]; min de chi en l = 0.147 (K/norma = -0.041); cero de chi en l = 0.254 (K/norma = -0.515); min K/norma = -0.933
+    EH -0.1                D =      1: K < 0 en l = [0.278, 30.3]; min de chi en l = 0.332 (K/norma = -0.168); cero de chi en l = 0.561 (K/norma = -0.568); min K/norma = -0.813
+    EH 0                   D =    0.1: K < 0 en l = [0.0189, 400]; min de chi en l = 0.0189 (K/norma = -0.001); cero de chi en l = 0.0327 (K/norma = -0.500); min K/norma = -0.997
+    EH 0                   D =    0.5: K < 0 en l = [0.0893, 79.2]; min de chi en l = 0.0919 (K/norma = -0.029); cero de chi en l = 0.16 (K/norma = -0.504); min K/norma = -0.929
+    EH 0                   D =      1: K < 0 en l = [0.152, 22.7]; min de chi en l = 0.171 (K/norma = -0.103); cero de chi en l = 0.297 (K/norma = -0.513); min K/norma = -0.790
+    EH 0                   D =      3: K < 0 en l = [0.152, 6.09]; min de chi en l = 0.324 (K/norma = -0.443); cero de chi en l = 0.575 (K/norma = -0.546); min K/norma = -0.551
+    EH 0.3                 D =    0.1: K < 0 en l = [0.0118, 400]; min de chi en l = 0.0118 (K/norma = -0.001); cero de chi en l = 0.0204 (K/norma = -0.500); min K/norma = -0.997
+    EH 0.3                 D =    0.5: K < 0 en l = [0.0543, 57.7]; min de chi en l = 0.0554 (K/norma = -0.020); cero de chi en l = 0.0962 (K/norma = -0.501); min K/norma = -0.931
+    EH 0.3                 D =      1: K < 0 en l = [0.0865, 14.5]; min de chi en l = 0.0931 (K/norma = -0.068); cero de chi en l = 0.162 (K/norma = -0.502); min K/norma = -0.798

@@ -1,0 +1,10 @@
+lineal: 4896 mitades
+   a > 0 (lapso creciente hacia fuera): 2448 -> {'AF': 1030, 'Phi+': 82, 'det': 1336}
+   a < 0 (lapso decreciente hacia fuera): 2448 -> {'horizonte': 1988, 'phi': 460}
+   mitades AF con a < 0: 0
+   agujeros lisos (dos mitades AF): 0
+salida: resultados/mapa_lineal.json;  tiempo: 188 s
+
+real	3m9.676s
+user	0m0.015s
+sys	0m0.015s

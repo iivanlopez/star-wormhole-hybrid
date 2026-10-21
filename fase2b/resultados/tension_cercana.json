@@ -1,0 +1,37 @@
+{
+ "polinomio": "-128*F0*F2*s**3*u**4*zeta**2 + 128*F0*F2*s**3*u**4*zeta - 512*F0*F2*s**3*u**2*zeta**2 + 512*F0*F2*s**3*u**2*zeta + 128*F0*F2*s**2*u**4*zeta**2 - 128*F0*F2*s**2*u**4*zeta - 512*F0*F2*s**2*u**2*zeta**2 + 512*F0*F2*s**2*u**2*zeta + 8*F0*s**5*u**4*zeta + 64*F0*s**5*u**2*zeta + 128*F0*s**5*zeta - 8*F0*s**4*u**4*zeta + 128*F0*s**4*zeta + 16*F0*s**3*s2*u**4*zeta + 64*F0*s**3*s2*u**2*zeta + 8*F0*s**3*u**4*zeta - 128*F0*s**3*zeta - 16*F0*s**2*s2*u**4*zeta + 64*F0*s**2*s2*u**2*zeta - 8*F0*s**2*u**4*zeta + 64*F0*s**2*u**2*zeta - 128*F0*s**2*zeta + 256*F2*s**3*u**2*zeta - 256*F2*s**3*u**2 + 256*F2*s**2*u**2*zeta - 256*F2*s**2*u**2 - 256*F2*s*u**2*zeta + 256*F2*s*u**2 - 256*F2*u**2*zeta + 256*F2*u**2 + 4*l1**2*s*u**4 + 16*l1**2*s*u**2 - 4*l1**2*u**4 + 16*l1**2*u**2 - 4*l1*s**3*u**5*zeta - 32*l1*s**3*u**3*zeta + 16*l1*s**3*u**3 - 64*l1*s**3*u*zeta + 64*l1*s**3*u + 4*l1*s**2*u**5*zeta - 16*l1*s**2*u**3 - 64*l1*s**2*u*zeta + 64*l1*s**2*u - 16*l1*s*u**3 - 64*l1*s*u + 16*l1*u**3 - 64*l1*u + s**5*u**6*zeta**2 + 12*s**5*u**4*zeta**2 - 8*s**5*u**4*zeta + 48*s**5*u**2*zeta**2 - 64*s**5*u**2*zeta + 64*s**5*zeta**2 - 128*s**5*zeta - s**4*u**6*zeta**2 - 4*s**4*u**4*zeta**2 + 8*s**4*u**4*zeta + 16*s**4*u**2*zeta**2 - 32*s**4*u**2 + 64*s**4*zeta**2 - 128*s**4*zeta - 32*s**3*s2*u**2 + 8*s**3*u**4*zeta + 64*s**3*u**2*zeta - 32*s**3*u**2 + 128*s**3*zeta - 32*s**2*s2*u**2 - 8*s**2*u**4*zeta + 32*s**2*u**2 + 128*s**2*zeta + 32*s*s2*u**2 + 32*s*u**2 + 32*s2*u**2",
+ "variable": "s",
+ "parametros": [
+  "u",
+  "F0",
+  "F2",
+  "zeta",
+  "l1",
+  "s2"
+ ],
+ "escalas": "Lambda_s'(phi0) = a^2 l1 r0;  Lambda_s''(phi0) + rho beta mu = a s2",
+ "zeta_0": "-4*u*(64*F2*s**3*u + 64*F2*s**2*u - 64*F2*s*u - 64*F2*u - l1**2*s*u**3 - 4*l1**2*s*u + l1**2*u**3 - 4*l1**2*u - 4*l1*s**3*u**2 - 16*l1*s**3 + 4*l1*s**2*u**2 - 16*l1*s**2 + 4*l1*s*u**2 + 16*l1*s - 4*l1*u**2 + 16*l1 + 8*s**4*u + 8*s**3*s2*u + 8*s**3*u + 8*s**2*s2*u - 8*s**2*u - 8*s*s2*u - 8*s*u - 8*s2*u)",
+ "coeficiente_principal": "zeta*(u**2 + 4)**2*(8*F0 + u**2*zeta + 4*zeta - 8)",
+ "coef": {
+  "lig_t": [
+   "0",
+   "0"
+  ],
+  "lig_l": [
+   "0",
+   "0"
+  ],
+  "J_tt": [
+   "0",
+   "0"
+  ],
+  "J_thth": [
+   "-(-2*l1*u + s**2*u**2*zeta + 4*s**2*zeta - 4*s**2 + 4)/2",
+   "(2*F0*s**3*u**2*zeta + 8*F0*s**3*zeta - 2*F0*s**2*u**2*zeta + 8*F0*s**2*zeta + 2*l1*s*u + 2*l1*u - s**3*u**2*zeta - 4*s**3*zeta - s**2*u**2*zeta - 4*s**2*zeta)/(2*u*(s + 1))"
+  ],
+  "J_phi": [
+   "-(-16*F2*u**2*zeta + 16*F2*u**2 + s**2*u**2 + 4*s**2 + 2*s2*u**2 + u**2 - 4)/u",
+   "-(-64*F2*s*u**2*zeta + 64*F2*s*u**2 - 64*F2*u**2*zeta + 64*F2*u**2 - 2*l1*s*u**3 - 8*l1*s*u + 2*l1*u**3 - 8*l1*u + s**3*u**4*zeta + 8*s**3*u**2*zeta + 16*s**3*zeta - s**2*u**4*zeta + 8*s**2*u**2 + 16*s**2*zeta + 8*s*s2*u**2 + 8*s*u**2 + 8*s2*u**2)/(4*u**2*(s + 1))"
+  ]
+ }
+}

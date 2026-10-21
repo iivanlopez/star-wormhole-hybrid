@@ -1,0 +1,4 @@
+zeta=2.0: w = 1149.06+170.71j (convergido True); omega_inf r0 = -1.2814-0.0947j  (tasa de crecimiento 0.0947 c/r0)
+zeta=2.0: w = 1149.06+170.71j (convergido True); omega_inf r0 = -1.2814-0.0947j  (tasa de crecimiento 0.0947 c/r0)
+zeta=1.8: w = 3408.9+107.353j (convergido False); omega_inf r0 = -2.2014-0.0347j  (tasa de crecimiento 0.0347 c/r0)
+zeta=1.8: w = 3761.79+338.354j (convergido False); omega_inf r0 = -2.3146-0.1039j  (tasa de crecimiento 0.1039 c/r0)
