@@ -43,13 +43,14 @@
    - **(d) Sector impar.** T1 con $G_4>0$ y un único mínimo del radio óptico $r/N$ obliga a $\mathcal G>0$ en todas partes. El sector impar queda así sin fantasmas ni inestabilidad de gradiente, con velocidad radial $c^2=\mathcal G/G_4$.
 
 6. **Reconstrucción** (§6). Por el método inverso construimos gargantas simétricas con masa: se elige la geometría, el lapso y el escalar, y se despejan las funciones de la teoría sobre la curva $X=X_b(\phi)$, con derivadas exactas por aritmética de chorros. Las cuatro ecuaciones del fondo se cumplen a $3\times10^{-15}$.
-   - Con masa $M=2r_0$ y $N(0)=0.37$, el monopolo es **bien planteado y sin fantasmas** ($K,P>0$), con velocidad radial $c^2\le1.0001$.
+   - Lejos, la normalización efectiva del escalar reconstruido corre con $\ln\ell$, y $K$ puede cambiar de signo muy lejos de la garganta. Por eso $K,P>0$ se comprueba hasta $\ell=4000\,r_0$ y, con su desarrollo asintótico, más allá.
+   - Con masa $M=2r_0$ y $N(0)=0.37$, el monopolo es **bien planteado y sin fantasmas** ($K,P>0$ en todo $\ell$), con velocidad radial $c^2\le1.0001$.
    - El sector impar ($l=2,3$) es **estable y subluminal**.
    - Pero el monopolo tiene **tres taquiones**: uno rápido, $\omega^2r_0^2=-0.117$, y dos **lentos**, $-0.0049$ (par) y $-0.0087$ (impar).
 
 7. **Búsqueda y campo débil** (§7).
-   - **Búsqueda aleatoria.** De 160 configuraciones (20 bien planteadas), ninguna tiene menos de 3 taquiones.
-   - **Vías de escape.** Ni el campo fuerte ($N(0)\sim0.13$) ni la superluminalidad ($c^2$ hasta 30) eliminan el último taquión, que suele ser lento.
+   - **Búsqueda aleatoria.** De 160 configuraciones, 19 están bien planteadas y sin fantasmas, y ninguna está libre de taquiones. El mínimo es 2 (3 entre las subluminales), y todas tienen al menos uno lento.
+   - **Vías de escape.** Ni el campo fuerte ($N(0)\sim0.13$) ni la superluminalidad ($c^2$ hasta 30, y hasta 2400 en la búsqueda) eliminan el último taquión, que suele ser lento.
    - **Campo débil.** Al bajar la masa el taquión se acelera: $\omega_0^2r_0^2=-0.12,-1.07,-4.9,-15.9,-61$ para $M/r_0=2,1,0.5,0.25,0.1$. Con $M=0.05\,r_0$ ya no se puede evitar el fantasma.
 
 8. **Consecuencia para el proyecto.** La GLPV cuártica resuelve lo que EsGB no podía: hay gargantas sin fantasmas ni inestabilidades de gradiente, con masa positiva y lejos de horizontes. Pero no da una garganta estable para el híbrido.
@@ -252,7 +253,25 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
 - Si la teoría fuera invariante bajo $\phi\to\phi+$ cte, $\Psi_s=r'/\phi'$ sería una solución exacta con $w=0$, impar y sin ceros en $(0,\infty)$. Eso daría ningún taquión impar y como mucho uno par.
 - En las reconstrucciones $U$ se parece a $U_s=(P\Psi_s')'/\Psi_s$ cerca de la garganta ($U-U_s\simeq+0.11$). Más lejos, $U-U_s<0$ ($\simeq-0.05$ en $\ell\sim3$–7), y eso añade los taquiones lentos.
 
-**7.2 Búsqueda aleatoria** (`busqueda_aleatoria.py`). Las distribuciones de los 12 parámetros están en el encabezado del script: masa, anchuras, ventanas, velocidades y $F_{4XX}$. [RESULTADOS_BUSQUEDA]
+**7.2 Búsqueda aleatoria** (`busqueda_aleatoria.py`). Las distribuciones de los 12 parámetros están en el encabezado del script: masa, anchuras, ventanas, velocidades y $F_{4XX}$.
+- De 160 muestras, 19 están bien planteadas y sin fantasmas ($K,P>0$ en la malla, hasta $\ell=4000$ y en la cola), y 12 de ellas son además subluminales.
+- **Ninguna está libre de taquiones.** El mínimo es 2, en una sola configuración, con $c^2\approx2400$. Entre las subluminales el mínimo es 3. La mediana es 4.
+- Todas tienen al menos un taquión lento, con $|\omega^2|r_0^2$ entre $1.1\times10^{-4}$ y $9\times10^{-3}$.
+- Las de menor tasa de crecimiento son de campo fuerte ($M\approx6$–9, $N(0)\approx0.2$–0.3). Todas las de $M<r_0$ tienen $|\omega_0^2|r_0^2>6$, como predice §5c.
+
+| $M/r_0$ | $a/r_0$ | $b/r_0$ | $n$ | $N(0)$ | Máx. $c^2$ | Taquiones (par, impar) | $\omega_0^2r_0^2$ (el más rápido) | El más lento |
+|---|---|---|---|---|---|---|---|---|
+| 5.74 | 4.07 | 2.80 | 2 | 0.24 | 1.00 | (2, 1) | $-0.031$ | $-1.0\times10^{-3}$ |
+| 8.74 | 5.42 | 1.88 | 1 | 0.20 | 1.00 | (2, 1) | $-0.073$ | $-6.4\times10^{-4}$ |
+| 9.06 | 6.90 | 6.59 | 2 | 0.27 | 1.08 | (2, 1) | $-0.051$ | $-4.5\times10^{-4}$ |
+| 8.84 | 8.03 | 1.61 | 1 | 0.33 | 1.02 | (2, 1) | $-0.33$ | $-6.7\times10^{-4}$ |
+| 1.36 | 16.8 | 5.63 | 1 | 0.92 | $2.4\times10^3$ | (1, 1) | $-0.13$ | $-5.6\times10^{-3}$ |
+
+- Las cuatro primeras son las mejores según el objetivo $\sum\sqrt{|w|}+5\max(0,c^2-1)$; la última es la única con 2 taquiones.
+- **Fantasmas lejanos.** Otras dos configuraciones cumplen $K,P>0$ en la malla ($\ell\le400$), pero no más lejos:
+  - una casi con horizonte ($N(0)=3.4\times10^{-4}$; $m_{MS}(4000)=924$ frente a $M=4.8$). En ella $W$ rebasa $3M$ dentro de la malla y $K\approx-20$ en $\ell\approx600$–1000 (T2');
+  - la de $M=0.30$ y $D=20.7$ de §6, con $K<0$ entre $\ell\approx450$ y $10^7$.
+- En la malla la primera no tenía ningún taquión: una versión anterior del evaluador, que solo miraba la malla, la tomó por una garganta estable.
 
 **7.3 Campo débil** (`gargantas_bH.py`). Misma garganta con $M\to0$ y carga escalar $\phi_1\propto\sqrt M$, para que $K>0$ siga siendo posible:
 
@@ -334,7 +353,7 @@ python monopolo_reduccion.py    # accion reducida del monopolo -> resultados/mon
 python teoremas_bH.py           # identidades T1-T4 (exactas)
 python verificar_reduccion.py   # comprobacion de extremo a extremo de la reduccion
 python gargantas_bH.py          # ~7 min: ultraestaticas, referencia masiva, campo debil, escape (gargantas_bH_log.txt)
-python busqueda_aleatoria.py 160 1   # ~16 min con 4 nucleos
+python busqueda_aleatoria.py 160 1   # ~10 min con 4 nucleos
 python figuras_fase2f.py
 ```
 Módulos: `bH_simbolico.py` (geometría y lagrangiana), `chorros.py` (chorros exactos y capa de masas), `jets.py` (aritmética de chorros numérica), `simbolico_num.py` (expresiones compiladas), `reconstruccion.py`, `espectro.py`, `busqueda.py`.

@@ -1,0 +1,11 @@
+160 muestras: 19 con K > 0 y P > 0 (12 ademas subluminales); taquiones del monopolo: minimo 2, mediana 4
+  objetivo 0.242: (2, 1) taquiones, w0 = -0.0312, |w| minimo = -1.01e-03, N0 = 0.24, max c^2 = 1.00;  n=2, b=2.8, frac=0.859, wdb=0.48, M=5.74, a=4.07, wK=23.1, wPK=1.91, cm2=0.886, cf2=0.821, wf2=1.03, lf2=2.81
+  objetivo 0.320: (2, 1) taquiones, w0 = -0.0726, |w| minimo = -6.42e-04, N0 = 0.20, max c^2 = 1.00;  n=1, b=1.88, frac=0.715, wdb=0.681, M=8.74, a=5.42, wK=9.85, wPK=1.71, cm2=0.608, cf2=0.771, wf2=1.95, lf2=2.71
+  objetivo 0.688: (2, 1) taquiones, w0 = -0.0507, |w| minimo = -4.54e-04, N0 = 0.27, max c^2 = 1.08;  n=2, b=6.59, frac=0.677, wdb=0.47, M=9.06, a=6.9, wK=22.3, wPK=1.27, cm2=0.832, cf2=0, wf2=4.67, lf2=0.224
+  objetivo 0.722: (2, 1) taquiones, w0 = -0.3306, |w| minimo = -6.66e-04, N0 = 0.33, max c^2 = 1.02;  n=1, b=1.61, frac=0.795, wdb=0.451, M=8.84, a=8.03, wK=13.7, wPK=1.56, cm2=0.659, cf2=0.708, wf2=4.92, lf2=1.93
+  objetivo 0.741: (3, 2) taquiones, w0 = -0.1104, |w| minimo = -2.00e-04, N0 = 0.32, max c^2 = 1.00;  n=2, b=1.55, frac=0.984, wdb=0.431, M=1.52, a=1.33, wK=24.3, wPK=1.4, cm2=0.605, cf2=0, wf2=2.41, lf2=3.6
+  objetivo 1.076: (2, 2) taquiones, w0 = -0.5983, |w| minimo = -5.40e-04, N0 = 0.44, max c^2 = 1.00;  n=1, b=5.32, frac=0.903, wdb=0.561, M=6.68, a=8.14, wK=23.4, wPK=1.41, cm2=0.517, cf2=0, wf2=1.31, lf2=1.44
+  objetivo 1.323: (2, 2) taquiones, w0 = -0.6702, |w| minimo = -4.48e-03, N0 = 0.50, max c^2 = 1.00;  n=2, b=3.77, frac=0.929, wdb=0.438, M=1.16, a=1.68, wK=23.7, wPK=1.33, cm2=0.892, cf2=-0.481, wf2=1.3, lf2=2.45
+  objetivo 2.140: (2, 2) taquiones, w0 = -1.7547, |w| minimo = -9.04e-03, N0 = 0.63, max c^2 = 1.00;  n=2, b=6.33, frac=0.857, wdb=0.431, M=1.22, a=2.63, wK=23.4, wPK=1.07, cm2=0.578, cf2=0.566, wf2=4.88, lf2=4.57
+595 s
+FIN 0
