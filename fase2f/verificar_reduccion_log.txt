@@ -1,0 +1,5 @@
+w = -0.30: residuo relativo de la ecuacion reducida en Psi = d - (r'/phi') q: 1.51e-12;  ligaduras E_beta, E_c propagadas: max 7.9e-11
+w = +0.00: residuo relativo de la ecuacion reducida en Psi = d - (r'/phi') q: 1.51e-11;  ligaduras E_beta, E_c propagadas: max 1.0e-11
+w = +0.70: residuo relativo de la ecuacion reducida en Psi = d - (r'/phi') q: 1.15e-11;  ligaduras E_beta, E_c propagadas: max 5.9e-10
+N^2 K/2 - W' (relativo, 5 puntos): 5.1e-15
+W(L = 3000) = 5.87581;  2 m_MS + M_Komar = 5.87587  (m_MS = 1.94426, M_K = 1.98735)

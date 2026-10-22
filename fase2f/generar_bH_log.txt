@@ -1,0 +1,17 @@
+[    1.2 s] geometria
+[    8.3 s] lagrangiana en chorros: 2940 operaciones (independiente de theta: 1.1e-165)
+[   12.1 s] derivadas primeras
+[   34.4 s] primeras derivadas en el fondo
+[   34.9 s] ecuaciones de fondo: A: 165, b: 0, B: 174, C: 260, p: 745
+[   35.7 s] identidad de Noether del fondo: se anula identicamente (simbolica)
+[   36.1 s] limite RG + escalar + V frente a fase2e/potencial.segundas_V (20 estados): 1.0e-16
+[   36.1 s] ligadura l l: E_B / (est_ligadura_V r^2) en 6 estados = [np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0)]
+[  530.1 s] hessiano en el fondo: 104 entradas no nulas
+[  530.5 s] accion cuadratica: 699 terminos
+[  532.5 s] ecuacion lineal E_a: 147 terminos
+[  533.5 s] ecuacion lineal E_be: 60 terminos
+[  535.4 s] ecuacion lineal E_c: 154 terminos
+[  537.3 s] ecuacion lineal E_d: 256 terminos
+[  544.6 s] ecuacion lineal E_q: 686 terminos
+[  544.6 s] guardado resultados/bH_simbolico.pkl y resultados/generar_bH.json
+FIN generar 0

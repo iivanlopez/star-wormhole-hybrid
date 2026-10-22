@@ -1,0 +1,9 @@
+[    3.4 s] 1. bH_gen.py frente a las expresiones simbolicas (4 puntos, fondo y 35 coeficientes): 2.8e-15
+[    5.9 s] 2. identidades de Noether linealizadas (zeta y tau): residuo exactamente 0 en 3 chorros fuera de la capa de masas
+[    8.9 s] 3. modos gauge zeta (a = Phi' - w int e^{-2Phi}, d = r', q = phi') y tau (a = cte) en la capa de masas: las 5 ecuaciones lineales se anulan exactamente (3 chorros, todo omega)
+[    9.4 s] 4. limite RG + escalar + V: las 5 ecuaciones lineales sobre datos de fase2b/fase2e (20 estados en la capa de masas): residuo relativo 2.3e-15
+[   14.7 s] 5a. impar RG l = 1: Kerr lineal y rotacion rigida (w = 0, 3/7) son solucion; control h0 = 1/r^2 no
+[   17.7 s] 5b. impar RG l = 2: h0 = r^2 (r - 2M) estatica es solucion; control h0 = r^3 da 96*M*sqrt(R)/(5*sqrt(-2*M + R))
+[   18.6 s] 5c. impar l = 1, teoria completa: el modo gauge (rotacion diferencial) anula E_h0 y E_h1 exactamente (3 chorros en la capa de masas, Lambda y omega arbitrarios)
+[   18.7 s] 5d. dependencia en l de la lagrangiana impar: L2(3) = N_3 [alfa + 10 beta] con alfa, beta de l = 1, 2 (exacto)
+[   18.7 s] todas las comprobaciones superadas; resultados/verificar_bH.json

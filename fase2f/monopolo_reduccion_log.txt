@@ -1,0 +1,9 @@
+[    0.5 s] E_beta (unitario) = k_beta beta + i w (gam c + al1 d' + al0 d): gam 8, al1 3, al0 3 terminos
+[    2.5 s] en la capa de masas: k_beta = 0, coeficiente de a en E_a y E_c = 0, E_c depende de (a', beta) solo via F (3 chorros exactos)
+[    2.6 s] L_rest(c, d): 116 terminos
+[    9.9 s] E-L de L_rest para c: las derivadas de c [] tienen coeficiente nulo en la capa de masas (c auxiliar)
+[   10.4 s] L_red(d): 364 terminos
+[   23.7 s] E-L de L_red: 794 terminos
+[   24.3 s] chorros de d presentes en E(d): d00, d01, d02, d20
+[   24.6 s] K: 15, P: 48, U: 443 terminos
+[   24.6 s] guardado resultados/monopolo_reduccion.pkl

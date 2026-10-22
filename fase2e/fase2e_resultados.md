@@ -296,6 +296,11 @@ $$K=-\frac{16F'^2B^2}{r'^2}\chi'-\frac{8F'^2B^2r^2}{r'^2}\,(\rho_m+p_{r,m}).$$
 ## 8. Próximos pasos
 
 1. **Más allá de Horndeski** (Mironov–Rubakov–Volkova; Bakopoulos–Charmousis–Kanti). Es la única vía del punto 1 que queda. La estructura de §5 depende de la forma de las ecuaciones de EsGB ($\chi$, $K$), y no se traslada directamente.
+   - *Hecho en la Fase 2f* ([fase2f/fase2f_resultados.md](../fase2f/fase2f_resultados.md)), para la teoría cuártica GLPV.
+     - Hay gargantas con masa positiva, lejos de horizontes, sin fantasmas ni inestabilidades de gradiente y con el sector impar estable.
+     - Pero el monopolo cumple $\int N^2K\,d\ell=6(M_++M_-)$: las gargantas ultraestáticas tienen un fantasma.
+     - Su potencial da $\int U\,d\ell=-2\int N\mathcal Gr'^2/r^2+O(\Phi')$, con un taquión garantizado en campo débil y $|\omega_0^2|\gtrsim1/(Mr_0)$.
+     - Todas las gargantas reconstruidas tienen taquiones, incluidos los lentos.
 2. **Redactar el artículo de resultados negativos.** El material de esta fase se suma al de las anteriores:
    - el núcleo de Nariai;
    - el corolario de la pared fina;

@@ -1,0 +1,6 @@
+[    0.4 s] Christoffel
+[    1.5 s] Ricci
+[    2.2 s] escalares del campo phi
+[    3.2 s] lagrangiana a O(eps^2): 76 terminos
+[    4.1 s] integrada en theta: 74 terminos
+[    4.1 s] guardado resultados/impar_L1.pkl

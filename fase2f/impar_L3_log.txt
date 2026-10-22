@@ -1,0 +1,11 @@
+[    0.8 s] Christoffel
+[    5.2 s] Ricci
+[   10.0 s] escalares del campo phi
+[   19.6 s] lagrangiana a O(eps^2): 234 terminos
+[   22.2 s] integrada en theta: 75 terminos
+[   22.2 s] guardado resultados/impar_L3.pkl
+E_h0: potencias de i omega [0, 1]
+E_h1: potencias de i omega [0, 1, 2]
+E_h0 con h1 -> i omega H1: amplitudes ['H00', 'H01', 'H02', 'H10', 'H11']
+E_h1 con h1 -> i omega H1: amplitudes ['H00', 'H01', 'H10']
+guardado resultados/impar_ec_L3.pkl; simbolos G: ['F4_00', 'F4_01', 'F4_10', 'G2_00', 'G2_01', 'G3_00', 'G3_01', 'G3_10', 'G4_00', 'G4_01', 'G4_02', 'G4_10', 'G4_11', 'G4_20']

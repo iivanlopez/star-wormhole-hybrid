@@ -1,0 +1,7 @@
+[   0.4 s] T1: -N^2 E_A + (r^2/2) E_C = [N r Gcal (r' - r Phi')]' - N G4  (identidad exacta)
+[   0.8 s] T2: gam = r(4 r' Gamma1 + r Gamma2)/N, al1 = -4 r Gcal/N, al0 = -Phi' al1, K = (2/N^2)[(N xi)' - N G4] (identidades exactas)
+[   4.6 s] T2 en la capa de masas: N^2 K/2 = W',  W = N [xi - r Gcal (r' - r Phi')]  (exacta, 3 chorros)
+[   4.7 s] T3: u_d = -(2/r)(N r' Gcal)'  (identidad exacta)
+[   6.3 s] T3: U = u_d - (k_c/2) A0^2 + A0 e0 + (1/2)(k_c A1 A0 - A1 e0 - A0 e1)',  P = p_d + A1 e1 - (k_c/2) A1^2  (identidades exactas con los chorros abstractos de gam, al1, al0)
+[  10.5 s] T4: sector impar alfa = N_l Gcal/N, beta = N_l [lam_l G4/N + 2 E_A]/r^2, gamma = N_l [-lam_l N Gcal - 2 E_B]/r^2 (exactas, l = 2, 3)
+[  10.5 s] todas las identidades comprobadas; resultados/teoremas_bH.json

@@ -1,0 +1,22 @@
+{
+ "bH_gen_vs_simbolico": 2.7502713721112992e-15,
+ "noether_lineal": "exacta (racional) en 3 chorros fuera de la capa de masas, polinomio en i omega",
+ "modos_gauge_l0": "exactos en 3 chorros en la capa de masas (5 ecuaciones, todo omega)",
+ "limite_RG_lineal": 2.2646775005817467e-15,
+ "impar": {
+  "RG_Kerr_l1": "0",
+  "RG_rotacion_rigida_l1_w0": [
+   "0",
+   "0"
+  ],
+  "RG_rotacion_rigida_l1_w3/7": [
+   "0",
+   "0"
+  ],
+  "RG_control_l1": "-16*sqrt(-2*M + R)/(3*R**(9/2))",
+  "RG_estatica_l2": "0",
+  "RG_control_l2": "96*M*sqrt(R)/(5*sqrt(-2*M + R))",
+  "gauge_l1_teoria_completa": "exacto en 3 chorros en la capa de masas, Lambda(l) y omega arbitrarios",
+  "dependencia_l": "0"
+ }
+}
