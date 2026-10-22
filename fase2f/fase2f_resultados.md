@@ -32,10 +32,10 @@
    - **T3.** El potencial $U$ se descompone en una parte fija por el fondo, $-\tfrac2r(Nr'\mathcal G)'$, términos proporcionales a $\Phi'$ y una derivada total.
    - **T4.** En el sector impar, $\alpha=N_l\mathcal G/N$, $\beta=N_l\lambda_lG_4/(Nr^2)$ y $\gamma=-N_l\lambda_lN\mathcal G/r^2$, con $\lambda_l=(l-1)(l+2)$.
 
-5. **Teoremas** (§5). Valen para fondos regulares con asintótica de RG con un escalar canónico sin masa a los dos lados.
+5. **Teoremas** (§5). Valen para fondos regulares con asintótica de RG a los dos lados (la misma masa en $g_{tt}$ y $g_{rr}$) y un escalar sin masa, que no necesita ser exactamente canónico.
    - **(a) Fantasma.** $\int N^2K\,d\ell=6(M_++M_-)$. Sin masa total positiva (en particular en toda garganta **ultraestática**), $K$ cambia de signo y el monopolo tiene un fantasma.
      - Con $F_4=0$ (Horndeski) $\mathcal G=\mathcal H$ y $\xi$ no puede ser regular: se recupera el teorema de Evseev–Melichev.
-   - **(b) Taquión.** La función de prueba $d=$ cte es normalizable, porque $K\sim D^2/2r^2$. Su cociente de Rayleigh es
+   - **(b) Taquión.** La función de prueba $d=$ cte es normalizable, porque $K$ es integrable ($K\sim D^2/2r^2$ con un escalar canónico). Su cociente de Rayleigh es
      $$\int U\,d\ell=-2\!\int\! N\mathcal G\,\frac{r'^2}{r^2}\,d\ell+O(\Phi'),$$
      estrictamente negativo en el caso ultraestático. Las gargantas ultraestáticas tienen por tanto, además, un taquión.
    - **(c) Campo débil.** Si $|\Phi'|r\ll1$, la corrección es pequeña y $\int K\,d\ell=O(M)$, así que $\omega_0^2\lesssim-O(1)/(Mr_0)$: hay un taquión **rápido**.
@@ -153,7 +153,8 @@ Todas se comprueban en `teoremas_bH.py` (SymPy, exactas):
 Hipótesis comunes:
 - fondo estático, esférico y regular;
 - una sola garganta;
-- asintótica de RG con un escalar canónico sin masa a los dos lados: $g_{tt}$ y $g_{rr}$ con la misma masa $M_\pm$, $\phi'\simeq D/r^2$;
+- asintótica de RG a los dos lados: $N,r'\to1$ con la misma masa $M_\pm$ en $g_{tt}$ y $g_{rr}$ (Komar y Misner–Sharp), y $G_4,\mathcal G,\mathcal H,\Gamma_1\to1$, $\Gamma_2\to0$;
+- un escalar sin masa, $\phi'\simeq D/r^2$, con $K$ integrable. No hace falta que sea exactamente canónico (en las reconstrucciones de §6 su normalización corre con $\ln\ell$);
 - $G_4>0$ (sin él hay inestabilidad de gradiente impar).
 
 **(a) Teorema del término cinético.** Por T2', $\int_{-\infty}^\infty N^2K\,d\ell=2[W]_{-\infty}^{+\infty}$. En la asintótica, $\xi-rr'\mathcal G\to\pm2m_\pm$ (con $m$ la masa de Misner–Sharp) y $r^2N\Phi'\to\pm M_\pm$ (la de Komar), así que $W(\pm\infty)=\pm(2m_\pm+M_\pm)$ y
@@ -166,7 +167,7 @@ $$\boxed{\int_{-\infty}^{\infty}N^2K\,d\ell=6\,(M_++M_-)}$$
 **(b) Teorema del potencial.** Con $A_0=-\Phi'A_1$, T3 da
 $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_d-A_1e_1\big)\,d\ell-\int\Phi'A_1e_0\,d\ell .$$
 - Las derivadas totales no contribuyen: $\tfrac12(\dots)$ es continua e impar a través de la garganta y se anula en los dos infinitos.
-- Si el monopolo está bien planteado y sin fantasmas ($K,P>0$), el problema es de Sturm–Liouville autoadjunto. Como $K\propto D^2/r^2$ en la asintótica, $d=$ cte está en el dominio de la forma cuadrática ($\int K<\infty$, $\int U$ converge), y por el principio variacional
+- Si el monopolo está bien planteado y sin fantasmas ($K,P>0$), el problema es de Sturm–Liouville autoadjunto. Como $K$ es integrable ($K\propto D^2/r^2$ con un escalar canónico), $d=$ cte está en el dominio de la forma cuadrática ($\int K<\infty$, $\int U$ converge), y por el principio variacional
   $$\omega_0^2\le\frac{\int U\,d\ell}{\int K\,d\ell}.$$
 - **Corolario (ultraestático).** $\int U=-2\int\mathcal G r'^2/r^2<0$ porque $\mathcal G>0$: hay al menos un **taquión**. Las reconstrucciones lo confirman: $\int_0^LU=-1.862,-1.785,-2.201$ frente a $-2\int\mathcal Gr'^2/r^2=-1.865,-1.784,-2.201$.
 
@@ -202,8 +203,18 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
 | $P$ objetivo | $g_{22}=G_{2XX}$ sobre la curva ($P$ es lineal en $G_{2XX}$), con velocidad física $c^2=c_m^2$ dentro de la ventana |
 
 - Las derivadas a lo largo de la curva se obtienen con el operador $(Tg)_m=g_m'/\phi'+\phi''g_{m+1}$, $G_{ij}=(T^ig)_j$, en aritmética de chorros de orden 12 (`jets.py`). Son exactas salvo redondeo.
-- Lejos, la teoría tiende a RG + escalar canónico: $G_4-1=O(X^n)$, y $F_4$ y las desviaciones de $G_2$ decaen.
 - $G_{2XXX}$ y $F_{4XXX}$ se cancelan exactamente en $U$: entran solo en la combinación de la derivada a lo largo de la curva. $F_{4XX}$ entra con peso $\propto\Phi'$.
+
+**Asintótica y cola de $K$.** Lejos, $G_4-1=O(X^n)$ y $F_4\to0$: el sector tensorial tiende a RG. El escalar, en cambio, no es exactamente canónico.
+- El lapso elegido no tiene el término $-M^2\ln\ell/\ell^2$ del de Schwarzschild en distancia propia. Desarrollando T1 ($I_N$ y $u=r^2/N^2$) se obtiene
+  $$y\equiv(r'\Phi'-r'')\,\ell^3=4M^2L^2-(30M^2+8MC_1)\,L+\beta+O(L^2/\ell),\qquad L=\ln\ell,\quad C_1=\lim\,(I_N-\ell+M\ln\ell).$$
+- Como lejos $K\simeq2r(r'\Phi'-r'')/(Nr'^2)$, la normalización efectiva del escalar, $K/K_{\rm RG}=4y/(Nr\ell^3\phi'^2)$, corre con $\ln\ell$: en la referencia pasa de 0.32 en $\ell\approx50$ a 4.1 en $\ell=3900$.
+- Las masas convergen ($m_{MS},M_K\to M$) y $K$ es integrable, así que §5 se aplica; se comprueba $W(L)=2m_{MS}+M_K$.
+- Pero $y$ puede hacerse negativa en un intervalo de $\ln\ell$: un **fantasma lejano**. En la búsqueda aparece, por ejemplo, con $M=0.30$ y carga escalar $D=20.7$: $K<0$ para $\ell$ entre 450 y $10^7$.
+- Por eso se exige $K,P>0$ en la malla ($\ell\le400$), en la zona lejana hasta $\ell=4000$ y, más allá, $y(L)>0$ para todo $L\ge\ln4000$ (`Garganta.cola_K`; $P\simeq N^2K$ lejos).
+  - $\beta$ se ajusta en $\ell=2000$–4000, con una dispersión $\lesssim0.1\%$ que se toma como margen.
+  - El desarrollo reproduce $y(\ell)$ con un error de $\sim1\%$ desde $\ell=1000$.
+  - Lejos, $K\simeq2y/\ell^2$ y $K/K_{\rm RG}\simeq4y/D^2$.
 
 **Garganta masiva de referencia** ($M=2$, $a=2$, $b=4$, $n=2$, $w_K=10$, $w_P=15$, $c_m^2=0.8$):
 
@@ -211,7 +222,8 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
 |---|---|
 | Ecuaciones del fondo (`bH_gen.fondo`, código independiente) | $\le2.7\times10^{-15}$ |
 | Lapso en la garganta $N(0)$ | 0.368 |
-| $\min K$, $\min P$ | $+8.4\times10^{-4}$, $+8.3\times10^{-4}$ (positivos; decaen como $1/\ell^2$) |
+| $\min K$, $\min P$ ($\ell\le3000$) | $+5.1\times10^{-5}$, $+5.1\times10^{-5}$ (en $\ell=3000$: decaen como $2y/\ell^2$) |
+| Cola ($\ell>4000$) | $y=16L^2-145.3L+368.1$, creciente desde $\ell\approx94$: $K>0$ para todo $\ell$ |
 | Máxima velocidad radial del monopolo, $P/(KN^2)$ | 1.0001 |
 | Sector impar $l=2,3$: $\min K_o$, $\min P_o$, $\max c^2$ | positivos; $c^2\le1$ |
 | $\int_0^LN^2K$ frente a $2W(L)$ | 11.7510 frente a 11.7516 |
@@ -219,7 +231,7 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
 
 ## 7. Espectros: taquiones rápidos y lentos
 
-**Método** (`espectro.py`). Con $K,P>0$ (problema bien planteado y sin fantasmas), $-(P\Psi')'+U\Psi=wK\Psi$ es un problema de Sturm–Liouville autoadjunto en $(0,\infty)$, con paridad en la garganta.
+**Método** (`espectro.py`). Con $K,P>0$ (problema bien planteado y sin fantasmas; en la malla, hasta $\ell=4000$ y en la cola, §6), $-(P\Psi')'+U\Psi=wK\Psi$ es un problema de Sturm–Liouville autoadjunto en $(0,\infty)$, con paridad en la garganta.
 - El espectro es real y el continuo empieza en $w=0$. Los modos inestables son exactamente los autovalores $w<0$.
 - Su número, lentos incluidos, es el de ceros de la solución con $w=0$ regular en la garganta (oscilación de Sturm). Se cuentan con el ángulo de Prüfer y se localizan por bisección en el conteo.
 - Más allá de la malla se comprueba la forma de Liouville $Y\simeq A+Bx$.

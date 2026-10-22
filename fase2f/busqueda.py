@@ -2,8 +2,8 @@
 """
 Busqueda de gargantas masivas estables en la familia de reconstruccion.Garganta (Fase 2f).
 
-evalua(x) devuelve un dict con las condiciones del monopolo (K > 0, P > 0 en la malla y en la zona lejana hasta
-10 veces su extremo, velocidad fisica c^2 = P/(K N^2) <= 1)
+evalua(x) devuelve un dict con las condiciones del monopolo (K > 0, P > 0 en la malla, en la zona lejana hasta
+10 veces su extremo y en la cola asintotica mas alla, velocidad fisica c^2 = P/(K N^2) <= 1)
 y los angulos de Prufer (en l = L) de las soluciones de w = 0 regulares en la garganta, par e impar; el numero de
 taquiones es floor(th/pi) (par: th parte de pi/2; impar: de 0).  objetivo(x) es una medida continua que se anula
 solo si no hay taquiones, fantasmas, inestabilidades de gradiente ni superluminalidad en el monopolo.
@@ -43,7 +43,12 @@ def evalua(x, malla=None, impar=False):
     c2 = np.concatenate([P / (K * N ** 2), Pf / (Kf * Nf ** 2)])
     out.update(minK=float(min(K.min(), Kf.min())), minP=float(min(P.min(), Pf.min())), maxc2=float(np.max(c2)),
                N0=float(g.N0), A_K=float(g.A_K))
-    if out["minK"] > 0 and out["minP"] > 0:
+    # cola (l > Lmax): signo de y(ln l) (reconstruccion.cola_K), con la dispersion de beta como margen; el desarrollo
+    # exige l >> r0/N0
+    cola = g.cola_K()
+    out.update(cola_ymin=cola["ymin"], cola_disp=cola["dispersion_beta"], cola_Lstar=cola["Lstar"],
+               cola_ok=bool(g.Lmax >= 100 * g.r0 / g.N0 and cola["ymin"] > cola["dispersion_beta"]))
+    if out["minK"] > 0 and out["minP"] > 0 and out["cola_ok"]:
         sl = E.SL(ls, K, P, U)
         for par in ("par", "impar"):
             th0, thL, _ = sl.prufer(0.0, par)
@@ -64,7 +69,7 @@ def objetivo(r):
     if "error" in r:
         return 1e3
     pen = 0.0
-    if r["minK"] <= 0 or r["minP"] <= 0:
+    if r["minK"] <= 0 or r["minP"] <= 0 or not r["cola_ok"]:
         return 100.0 + 10 * (max(0, -r["minK"]) + max(0, -r["minP"])) / (1e-3 + abs(r["minK"]) + abs(r["minP"]))
     pen += 5 * max(0.0, r["maxc2"] - 1.0)
     # taquiones: suma de sqrt|w| (tasas de crecimiento) en ambas paridades

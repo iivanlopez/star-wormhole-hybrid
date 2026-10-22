@@ -5,8 +5,9 @@ Parametros (distribuciones): n en {1, 2, 2, 3}; b log-uniforme en [1, 10]; frac 
 (sector impar subluminal); wd/b en [0.3, 1]/sqrt(2n); M log-uniforme en [0.3, 10]; a log-uniforme en [0.5, 20];
 ventana de K wK en [4, 25] y de P wP/wK en [1, 2]; cm2 (velocidad del monopolo en la ventana) en [0.5, 1];
 F4_XX: cf2 = 0 o normal(0, 1) con anchura y centro aleatorios.
-Para cada muestra: K > 0 y P > 0 (bien planteado y sin fantasmas; en la malla l <= 400 y en la zona lejana hasta
-l = 4000), maxima velocidad radial fisica del monopolo y autovalores negativos (taquiones) por paridad.  Escribe resultados/busqueda_aleatoria.json.
+Para cada muestra: K > 0 y P > 0 (bien planteado y sin fantasmas; en la malla l <= 400, en la zona lejana hasta
+l = 4000 y en la cola asintotica, reconstruccion.cola_K), maxima velocidad radial fisica del monopolo y autovalores
+negativos (taquiones) por paridad.  Escribe resultados/busqueda_aleatoria.json.
 Uso: python busqueda_aleatoria.py [n_muestras] [semilla]
 """
 import os

@@ -264,6 +264,28 @@ class Garganta:
             out[k] = S.MONO[k](W)
         return out
 
+    def cola_K(self, lf=(2000.0, 3000.0, 4000.0)):
+        """Signo de K mas alla de l = Lmax.  Lejos G4, Gcal, H, Gamma1 -> 1 (salvo O(l^{-4n})) y
+        K = 2 r (r' Phi' - r'')/(N r'^2) [1 + o(1)].  Este lapso no tiene el termino -M^2 ln l/l^2 de Schwarzschild
+        en distancia propia, y T1 (desarrollo de I_N y de u = r^2/N^2) da
+            y(L) = (r' Phi' - r'') l^3 = 4 M^2 L^2 - (30 M^2 + 8 M C1) L + beta + O(L^2/l),   L = ln l,
+        con C1 = lim (I_N - l + M ln l): la normalizacion efectiva del escalar, K/K_RG = 4 y/(N r l^3 phi'^2), corre
+        con ln l.  beta se ajusta en los puntos lf (su dispersion mide el resto O(L^2/l)).  Devuelve los coeficientes
+        y el minimo de y(L) para L >= ln Lmax: K > 0 en toda la cola si es positivo (P = c^2 N^2 K con c^2 -> 1)."""
+        M, L = self.M, self.Lmax
+        C1 = self.sol.sol(L)[0] - L + M * math.log(L) + M * M / (2 * L)
+        A, al = 4 * M * M, -(30 * M * M + 8 * M * C1)
+        lf = np.asarray(lf, dtype=float)
+        Bf = self._fondo_basico(lf)
+        y = (Bf["r1"].deriv(0) * Bf["Phi"].d().deriv(0) - Bf["r1"].d().deriv(0)) * lf ** 3
+        be = y - A * np.log(lf) ** 2 - al * np.log(lf)
+        beta = float(be[-1])
+        LL = math.log(L)
+        Ls = -al / (2 * A) if A > 0 else -math.inf
+        ymin = beta - al * al / (4 * A) if Ls > LL else A * LL * LL + al * LL + beta
+        return dict(C1=float(C1), A=A, alfa=float(al), beta=beta, dispersion_beta=float(np.ptp(be)), Lstar=float(Ls),
+                    ymin=float(ymin))
+
     def residuos_fondo(self, l):
         """E_u con bH_gen (codigo independiente de las expresiones usadas en la reconstruccion)."""
         import bH_gen

@@ -4,7 +4,8 @@ Resultados numericos de la Fase 2f sobre gargantas reconstruidas (reconstruccion
 
   1. Ultraestaticas (M = 0): fondo en la capa de masas; K cambia de signo con int_0^inf K = W(inf) - W(0) = 0
      (fantasma obligado) e int U = -2 int Gcal r'^2/r^2 < 0 (taquion obligado: funcion de prueba d = const).
-  2. Garganta masiva de referencia (M = 2, a = 2): K, P > 0, velocidades, identidad int N^2 K = 2 W y masas,
+  2. Garganta masiva de referencia (M = 2, a = 2): K, P > 0 (hasta l = L y en la cola asintotica, cola_K),
+     velocidades, identidad int N^2 K = 2 W y masas,
      descomposicion de int U, espectro completo del monopolo (taquiones rapidos y lentos) y del sector impar.
   3. Campo debil: sucesion M = 2 ... 0.05 (con phi1 ~ sqrt(M) para que K > 0 sea posible): w0 ~ -1/M^p, numero de
      taquiones, cota variacional int U/int K.
@@ -93,7 +94,8 @@ def masiva(x):
                minP=float(min(P.min(), f["P"].min())),                                   # malla y hasta l = L
                maxc2=float(np.max(P / (K * N ** 2))), N0=float(g.N0),
                int_N2K=float(IN2K), dos_W_L=float(2 * f["W"][-1]), masa_MS_L=float(mMS), masa_Komar_L=float(mK),
-               int_U=float(IU), I1=float(I1), I2_Phi2P=float(I2), resto=float(IU - I1 - I2), int_K=float(simpson(f["K"], x=ls)))
+               int_U=float(IU), I1=float(I1), I2_Phi2P=float(I2), resto=float(IU - I1 - I2), int_K=float(simpson(f["K"], x=ls)),
+               cola=g.cola_K())
     for par in ("par", "impar"):
         nz = sl.ceros(par)[0]
         out[f"w_{par}"] = [float(w) for w in sl.autovalores_negativos(par, nz, tol=1e-8)] if nz else []
@@ -140,6 +142,9 @@ if __name__ == "__main__":
         f"M_Komar(L) = {out['masa_Komar_L']:.4f}  (M = {BASE['M']})")
     log(f"   int_0^L U = {out['int_U']:+.4f} = I1 {out['I1']:+.4f} + int Phi'^2 P {out['I2_Phi2P']:+.4f} + resto "
         f"{out['resto']:+.4f};  int K = {out['int_K']:.3f}")
+    c = out["cola"]
+    log(f"   cola (l > L): (r' Phi' - r'') l^3 = {c['A']:.2f} L^2 {c['alfa']:+.2f} L {c['beta']:+.2f} (C1 = {c['C1']:.4f}; "
+        f"dispersion de beta {c['dispersion_beta']:.1e}); minimo para L >= ln L: {c['ymin']:+.3f}")
     log(f"   monopolo: w_par = {out['w_par']},  w_impar = {out['w_impar']}")
     for LL in (2, 3):
         log(f"   impar l = {LL}: {out[f'impar_l{LL}']}")
@@ -161,8 +166,8 @@ if __name__ == "__main__":
             log(f"campo debil M = {M}: N0 = {r['N0']:.3f}; taquiones ({r['n_par']}, {r['n_impar']}); w0 = {w0:+.4f} "
                 f"(M w0 = {M * w0:+.3f}); int U/int K (cota) = {r['int_U_mitad'] / r['int_K_mitad']:+.4f}")
         else:
-            log(f"campo debil M = {M}: N0 = {r['N0']:.3f}; min K = {r['minK']:+.2e}, min P = {r['minP']:+.2e} "
-                f"(no se puede evitar el fantasma con la ventana)")
+            log(f"campo debil M = {M}: N0 = {r['N0']:.3f}; min K = {r['minK']:+.2e}, min P = {r['minP']:+.2e}, "
+                f"minimo de la cola {r['cola_ymin']:+.2e} (fantasma)")
     combos = [(M, a, wK, cm2) for (M, a) in ((3.0, 2.0), (4.0, 3.0), (8.0, 4.0)) for wK in (6.0,) for cm2 in (1.0, 4.0, 30.0)]
     with ProcessPoolExecutor(max_workers=8) as ex:
         esc = list(ex.map(escape, combos))
@@ -172,6 +177,7 @@ if __name__ == "__main__":
             log(f"escape M = {c[0]}, a = {c[1]}, cm2 = {c[3]}: N0 = {r['N0']:.3f}, max c^2 = {r['maxc2']:.2f}, "
                 f"taquiones ({r['n_par']}, {r['n_impar']}): {r['w_par']} / {r['w_impar']}")
         else:
-            log(f"escape M = {c[0]}, a = {c[1]}, cm2 = {c[3]}: no valido (min K = {r.get('minK')})")
+            log(f"escape M = {c[0]}, a = {c[1]}, cm2 = {c[3]}: no valido (min K = {r.get('minK')}, min P = "
+                f"{r.get('minP')}, minimo de la cola {r.get('cola_ymin')})")
     json.dump(RES, open(os.path.join(AQUI, "resultados", "gargantas_bH.json"), "w"), indent=1, default=float)
     log("guardado resultados/gargantas_bH.json y resultados/perfiles_bH.npz")
