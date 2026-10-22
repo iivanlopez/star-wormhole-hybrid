@@ -211,7 +211,7 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
   $$y\equiv(r'\Phi'-r'')\,\ell^3=4M^2L^2-(30M^2+8MC_1)\,L+\beta+O(L^2/\ell),\qquad L=\ln\ell,\quad C_1=\lim\,(I_N-\ell+M\ln\ell).$$
 - Como lejos $K\simeq2r(r'\Phi'-r'')/(Nr'^2)$, la normalización efectiva del escalar, $K/K_{\rm RG}=4y/(Nr\ell^3\phi'^2)$, corre con $\ln\ell$: en la referencia pasa de 0.32 en $\ell\approx50$ a 4.1 en $\ell=3900$.
 - Las masas convergen ($m_{MS},M_K\to M$) y $K$ es integrable, así que §5 se aplica; se comprueba $W(L)=2m_{MS}+M_K$.
-- Pero $y$ puede hacerse negativa en un intervalo de $\ln\ell$: un **fantasma lejano**. En la búsqueda aparece, por ejemplo, con $M=0.30$ y carga escalar $D=20.7$: $K<0$ para $\ell$ entre 450 y $10^7$.
+- Pero $y$ puede hacerse negativa en un intervalo de $\ln\ell$: un **fantasma lejano**. En la búsqueda aparece, por ejemplo, con $M=0.30$ y carga escalar $D=20.7$: $K<0$ para $\ell$ entre 470 y $3\times10^{11}$.
 - Por eso se exige $K,P>0$ en la malla ($\ell\le400$), en la zona lejana hasta $\ell=4000$ y, más allá, $y(L)>0$ para todo $L\ge\ln4000$ (`Garganta.cola_K`; $P\simeq N^2K$ lejos).
   - $\beta$ se ajusta en $\ell=2000$–4000, con una dispersión $\lesssim0.1\%$ que se toma como margen.
   - El desarrollo reproduce $y(\ell)$ con un error de $\sim1\%$ desde $\ell=1000$.
@@ -270,7 +270,7 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
 - Las cuatro primeras son las mejores según el objetivo $\sum\sqrt{|w|}+5\max(0,c^2-1)$; la última es la única con 2 taquiones.
 - **Fantasmas lejanos.** Otras dos configuraciones cumplen $K,P>0$ en la malla ($\ell\le400$), pero no más lejos:
   - una casi con horizonte ($N(0)=3.4\times10^{-4}$; $m_{MS}(4000)=924$ frente a $M=4.8$). En ella $W$ rebasa $3M$ dentro de la malla y $K\approx-20$ en $\ell\approx600$–1000 (T2');
-  - la de $M=0.30$ y $D=20.7$ de §6, con $K<0$ entre $\ell\approx450$ y $10^7$.
+  - la de $M=0.30$ y $D=20.7$ de §6, con $K<0$ entre $\ell\approx470$ y $3\times10^{11}$.
 - En la malla la primera no tenía ningún taquión: una versión anterior del evaluador, que solo miraba la malla, la tomó por una garganta estable.
 
 **7.3 Campo débil** (`gargantas_bH.py`). Misma garganta con $M\to0$ y carga escalar $\phi_1\propto\sqrt M$, para que $K>0$ siga siendo posible:
@@ -286,9 +286,10 @@ $$\int U\,d\ell=-2\!\int N\mathcal G\frac{r'^2}{r^2}\,d\ell+\int\Phi'^2\big(P-p_
 
 - $\int U$ tiende al valor ultraestático ($-1.784$ para la misma forma, §5b), mientras $\int K\propto M$: la cota variacional crece como $1/M$ y el taquión real, todavía más deprisa ($|\omega_0^2|\propto M^{-1.75}$ entre $M=1$ y $0.1$).
 - La velocidad radial máxima del monopolo es $c^2\le1.003$ en todos los casos con $K,P>0$ (el exceso sobre 1 es de la transición de las ventanas).
+- La cola de $K$ (§6) es positiva en todos ellos. Con $M=0.1$ lo es por poco: el mínimo de $y$ es $+0.10$, en $\ell\approx2.4\times10^4$, frente a $y(4000)=0.23$. Con $M=0.05$ es negativa, además de $\min K<0$ en la malla.
 - Los taquiones lentos, con $|\omega^2|r_0^2$ entre $10^{-5}$ y $10^{-2}$, aparecen en todas las masas. Son los que un análisis de alta frecuencia no puede ver.
 
-**7.4 Vías de escape** (campo fuerte y superluminalidad). Misma garganta, ventana $w_K=6$ y velocidad $c_m^2$ dentro de la ventana:
+**7.4 Vías de escape** (campo fuerte y superluminalidad). Misma garganta, ventana $w_K=6$ y velocidad $c_m^2$ dentro de la ventana. Todas tienen $K,P>0$ en la malla, hasta $\ell=4000$ y en la cola:
 
 | $M/r_0$ | $a/r_0$ | $N(0)$ | $c_m^2$ | Máx. $c^2$ | Taquiones (par, impar) | $\omega^2r_0^2$ |
 |---|---|---|---|---|---|---|
@@ -353,7 +354,7 @@ python monopolo_reduccion.py    # accion reducida del monopolo -> resultados/mon
 python teoremas_bH.py           # identidades T1-T4 (exactas)
 python verificar_reduccion.py   # comprobacion de extremo a extremo de la reduccion
 python gargantas_bH.py          # ~7 min: ultraestaticas, referencia masiva, campo debil, escape (gargantas_bH_log.txt)
-python busqueda_aleatoria.py 160 1   # ~10 min con 4 nucleos
-python figuras_fase2f.py
+python busqueda_aleatoria.py 160 1   # ~10 min con 4 nucleos (busqueda_aleatoria_log.txt)
+python figuras_fase2f.py        # figuras/ (figuras_log.txt)
 ```
 Módulos: `bH_simbolico.py` (geometría y lagrangiana), `chorros.py` (chorros exactos y capa de masas), `jets.py` (aritmética de chorros numérica), `simbolico_num.py` (expresiones compiladas), `reconstruccion.py`, `espectro.py`, `busqueda.py`.

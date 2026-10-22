@@ -1,0 +1,1 @@
+figuras: fig1_fondo.png, fig2_monopolo.png, fig3_espectro.png
