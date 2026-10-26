@@ -1,0 +1,26 @@
+[   13.7 s] A: Q^2 = kappa phi1^2 b^4 = 18.087;  U l^2/P en l = 3500: -2.0220 (escalar sin masa: -2)
+[   22.8 s] A: exterior Dirichlet theta = 0.0, cm2 = 1.0: w0 = +2.814e-06
+[   41.0 s] A: exterior Dirichlet theta = 0.0, cm2 = 3.0: w0 = +4.407e-06
+[   57.8 s] A: exterior Dirichlet theta = 0.25, cm2 = 1.0: w0 = +4.003e-07
+[   74.2 s] A: exterior Dirichlet theta = 0.25, cm2 = 3.0: w0 = +4.390e-06
+[   92.6 s] A: exterior Dirichlet theta = 0.5, cm2 = 1.0: w0 = -2.257e-05
+[  112.1 s] A: exterior Dirichlet theta = 0.5, cm2 = 3.0: w0 = +4.355e-06
+[  132.2 s] A: exterior Dirichlet theta = 0.75, cm2 = 1.0: w0 = -1.159e-04
+[  151.3 s] A: exterior Dirichlet theta = 0.75, cm2 = 3.0: w0 = +4.213e-06
+[  170.8 s] A: exterior Dirichlet theta = 0.9, cm2 = 1.0: w0 = -2.514e-04
+[  181.7 s] A: exterior Dirichlet theta = 0.9, cm2 = 3.0: w0 = -4.698e-06
+[  189.0 s] B: criba fija +0.0132, libre -0.3586; E_Q0 = -2.538e-03
+[  189.3 s] B: escala del muelle: x0: -0.4713, x1: -0.3586, x3: -0.2341, x10: -0.0957, x30: -0.0277, x100: +0.0004, x300: +0.0089, x1000: +0.0119, x10000: +0.0131
+[  213.4 s] B: Lam = 0.0: fija par -2.37e-02; fija impar -2.36e-02; fija c=0 par +1.68e-06; fija c=0 impar +2.13e-06; libre par -2.37e-02; libre impar -2.36e-02; libre c=0 par -4.18e-04; libre c=0 impar -2.70e-04
+[  269.6 s] B: Lam = 0.01: fija par -7.12e-03; fija impar -1.39e-04; fija c=0 par +2.13e-06; fija c=0 impar +2.48e-06; libre par -7.12e-03; libre impar -4.40e-04; libre c=0 par -4.17e-04; libre c=0 impar -2.70e-04
+[  326.6 s] B: Lam = 0.1: fija par -5.16e-03; fija impar -7.54e-05; fija c=0 par +2.22e-06; fija c=0 impar +2.56e-06; libre par -5.16e-03; libre impar -3.07e-04; libre c=0 par -4.17e-04; libre c=0 impar -2.70e-04
+[  380.9 s] B: Lam = 1.0: fija par -1.70e-05; fija impar +2.52e-06; fija c=0 par +2.29e-06; fija c=0 impar +2.61e-06; libre par -4.86e-04; libre impar -2.76e-04; libre c=0 par -4.17e-04; libre c=0 impar -2.70e-04
+[  406.8 s] B: Lam = 10.0: fija par +2.16e-06; fija impar +2.65e-06; fija c=0 par +2.34e-06; fija c=0 impar +2.66e-06; libre par -4.21e-04; libre impar -2.70e-04; libre c=0 par -4.17e-04; libre c=0 impar -2.70e-04
+[  412.9 s] B: velocidades (Lam = 0.0): c2_rapida_min 1.54, c2_rapida_l1 7.86, c2_rapida_l01 22.7, c2_lenta_max 1, cphi2_max 1, detK_min 0.0476
+[  413.1 s] B: velocidades (Lam = 10.0): c2_rapida_min 681, c2_rapida_l1 2.7e+03, c2_rapida_l01 7.02e+03, c2_lenta_max 1, cphi2_max 6.69e+05, detK_min 0.0476
+[  467.6 s] B: Lam = 100.0: fija par +2.37e-06; fija impar +2.68e-06; fija c=0 par +2.39e-06; fija c=0 impar +2.70e-06; libre par -4.17e-04; libre impar -2.70e-04; libre c=0 par -4.17e-04; libre c=0 impar -2.69e-04
+[  473.8 s] C: semilla1: fija +0.1802, libre Epar -0.5131, E_Q0 = -1.042e-02 (E[1] = +2.291e-02)
+[  480.2 s] C: semilla1_m1: fija +0.1807, libre Epar -0.4303, E_Q0 = -8.632e-03 (E[1] = +2.298e-02)
+[  487.4 s] C: semilla2: fija +0.1974, libre Epar -0.4722, E_Q0 = -8.538e-03 (E[1] = +2.151e-02)
+[  494.7 s] C: semilla2_m1: fija +0.2005, libre Epar -0.3869, E_Q0 = -6.888e-03 (E[1] = +2.455e-02)
+[  494.8 s] escrito resultados/analisis_final.json y perfiles_fase2h.npz

@@ -2,6 +2,8 @@
 
 *Documento de trabajo v0.1 · 2026-10-26 · continúa [fase2f/fase2f_resultados.md](../fase2f/fase2f_resultados.md) (§9.1 "campo fuerte" y §9.4 "materia de la estrella")*
 
+> **Corrección (Fase 2h, 2026-10-26).** La prueba $E$ de la familia $c=0$ de §5–6 impone $h'(\ell_s)=0$, que fija la superficie de la estrella. Con la superficie libre (la condición física, con el término de superficie del salto de densidad incluido), las configuraciones de §6 **no** cumplen las condiciones necesarias. Hay una prueba explícita sin compresión con energía negativa (`criba.prueba_sin_compresion`). Ver [fase2h/fase2h_resultados.md](../fase2h/fase2h_resultados.md) §6. El punto 6 del resumen ("la primera vía que las condiciones necesarias no cierran") queda retirado.
+
 ## Resumen
 
 1. **La pregunta.** La Fase 2f dejó dos huecos. Por un lado, en campo fuerte ($M\gtrsim r_0$) no había teorema, solo numérica. Por otro, faltaba la pregunta original del proyecto: ¿puede la materia de la estrella estabilizar la garganta? Esta fase responde a la primera de forma completa y a la segunda en sus condiciones necesarias.

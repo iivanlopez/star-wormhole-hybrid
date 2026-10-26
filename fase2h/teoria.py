@@ -65,10 +65,16 @@ def escalon_jet(t):
 
 class Teoria:
     def __init__(self, F, eps=0.2, wq=1.0, lw1=None, lw2=None, cm2=0.8, wP1=None, wP2=None, Lam=0.0, lsc=None,
-                 Lz=None):
+                 Lz=None, b_in=None, w_in=0.5, lq=None, wqo=None):
+        """b_in: si se da, K(0) se siembra con b_in q_in (q_in normalizada de anchura w_in, fija) y el presupuesto que
+        resuelve B se coloca en q_out, gaussiana normalizada centrada en lq de anchura wqo (fuera de la estrella: la
+        ecuacion de Riccati amplifica cualquier K anadida dentro, ver fase2h)."""
         assert F.ok and F._lejos
         self.F = F
         self.eps, self.wq, self.cm2, self.Lam = eps, wq, cm2, Lam
+        self.b_in, self.w_in = b_in, w_in
+        self.lq = lq if lq is not None else 1.25 * F.ls
+        self.wqo = wqo if wqo is not None else 0.25 * F.ls
         self.lw1 = lw1 if lw1 is not None else F.lm + F.Delta
         self.lw2 = lw2 if lw2 is not None else 1.6 * self.lw1
         self.wP1 = wP1 if wP1 is not None else self.lw2
@@ -194,7 +200,16 @@ class Teoria:
         return dict(N=f["N"].c[0], G4=f["g4"][0].c[0], Gc=f["Gc"].c[0], rp=f["rp"].c[0], Kn=Kn.c[0], Zn=Z.c[0])
 
     def _q(self, l):
-        return (2 / math.pi) * self.wq / (self.wq ** 2 + l * l)
+        if self.b_in is None:
+            return (2 / math.pi) * self.wq / (self.wq ** 2 + l * l)
+        return self._qout(l)
+
+    def _qin(self, l):
+        return (2 / math.pi) * self.w_in / (self.w_in ** 2 + l * l)
+
+    def _qout(self, l):
+        nrm = self.wqo * math.sqrt(math.pi) / 2 * (1 + math.erf(self.lq / self.wqo))
+        return np.exp(-((l - self.lq) / self.wqo) ** 2) / nrm
 
     def _chiK(self, l):
         return FH.escalon((np.asarray(l, dtype=float) - self.lw1) / (self.lw2 - self.lw1))
@@ -224,12 +239,15 @@ class Teoria:
         sp_ = {k: CubicSpline(lt, v) for k, v in e.items()}
         self.sp_ = sp_
 
+        bin_ = self.b_in or 0.0
+
         def rhs(l, y, B):
             l = max(l, 1e-4)
             N, G4, Gc, rp, Kn = (float(sp_[k](l)) for k in ("N", "G4", "Gc", "rp", "Kn"))
             ch = float(self._chiK(l))
-            return [N * G4 + (1 - ch) * ((1 + self.eps) * rp * y[0] ** 2 / (4 * N * Gc * Gc) + B * self._q(l))
-                    + ch * N * N * Kn / 2]
+            extra = bin_ * self._qin(l) if self.b_in is not None else 0.0
+            return [N * G4 + (1 - ch) * ((1 + self.eps) * rp * y[0] ** 2 / (4 * N * Gc * Gc) + B * float(self._q(l))
+                                         + extra) + ch * N * N * Kn / 2]
         z0 = float(sp_["N"](1e-4) * sp_["G4"](1e-4) * 1e-4)
 
         def fin(B):
@@ -263,7 +281,12 @@ class Teoria:
         Zn = N * r * Gc * H / (r1 * G1n)
         Kn = 2 * (Zn.d() - N * g4[0]) / (N * N)
         chi = self._escalon_chorro(lj, self.lw1, self.lw2)
-        q = (2 / math.pi) * self.wq / (self.wq ** 2 + lj * lj)
+        if self.b_in is None:
+            q = (2 / math.pi) * self.wq / (self.wq ** 2 + lj * lj)
+        else:
+            nrm = self.wqo * math.sqrt(math.pi) / 2 * (1 + math.erf(self.lq / self.wqo))
+            q = J.exp(-((lj - self.lq) * (1.0 / self.wqo)) ** 2) * (1.0 / nrm) \
+                + (self.b_in / self.B) * (2 / math.pi) * self.w_in / (self.w_in ** 2 + lj * lj)
         dentro_Z = l <= self.Lz
         Zv = np.where(dentro_Z, self.Zsol.sol(np.minimum(l, self.Lz))[0], Zn.c[0])
         Zj = J.const(0.0, NJ, l.size) + Zv

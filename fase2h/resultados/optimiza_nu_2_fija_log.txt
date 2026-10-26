@@ -1,0 +1,27 @@
+  gen 1: mejor margen +0.0133  [294 s]
+  gen 2: mejor margen +0.0133  [475 s]
+  gen 3: mejor margen +0.0133  [653 s]
+  gen 4: mejor margen +0.0133  [839 s]
+  gen 5: mejor margen +0.0133  [1042 s]
+  gen 6: mejor margen +0.0133  [1203 s]
+  gen 7: mejor margen +0.0133  [1393 s]
+  gen 8: mejor margen +0.0133  [1583 s]
+  gen 9: mejor margen +0.0133  [1762 s]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Python311\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+                     ^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 87] El parámetro no es correcto
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Python311\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+                     ^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 87] El parámetro no es correcto
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Python311\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+                     ^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 87] El parámetro no es correcto

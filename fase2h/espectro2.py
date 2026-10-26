@@ -75,13 +75,21 @@ class Coefs:
         return {k: v[s] for k, v in self.c.items()}
 
 
-def ensamblar(T, paridad, lc, n_in=120, L=1500.0, n_out=200, vacio=False, c_cero=False, coefs=None):
+def ensamblar(T, paridad, lc, n_in=120, L=1500.0, n_out=200, vacio=False, c_cero=False, coefs=None, libre=False,
+              devolver_Tr=False):
+    """libre = True: superficie libre del fluido (densidad finita en lc, fase2h/fondo_nu con m = 1): c(lc) queda libre
+    (W(lc-) = -2 kap_b xi(lc) no tiene por que anularse) y h' puede saltar en lc (h en H^2 dentro y en H^1 fuera);
+    las condiciones de borde (presion lagrangiana nula) salen del principio variacional."""
     a, b = mallas(lc, n_in, L, n_out)
     nodos = np.concatenate([a, b[1:]]) if lc > 0 else b
     Kn = len(nodos)
     Ki = len(a) if (lc > 0 and not vacio) else 1
     nh = 2 * Kn
     nd = nh + 2 * Ki
+    libre = libre and Ki > 1
+    jh1p = nd                                  # h'(lc+) si la superficie es libre
+    if libre:
+        nd += 1
     E = np.zeros((nd, nd))
     Tm = np.zeros((nd, nd))
     t = 0.5 * (GX + 1)
@@ -93,6 +101,8 @@ def ensamblar(T, paridad, lc, n_in=120, L=1500.0, n_out=200, vacio=False, c_cero
         f = cf.elem(e)
         v, d1, d2 = CR.hermite(t, H)
         ih = [2 * e, 2 * e + 1, 2 * e + 2, 2 * e + 3]
+        if libre and e == Ki - 1:
+            ih = [2 * e, jh1p, 2 * e + 2, 2 * e + 3]
         N, r, Gc, sig = f["N"], f["r"], f["Gc"], f["sig"]
         Dm = d1 - sig * v
         Nh_p = f["Np"] * v + N * d1
@@ -128,10 +138,22 @@ def ensamblar(T, paridad, lc, n_in=120, L=1500.0, n_out=200, vacio=False, c_cero
             Tloc += cr + cr.T
             E[np.ix_(ih, ih)] += Eloc
             Tm[np.ix_(ih, ih)] += Tloc
+    if libre and getattr(T.F, "m", 0) == 1 and getattr(T.F, "eos", "pot") != "exp":
+        # energia de superficie del fluido con densidad finita en lc (P_YY = A delta(Y - Ys), ver criba.energia_superficie):
+        # N^3 Phi' W(lc-)^2/(2 r^2 (rho~+p~)),  W = al1 N h' + gam c
+        fs = T.coeficientes(np.array([lc * (1 - 1e-9)]))[0]
+        cs = float(fs["N"][0] ** 3 * fs["Phi1"][0] / (2 * fs["r"][0] ** 2 * fs["rp"][0]))
+        jh, jc = 2 * (Ki - 1) + 1, nh + 2 * (Ki - 1)
+        a_h, a_c = float(fs["al1"][0] * fs["N"][0]), float(fs["gam"][0])
+        E[np.ix_([jh, jc], [jh, jc])] += cs * np.outer([a_h, a_c], [a_h, a_c])
     # transformacion de grados de libertad: c(lc) = chi1(lc) h'(lc)
     quitar = set()
     Tr = np.eye(nd)
-    if Ki > 1:
+    if libre:
+        if c_cero:
+            for j in range(nh, nh + 2 * Ki):
+                quitar.add(j)
+    elif Ki > 1:
         fl = T.coeficientes(np.array([lc]))[0]
         chi_c = float(4 * fl["r"][0] * fl["Gc"][0] / fl["gam"][0])
         jc = nh + 2 * (Ki - 1)
@@ -143,7 +165,7 @@ def ensamblar(T, paridad, lc, n_in=120, L=1500.0, n_out=200, vacio=False, c_cero
             for j in range(nh, nd):
                 quitar.add(j)
     else:
-        quitar.update(range(nh, nd))
+        quitar.update(range(nh, nh + 2 * Ki))
     if paridad == "par":
         quitar.update({1, nh + 1})
     else:
@@ -153,6 +175,8 @@ def ensamblar(T, paridad, lc, n_in=120, L=1500.0, n_out=200, vacio=False, c_cero
     Tr = Tr[:, keep]
     E2 = Tr.T @ E @ Tr
     T2 = Tr.T @ Tm @ Tr
+    if devolver_Tr:
+        return 0.5 * (E2 + E2.T), 0.5 * (T2 + T2.T), nodos, cf, Tr, dict(nh=nh, Ki=Ki, libre=libre, jh1p=jh1p)
     return 0.5 * (E2 + E2.T), 0.5 * (T2 + T2.T), nodos, cf
 
 

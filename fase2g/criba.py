@@ -343,11 +343,25 @@ def criba(F, n=240, devolver_modos=False):
     return res
 
 
-def criba_normalizada(F, n=120):
+def energia_superficie(F):
+    """Coeficiente de h'(ls)^2 en la energia de superficie de un fluido con densidad finita en ls (m = 1; 0 si la
+    densidad se anula en la superficie): N^3 Phi' (4 r Gcal)^2/(2 r^2 (rho~+p~)) evaluado justo dentro."""
+    if F.eos == "exp" or F.m != 1:
+        return 0.0
+    f = F.campos(np.array([F.ls * (1 - 1e-9)]))
+    N, Phi1, r, Gc, rp = (f[k][0] for k in ("N", "Phi1", "r", "Gc", "rp"))
+    return float(N ** 3 * Phi1 * 16 * r * r * Gc * Gc / (2 * r * r * rp))
+
+
+def criba_normalizada(F, n=120, libre=False):
     """Margenes adimensionales (positivos = la condicion se cumple):
     E1n = E[1]/(int 2 N^3 [Gcal sig^2 + (rho~+p~) c_s^2] + |E_out|);
     Epar, Eimpar = autovalor minimo de E frente a D[h] = int 2 N^3 Gcal [(h' - sig h)^2 + h^2/r^2] + |E_out| h(ls)^2;
-    Tpar, Timpar = el de T frente a RT = int [8 N Gcal^2 h'^2/(rho~+p~) + 2 G4 N h^2];  fant = (3M - gasto)/(3M + gasto)."""
+    Tpar, Timpar = el de T frente a RT = int [8 N Gcal^2 h'^2/(rho~+p~) + 2 G4 N h^2];  fant = (3M - gasto)/(3M + gasto).
+    libre = True (Fase 2h): h'(ls) queda libre en la prueba E (superficie del fluido movil, xi(ls) = -al1 N h'(ls)/(2 kap_b);
+    con h'(ls) = 0 la superficie esta fija y la prueba es mas debil).  Si la densidad salta en la superficie (m = 1),
+    P_YY = A delta(Y - Ys) da a kap_a un termino C_s delta(l - ls), C_s = N r^2 (rho~+p~)/(2 Phi'), y al eliminar el
+    lapso una energia de superficie N^4 W(ls-)^2/(4 C_s) = N^3 Phi' W^2/(2 r^2 (rho~+p~)), W = al1 N h' = -4 r Gcal h'."""
     nodos = malla_estrella(F.ls, n)
     fm = formas(F, nodos, que=("E", "T", "M", "R", "RT"))
     K = len(nodos)
@@ -355,6 +369,8 @@ def criba_normalizada(F, n=120):
     Em, Rm = fm["E"].copy(), fm["R"].copy()
     Em[2 * (K - 1), 2 * (K - 1)] += Eo
     Rm[2 * (K - 1), 2 * (K - 1)] += abs(Eo)
+    if libre:
+        Em[2 * K - 1, 2 * K - 1] += energia_superficie(F)
     uno = np.zeros(2 * K)
     uno[0::2] = 1.0
     l = np.linspace(0, F.ls, 4001)
@@ -362,7 +378,7 @@ def criba_normalizada(F, n=120):
     den1 = np.trapezoid(2 * f["N"] ** 3 * (f["Gc"] * f["sig"] ** 2 + f["rp"] * f["cs2"]), l) + abs(Eo)
     out = dict(E1n=float((uno @ Em @ uno) / den1))
     for par, quita0 in (("par", [1]), ("impar", [0])):
-        lib = [i for i in range(2 * K) if i not in quita0 and i != 2 * (K - 1) + 1]
+        lib = [i for i in range(2 * K) if i not in quita0 and (libre or i != 2 * (K - 1) + 1)]
         out[f"E{par}"] = float(eigh(Em[np.ix_(lib, lib)], Rm[np.ix_(lib, lib)], eigvals_only=True,
                                     subset_by_index=[0, 0])[0])
         libT = [i for i in range(2 * K) if i not in quita0 and i < 2 * (K - 1)]
@@ -407,3 +423,32 @@ def impar(F, LL=2, L=400.0, npts=6000):
         out["n_par"] = sl.ceros("par")[0]
         out["n_impar"] = sl.ceros("impar")[0]
     return out
+
+
+def prueba_sin_compresion(F, n=4000):
+    """Prueba explicita de la familia c = 0 con la superficie libre (Fase 2h): y con Q = (4 N^2 r Gcal y')' +
+    2 N^2 r (rho~+p~) y = 0 en la estrella (sin compresion del fluido, Q^2/(4 kap_a) = 0), y(0) = 1, y'(0) = 0, y
+    constante fuera.  Su energia es
+        E_Q0 = -2 int_0^ls N^3 Gcal (y' - sig y)^2 + E_out y(ls)^2 + E_s y'(ls)^2,
+    con E_s el muelle de superficie (energia_superficie; 0 si la densidad se anula en la superficie).  Sin muelle es
+    negativa: el fluido solo estabiliza a traves de la compresion, y con la superficie libre puede seguir el
+    desplazamiento sin comprimirse.  Devuelve las partes (y la version normalizada por la energia de la prueba h = 1)."""
+    from scipy.integrate import solve_ivp
+
+    def rhs(l, z):
+        f = F.campos(np.array([l]))
+        a2 = 4 * f["N"][0] ** 2 * f["r"][0] * f["Gc"][0]
+        # z = (y, a2 y')
+        return [z[1] / a2, -2 * f["N"][0] ** 2 * f["r"][0] * f["rp"][0] * z[0]]
+    s = solve_ivp(rhs, (0.0, F.ls * (1 - 1e-9)), [1.0, 0.0], method="DOP853", rtol=1e-10, atol=1e-13, dense_output=True)
+    l = np.linspace(0.0, F.ls * (1 - 1e-9), n)
+    y, q = s.sol(l)
+    f = F.campos(l)
+    yp = q / (4 * f["N"] ** 2 * f["r"] * f["Gc"])
+    vac = -2 * np.trapezoid(f["N"] ** 3 * f["Gc"] * (yp - f["sig"] * y) ** 2, l)
+    Eo = F.E_out()
+    Es = energia_superficie(F)
+    E = vac + Eo * y[-1] ** 2 + Es * yp[-1] ** 2
+    E1 = 2 * np.trapezoid(f["N"] ** 3 * (f["rp"] * f["cs2"] - f["Gc"] * f["sig"] ** 2), l) + Eo
+    return dict(E_Q0=float(E), vacio=float(vac), exterior=float(Eo * y[-1] ** 2), muelle=float(Es * yp[-1] ** 2),
+                y_ls=float(y[-1]), yp_ls=float(yp[-1]), E1=float(E1))
