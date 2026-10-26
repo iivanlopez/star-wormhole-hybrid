@@ -34,10 +34,13 @@ GX, GW = np.polynomial.legendre.leggauss(8)
 
 class FondoFluido:
     def __init__(self, M=2.0, a=2.0, b=4.0, n=2, d0=0.9, wd=1.4, A=1.0, Ns=0.6, m=1.5, r0=1.0, Lmax=4000.0, lam=1.0,
-                 tauT=1.5, eos="pot", ks=0.0):
+                 tauT=1.5, eos="pot", ks=0.0, cola="fase2f", sfac=1.0, Ax=0.0, wA=50.0):
         self.M, self.a, self.b, self.n, self.d0, self.wd = M, a, b, n, d0, wd
         self.lam, self.tauT = lam, tauT
         self.eos, self.ks = eos, ks
+        self.cola = cola
+        self.s_cola = sfac * max(M, a)
+        self.Ax, self.wA = Ax, wA
         self.A, self.Ns, self.m, self.r0 = A, Ns, m, r0
         self.N0 = math.exp(-M / a)
         self.Ys = 1.0 / (2 * Ns ** 2)
@@ -46,17 +49,50 @@ class FondoFluido:
         if not (self.N0 < Ns < 1.0):
             self.ok, self.motivo = False, "Ns fuera de (N0, 1)"
             return
-        self.ls = math.sqrt((M / math.log(Ns)) ** 2 - a ** 2)
+        if cola == "fase2f":
+            self.ls = math.sqrt((M / math.log(Ns)) ** 2 - a ** 2)
+        else:
+            from scipy.optimize import brentq
+            Lb = 1.0
+            while self.lapso(np.array([Lb]))[0][0] < Ns:
+                Lb *= 2
+            self.ls = brentq(lambda x: self.lapso(np.array([x]))[0][0] - Ns, 0.0, Lb, xtol=1e-13)
         self.lT = tauT * self.ls
         self.Lmax = Lmax
         self._integrar()
 
     # -------------------------------------------------------------- perfiles cerrados
     def lapso(self, l):
-        R = np.sqrt(l * l + self.a ** 2)
-        Phi = -self.M / R
-        Phi1 = self.M * l / R ** 3
+        """N = e^Phi y Phi'.  cola = "fase2f": Phi = -M/R (R = sqrt(l^2 + a^2));  cola = "schw": se anade
+        -(M^2/(2 R^2)) ln[(1 + R^2/s^2)/(1 + a^2/s^2)], que reproduce el termino -M^2 ln l/l^2 del lapso de Schwarzschild
+        en distancia propia (s >= M/2 garantiza Phi' >= 0; mismo N0 = e^{-M/a})."""
+        Phi, Phi1, _ = self.lapso3(l)
         return np.exp(Phi), Phi1
+
+    def lapso3(self, l):
+        """Phi, Phi', Phi''."""
+        l = np.asarray(l, dtype=float)
+        M, a = self.M, self.a
+        R = np.sqrt(l * l + a * a)
+        Phi = -M / R
+        dR = M / R ** 2                      # dPhi/dR
+        d2R = -2 * M / R ** 3
+        if self.cola == "schw":
+            s2 = self.s_cola ** 2
+            g = np.log((1 + R * R / s2) / (1 + a * a / s2))
+            gp = 2 * R / (s2 + R * R)
+            gpp = 2 * (s2 - R * R) / (s2 + R * R) ** 2
+            Phi = Phi - M * M * g / (2 * R * R)
+            dR = dR + M * M * g / R ** 3 - M * M * gp / (2 * R * R)
+            d2R = d2R - 3 * M * M * g / R ** 4 + 2 * M * M * gp / R ** 3 - M * M * gpp / (2 * R * R)
+            if self.Ax:
+                # termino A_x/(R^2 + wA^2): ajusta el coeficiente de 1/l^2 del lapso (constante A) sin tocar el interior
+                Q = R * R + self.wA ** 2
+                Phi = Phi + self.Ax / Q
+                dR = dR - 2 * self.Ax * R / Q ** 2
+                d2R = d2R - 2 * self.Ax / Q ** 2 + 8 * self.Ax * R * R / Q ** 3
+        # Phi' = (l/R) dPhi/dR, Phi'' = (a^2/R^3) dPhi/dR + (l/R)^2 d2Phi/dR2
+        return Phi, l / R * dR, a * a / R ** 3 * dR + (l / R) ** 2 * d2R
 
     def escalar(self, l):
         """G4 = S G4b, Gcal = S (Hb + delta), H = S Hb - 2 x G4b S'/x' (H = G4 - 2X G4_X, cero doble en la garganta);
@@ -161,6 +197,44 @@ class FondoFluido:
         return dict(l=l, N=N, Phi1=Phi1, G4=G4, H=H, Gc=Gc, rp=rp, cs2=cs2, p=p, r=r, r1=r1, sig=sig, a2=a2, a2p=a2p,
                     I=I, u=u)
 
+    def A_lapso(self):
+        """Coeficiente A del termino 1/l^2 del lapso lejos: Phi = -M/l - M^2 ln l/l^2 + A/l^2 + ..."""
+        if self.cola != "schw":
+            return None
+        s2 = self.s_cola ** 2
+        return self.M ** 2 * (0.5 * math.log(s2) + 0.5 * math.log(1 + self.a ** 2 / s2)) + self.Ax
+
+    def C1(self, L=None):
+        """C1 = lim (I - l + M ln l) (I = N r Gcal (r' - r Phi'), primer integral de T1) y el valor de Schwarzschild
+        C1_S = A/M - 2M compatible con el termino A/l^2 del lapso (dC1 = C1 - C1_S controla y ~ -6 M dC1 ln l)."""
+        L = self.Lmax if L is None else L
+        I, u = self._y(np.array([L]))
+        Phi, _, _ = self.lapso3(np.array([L]))
+        # I = l - M ln l + C1 + (M^2 ln l + M^2/2 - A)/l + ...
+        A = self.A_lapso()
+        corr = (self.M ** 2 * math.log(L) + self.M ** 2 / 2 - (A if A is not None else 0.0)) / L
+        C1 = float(I[0] - L + self.M * math.log(L) - corr)
+        return C1, (A / self.M - 2 * self.M if A is not None else None)
+
+    def K_lejos(self, l):
+        """K natural lejos de la estrella (Gcal, H, G4, Gamma1 -> 1, sin materia): K = 2 r (Phi' r' - r'')/(N r'^2) y
+        y = (Phi' r' - r'') l^3.  r'' se obtiene del ODE de T1 (u = r^2/N^2, I' = N G4)."""
+        l = np.atleast_1d(np.asarray(l, dtype=float))
+        I, u = self._y(l)
+        Phi, Phi1, Phi2 = self.lapso3(l)
+        N = np.exp(Phi)
+        G4, H, Gc, Gcp = self.escalar(l)
+        up = 2 * I / (N ** 3 * Gc)
+        Ip = N * G4
+        upp = 2 * (Ip * N ** 3 * Gc - I * (3 * N ** 3 * Phi1 * Gc + N ** 3 * Gcp)) / (N ** 3 * Gc) ** 2
+        sq = np.sqrt(u)
+        Np, Npp = N * Phi1, N * (Phi2 + Phi1 ** 2)
+        r = N * sq
+        r1 = Np * sq + N * up / (2 * sq)
+        r2 = Npp * sq + Np * up / sq + N * upp / (2 * sq) - N * up ** 2 / (4 * u * sq)
+        w = Phi1 * r1 - r2
+        return dict(K=2 * r * w / (N * r1 ** 2), y=w * l ** 3, r=r, r1=r1, N=N)
+
     def E_out(self):
         """-2 int_ls^inf N^3 Gcal sig^2 (cola analitica ~ 2/l mas alla de Lmax)."""
         l = np.concatenate([np.linspace(self.ls, self.ls + 50, 8001), np.geomspace(self.ls + 50, self.Lmax, 4001)[1:]])
@@ -238,10 +312,11 @@ def presupuesto_fantasma(F):
         return y[0] - 1e8
     explota.terminal = True
     s = solve_ivp(rhs, (0.0, F.ls), [0.0, 0.0], method="DOP853", rtol=1e-10, atol=1e-12, events=explota)
+    Mp = getattr(F, "M_presupuesto", F.M)          # 3 N_inf M_ADM si el lapso no tiende a 1 (fase2h/fondo.py)
     if s.status == 1:
-        return dict(Zs=math.inf, gasto=math.inf, presupuesto=3 * F.M, margen_fantasma=-math.inf)
+        return dict(Zs=math.inf, gasto=math.inf, presupuesto=3 * Mp, margen_fantasma=-math.inf)
     Zs, gasto = s.y[0, -1], s.y[1, -1]
-    return dict(Zs=float(Zs), gasto=float(gasto), presupuesto=3 * F.M, margen_fantasma=float(3 * F.M - gasto))
+    return dict(Zs=float(Zs), gasto=float(gasto), presupuesto=3 * Mp, margen_fantasma=float(3 * Mp - gasto))
 
 
 def criba(F, n=240, devolver_modos=False):
@@ -295,7 +370,8 @@ def criba_normalizada(F, n=120):
         RT = RT + 1e-12 * np.trace(RT) / len(libT) * np.eye(len(libT))
         out[f"T{par}"] = float(eigh(fm["T"][np.ix_(libT, libT)], RT, eigvals_only=True, subset_by_index=[0, 0])[0])
     pf = presupuesto_fantasma(F)
-    out["fant"] = float((3 * F.M - pf["gasto"]) / (3 * F.M + pf["gasto"])) if np.isfinite(pf["gasto"]) else -1.0
+    Mp = getattr(F, "M_presupuesto", F.M)
+    out["fant"] = float((3 * Mp - pf["gasto"]) / (3 * Mp + pf["gasto"])) if np.isfinite(pf["gasto"]) else -1.0
     out["margen"] = min(out.values())
     return out
 
