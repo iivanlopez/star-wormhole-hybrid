@@ -1,0 +1,6 @@
+[   0.4 s] 1. al0 = -Phi' al1 (exacta): la ligadura de momento se cumple con d = N, c = 0
+[   0.5 s] 2. monomios de L_d: (2, 0, 0, 0, 0), (1, 1, 0, 0, 0), (0, 2, 0, 0, 0), (0, 0, 0, 2, 0)
+[   0.6 s]    k_d = -2 G4/N, p_d = -2 N Gcal, u_d = ut - mt'/2 = -(2/r)(N r' Gcal)'  (exactas)
+[   0.7 s] 3. -L_rest(c = 0, d = N) = -2 N^3 Gcal (r'/r - Phi')^2 + D_l[ mt N^2/2 - 2 N^3 r' Gcal / r ]  (exacta)
+[   0.7 s]    mt = -4*sqrt(E)*r1*(F4_00*P1**4 - G4_00 - G4_01*P1**2)/r0
+[   0.7 s] comprobado; resultados/teorema_N.json

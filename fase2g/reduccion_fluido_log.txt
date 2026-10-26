@@ -1,0 +1,4 @@
+[    4.0 s] ecuaciones de Euler-Lagrange (gauge q = x = 0): a: 98, be: 37, c: 102, d: 159
+[  135.8 s] forma comprobada: L2 = -(N^2 a' + beta_t) W + kap_a a^2 + a M - kap_b beta^2 + L_rest(c, d)  (E-L exactas, 3 chorros)
+[  136.1 s] prueba d = N, xi = 0:  -L_rest(0, N) = -2 N^3 Gcal (r'/r - Phi')^2 (el fluido no aporta d^2) y Q^2/(4 kap_a) = 2 N^3 (rho~ + p~) c_s^2  =>  E = -2 int N^3 [Gcal (r'/r - Phi')^2 - (rho~ + p~) c_s^2]
+[  136.1 s] guardado resultados/reduccion_fluido.pkl y .json

@@ -1,0 +1,8 @@
+{
+ "noether_fluido": "0 (identica)",
+ "TOV": {
+  "EB_sobre_tov": "-sqrt(E)*r0**2",
+  "EA_sobre_tov": "-r0**2/sqrt(E)"
+ },
+ "modos_gauge": "exactos: 6 ecuaciones, 2 chorros en la capa de masas con fluido, omega racional"
+}

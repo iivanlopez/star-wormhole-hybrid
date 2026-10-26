@@ -1,0 +1,4 @@
+{
+ "forma": "L2 = -(N^2 a' + beta_t) W + kap_a a^2 + a M - kap_b beta^2 + L_rest(c, d): ecuaciones de Euler-Lagrange identicas en 3 chorros exactos en la capa de masas con fluido",
+ "prueba_N": "E[N, xi=0] = -2 int N^3 [Gcal (r'/r - Phi')^2 - (rho~ + p~) c_s^2] (exacta)"
+}

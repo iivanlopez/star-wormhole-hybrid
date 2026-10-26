@@ -1,0 +1,2 @@
+l = 2: L2^fluido = N_l [ -rho~ h0^2/N - N p~ h1^2 ]  (exacta)
+l = 3: L2^fluido = N_l [ -rho~ h0^2/N - N p~ h1^2 ]  (exacta)

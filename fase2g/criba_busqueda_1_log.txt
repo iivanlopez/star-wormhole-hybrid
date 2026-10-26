@@ -1,0 +1,23 @@
+400 muestras: 279 fondos validos; errores 0
+  E1 >= 0: 15
+  Emin_par >= 0: 9
+  Emin_impar >= 0: 36
+  Tmin_par >= 0: 226
+  Tmin_impar >= 0: 257
+  E1 >= 0 y T >= 0: 8
+  E1, Emin_par >= 0 y T >= 0: 3
+  pasan las cinco de la familia c = 0: 0
+  presupuesto de fantasma positivo: 215
+  E1 >= 0 y presupuesto positivo: 7
+  pasan todas: 0
+   E1=-0.0012, Emin_par=-0.0003, Emin_impar=-0.0002, Tmin_par=+0.0022, Tmin_impar=+0.0073, fantasma=+28.527 | N0=0.00 rp0=0.0218 cs2_0=1.00 ls=5.73 | M=9.51, a=1.35, b=1.98, n=3, d0=1.16, wd=0.649, Ns=0.199, m=1, A=1.68e-08, lam=0.0233, tauT=1.83
+   E1=-0.0015, Emin_par=-0.0012, Emin_impar=-0.0010, Tmin_par=+0.0572, Tmin_impar=+0.1788, fantasma=+16.891 | N0=0.00 rp0=0.215 cs2_0=1.00 ls=17.30 | M=5.93, a=0.868, b=4.21, n=2, d0=0.831, wd=1.78, Ns=0.71, m=1, A=2.49e-07, lam=0.259, tauT=1.04
+   E1=-0.0016, Emin_par=-0.0006, Emin_impar=-0.0006, Tmin_par=+0.0156, Tmin_impar=+0.0491, fantasma=+19.008 | N0=0.00 rp0=0.0156 cs2_0=0.71 ls=3.14 | M=6.34, a=0.936, b=5.2, n=1, d0=0.875, wd=3.96, Ns=0.145, m=1.21, A=1.22e-09, lam=0.0335, tauT=2.71
+   E1=-0.0025, Emin_par=-0.0015, Emin_impar=-0.0016, Tmin_par=+0.1289, Tmin_impar=+0.4049, fantasma=+11.810 | N0=0.00 rp0=0.124 cs2_0=0.77 ls=2.16 | M=3.94, a=0.63, b=2.57, n=1, d0=0.431, wd=0.39, Ns=0.173, m=1.15, A=7.19e-08, lam=0.448, tauT=2.14
+   E1=-0.0026, Emin_par=-0.0017, Emin_impar=-0.0021, Tmin_par=+0.0501, Tmin_impar=+0.1555, fantasma=+10.392 | N0=0.00 rp0=0.186 cs2_0=1.00 ls=1.72 | M=3.47, a=0.543, b=9.42, n=2, d0=1.7, wd=4.95, Ns=0.146, m=1, A=5.32e-07, lam=0.0567, tauT=1.35
+   E1=-0.0027, Emin_par=+0.0003, Emin_impar=-0.0001, Tmin_par=+0.0209, Tmin_impar=+0.1026, fantasma=+27.983 | N0=0.00 rp0=0.0222 cs2_0=0.53 ls=28.80 | M=9.33, a=1.51, b=1.12, n=3, d0=1.85, wd=0.304, Ns=0.724, m=1.44, A=4.01e-10, lam=0.052, tauT=1.58
+   E1=-0.0030, Emin_par=-0.0000, Emin_impar=-0.0000, Tmin_par=+0.8148, Tmin_impar=+2.5223, fantasma=+4.253 | N0=0.00 rp0=0.857 cs2_0=0.96 ls=77.46 | M=8.78, a=1.46, b=1.73, n=1, d0=1.8, wd=3.2, Ns=0.893, m=1.02, A=4.04e-06, lam=1, tauT=1.64
+   E1=+0.0000, Emin_par=+0.0003, Emin_impar=-0.0043, Tmin_par=+0.0006, Tmin_impar=+0.0020, fantasma=+25.029 | N0=0.00 rp0=0.0418 cs2_0=1.00 ls=15.51 | M=8.38, a=0.892, b=4.69, n=3, d0=0.791, wd=0.475, Ns=0.583, m=1, A=2.9e-10, lam=0.0555, tauT=2.13
+   E1=-0.0053, Emin_par=-0.0024, Emin_impar=-0.0024, Tmin_par=+0.0543, Tmin_impar=+0.1867, fantasma=+12.405 | N0=0.00 rp0=2.11 cs2_0=1.00 ls=2.82 | M=4.23, a=0.758, b=3, n=1, d0=0.545, wd=0.792, Ns=0.235, m=1, A=2.94e-05, lam=0.799, tauT=1.54
+   E1=-0.0055, Emin_par=-0.0002, Emin_impar=-0.0002, Tmin_par=+0.0270, Tmin_impar=+0.1195, fantasma=+22.327 | N0=0.01 rp0=0.000725 cs2_0=1.00 ls=31.56 | M=7.47, a=1.7, b=8.1, n=1, d0=0.291, wd=0.878, Ns=0.79, m=1, A=1.11e-07, lam=0.0519, tauT=1.54
+55 s

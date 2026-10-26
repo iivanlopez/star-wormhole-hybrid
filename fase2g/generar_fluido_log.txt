@@ -1,0 +1,9 @@
+[    0.5 s] fondo del fluido: E_A = Pf0*r0**2/(2*eP) - Pf1*r0**2/(2*eP**3), E_b = 0, E_B = Pf0*eP*r0**2/2, E_C = Pf0*eP, E_p = 0
+[    0.6 s]    E_A^m = -r^2 rho~/(2N),  E_B^m = N r^2 p~/2,  E_C^m = N p~  (rho~ = 2 Y P_Y - P, p~ = P)
+[    0.6 s] 1. identidad de Noether del fondo para el fluido: identicamente nula (equilibrio hidrostatico incluido)
+[    2.6 s] 2. accion cuadratica del fluido: 19 terminos
+[    2.6 s]    L2_m = r0*(-E**2*Pf0*a_00**2*r0/(2*eP**3) + E**2*Pf1*a_00**2*r0/eP**5 + E**2*Pf2*a_00**2*r0/(2*eP**7) + E*Pf0*a_00*c_00*r0/eP + 2*E*Pf0*a_00*d_00/eP - E*Pf1*a_00*c_00*r0/eP**3 - 2*E*Pf1*a_00*d_00/eP**3 - E*Pf1*a_00*r0*x_10/eP**3 - E*Pf2*a_00*r0*x_10/eP**5 + Pf0*be_00**2*r0/(2*eP) - Pf0*c_00**2*eP*r0/2 + 2*Pf0*c_00*d_00*eP - Pf1*be_00**2*r0/(2*eP**3) - Pf1*be_00*r0*x_01/eP + Pf1*c_00*r0*x_10/eP + 2*Pf1*d_00*x_10/eP - Pf1*eP*r0*x_01**2/2 + Pf1*r0*x_10**2/(2*eP) + Pf2*r0*x_10**2/(2*eP**3))
+[    2.8 s]    ecuaciones lineales del fluido: a: 9, be: 3, c: 5, d: 4, q: 1, x: 14
+[    3.4 s] 3. limite RG + fluido: E_B = (-sqrt(E)*r0**2) x [G^l_l - p~/2],  E_A = (-r0**2/sqrt(E)) x [G^t_t + rho~/2]  (TOV)
+[   13.1 s] 4. modos gauge (zeta, tau) con fluido: las 6 ecuaciones lineales se anulan exactamente (2 chorros)
+[   13.1 s] guardado resultados/fluido_simbolico.pkl

@@ -1,0 +1,6 @@
+{
+ "ligadura": "al0 = -Phi' al1 exacta; W(c = 0, d = N) = 0",
+ "L_d": "k_d = -2 G4/N, p_d = -2 N Gcal, u_d = -(2/r)(N r' Gcal)' (exactas)",
+ "identidad": "-L_rest(c=0, d=N) = -2 N^3 Gcal (r'/r - Phi')^2 + D_l[mt N^2/2 - 2 N^3 r' Gcal/r] (exacta)",
+ "mt": "-4*sqrt(E)*r1*(F4_00*P1**4 - G4_00 - G4_01*P1**2)/r0"
+}

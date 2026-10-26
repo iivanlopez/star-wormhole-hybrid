@@ -1,0 +1,8 @@
+[    1.3 s] E_c^rest = k_c c + e0 d + e1 d' + e_tt d_tt exactamente (fuera de la capa de masas, con fluido)
+[    1.7 s] k_c = k_c(Fase 2f) - p~ N r^2
+[    1.7 s]   k_c: 33 terminos, simbolos ['E', 'F4_00', 'F4_01', 'F4_02', 'G2_00', 'G2_01', 'G2_02', 'G3_01', 'G3_02', 'G3_10', 'G3_11', 'G4_00', 'G4_01', 'G4_02', 'G4_03', 'G4_10', 'G4_11', 'G4_12', 'P1', 'Pf0', 'Phi1', 'r0', 'r1']
+[    1.7 s]   e0: 15 terminos, simbolos ['E', 'F4_00', 'F4_01', 'G2_00', 'G2_01', 'G3_01', 'G3_10', 'G4_00', 'G4_01', 'G4_02', 'G4_10', 'G4_11', 'P1', 'Pf0', 'Phi1', 'r0', 'r1']
+[    1.7 s]   e1: 13 terminos, simbolos ['E', 'F4_00', 'F4_01', 'G3_01', 'G4_00', 'G4_01', 'G4_02', 'G4_10', 'G4_11', 'P1', 'Phi1', 'r0', 'r1']
+[    1.7 s]   e_tt: 2 terminos, simbolos ['E', 'G4_00', 'G4_01', 'P1', 'r0']
+[    3.8 s] ligaduras con fluido: G2_00 de E_A = 0, G2_01 de E_B = 0
+[    3.8 s] guardado resultados/coeficientes_fluido.pkl
