@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Fase 2h: analisis completo de un candidato (fondo_nu.FondoNu) con el diseno de exterior natural (teoria_nu, theta = 0).
-  1. fondo: kappa, M_adm, N0, ls, r_s/M, r sig(ls); criba de la Fase 2g (n = 160) y sector impar (criba.impar);
+  1. fondo: kappa, M_adm, N0, ls, r_s/M, r sig(ls); criba de la Fase 2g (n = 160) con superficie fija y libre, prueba
+     sin compresion, escala del muelle de superficie necesaria y sector impar (criba.impar);
   2. teoria: B, ecuaciones del fondo y K de T2 sobre los chorros, K > 0 y cota de fantasmas con fluido;
   3. exterior: Sturm-Liouville con Dirichlet en la superficie (teoria natural);
   4. espectro completo de dos campos (espectro2 con superficie libre), dos mallas y dos cajas;
@@ -36,6 +37,34 @@ def log(m):
     print(f"[{time.time() - T0:7.1f} s] {m}", flush=True)
 
 
+def muelle_necesario(F, n=160):
+    """Factor por el que hay que multiplicar el muelle de superficie (criba.energia_superficie) para que la prueba E de
+    la familia c = 0 con superficie libre (paridad par) deje de ser negativa; inf si ni la superficie fija (muelle
+    infinito) lo consigue, nan si no hay muelle (densidad nula en la superficie)."""
+    from scipy.linalg import eigh
+    from scipy.optimize import brentq
+    Es = C.energia_superficie(F)
+    if Es <= 0:
+        return float("nan")
+    nodos = C.malla_estrella(F.ls, n)
+    fm = C.formas(F, nodos, que=("E", "M", "R"))
+    K = len(nodos)
+    Eo = F.E_out()
+    lib = [i for i in range(2 * K) if i != 1]
+
+    def Epar(lf):
+        Em, Rm = fm["E"].copy(), fm["R"].copy()
+        Em[2 * (K - 1), 2 * (K - 1)] += Eo
+        Rm[2 * (K - 1), 2 * (K - 1)] += abs(Eo)
+        Em[2 * K - 1, 2 * K - 1] += 10 ** lf * Es
+        return eigh(Em[np.ix_(lib, lib)], Rm[np.ix_(lib, lib)], eigvals_only=True, subset_by_index=[0, 0])[0]
+    if Epar(0.0) >= 0:
+        return 1.0
+    if Epar(8.0) < 0:
+        return float("inf")
+    return float(10 ** brentq(Epar, 0.0, 8.0, xtol=1e-4))
+
+
 def analizar(x, eps=0.05, cm2=1.0, b_in=0.0, mallas=((120, 1500.0, 250), (200, 1500.0, 400), (120, 3000.0, 300)),
              nombre="candidato", Lam=0.0):
     res = dict(x=x, eps=eps, cm2=cm2, b_in=b_in, Lam=Lam)
@@ -54,8 +83,10 @@ def analizar(x, eps=0.05, cm2=1.0, b_in=0.0, mallas=((120, 1500.0, 250), (200, 1
     log("criba (superficie fija): " + ", ".join(f"{k} {v:+.4f}" for k, v in cr.items()))
     res["criba_libre"] = C.criba_normalizada(F, n=160, libre=True)
     res["sin_compresion"] = C.prueba_sin_compresion(F)
+    res["muelle_necesario"] = muelle_necesario(F)
     log(f"criba (superficie libre): margen {res['criba_libre']['margen']:+.4f}; prueba sin compresion E_Q0 = "
-        f"{res['sin_compresion']['E_Q0']:+.3e}")
+        f"{res['sin_compresion']['E_Q0']:+.3e} (" + ", ".join(f"{k} {v:+.3e}" for k, v in res["sin_compresion"].items()
+                                                               if k != "E_Q0") + f"); muelle necesario x{res['muelle_necesario']:.3g}")
     im = C.impar(F)
     res["impar"] = im
     log(f"sector impar: {im}")

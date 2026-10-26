@@ -1,0 +1,20 @@
+[    4.6 s] fondo: kappa = 4.9542, M_adm = 19.321, M_komar = 19.322, m_MS = 19.32, N0 = 0.24435, ls = 78.655, r_s = 56.835, rs_sobre_M = 2.9416, r_sig_ls = 0.0027397, rho_p0 = 0.0042401
+[    5.0 s] criba (superficie fija): E1n -0.0689, Epar -0.2103, Tpar +0.3320, Eimpar -0.0387, Timpar +0.4077, fant +0.1634, margen -0.2103
+[    5.6 s] criba (superficie libre): margen -0.2492; prueba sin compresion E_Q0 = -4.721e-03 (vacio -4.960e-03, exterior -5.676e-05, muelle +2.958e-04, y_ls +6.949e-02, yp_ls -3.780e-03, E1 -2.074e-03); muelle necesario xinf
+[    5.9 s] sector impar: {'minK': 6.915573366152636, 'minP': 0.5560440395876606, 'maxc2': 2.4478194156677904, 'n_par': 0, 'n_impar': 0}
+[   26.8 s] teoria: B = 8.353504414387563, exceso sin B = -12.8871, min K_nat exterior = +2.475e-06
+[   39.4 s] comprobaciones: ecuaciones del fondo 1.1e-10, K(T2)/K - 1 = 2.2e-10, min K = +1.137e-06, min [N^2 K - cota] = +1.122e-06
+[   49.6 s] exterior (Dirichlet en ls, L = 1500): w = [2.081e-06 1.483e-05 3.752e-05 6.980e-05]; min U_0 = -4.88e-07
+[   83.6 s] espectro par, superficie libre (n_in 240, L 1500, n_out 250): Tmin = 2.72e-08, w = [-5.6916e-03 -1.6589e-05  2.0865e-06  1.4833e-05  3.7510e-05  6.9797e-05]
+[   87.5 s] espectro impar, superficie libre (n_in 240, L 1500, n_out 250): Tmin = 2.72e-08, w = [-2.4999e-04 -6.9690e-06  2.0785e-06  1.4829e-05  3.7528e-05  6.9794e-05]
+[   91.0 s] espectro par, superficie fija (n_in 240, L 1500, n_out 250): Tmin = 2.72e-08, w = [-4.6269e-03 -3.9539e-06  2.0879e-06  1.4843e-05  3.7523e-05  6.9794e-05]
+[   94.9 s] espectro impar, superficie fija (n_in 240, L 1500, n_out 250): Tmin = 2.72e-08, w = [-1.2784e-05 -7.8404e-08  2.1438e-06  1.4849e-05  3.7531e-05  6.9802e-05]
+[  175.5 s] espectro par, superficie libre (n_in 400, L 1500, n_out 400): Tmin = 1.28e-09, w = [-5.7063e-03 -1.6581e-05  2.0740e-06  1.4817e-05  3.7542e-05  6.9812e-05]
+[  189.7 s] espectro impar, superficie libre (n_in 400, L 1500, n_out 400): Tmin = 1.28e-09, w = [-2.5011e-04 -6.9524e-06  2.0945e-06  1.4830e-05  3.7517e-05  6.9807e-05]
+[  203.2 s] espectro par, superficie fija (n_in 400, L 1500, n_out 400): Tmin = 1.28e-09, w = [-4.6409e-03 -3.9476e-06  2.0859e-06  1.4871e-05  3.7497e-05  6.9819e-05]
+[  216.8 s] espectro impar, superficie fija (n_in 400, L 1500, n_out 400): Tmin = 1.28e-09, w = [-1.2868e-05 -1.4679e-07  2.1385e-06  1.4860e-05  3.7560e-05  6.9782e-05]
+[  272.4 s] espectro par, superficie libre (n_in 240, L 3000, n_out 300): Tmin = 2.72e-08, w = [-5.6916e-03 -1.6604e-05  3.3761e-07  3.1850e-06  8.4292e-06  1.6029e-05]
+[  279.2 s] espectro impar, superficie libre (n_in 240, L 3000, n_out 300): Tmin = 2.72e-08, w = [-2.4998e-04 -6.9777e-06  3.3993e-07  3.1884e-06  8.4433e-06  1.6031e-05]
+[  284.6 s] espectro par, superficie fija (n_in 240, L 3000, n_out 300): Tmin = 2.72e-08, w = [-4.6269e-03 -3.9683e-06  3.2521e-07  3.1732e-06  8.4376e-06  1.6032e-05]
+[  289.9 s] espectro impar, superficie fija (n_in 240, L 3000, n_out 300): Tmin = 2.72e-08, w = [-1.2798e-05 -1.1428e-07  4.1736e-07  3.2021e-06  8.4425e-06  1.6037e-05]
+[  293.8 s] velocidades (dentro): c2_rapida_max 1.29e+05, c2_rapida_min 133, c2_lenta_max 1, detK_min 0.0476, c2_rapida_l1 1.84e+03, c2_rapida_media 7.92e+04

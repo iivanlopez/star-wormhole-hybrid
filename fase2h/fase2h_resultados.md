@@ -35,6 +35,7 @@
      $$E_{Q0}=-2\int_0^{\ell_s}N^3\mathcal G\,(y'-\sigma y)^2\,d\ell\;+\;E_{\rm out}\,y(\ell_s)^2\;+\;E_s\,y'(\ell_s)^2 ,$$
      y los dos primeros términos son negativos. Solo el muelle de superficie $E_s$ ($m=1$) es positivo.
    - **Resultado:** $E_{Q0}<0$ en el candidato y en las dos semillas de la Fase 2g, aunque $E[1]>0$ en todas. El fluido solo estabiliza mediante la compresión; con la superficie libre puede seguir el desplazamiento sin comprimirse.
+   - **Optimización** (§6.3): en unos 3200 fondos, el mejor margen con la superficie libre es $-0.22$, y ese fondo falla también con la superficie fija ($E[1]<0$). Una estrella densa paga el déficit comprimiéndose, pero su muelle de superficie es débil; una diluida tiene el muelle fuerte, pero no compresión suficiente.
    - **Teorema (superficie blanda, $P=A(Y-Y_s)^m$ con $1<m<2$):** toda garganta estática de la GLPV cuártica con $\mathcal G>0$ en el centro de una estrella así tiene un taquión en el monopolo, con cualesquiera funciones libres sin fantasmas. Es la extensión del teorema del vacío de la Fase 2g a estrellas de fluido.
    - Como la familia $c=0$ no contiene funciones libres, esto vale para cualquier teoría sin fantasmas sobre esos fondos: **los híbridos de la Fase 2g son inestables.**
 
@@ -244,7 +245,29 @@ Con superficie blanda (los parámetros del candidato con $m=1.3$ y $1.5$, mismo 
 
 Evolución diferencial (`optimiza_nu.py`, semilla 3) sobre los 13 parámetros de `FondoNu`, con $m=1$ y muelle. El margen es el mínimo de la criba con superficie libre y de $r\sigma(\ell_s)$. Se parte del candidato y la población es de 104 fondos por generación.
 
-*(En curso: tras 11 de 30 generaciones el mejor margen es $-0.278$; esta sección se completará al terminar.)*
+**Resultado.** Tras 30 generaciones (unos 3200 fondos), el mejor margen es $-0.223$; el candidato partía de $-0.359$. La mejora se detiene en la generación 19 ($-0.359\to-0.301\to-0.245\to-0.223$ en las generaciones 1, 7, 13 y 19). **Ningún fondo explorado cumple la criba con la superficie libre.**
+- La optimización usa $n=80$. $E_{\rm par}$ no cambia con la malla ($-0.2232$ de $n=80$ a 320); $E_{\rm impar}$ sí, y converge a $-0.29$ ($-0.154$, $-0.249$, $-0.287$, $-0.293$ con $n=80$, 160, 240, 320). El mejor fondo es, por tanto, aún peor de lo que veía la optimización.
+
+| | candidato (§4.3) | mejor de la optimización |
+|---|---|---|
+| parámetros | $w_t=2$, $\nu_0=2.5$, $\phi_1=0.5$, $b=3$, $n=2$, $d_0=0.5$, $w_d=1$, $\lambda=1$, $\ell_T=30$, $(\tilde\rho+\tilde p)_0=0.03$, $N_s=7$ | $w_t=2.54$, $\nu_0=1.13$, $\phi_1=0.66$, $b=1.50$, $n=3$, $d_0=1.62$, $w_d=4.73$, $\lambda=0.21$, $\ell_T=10.5$, $(\tilde\rho+\tilde p)_0=0.0042$, $N_s=2.37$ |
+| fondo | $N_0=0.088$, $M=19.3$, $\ell_s=72.4$, $r_s/M=3.15$, $r\sigma(\ell_s)=0.113$ | $N_0=0.244$, $M=19.3$, $\ell_s=78.7$, $r_s/M=2.94$, $r\sigma(\ell_s)=0.003$ |
+| criba fija: margen ($E[1]$ normalizada) | $+0.013$ ($+0.030$) | $-0.210$ ($-0.069$) |
+| criba libre: $E_{\rm par}$ / $E_{\rm impar}$ | $-0.359$ / $-0.339$ | $-0.223$ / $-0.29$ |
+| $E_{Q0}$ (vacío, exterior, muelle) | $-2.54\times10^{-3}$ ($-2.57$, $-1.07$, $+1.10$; $\times10^{-3}$) | $-4.72\times10^{-3}$ ($-4.96\times10^{-3}$, $-5.7\times10^{-5}$, $+3.0\times10^{-4}$) |
+| muelle necesario para $E_{\rm par}\ge0$ | $\times97$ | ninguno (la superficie fija también falla) |
+| familia $c=0$, $\omega_0^2r_0^2$ par / impar, superficie libre | $-4.17\times10^{-4}$ / $-2.70\times10^{-4}$ | $-3.71\times10^{-3}$ / $-2.38\times10^{-4}$ |
+| familia $c=0$, $\omega_0^2r_0^2$ par / impar, superficie fija | $+2.3\times10^{-6}$ / $+2.7\times10^{-6}$ (caja) | $-2.72\times10^{-3}$ / $-7.7\times10^{-6}$ |
+
+**Cómo mejora el margen.** El óptimo baja la densidad unas 7 veces y hace el pozo menos profundo. Con eso el muelle de superficie ($\propto1/(\tilde\rho+\tilde p)$) casi fija la superficie: la criba fija y la libre quedan casi iguales ($-0.210$ y $-0.223$). Pero la compresión, que es proporcional a la densidad, ya no paga el déficit ni con la superficie fija: $E[1]<0$.
+- Los dos extremos muestran la tensión. Una estrella densa paga el déficit comprimiéndose, pero tiene un muelle débil y la superficie libre la desestabiliza. Una estrella diluida tiene un muelle fuerte, pero no compresión suficiente.
+- **El margen normalizado no mide la rapidez.** La criba mide el cociente $E/D$, no $\omega^2$. El autovalor de la familia $c=0$ del óptimo es unas 9 veces más negativo que el del candidato, porque el pozo es menos profundo y la energía negativa de la garganta pesa con $N^3$ (§4.3). El taquión de la familia $c=0$ crece en $\approx16\,r_0/c$, unos 55 µs si $r_0=1$ km (el del candidato, en $49\,r_0/c$).
+
+**Espectro completo del óptimo** (`candidato_nu.py` con $\Lambda=10$ y `espectro_optimo.py`; `resultados/candidato_optimiza_nu_3.json`, `resultados/optimo_nu_3_c0.json`).
+- La reconstrucción existe: ecuaciones del fondo $1.1\times10^{-10}$, $K$(T2) $2.2\times10^{-10}$, $\min K>0$ y la cota de fantasmas con fluido se cumple. El exterior natural es estable (Dirichlet: $+2.1\times10^{-6}$, modo de caja).
+- Superficie libre, $\Lambda=10$: $\omega_0^2r_0^2=-5.69\times10^{-3}$ (par) y $-2.50\times10^{-4}$ (impar), con un segundo taquión par de $-1.66\times10^{-5}$. Estos valores cambian $<0.3\,\%$ con las tres mallas y cajas de §5.
+- Al subir la rigidez de las direcciones $c\neq0$, el autovalor tiende al de la familia $c=0$. Con superficie libre (par): $-5.69$, $-3.86$ y $-3.73\times10^{-3}$ para $\Lambda=10$, 100 y 1000, frente a $-3.71\times10^{-3}$ en la familia $c=0$. Con superficie fija, $-2.74\times10^{-3}$ con $\Lambda=1000$, frente a $-2.72\times10^{-3}$. Lo que queda no depende de las funciones libres.
+- Velocidades con $\Lambda=10$: $c_+^2$ entre 133 y $1.3\times10^5$ dentro de la estrella. Sector impar ($l=2$): sin taquiones, pero con $c^2$ hasta 2.45 (en el candidato, $\le1$).
 
 ## 7. Velocidades características
 
@@ -293,7 +316,7 @@ y las velocidades propias son $c^2=v^2/N^2$, con $\det(\mathbb G-v^2\mathbb K)=0
 **Siguiente paso: materia con rigidez de cizalla, en una cáscara.**
 - **Rigidez de cizalla.** Un sólido elástico se opone también a los desplazamientos sin compresión. En $l=0$, la deformación tiene una parte de volumen, $\xi'+2\xi/r$, y una de cizalla, $\xi'-\xi/r$. El desplazamiento que no cambia el volumen ($\xi\propto r^{-2}$) tiene cizalla $-3\xi/r\neq0$ y cuesta energía $\propto\mu$.
 - **Cáscara.** La materia fuera de la garganta evita la divergencia de §7. Un sólido puede tener un perfil de densidad que no está atado al lapso por la ley de Tolman, porque soporta tensiones anisótropas.
-- **Interpretación de la criba con superficie fija.** La Fase 2g calculó, en la práctica, una estrella fluida con una corteza infinitamente rígida. La pregunta cuantitativa es si una corteza elástica real da el "muelle" ~100 veces mayor que hace falta (fig. 4a).
+- **Interpretación de la criba con superficie fija.** La Fase 2g calculó, en la práctica, una estrella fluida con una corteza infinitamente rígida. La pregunta cuantitativa es si una corteza elástica real da el "muelle" ~100 veces mayor que hace falta (fig. 4a), sin diluir la estrella, que necesita su densidad para pagar el déficit comprimiéndose (§6.3).
 - **Herramientas.** La relatividad general elástica en el sector radial está desarrollada por Karlovini–Samuelsson ([gr-qc/0211026](https://arxiv.org/abs/gr-qc/0211026)) y Karlovini–Samuelsson–Zarroug ([gr-qc/0309056](https://arxiv.org/abs/gr-qc/0309056), perturbaciones radiales). Su acoplo a la GLPV en el gauge unitario sigue el mismo camino que el fluido de la Fase 2g.
 
 ## Archivos
@@ -308,7 +331,8 @@ y las velocidades propias son $c^2=v^2/N^2$, con $\det(\mathbb G-v^2\mathbb K)=0
 | `diseno_U.py` | descomposición de $U$ fuera, $U_0$, $D$, problema exterior de Dirichlet |
 | `velocidades.py` | velocidades características del sistema fluido–escalar |
 | `optimiza_nu.py` | evolución diferencial sobre `FondoNu` (criba corregida + $r\sigma(\ell_s)$) |
-| `candidato_nu.py` | análisis completo de un candidato |
+| `candidato_nu.py` | análisis completo de un candidato (incluye el muelle necesario, `muelle_necesario`) |
+| `espectro_optimo.py` | familia $c=0$ y sistema completo frente a $\Lambda$ para el mejor fondo de la optimización |
 | `rejilla_pozo.py` | rejilla de pozos profundos que da el candidato |
 | `analisis_final.py`, `figuras_fase2h.py` | datos y figuras de este informe |
 | `validar_teoria.py`, `validar_teoria_nu.py`, `validar_espectro.py` | validaciones |
