@@ -1,0 +1,9 @@
+{
+ "forma": "L2 = -(N^2 a' + beta_t)(W + P_m) + L_rest(c, d, y), P_m = (r^2/N)(rho~ + p~_r) xi: Euler-Lagrange identicas en 3 chorros exactos en la capa de masas con solido",
+ "c": {
+  "dk_c": "-sqrt(E)*r0**2*(Fs_000 - 4*Fs_100*ff1**2 - 4*Fs_200*ff1**4)",
+  "g0": "sqrt(E)*(Fs_001*r0**2 + 2*Fs_010*ff0 - 2*Fs_101*ff1**2*r0**2 - 4*Fs_110*ff0*ff1**2)",
+  "g1": "-2*sqrt(E)*ff1*r0**2*(Fs_100 + 2*Fs_200*ff1**2)"
+ },
+ "forma_lagrangiana": "E-L de la forma lagrangiana en (xi, c, d) = E-L de la euleriana con y = -f0' xi, en 3 chorros con el solido en equilibrio (metrica arbitraria)"
+}

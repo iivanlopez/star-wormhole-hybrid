@@ -1,0 +1,7 @@
+[    0.7 s] 1. fondo del solido: E_A = -r^2 rho~/(2N), E_B = N r^2 p~_r/2, E_C = N p~_t, E_b = 0; ff1 E_f = N r^2 [p~_r' + (rho~ + p~_r) Phi' + 2 (p~_r - p~_t) r'/r]
+[    0.7 s] 2. identidad de Noether del fondo para el solido: identicamente nula
+[    0.8 s] 3. limite RG: E_B = (-sqrt(E)*r0**2) [G^l_l - p~_r/2],  E_A = (-r0**2/sqrt(E)) [G^t_t + rho~/2]
+[    3.7 s] 4. accion cuadratica del solido: 39 terminos
+[    4.4 s]    ecuaciones lineales del solido: a: 8, be: 3, c: 15, d: 12, q: 1, y: 75
+[   45.9 s] 5. modos gauge (zeta, tau) con solido: las 6 ecuaciones lineales se anulan exactamente (2 chorros)
+[   45.9 s] guardado resultados/solido_simbolico.pkl

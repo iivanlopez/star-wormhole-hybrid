@@ -1,0 +1,9 @@
+{
+ "fondo_materia": "E_A = -r^2 rho~/(2N), E_B = N r^2 p~_r/2, E_C = N p~_t, E_b = 0; ff1 E_f = equilibrio anisotropo",
+ "noether_solido": "0 (identica, con la ecuacion de f)",
+ "RG": {
+  "EB_sobre": "-sqrt(E)*r0**2",
+  "EA_sobre": "-r0**2/sqrt(E)"
+ },
+ "modos_gauge": "exactos: 6 ecuaciones, 2 chorros en la capa de masas con solido, omega racional"
+}

@@ -1,0 +1,6 @@
+[    4.1 s] A. ecuaciones de Euler-Lagrange (gauge q = 0): a: 99, be: 38, c: 113, d: 168, y: 75
+[  155.6 s]    forma comprobada: L2 = -(N^2 a' + beta_t)(W + P_m) + L_rest(c, d, y),  P_m = (r^2/N)(rho~+p~_r) xi  (E-L exactas, 3 chorros)
+[  156.1 s] B. E_c^rest = k_c c + e0 d + e1 d' + e_tt d_tt + g0 y + g1 y' exactamente;  k_c - k_c(Fase 2f) = -sqrt(E)*r0**2*(Fs_000 - 4*Fs_100*ff1**2 - 4*Fs_200*ff1**4)
+[  156.2 s]    g0 = sqrt(E)*(Fs_001*r0**2 + 2*Fs_010*ff0 - 2*Fs_101*ff1**2*r0**2 - 4*Fs_110*ff0*ff1**2),  g1 = -2*sqrt(E)*ff1*r0**2*(Fs_100 + 2*Fs_200*ff1**2)
+[  275.0 s] C. forma lagrangiana (comovil) de la energia estatica: E-L en (xi, c, d) iguales a las de la euleriana (3 chorros con E_f = 0, metrica arbitraria)
+[  275.0 s] guardado resultados/reduccion_solido.pkl y .json
