@@ -1,0 +1,20 @@
+[    0.5 s] inversa (Kaluza-Klein) comprobada
+[    0.8 s] Christoffel
+[    2.9 s] Ricci
+[    3.3 s] escalar de Ricci
+[   21.4 s] invariantes del escalar
+[   21.4 s] [sqrt(-g) box]_eps2 integrado en theta: 1 terminos
+[   23.6 s] [sqrt(-g) R]_eps2 integrado en theta: 1 terminos
+[   26.1 s] [sqrt(-g) K4]_eps2 integrado en theta: 1 terminos
+[   33.4 s] [sqrt(-g) E4]_eps2 integrado en theta: 1 terminos
+[   69.3 s] normalizacion: (1/2) int sqrt(-g) R dtheta (eps^0) = lagrangiana de la Fase 2f con G4 = 1
+[   70.1 s] L_w: 15 terminos
+[   70.1 s] chorros de w presentes: ['w_01']  (ni w, ni w_t, ni w_tt: invariancia gauge)
+[   70.3 s] monomios: (2, 0, 0)
+[   70.3 s] J: 1 terminos
+[   93.4 s] E_w = -D_l (J w_l)  IDENTICAMENTE: L_w = J w_l^2 / 2 + derivadas totales
+[   93.6 s] J factorizado: 2*C_00**2*(A_00**2*B_00**2*G4_00 + A_00**2*B_00*G4_01*p_01**2 - A_00**2*F4_00*p_01**4 - A_00*B_00**2*G4_01*p_10**2 + 2*A_00*B_00*F4_00*p_01**2*p_10**2 + 2*A_00*B_00*G4_00*b_00**2 + 2*A_00*B_00*G4_01*b_00*p_01*p_10 - 4*A_00*F4_00*b_00*p_01**3*p_10 + A_00*G4_01*b_00**2*p_01**2 - B_00**2*F4_00*p_10**4 + 4*B_00*F4_00*b_00*p_01*p_10**3 - B_00*G4_01*b_00**2*p_10**2 - 4*F4_00*b_00**2*p_01**2*p_10**2 + G4_00*b_00**4 + 2*G4_01*b_00**3*p_01*p_10)/(3*(A_00*B_00 + b_00**2)**(5/2))
+[   94.0 s] J = (2/3) C^2 Gcal(phi, X) / sqrt(A B + b^2),  Gcal = G4 - 2 X G4_X - 4 X^2 F4  (covariante, exacto)
+[   94.1 s] limite RG: J = (2/3) C^2/sqrt(A B + b^2)  (Hartle: (r^4 j wbar')' = 0)
+[   94.2 s] J estatico = (2/3) r^4 Gcal_4 / N + 0
+[   94.2 s] guardado kk_cuartico

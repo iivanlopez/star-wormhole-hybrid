@@ -1,0 +1,22 @@
+[    0.5 s] inversa (Kaluza-Klein) comprobada
+[    0.8 s] Christoffel
+[    3.1 s] Ricci
+[    3.8 s] escalar de Ricci
+[   51.9 s] invariantes del escalar
+[   52.0 s] [sqrt(-g) box]_eps2 integrado en theta: 1 terminos
+[   53.6 s] [sqrt(-g) R]_eps2 integrado en theta: 1 terminos
+[   55.5 s] [sqrt(-g) K4]_eps2 integrado en theta: 1 terminos
+[   61.8 s] [sqrt(-g) E4]_eps2 integrado en theta: 1 terminos
+[  124.1 s] [sqrt(-g) Gphi]_eps2 integrado en theta: 1 terminos
+[  194.4 s] [sqrt(-g) K5]_eps2 integrado en theta: 1 terminos
+[  230.1 s] normalizacion: (1/2) int sqrt(-g) R dtheta (eps^0) = lagrangiana de la Fase 2f con G4 = 1
+[  238.2 s] L_w: 153 terminos
+[  238.2 s] chorros de w presentes: ['w_01', 'w_02', 'w_11']  (ni w, ni w_t, ni w_tt: invariancia gauge)
+[  240.9 s] monomios: (2, 0, 0), (1, 1, 0), (1, 0, 1)
+[  247.5 s] J: 1 terminos
+[  263.8 s] L_w = J w_l^2/2 + D_l(b w_l^2)/2 + D_t(c w_l^2)/2  (comprobado en 4 chorros aleatorios, 50 cifras)
+[  266.6 s] J factorizado (126117 caracteres)
+[  267.0 s] limite RG: J = (2/3) C^2/sqrt(A B + b^2)  (Hartle: (r^4 j wbar')' = 0)
+[  267.6 s] J estatico = (2/3) r^4 Gcal_4 / N + P1**2*r0**3*(-G5_01*P1*r1 - G5_10*r0)/(3*N)
+[  267.7 s] J estatico - (2/3) r^4 Gcal_5/N = G5_01*P1**3*r0**3*(Phi1*r0 - r1)/(3*N)   (Gcal_5 = G4 - 2X G4X - 4X^2 F4 + X(Phi' phi' G5X + G5phi), KMS)
+[  269.1 s] guardado kk_quintico
