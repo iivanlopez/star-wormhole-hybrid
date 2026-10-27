@@ -1,0 +1,5 @@
+[    1.0 s] coeficiente de d_t^2 = -2 Gcal/N  (exacto)
+[    2.7 s] L_eff - L_afirmada: 405 terminos (deben ser una derivada total)
+[   51.0 s] 1. EL(L_eff - L_afirmada) en 2 chorros de la capa de masas: max 0.0e+00
+[   51.1 s] guardado resultados/reduccion_completa_E.pkl
+[   51.1 s] comprobaciones superadas

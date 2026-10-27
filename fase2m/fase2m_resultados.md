@@ -1,6 +1,8 @@
 # Híbrido estrella–agujero de gusano — Fase 2m: gargantas sostenidas por un campo vectorial (Proca generalizada)
 
-*Documento de trabajo v0.1 · 2026-10-27 · continúa [fase2j/fase2j_resultados.md](../fase2j/fase2j_resultados.md) (§6, salida 3: "campos vectoriales")*
+*Documento de trabajo v0.2 · 2026-10-27 · continúa [fase2j/fase2j_resultados.md](../fase2j/fase2j_resultados.md) (§6, salida 3: "campos vectoriales")*
+
+> **v0.2.** Añade la reducción completa del caso E (§4.5): la energía cinética del monopolo es $T=\int[-(2\mathcal G/N)\dot d^2+k_2((\mathcal G\dot d/N)')^2]$ con $k_2=-4r^2N^4/(U^2\tilde c)$. Como $\tilde c(0)>0$, **toda garganta eléctrica con $\mathcal G(0)>0$ tiene un fantasma en el monopolo**. Si $\mathcal G(0)<0$, el fantasma pasa al sector tensorial. Es la misma dicotomía que encuentra la Fase 2k para el escalar lineal en el tiempo.
 
 ## Resumen
 
@@ -36,11 +38,18 @@
    $$r''(0)=-\frac{X\,\Theta}{2r_0\mathcal G},\qquad \tilde c(0)=-\frac{N_0\Theta}{2}=\frac{N_0r_0\mathcal G}{X}\,r''(0),\qquad \Theta\equiv G_{2X}r_0^2+2G_{4X}.$$
    Aquí $\tilde c$ es el coeficiente de $\tilde w^2$, con $\tilde w=\delta A_1+U\beta/N^2$ la perturbación auxiliar impar: localmente, la masa de la componente radial del vector con el signo cambiado.
    - **Que haya garganta ($r''(0)>0$, $\mathcal G>0$) obliga a $\tilde c(0)>0$:** la componente radial tiene masa local negativa en la garganta.
-   - Al eliminar $\tilde w$, la energía cinética del monopolo recibe $-J_v^2/4\tilde c<0$. Si el vector es masivo lejos, $\tilde c<0$ allí, así que $\tilde c$ se anula en alguna esfera, donde el problema reducido es singular.
    - Además, la masa estática $\tilde m$ de $\tilde a$ cambia de signo en las 6 gargantas regulares, con $\tilde m(0)<0$.
    - Con $G_4$ constante se reproduce la dicotomía de la k-esencia temporal: la garganta necesita $G_{2X}<0$.
 
-6. **Literatura** (§1, verificada con la API de arXiv). No encontramos gargantas en Proca generalizada ni estudios de su monopolo. Las referencias relevantes:
+6. **Reducción completa: fantasma en la garganta** (§4.5, exacto). En el gauge $c=0$, $\tilde a$ no se acopla a velocidades ni a $\tilde w$, y $\tilde w$ solo ve $\dot S$, con $S=-(4rN^2/U)(\mathcal G d/N)'$. Eliminando $F$, $\tilde a$ y $\tilde w$:
+   $$S_{\rm red}=\int\Big[-\frac{2\mathcal G}{N}\dot d^2+k_2\Big(\Big(\frac{\mathcal G\dot d}{N}\Big)'\Big)^2-V(d)\Big],\qquad k_2=-\frac{4r^2N^4}{U^2\tilde c},\qquad V=-L_s(d)+\frac{J(d)^2}{4\tilde m}.$$
+   - Comprobado: el resto es una derivada total (exacto, en chorros), y el modo gauge residual $d=r'$ está en el núcleo de la parte cinética y del potencial (numérico, en las 6 gargantas).
+   - Donde $\tilde c>0$ (y $\mathcal G,N>0$) los dos términos cinéticos son negativos. Como $\tilde c(0)>0$, **toda perturbación con soporte cerca de la garganta tiene energía cinética negativa: el monopolo tiene un fantasma**, con cualesquiera $G_2(X,F)$ y $G_4(X)$.
+   - En la esfera $\tilde c=0$ (en las 6 gargantas, a $r_c/r_0=1.08$–$2.76$) $k_2$ diverge y cambia de signo.
+   - Con $\mathcal G(0)<0$ el signo se invierte, pero entonces es negativo el coeficiente cinético tensorial $q_T=2\mathcal G$.
+   - Es exactamente la estructura de la Fase 2k, con el cambio $r/(Qr')'\to k_2/4$ y la misma regla de signos en la garganta. Buscar teorías con $\tilde m>0$ ya no tiene objeto: el fantasma no depende de $\tilde m$.
+
+7. **Literatura** (§1, verificada con la API de arXiv). No encontramos gargantas en Proca generalizada ni estudios de su monopolo. Las referencias relevantes:
    - agujeros negros con pelo de Proca generalizada y sus perturbaciones impares y pares: [1705.09662](https://arxiv.org/abs/1705.09662), [1801.01787](https://arxiv.org/abs/1801.01787), [2409.15606](https://arxiv.org/abs/2409.15606);
    - desestabilización por acoplos no mínimos: [2104.08049](https://arxiv.org/abs/2104.08049);
    - gargantas con un vector masivo mínimamente acoplado, donde los autores señalan que hace falta un fantasma: [2412.19408](https://arxiv.org/abs/2412.19408).
@@ -60,6 +69,7 @@
 - Heisenberg, Kase, Minamitsuji, Tsujikawa, *Hairy black-hole solutions in generalized Proca theories*, [arXiv:1705.09662](https://arxiv.org/abs/1705.09662), PRD 96 (2017) 084049.
 - Kase, Minamitsuji, Tsujikawa, Zhang, *Black hole perturbations in vector-tensor theories: the odd-mode analysis*, [arXiv:1801.01787](https://arxiv.org/abs/1801.01787), JCAP 02 (2018) 048. Las soluciones con $A_1\neq0$ procedentes de $G_4\supset\beta_4X^n$ son inestables cerca del horizonte.
 - De Felice, Kase, Tsujikawa, *Scrutinizing black hole stability in cubic vector Galileon theories*, [arXiv:2409.15606](https://arxiv.org/abs/2409.15606): inestabilidades laplacianas angulares de los agujeros negros con $A_0,A_1\neq0$.
+- De Felice, Heisenberg, Kase, Mukohyama, Tsujikawa, *Cosmology in generalized Proca theories*, [arXiv:1603.05806](https://arxiv.org/abs/1603.05806), JCAP 06 (2016) 048: condiciones de ausencia de fantasmas, entre ellas la tensorial $q_T>0$, con vector temporal.
 - García-Saenz, Held, Zhang, *Destabilization of black holes and stars by generalized Proca fields*, [arXiv:2104.08049](https://arxiv.org/abs/2104.08049), PRL 127 (2021) 131104.
 - Ganiyeva, Barros, de la Cruz-Dombriz, Lobo, *Vector wormholes as conduits for matter interaction*, [arXiv:2412.19408](https://arxiv.org/abs/2412.19408), EPJC 85 (2025) 914: gargantas con un vector masivo mínimamente acoplado. Los autores señalan que hace falta al menos un grado de libertad fantasma.
 - Su, Hao, Ren, Wang, [arXiv:2311.17557](https://arxiv.org/abs/2311.17557): estrellas de Proca con una garganta sostenida por un escalar fantasma (no por el vector).
@@ -171,7 +181,64 @@ $$\tilde m(0)=\frac{G_4\big[(G_{2X}+2XG_{2XX})r_0^2+2(G_{4X}+2XG_{4XX})\big]+4X^
 - **En el monopolo con gravedad.** Eliminar $\tilde w$ suma $-J_v^2/4\tilde c$ a la energía cinética, negativa donde $\tilde c>0$. Si el vector es masivo lejos, $\tilde c$ cambia de signo, y el problema reducido es singular en esa esfera (salvo que $J_v$ se anule allí). Es la versión cinética de la obstrucción de la carga de Maxwell (2g §7), donde $e_0(0)\neq0$ fijaba $\delta r(0)=0$.
 - **Con $G_4$ constante.** $\Theta<0$ exige $G_{2X}<0$, y $\tilde m(0)\propto G_{2X}+2XG_{2XX}$. Es la dicotomía de la k-esencia con gradiente temporal ($c_s^2=P_X/(P_X+2XP_{XX})$): fantasma o inestabilidad de gradiente. En las 6 gargantas regulares, $G_{2X}+2XG_{2XX}<0$.
 
-**Lo que no hemos demostrado.** Que $\tilde c(0)>0$ implique un fantasma o un taquión del monopolo completo. Haría falta la reducción completa: el término cinético $K_{\rm eff}$ con $\tilde w$ y $\tilde a$ eliminados, y el espectro. Sí demostramos que la garganta fuerza el signo malo del coeficiente local y que, con un vector masivo, el problema reducido degenera en una esfera.
+Esto, por sí solo, es un enunciado local. §4.5 lo convierte en un enunciado sobre el monopolo completo.
+
+### 4.5 Reducción completa: el fantasma (`reduccion_completa_E.py`, `esfera_E.py`)
+
+**Gauge y campos.** Partimos de $L_{\rm eff}=-W^2/4\kappa+L_{\rm rest}$ y fijamos el gauge radial con $c=0$, que es regular en la garganta; queda solo $Z=Z(t)$. Los campos restantes son $d$ (par), $\tilde a$ (par, auxiliar) y $\tilde w$ (impar, auxiliar). La lista completa de monomios de $L_{\rm eff}$ muestra tres simplificaciones:
+- $\tilde a\ddot d$ y $\dot{\tilde a}\dot d$ tienen el mismo coeficiente, $4G_{4X}Ur/N^3$, y forman la derivada total $\partial_t(\tilde a\dot d)$: **$\tilde a$ no ve velocidades**.
+- Los acoplos $\tilde a\dot{\tilde w}$, $\dot{\tilde a}\tilde w$, $\tilde a'\dot{\tilde w}$ y $\dot{\tilde a}\tilde w'$ suman, tras integrar por partes, un coeficiente idénticamente nulo: **$\tilde a$ y $\tilde w$ no se acoplan**.
+- $\tilde w$ solo se acopla a velocidades de $d$, y todas se juntan en $\tilde w\,\dot S$, con
+  $$S=-\frac{4rN^2}{U}\Big(\frac{\mathcal G\,d}{N}\Big)' .$$
+
+**La forma reducida.** Salvo derivadas totales,
+$$L_{\rm eff}=-\frac{2\mathcal G}{N}\dot d^2+\tilde c\,\tilde w^2+\tilde w\dot S+\tilde m\,\tilde a^2+\tilde a\,J(d)+L_s(d),$$
+con $J(d)=j_0d+j_1d'+j_2d''$ estático.
+
+| Comprobación (caso E) | Resultado |
+|---|---|
+| coeficiente de $\dot d^2$ igual a $-2\mathcal G/N$ | exacto (simbólico) |
+| ecuaciones de Euler–Lagrange de $L_{\rm eff}-L_{\rm afirmada}$ (para $d$, $\tilde a$, $\tilde w$; 2 chorros) | 0 (exacto) |
+| modo gauge residual $d=r'$: $\mathcal K r'=0$ (parte cinética), en las 6 gargantas por diferencias finitas | residuo relativo $2\times10^{-5}$–$1.3\times10^{-3}$ (control con $d=N$: 1.0–14) |
+| modo gauge residual $d=r'$: $\mathcal V r'=-E_s(r')+J^\dagger\big(J(r')/2\tilde m\big)=0$, ídem | $3\times10^{-5}$–$1.4\times10^{-4}$ (control con $d=N$: 0.13–0.81) |
+
+**Eliminación de los auxiliares.** $\tilde w=-\dot S/2\tilde c$ y $\tilde a=-J/2\tilde m$ dan la acción del monopolo, con un único campo:
+$$\boxed{S_{\rm red}=\int dt\,d\ell\,\Big[-\frac{2\mathcal G}{N}\dot d^2+k_2\Big(\Big(\frac{\mathcal G\dot d}N\Big)'\Big)^2-V(d)\Big],\qquad k_2=-\frac{4r^2N^4}{U^2\tilde c},\qquad V=-L_s+\frac{J^2}{4\tilde m}.}$$
+- La energía cinética es un operador de Sturm–Liouville en $\dot d$:
+  $$T=\int\big[-\tfrac{2\mathcal G}N\dot d^2+k_2((\mathcal G\dot d/N)')^2\big].$$
+  No hay un único $K_{\rm eff}$. El potencial es de cuarto orden, por el término $J^2/4\tilde m$ con $j_2\neq0$.
+- El modo gauge residual $d=r'Z(t)$ es solución para cualquier $Z(t)$. Las perturbaciones físicas se definen módulo $r'$: por ejemplo, la prueba $d=N$ equivale a $N-r'\to0$ lejos.
+
+**El fantasma (exacto, con cualesquiera $G_2(X,F)$ y $G_4(X)$).**
+- Donde $\tilde c>0$ y $\mathcal G,N>0$, los dos términos de $T$ son negativos: $-2\mathcal G/N<0$ y $k_2<0$. Toda perturbación $d\neq0$ con soporte en esa región tiene $T<0$.
+- La región contiene siempre un entorno de la garganta, porque $\tilde c(0)=N_0r_0\mathcal Gr''(0)/X>0$ (§4.4).
+- Por tanto **toda garganta eléctrica simétrica con $\mathcal G(0)>0$ tiene un fantasma en el monopolo**: la energía del sector $l=0$ no está acotada inferiormente, sea cual sea $V$.
+
+**La esfera $\tilde c=0$.** Fuera de la región, $\tilde c<0$ y $k_2>0$. En la esfera $\tilde c=0$, $k_2$ diverge y cambia de signo, y la ecuación de $\tilde w$ degenera en la ligadura $\dot S(\ell_c)=0$: el problema de Cauchy del monopolo no es regular allí. Lejos, $U\to0$ y $k_2\propto U^{-2}\to\infty$, lo que impone $(\mathcal G\dot d/N)'\to0$: es el teorema de Birkhoff en la zona de vacío.
+
+**En las 6 gargantas regulares** (`esfera_E.json`). $\tilde c(0)$ coincide con $-N_0\Theta/2$ a $10^{-15}$. $\tilde c$ tiene un único cero, y $\tilde m$ se anula más afuera. La prueba $\dot d=(1-\ell^2/s^2)^3$, con soporte en $|\ell|<s=0.95\,\ell_c$, tiene $T<0$ sin ninguna parte positiva:
+
+| $(b,\lambda_2,\lambda_3)$ | $\tilde c(0)$ | $\ell_c$ ($\tilde c=0$) | $r(\ell_c)/r_0$ | cero de $\tilde m$ | $T[\text{prueba}]$ |
+|---|---|---|---|---|---|
+| $(0,-1,0)$ | 2.81 | 2.03 | 2.76 | 2.64 | $-5.75$ |
+| $(0,-3,1)$ | 28.9 | 1.05 | 1.08 | 1.70 | $-45.8$ |
+| $(-0.5,-3,0)$ | 26.7 | 1.31 | 1.12 | 1.96 | $-45.1$ |
+| $(-0.5,-3,1)$ | 15.6 | 1.58 | 1.18 | 2.24 | $-34.7$ |
+| $(-1,-3,0)$ | 14.1 | 2.01 | 1.29 | 2.60 | $-28.8$ |
+| $(-1,-3,1)$ | 7.20 | 3.03 | 1.75 | 3.60 | $-17.0$ |
+
+($N_0=1$; $\ell$ en las unidades de la tabla de §4.3.)
+
+**La alternativa $\mathcal G(0)<0$.** Entonces $r''(0)>0$ exige $\Theta>0$, es decir, $\tilde c(0)<0$, $k_2>0$ y $-2\mathcal G/N>0$: $T>0$ cerca de la garganta. Pero $\mathcal G=G_4-2XG_{4X}$ es la mitad del coeficiente cinético de las ondas tensoriales en Proca generalizada con vector temporal: $q_T=2G_4-4XG_{4X}$ en FLRW, a escalas pequeñas (De Felice et al., [arXiv:1603.05806](https://arxiv.org/abs/1603.05806), JCAP 06 (2016) 048). Con $\mathcal G<0$ el fantasma pasa al sector tensorial. (No hemos calculado el sector impar sobre este fondo; el argumento es local.)
+
+**Comparación con la Fase 2k** (escalar lineal en el tiempo, $\phi=qt+\psi$; nota de traspaso de 2k). Allí
+$$T_{2k}=\int\Big[Q\dot d^2+\frac{r}{(Qr')'}\big((Q\dot d)'\big)^2\Big],\qquad Q=\frac{2A_4}{\mathcal N}=-\frac{2\mathcal G}{N}\quad(F_4=0).$$
+- Con $Q=-2\mathcal G/N$, nuestra $T$ es $\int[Q\dot d^2+(k_2/4)((Q\dot d)')^2]$: **la misma estructura**. Solo cambia el segundo coeficiente: $r/(Qr')'$ (de la ligadura de momento del escalar) se sustituye por $k_2/4=-r^2N^4/(U^2\tilde c)$ (de la masa radial del vector).
+- En la garganta los dos tienen el signo de $-\mathcal G(0)$: en 2k porque $r''>0$; aquí porque $\Theta\,\mathcal G<0$.
+- La conclusión coincide: **fantasma monopolar si $\mathcal G(0)>0$, tensorial si $\mathcal G(0)<0$**.
+- Diferencia: 2k demuestra además que, con $\psi'=0$ (el límite de Stückelberg exacto de nuestro caso, con $U$ constante), $G_4$ cambia de signo en toda garganta. Nuestras gargantas existen con $G_4\ge1$ porque $U'\neq0$: el campo eléctrico no tiene análogo escalar. Pero no escapan al fantasma.
+
+**Teorías con $\tilde m>0$.** El paso 2 de la v0.1 ya no tiene objeto: el fantasma solo depende de $\tilde c(0)$, $\mathcal G$ y $N$, no de $\tilde m$.
 
 ## 5. Conclusiones
 
@@ -183,24 +250,26 @@ $$\tilde m(0)=\frac{G_4\big[(G_{2X}+2XG_{2XX})r_0^2+2(G_{4X}+2XG_{4XX})\big]+4X^
    - La prueba $d=N$ no cumple la ligadura, y su energía corregida contiene $+\int(2N/g)[2G_{4X}N(U/N)'-G_{2F}U']^2$, que en las gargantas construidas supera el déficit del vacío.
    - **El déficit $d=N$ no es universal con un vector temporal.**
 4. **Obstrucción nueva, exacta y sin funciones libres.** Una garganta eléctrica simétrica tiene $\tilde c(0)=N_0r_0\mathcal Gr''(0)/X>0$: masa local negativa de la componente radial del vector.
-   - Con un vector masivo, el problema reducido degenera en la esfera $\tilde c=0$.
-   - En todas las gargantas regulares construidas, también $\tilde m$ cambia de signo.
+5. **Reducción completa del caso E** (§4.5). La acción del monopolo es
+   $$\int\big[-\tfrac{2\mathcal G}N\dot d^2+k_2((\mathcal G\dot d/N)')^2-V(d)\big],\qquad k_2=-4r^2N^4/(U^2\tilde c).$$
+   - Por $\tilde c(0)>0$, **toda garganta eléctrica con $\mathcal G(0)>0$ tiene un fantasma en el monopolo**, localizado en la garganta, con cualesquiera $G_2(X,F)$ y $G_4(X)$.
+   - En la esfera $\tilde c=0$ el término cinético es singular.
+   - Con $\mathcal G(0)<0$ el fantasma pasa al sector tensorial ($q_T=2\mathcal G$).
 
 **El mecanismo común (2g–2m).**
-- Mientras la garganta la sostenga un campo "radial" (un escalar estático, o $A_1$), el déficit $d=N$ es inevitable.
-- Si la sostiene una componente temporal ($A_0$), la energía eléctrica puede compensarlo. Pero violar la condición nula en la garganta ($\Theta<0$) obliga a que el propio sector longitudinal tenga allí el signo malo.
-- Es la misma tensión que en la k-esencia temporal. La salida 1 de 2j (el escalar lineal en el tiempo, Fase 2k) probablemente se encuentre con la versión escalar de esta obstrucción.
+- Mientras la garganta la sostenga un campo "radial" (un escalar estático, o $A_1$), el déficit $d=N$ da un taquión.
+- Si la sostiene una componente temporal (un escalar lineal en el tiempo, 2k, o $A_0$), la energía de las ligaduras blandas (aquí la eléctrica) puede compensar el déficit. Pero violar la condición nula en la garganta ($\Theta<0$) vuelve negativa la energía cinética: hay un fantasma monopolar o tensorial.
+- Las Fases 2k y 2m llegan, por caminos independientes, a la misma estructura de $T$ y a la misma regla de signos en la garganta.
 
 **Lo que no queda establecido.**
 - El caso mixto ($A_0,A_1\neq0$, el de casi todos los agujeros negros con pelo de Proca): sin paridad temporal y con posibles términos giroscópicos. No lo tratamos.
-- La reducción completa del caso E ($K_{\rm eff}$ con $\tilde a$, $\tilde w$ y el espectro), necesaria para convertir la obstrucción local en un enunciado sobre el monopolo.
-- Los términos $G_5$, $G_6$, $g_5$, más allá del argumento del caso R.
-- El barrido de §4.3 es pequeño (36 teorías). La obstrucción de §4.4 no depende de él.
+- Los términos $G_5$, $G_6$, $g_5$ en el caso E. En el caso R están cubiertos por el argumento de §3.
+- El sector tensorial (impar) sobre el fondo eléctrico. La alternativa $\mathcal G(0)<0$ se descarta con el criterio cosmológico $q_T>0$, no con un cálculo sobre este fondo.
+- El espectro lineal completo del caso E. Con un fantasma, el monopolo ya está mal planteado ($T$ indefinida); que además haya modos crecientes depende de $V$, que es singular en la esfera $\tilde m=0$.
 
-**Siguiente paso.**
-1. Reducir el caso E por completo: eliminar $\tilde w$ con sus fuentes cinéticas, obtener $K_{\rm eff}$ y $P_{\rm eff}$, y estudiar la esfera $\tilde c=0$.
-2. Buscar teorías con $\tilde m>0$ en toda la solución (por ejemplo, $G_{4X}>0$ con $G_{2X}r_0^2<-2G_{4X}$ y $G_{2XX}$ grande). Si existieran, el único obstáculo sería $\tilde c(0)>0$.
-3. Comparar con el resultado de la Fase 2k (escalar lineal en el tiempo), que es el límite de Stückelberg del caso E.
+**Siguiente paso.** Con el escalar estático (2g–2j), el escalar lineal en el tiempo (2k), la rotación lenta (2l) y el vector de Proca (2m), las salidas que proponía 2j quedan agotadas en el sentido de este proyecto. Queda abierto:
+1. el caso mixto $A_0,A_1\neq0$ (o $G_3\neq0$ con $\psi'\neq0$ en 2k), el único sin paridad temporal;
+2. reunir los resultados 2g–2m en un teorema común: fantasma o taquión en $l=0$ para gargantas estáticas de teorías escalares/vectoriales–tensoriales de segundo orden.
 
 ## Archivos
 
@@ -216,6 +285,8 @@ $$\tilde m(0)=\frac{G_4\big[(G_{2X}+2XG_{2XX})r_0^2+2(G_{4X}+2XG_{4XX})\big]+4X^
 | `energia_E.py` | eliminación de $F$ y $\tilde a$; energía de la prueba $d=N$; $\Delta=-2G_{4X}U^2N\sigma^2$ |
 | `longitudinal_E.py` | $r''(0)$, $\tilde m(0)$, $\tilde c(0)$ exactos en la garganta; cancelación de $\tilde a'^2$ y $\dot{\tilde w}^2$ |
 | `garganta_E.py`, `analiza_E.py` | gargantas eléctricas (barrido y refinado), condiciones y energías |
+| `reduccion_completa_E.py` | v0.2: forma reducida exacta en el gauge $c=0$; $S=-(4rN^2/U)(\mathcal Gd/N)'$ |
+| `esfera_E.py` | v0.2: $\tilde c(\ell)$, $\tilde m(\ell)$, esfera $\tilde c=0$, $T<0$ para una prueba localizada y modo gauge residual $d=r'$ (con control $d=N$), en las 6 gargantas |
 
 ## Reproducibilidad
 
@@ -229,4 +300,6 @@ python energia_E.py          # energia de la prueba d = N
 python longitudinal_E.py     # coeficientes en la garganta
 python garganta_E.py         # ~40 min: barrido de gargantas electricas -> resultados/garganta_E_barrido.json
 python analiza_E.py          # ~15 min: refinado y energias -> resultados/analiza_E.json
+python reduccion_completa_E.py   # ~1 min: forma reducida exacta
+python esfera_E.py           # ~2 min: esfera c~ = 0, fantasma y modo gauge residual en las 6 gargantas
 ```

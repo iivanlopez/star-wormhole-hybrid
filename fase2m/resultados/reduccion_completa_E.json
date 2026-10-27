@@ -1,0 +1,6 @@
+{
+ "resto_derivada_total": 0,
+ "S": "S = -(4 r N^2/U) (Gcal d/N)'",
+ "k2": "k2 = -4 r^2 N^4/(U^2 ct)",
+ "T": "T = int [ -(2 Gcal/N) d_t^2 + k2 ((Gcal d_t/N)')^2 ]"
+}
