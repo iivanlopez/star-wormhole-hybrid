@@ -4,7 +4,7 @@ Fase 2k (parte II): ?hay beta = Nc G4 > 0 con cola de energia positiva?  Evoluci
 criba_masa.py (geometria m(r) = M - (M - 1/2) r^-n, flujo de dos componentes, A4 = -[1 + a e^{-rho^2/wq^2}],
 Nc = 1 - MN/sqrt(rho^2 + wn^2)) maximizando  min(beta)/max|beta|  (con el signo que da beta_inf > 0).
 beta > 0 en todo el eje <=> objetivo > 0.
-Uso: python optimiza_masa.py [generaciones]
+Uso: python optimiza_masa.py [generaciones] [ancha]   (ancha: caja ampliada tras ver el optimo en el borde)
 """
 import os
 import sys
@@ -77,8 +77,14 @@ def objetivo(p):
         return 2.0
 
 
+LIM_ANCHA = [(0.52, 2.5), (0.02, 1.0), (1.0, 4.0), (0.1, 0.98), (0.5, 8.0), (0.05, 1.0), (0.0, 0.8),
+             (np.log(0.3), np.log(500)), (0.05, 3.0)]
+
 if __name__ == "__main__":
     gens = int(sys.argv[1]) if len(sys.argv) > 1 else 12
+    ancha = len(sys.argv) > 2 and sys.argv[2] == "ancha"
+    if ancha:
+        LIM = LIM_ANCHA
     t0 = time.time()
     hist = []
 
@@ -89,5 +95,7 @@ if __name__ == "__main__":
     res = differential_evolution(objetivo, LIM, maxiter=gens, popsize=8, seed=3, tol=1e-6, polish=False, callback=cb)
     xs, b, prm = beta(res.x)
     print("optimo:", prm, " min beta/max|beta| =", float(b.min() / np.max(np.abs(b))), flush=True)
-    json.dump(dict(objetivo=float(-res.fun), parametros=prm, historia=hist),
-              open(os.path.join(AQUI, "resultados", "optimiza_masa.json"), "w"), indent=1)
+    json.dump(dict(objetivo=float(-res.fun), parametros={k: float(v) for k, v in prm.items()}, historia=hist,
+                   caja="ancha" if ancha else "base"),
+              open(os.path.join(AQUI, "resultados", "optimiza_masa_ancha.json" if ancha else "optimiza_masa.json"), "w"),
+              indent=1)

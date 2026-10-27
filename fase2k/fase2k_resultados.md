@@ -351,7 +351,9 @@ $$P_2=\frac{8Q^2r}{\mathcal N'^2}\,\mathfrak B,\qquad \mathfrak B=-2\beta'(rK)'-
   - el mejor valor pasa de $-0.071$ a $-0.043$ en 12 generaciones y a $-0.029$ en 40;
   - el óptimo se va hacia los bordes de la caja: $A_4$ con un pico cada vez más estrecho ($w_q\to0.24$, límite 0.2) y débil ($a\to2.2$, límite 2), y $\mathcal N(0)\to0.85$ (límite 0.9).
 
-  **No es concluyente**: no se descarta que haya $\beta>0$ con cola de energía positiva fuera de la caja. Si lo hubiera, quedarían por comprobar la hiperbolicidad y el signo cinético.
+  - con la caja ampliada ($w_q\ge0.05$, $a\ge0.3$, $\mathcal N(0)\le0.98$, $M\le2.5$; `optimiza_masa.py 35 ancha`), el mejor valor es $-0.026$. El pico de $A_4$, el flujo y el lapso quedan ya en el interior ($w_q=0.27$, $a=0.63$, $\mathcal N(0)=0.64$); solo la masa sigue en el borde ($M=2.48$).
+
+  Parece una meseta ligeramente negativa que mejora poco al crecer $M$. **No es concluyente**: no se descarta $\beta>0$ con cola de energía positiva, quizá en el límite de masa grande. Si lo hubiera, quedarían por comprobar la hiperbolicidad y el signo cinético.
 
 ## 14. Por qué no hay espectro
 
@@ -431,5 +433,5 @@ python hiperbolicidad_cubica.py; python hiperbolicidad_cubica.py 2.0 50 1.0 1.0 
 python reconstruccion_cubica.py; python busqueda_cubica.py 300
 python criba_cubica.py 500   # ~1 h
 python criba_masa.py 400     # ~1 h
-python optimiza_masa.py 40   # ~40 min
+python optimiza_masa.py 40   # ~40 min; con "35 ancha", caja ampliada
 ```
