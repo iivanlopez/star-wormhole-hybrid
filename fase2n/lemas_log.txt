@@ -1,0 +1,6 @@
+(L1) r^3 L[r'] - (rK)' = 0: True
+(L2) (rK)' = -r' r^3 (m_r/r^2)_r: True   K = -Derivative(m(R), R) + 3*m(R)/R
+(L3) B coincide con la forma de fase2k: True ; limite flujo debil: -2*beta1*r0**2*r3 + 2*beta1*r1**3 - 2*beta1*r1 ; coef. de Q' = r^4 w'(r'w' - r''w): True
+(L4) beta''(0) = -Q0*V1**2/2 - R2*beta0/R0 - beta0/R0**2 ; forma: True ; corchete: True ; sqrt(a^2+4(1+a)^2) > 2(1+a): True
+(L5) coeficiente de w'' en C: -2*mu(rho)*r(rho)**4*Derivative(r(rho), rho)*Derivative(w(rho), rho)  (= -2 mu r^4 r' w'): True
+todas las comprobaciones: OK

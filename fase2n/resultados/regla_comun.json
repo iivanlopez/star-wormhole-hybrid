@@ -1,0 +1,10 @@
+{
+ "A4_igual_menos_G": true,
+ "2k_forma_comun": true,
+ "2k_k0": "-2*N0*r0/(Gs*rpp)",
+ "2m_k0": "-4*N0**3*Xp*r0/(Gs*U0**2*rpp)",
+ "2k_kappa0": "2*N0*r0",
+ "2k_kappa0_pos": true,
+ "2m_kappa0": "4*N0**3*Xp*r0/U0**2",
+ "2m_kappa0_pos": true
+}

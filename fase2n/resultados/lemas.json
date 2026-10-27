@@ -1,0 +1,16 @@
+{
+ "L1": true,
+ "L2": true,
+ "L2_K": "-Derivative(m(R), R) + 3*m(R)/R",
+ "B_igual_2k": true,
+ "L3_limite": "-2*beta1*(r0**2*r3 - r1**3 + r1)",
+ "L3": true,
+ "L3_coefQ1": true,
+ "L4_beta2": "-(Q0*R0**2*V1**2 + 2*R0*R2*beta0 + 2*beta0)/(2*R0**2)",
+ "L4_forma": true,
+ "L4_corchete": true,
+ "L4_cota": true,
+ "L5_sinQp": true,
+ "L5_coef_wpp": "-2*mu(rho)*r(rho)**4*Derivative(r(rho), rho)*Derivative(w(rho), rho)",
+ "L5": true
+}
