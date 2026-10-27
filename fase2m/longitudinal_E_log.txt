@@ -1,0 +1,8 @@
+wt_t^2 y at'^2 se cancelan en L_eff: wt y at son auxiliares
+r''(0) = -X*(G2_10*r0**2 + 2*G4_10)/(2*r0*(G4_00 - 2*G4_10*X))
+m_at(0) = (G2_10*G4_00*r0**2 + 4*G2_10*G4_20*X**2*r0**2 + 2*G2_20*G4_00*X*r0**2 - 4*G2_20*G4_10*X**2*r0**2 + 2*G4_00*G4_10 + 4*G4_00*G4_20*X)/(2*N0*(G4_00 - 2*G4_10*X))
+c_t(0) = -N0*(G2_10*r0**2 + 2*G4_10)/2
+r''(0) = -2X Theta/(4 r0 Gcal): True
+m_at(0) = [G4((G2X+2X G2XX) r0^2 + 2(G4X+2X G4XX)) + 4X^2 r0^2 (G2X G4XX - G2XX G4X)]/(2 N0 Gcal): True
+c_t(0) con G4_XX = 0: -N0*(G2_10*r0**2 + 2*G4_10)/2
+c_t(0) (G4_XX = 0) con G2_X = (Theta - 2 G4_X)/r0^2: -N0*Theta/2

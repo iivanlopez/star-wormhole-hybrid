@@ -1,0 +1,11 @@
+[    2.3 s] Reissner-Nordstrom (G4 = 1, G2 = F, A0 = 2Q/r): las seis ecuaciones del fondo se anulan (simbolico)
+[    3.2 s] fondo con A0 = 0 frente a la Fase 2f (E_A, E_B, E_C, E_p = -D E_w): identicos; E_u = 0 identicamente
+[    3.6 s] accion cuadratica con delta A = 0 (A0 = 0) = accion de la Fase 2f en el gauge unitario: identicas
+[    4.3 s] paridad T (A0 = 0): 0 terminos la violan; paridad TC (A1 = 0, G3 = 0): 0; fondo general (A0, A1 != 0): 463
+[  107.9 s] modo gauge, chorro general 0: max |E_v| = 0.0e+00
+[  114.1 s] modo gauge, chorro general 1: max |E_v| = 0.0e+00
+[  118.2 s] modo gauge, chorro R 0: max |E_v| = 0.0e+00
+[  122.9 s] modo gauge, chorro R 1: max |E_v| = 0.0e+00
+[  126.0 s] modo gauge, chorro E 0: max |E_v| = 0.0e+00
+[  129.0 s] modo gauge, chorro E 1: max |E_v| = 0.0e+00
+[  129.0 s] todas las comprobaciones superadas

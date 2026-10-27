@@ -1,0 +1,25 @@
+{
+ "Y_igual_4XF": "identica",
+ "theta": 2.170662841294021e-165,
+ "noether_radial": 0.0,
+ "noether_temporal": 0.0,
+ "tamanos": {
+  "fondo": {
+   "A": 20,
+   "b": 12,
+   "B": 19,
+   "C": 30,
+   "u": 18,
+   "w": 12
+  },
+  "lineales": {
+   "a": 217,
+   "be": 173,
+   "c": 207,
+   "d": 355,
+   "al": 244,
+   "w": 157
+  },
+  "hessiano_no_nulas": 166
+ }
+}

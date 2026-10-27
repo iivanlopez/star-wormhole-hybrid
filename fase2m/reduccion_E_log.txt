@@ -1,0 +1,10 @@
+[    1.2 s] L2 (caso E) en las variables invariantes: 253 terminos
+[    5.5 s] ecuaciones lineales: a: 150, be: 28, c: 57, d: 113, at: 118, wt: 27
+[   16.4 s] chorro E 0: |parte (a, beta) de E_beta + 2 i w kap F| = 0.0e+00, grado de W en iw = 1, E_a = -(N^2 Pi)': True
+[   17.2 s] chorro E 1: |parte (a, beta) de E_beta + 2 i w kap F| = 0.0e+00, grado de W en iw = 1, E_a = -(N^2 Pi)': True
+[   18.0 s] chorro E 2: |parte (a, beta) de E_beta + 2 i w kap F| = 0.0e+00, grado de W en iw = 1, E_a = -(N^2 Pi)': True
+[   18.0 s] parte de W con derivada temporal (solo wt, impar TC): U0*r0**2*wt0*(G2_01 + G2_02*U1**2/N0**2)/N0**3
+[   18.0 s] W = (r0*(G2_01*U0*U1*r0/N0**2 + G2_02*U0*U1**3*r0/N0**4 + 4*G4_00*r1 - 2*G4_10*V0*V1*r0)/N0) c0 + (2*r0*(-G2_01*U0*U1/N0 + 2*G4_00*N1 + 2*G4_10*U0*U1/N0 - 2*G4_10*N1*U0**2/N0**2)/N0**2) d0 + (-4*G4_00*r0/N0) d1 + (U0*r0**2*(-G2_11*U0*U1/N0**2 + 2*G4_20*V0*V1)/N0**3) at0 + (-U0*r0**2*(G2_01 + G2_02*U1**2/N0**2)/N0**3) at1 + (U0*iw*r0**2*(G2_01 + G2_02*U1**2/N0**2)/N0**3) wt0
+[   18.0 s] W en la prueba d = N, c = at = wt = 0 (fuera de la capa de masas): 2*U0*r0*(-G2_01*U1 + 2*G4_10*U1 - 2*G4_10*N1*U0/N0)/N0**2
+[   18.1 s] terminos cineticos de L_rest: ('d_10',): 2*d_10**2*(-G4_00 + G4_10*U0**2/N0**2)/N0; ('wt_10',): r0**2*wt_10**2*(G2_01 + G2_02*U1**2/N0**2)/(2*N0); ('c_10',): -2*G4_00*c_10**2*r0**2/N0; ('c_10', 'd_10'): 4*c_10*d_10*r0*(G4_00 + G4_10*U0**2/N0**2)/N0; ('at_10', 'c_10'): 2*G4_10*U0*at_10*c_10*r0**2/N0**3; ('at_10', 'd_10'): 4*G4_10*U0*at_10*d_10*r0/N0**3
+[   18.1 s] guardado resultados/reduccion_E.pkl

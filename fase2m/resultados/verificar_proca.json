@@ -1,0 +1,29 @@
+{
+ "RN": {
+  "A": "0",
+  "b": "0",
+  "B": "0",
+  "C": "0",
+  "u": "0",
+  "w": "0"
+ },
+ "horndeski_fondo": {
+  "A": 0.0,
+  "B": 0.0,
+  "C": 0.0,
+  "p": 0.0,
+  "E_u(U=0)": "0"
+ },
+ "horndeski_L2_dif": "0",
+ "paridad_R_terminos_malos": "0",
+ "paridad_E_terminos_malos": "0",
+ "paridad_general_terminos_que_la_rompen": "463",
+ "modos_gauge": {
+  "general_0": 0.0,
+  "general_1": 0.0,
+  "R_0": 0.0,
+  "R_1": 0.0,
+  "E_0": 0.0,
+  "E_1": 0.0
+ }
+}
