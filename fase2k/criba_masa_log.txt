@@ -1,0 +1,2 @@
+argumentos del simbolo: ['Nc1', 'Nc2', 'Q0', 'Q1', 'beta0', 'beta1', 'r0', 'r1', 'r2', 'r3', 'v0', 'v1', 'v2']
+400 fondos: beta > 0 en 0; hiperbolicos 0; cinetica positiva en todo rho 0; cinetica positiva lejos 0; (Q r')' > 0 lejos 0; todo a la vez 0

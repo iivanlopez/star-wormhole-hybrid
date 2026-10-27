@@ -1,0 +1,2 @@
+(I1) K beta/r^3 - (3/4) u (Q r')' + [beta'/r + Q r u'/4 + (3/4) Q r' u]' = 0
+(I2) (1/r)(beta'/beta + Q r^2 u'/(8 beta))^2 + (1 + r'^2)/r^3 + (3/4) Q u' r'/beta - Q^2 r^3 u'^2/(64 beta^2) + [beta'/(r beta) + r'/r^2 + Q r u'/(4 beta)]' = 0

@@ -1,0 +1,4 @@
+det M ~ k^4, det M_aux ~ k^2
+grado de P en c: 2
+simbolos de fondo en P y D: ['N_0', 'N_1', 'R_0', 'R_1', 'R_2', 'V_0', 'V_1', 'a2NN_0', 'a2N_0', 'a3NN_0', 'a3N_0', 'a3N_1', 'a4NN_0', 'a4N_0', 'a4N_1', 'a4_0', 'a4_1', 'b4NN_0', 'b4N_0', 'b4N_1', 'b4_0', 'b4_1']
+D = -R_0**2*(N_0**2*R_0*a3N_0 - 4*N_0*R_1*V_0*a4N_0 + 4*R_1*V_0*a4_0)**2/N_0**4

@@ -37,13 +37,27 @@
 
    Es la versión general de "fluido fantasma = fantasma" (con $G_4=1$, $(Qr')'\propto\rho+p$). La **familia $\delta X=0$** (la análoga de $d=N$) tiene energía $-2\int\beta r^2[(d/r)']^2$, la misma forma que la de las Fases 2g–2j, con la ligadura $(rd')'+(1-r'^2-rr'')d/r=0$ en lugar de $d\propto N$.
 
-7. **Con término cúbico** (§7, $G_3\neq0$, $\psi'\neq0$). La ecuación de $\beta$ gana una fuente, $-[Qr^4(v^2/r^2)']'/4r^3$, y el no-go deja de ser automático. En una exploración (40 geometrías con $Q$ constante), $\beta>0$ solo aparece con $Q>0$, es decir $A_4>0$ (fantasma tensorial). No es una demostración.
+7. **Con término cúbico** (§7, $G_3\neq0$, $\psi'\neq0$). La ecuación de $\beta$ gana una fuente, $-[Qr^4(v^2/r^2)']'/4r^3$, y el no-go deja de ser automático. La Parte II (§10–§15) estudia este sector.
+
+8. **Parte II: galileón cúbico con flujo** (§10–§15).
+   - **(a) No hay teorema.** Las dos identidades integrales exactas de la ecuación de $\beta$ con fuente no fuerzan un cambio de signo:
+     $$\int\!\frac{K\beta}{r^3}=\tfrac34\!\int\!\Big(\frac vr\Big)^2(Qr')',\qquad \int\!\frac1r\Big(\frac{\beta'}\beta+\frac{Qr^2u'}{8\beta}\Big)^2+\int\!\frac{1+r'^2}{r^3}=-\tfrac34\!\int\!\frac{Qu'r'}\beta+\frac1{64}\!\int\!\frac{Q^2r^3u'^2}{\beta^2}.$$
+     Hay fondos explícitos con $G_4>0$, $A_4<0$ y flujo subluminal: 54 de 500 en la familia de Ellis.
+   - **(b) Análisis local del monopolo**, exacto: la lagrangiana ADM dependiente del tiempo con desplazamiento coincide con la covariante, y el símbolo principal se calcula en cualquier punto. Con flujo, el coeficiente cinético es puramente geométrico:
+     $$P_2=\frac{8Q^2r}{\mathcal N'^2}\,\mathfrak B,\qquad \mathfrak B=-2\beta'(rK)'-\frac{Qvr''(r^2W)'}r+Q'W(r'W-rvr''),\quad W=r^2(v/r)' .$$
+     En la garganta, el símbolo solo depende de datos de Taylor de la geometría y del flujo. Una garganta sana es posible: hace falta un flujo fuerte que se curve cerca de la garganta.
+   - **Criba numérica** (≈1300 fondos en tres familias): ninguno pasa a la vez las condiciones necesarias. Fallan por una de dos razones:
+     - una capa no hiperbólica junto a la garganta, donde $\mathfrak B$ cambia de signo (velocidades imaginarias, problema mal planteado);
+     - una cola fantasma lejos. La cola de Ellis es exótica: $(Qr')'<0$ y el monopolo tiene energía cinética negativa.
+
+     Con colas de energía positiva, $\beta$ cambia de signo cerca de la garganta en los 400 fondos de la criba. La optimización se acerca a cero ($\min\beta/\max|\beta|=-0.029$) en el borde de la caja, así que no es concluyente.
+   - Sin un fondo que pase las condiciones locales, el espectro no tiene sentido: con velocidades imaginarias el crecimiento es $\propto k$, sin cota.
 
 **Veredicto.** El escalar lineal en el tiempo no da gargantas sanas sin término cúbico. Con $G_3=0$ (o $A_3'\equiv0$ en el fondo):
 - $G_4$ cambia de signo;
-- con $\psi'=0$ hay además un fantasma en el monopolo o en el sector tensorial en la garganta.
+- con $\psi'=0$, el monopolo en la garganta es un fantasma o tiene velocidades imaginarias, o el sector tensorial es un fantasma.
 
-Queda abierto el sector con $G_3\neq0$ y $\psi'\neq0$.
+Con término cúbico y flujo no hay obstrucción algebraica, pero ninguno de los ≈1300 fondos construidos tiene un monopolo localmente bien planteado y sin fantasma.
 
 ---
 
@@ -198,6 +212,10 @@ Las tres afirmaciones se cumplen exactamente (aritmética racional) en 3 chorros
 - $A_4(0)<0$ (término cinético tensorial $-A_4>0$, el de RG): **el monopolo es un fantasma**.
 - $A_4(0)>0$: los modos tensoriales lo son.
 
+*Precisión (Parte II, §12).* El símbolo principal en la garganta da las velocidades radiales del monopolo, $c^2=4\mathcal N_0r_0r''_0\beta_{\mathcal N}^2/(A_4\kappa)$. Con $A_4(0)<0$ el término cinético es negativo, y además:
+- si $\kappa(0)>0$ (el gradiente tiene el signo sano), las velocidades son imaginarias: el problema está mal planteado en la garganta;
+- si $\kappa(0)<0$, el sector entero tiene el signo cambiado y es un fantasma frente a los gravitones.
+
 Con $G_4=1$, $(Qr')'=-2(r'/N)'=(r/N)\,8\pi(\rho+p)$ es la combinación del NEC. $T$ coincide con el $T[h]$ del fluido de la Fase 2g, $\int[8N\mathcal G^2\dot h'^2/(\tilde\rho+\tilde p)-2G_4N\dot h^2]$: "fluido fantasma ⇒ fantasma". En la GLPV, $A_4$ es libre (vía $F_4$, que no entra en el fondo con $v=0$), pero su signo en la garganta decide qué sector es el fantasma.
 
 **La familia $\delta X=0$** ($\nu=0$, $w=0$; la análoga de la prueba $d=N$):
@@ -213,9 +231,8 @@ Con $G_4=1$, $(Qr')'=-2(r'/N)'=(r/N)\,8\pi(\rho+p)$ es la combinación del NEC. 
 
 Con $v\neq0$ y $A_3'\neq0$, la ligadura de momento $rA_3'=2v(Qr')'$ fija $A_3$ y la ecuación de $\beta$ tiene fuente. Para que la configuración sea simétrica y la teoría no tenga la simetría $\phi\to-\phi$ (la rompe $G_3$), $v$ debe ser impar, con $v(0)=0$.
 - La ecuación de $\beta$ es lineal e inhomogénea. Dada $(r,v,Q)$, la solución par acotada es única, sin afinar, y proporcional a $QV_0^2$.
-- Exploración con $r=\sqrt{\rho^2+1}$, $v=V_0(\rho/w)e^{-\rho^2/2w^2}$ y $Q=Q_0$ constante (40 casos): **$\beta>0$ en todo el eje solo con $Q_0>0$ y perfil estrecho ($w=0.5$)**, es decir $A_4>0$: fantasma tensorial. Con $Q_0<0$, $\beta$ cambia de signo o es negativa.
-- Una integración formal con $\beta\simeq$ cte da $\int K\beta/r^3=-\tfrac34\int Qr'(v^2/r^2)'$. Con $Q<0$, la parte externa (donde $v^2/r^2$ decrece y $r'\simeq1$) va en contra.
-- No es una demostración: $Q(\rho)$ es una función libre en la GLPV, y el problema dinámico con $v\neq0$ (desplazamiento de fondo, conos inclinados y acoplos giroscópicos) no se ha reducido.
+- Exploración con $r=\sqrt{\rho^2+1}$, $v=V_0(\rho/w)e^{-\rho^2/2w^2}$ y $Q=Q_0$ constante (40 casos): $\beta>0$ en todo el eje solo con $Q_0>0$, es decir $A_4>0$.
+- *Superado por la Parte II (§11).* Con $Q$ constante, eso no dice nada: con un perfil de $A_4$ concentrado en la garganta hay $\beta>0$ con $A_4<0$ en todo el eje. El análisis del monopolo con flujo está en §12–§14.
 
 ## 8. Quíntico
 
@@ -235,15 +252,135 @@ La maquinaria con $G_5(X)$ está generada y comprobada (§2: Noether, $J$, lími
 
 **El mecanismo común.** Con escalar estático, la garganta pagaba con $\sigma=(\ln r/N)'\neq0$. Con escalar temporal, la ecuación de $\beta=\mathcal NG_4$ es un problema de Sturm–Liouville cuyo potencial integrado es positivo ($\int(1+r'^2)/r^3$). Tampoco se anula: en los dos casos es la geometría de dos extremos.
 
-**Lo que no queda establecido.**
-- El sector con $G_3\neq0$ y $\psi'\neq0$. Solo hay indicios numéricos ($\beta>0$ solo con $A_4>0$ en la familia probada).
-- La reducción ADM quíntica.
+**Lo que no queda establecido** en la Parte I: el sector con $G_3\neq0$ y $\psi'\neq0$ (tratado en la Parte II) y la reducción ADM quíntica (sigue pendiente).
 
-**Siguiente paso.** El único hueco que queda en la clase escalar-tensorial de segundo orden con métrica estática es el **galileón cúbico con flujo, $G_3\neq0$, $\psi'\neq0$**. Dos opciones:
-- **(a) Teorema.** Generalizar la identidad de §5 con la fuente $[Qr^4(v^2/r^2)']'$. Por ejemplo, buscar una combinación $\beta+\lambda Qv^2$ que satisfaga una ecuación homogénea, o una cota con $A_4<0$.
-- **(b) Reconstrucción y espectro.** Reconstrucción con $(r,v,Q)$ libres, $A_3$ de la ligadura de momento y $\mathcal N>|v|$. Después, el problema dinámico con desplazamiento de fondo, que tiene términos giroscópicos y requiere el criterio de corte de Babichev et al.
+# Parte II — galileón cúbico con flujo ($G_3\neq0$, $\psi'\neq0$)
 
-Con las Fases 2l (rotación) y 2m (Proca), que tampoco abren una vía, recomendamos (a). Es corto y decidiría si la clase de Horndeski/GLPV con simetría de desplazamiento queda cerrada.
+## 10. Planteamiento
+
+Es el único hueco que deja la Parte I en la GLPV cuártica con simetría de desplazamiento y métrica estática:
+- con $A_3'\neq0$, la ligadura de momento $rA_3'=2v(Qr')'$ permite un desplazamiento $v\neq0$ con $A_4\neq0$;
+- la ecuación de $\beta=\mathcal NG_4$ gana una fuente:
+  $$\Big(\frac{\beta'}r\Big)'+\frac{K\beta}{r^3}=-\frac{(Qr^4u')'}{4r^3},\qquad u=\frac{v^2}{r^2},\quad K=1+rr''-r'^2,\quad Q=\frac{2A_4}{\mathcal N}.$$
+
+Una configuración simétrica tiene $v$ impar, con $v(0)=0$: $G_3$ rompe $\phi\to-\phi$. Las condiciones sanas que se exigen al fondo son:
+- $G_4>0$ y $A_4<0$, es decir ondas gravitatorias en el corte $\phi=$ cte sin fantasma ni inestabilidad de gradiente;
+- $\mathcal N>|v|$ (lapso estático real);
+- asintóticamente plano, con $G_4\to1$ y $A_4\to-1$.
+
+El programa:
+- **(a)** buscar una identidad que fuerce un cambio de signo de $\beta$, como en §5;
+- **(b)** si no la hay, reconstruir fondos y estudiar su monopolo.
+
+## 11. (a) Identidades integrales: no hay no-go (`identidad_cubica.py`, `reconstruccion_cubica.py`, `busqueda_cubica.py`)
+
+Dos identidades exactas sobre la ecuación (comprobadas simbólicamente como derivadas totales):
+$$\text{(I1)}\qquad \int\frac{K\beta}{r^3}\,d\rho=\frac34\int\Big(\frac vr\Big)^2(Qr')'\,d\rho ,$$
+$$\text{(I2)}\qquad \int\frac1r\Big(\frac{\beta'}\beta+\frac{Qr^2u'}{8\beta}\Big)^2+\int\frac{1+r'^2}{r^3}=-\frac34\int\frac{Qu'r'}\beta+\frac1{64}\int\frac{Q^2r^3u'^2}{\beta^2}\qquad(\beta>0).$$
+- **(I2)** generaliza la de §5. El último término es positivo sea cual sea el signo de $A_4$: un flujo bastante fuerte paga la geometría de dos extremos. No hay no-go algebraico.
+- **(I1)** dice dónde tiene que estar el flujo. En geometrías con $K>0$ (todas las de energía positiva), $\beta>0$ exige $\int(v/r)^2(Qr')'>0$: el flujo debe vivir donde $(Qr')'>0$.
+  - $(Qr')'>0$ es justo la condición cinética del monopolo sin flujo (§6).
+  - En la garganta, $(Qr')'=Qr''<0$ si $A_4<0$.
+  - Por tanto el flujo debe estar en el flanco de un perfil de $A_4$ concentrado en la garganta, donde $Q'r'>|Q|r''$.
+
+**Fondos explícitos** con $G_4>0$ y $A_4<0$ en todo el eje. Geometría de Ellis, $r=\sqrt{\rho^2+1}$; flujo gaussiano; $Q=-2[1+a\,e^{-\rho^2/w_q^2}]$; $V_0$ fijado por $G_{4\infty}=1$.
+
+| familia | fondos | $\beta>0$ | ejemplo |
+|---|---|---|---|
+| un flujo, $Q$ con pico | 72 | 1 | $w=2$, $a=20$, $w_q=1$: $G_4(0)\simeq0.036$, $v_{\max}=0.47$ |
+| dos flujos (ancho + estrecho) | 300 | 1 | — |
+| dos flujos + lapso algebraico (`criba_cubica.py`) | 500 | 54 | $w=2$, $w_2=0.2$, $\lambda=0.05$, $a=50$: $\beta(0)=0.083$, $v_{\max}=0.31$ |
+
+(a) no cierra. La parte I §7 (indicio de que $\beta>0$ exige $A_4>0$) queda superada.
+
+## 12. (b) El monopolo con flujo: acción dependiente del tiempo y símbolo principal
+
+**Lagrangiana ADM dependiente del tiempo** (`adm_tiempo_cov.py`). Con $\mathcal N,v,r$ funciones de $(\tau,\rho)$, gauge $h_{\rho\rho}=1$ y $\phi=q\tau$, la forma
+$$L=\mathcal Nr^2\big[A_2+A_3K+A_4(4K_\rho K_\theta+2K_\theta^2)+B_4R^{(3)}\big],\qquad K_\rho=-\frac{v'}{\mathcal N},\quad K_\theta=\frac{\dot r-vr'}{r\mathcal N},$$
+difiere de la covariante en una derivada total: el E-L de la diferencia es $\equiv0$ para $\mathcal N$, $v$ y $r$.
+
+**Estructura** (`monopolo_cubico.py`: operador lineal exacto con perturbaciones $\nu,w,d$).
+- El lapso es algebraico.
+- El desplazamiento entra con $w'$ acoplado a $\nu$.
+- El bloque auxiliar es $\det M_{\rm aux}\simeq-r^2Z^2k^2/\mathcal N^4$, con
+  $$Z=\mathcal N^2\big[rA_{3,\mathcal N}-2r'vQ_{\mathcal N}\big] .$$
+- Con flujo, $Z\neq0$ y la estructura principal ($k\to\infty$) no es la del caso sin flujo: $\det M\simeq k^4P(c)$, con $c=\omega/k$ y $P=P_2c^2+P_1c+P_0$.
+- El símbolo efectivo de $d$ es $\propto P/D$, normalizado como $2A\omega^2-2Bk^2$. La energía en el corte $\tau$ es positiva si $s_2=P_2/D>0$ y $s_0=P_0/D<0$, y el problema es hiperbólico si $P_1^2\ge4P_2P_0$.
+
+**En la garganta** (`simbolo_garganta.py`, `garganta_cubica.py`).
+- $P_1=0$: no hay inclinación.
+- Al imponer las ecuaciones del fondo ($H$, ecuación de $\beta$ y ligadura de momento hasta el orden necesario), **todas las segundas derivadas libres de la teoría se cancelan**. Con $R_k=r^{(k)}(0)$, $V_k=v^{(k)}(0)$ y $Q_0=Q(0)$:
+  $$\tilde\Gamma=\frac{2\mathcal N_0^2}{R_0^3}\Big[Q_0R_0^2V_1\big(R_0^2R_2V_3-V_1(R_0^2R_4+R_2-R_0R_2^2)\big)-2\beta_0(1+R_0R_2)(R_0^2R_4+R_2)\Big],$$
+  $$\hat\Lambda=-\frac{\mathcal N_0}{4R_0^3}\Big[Q_0^2R_0^4V_1^4+2Q_0R_0^3R_2V_1^2\beta_0-4\beta_0^2(1+R_0R_2)^2\Big].$$
+- Monopolo sano en la garganta $\iff \tilde\Gamma>0$ (cinética) y $\hat\Lambda/A_4>0$ (gradiente).
+- Con $A_4<0$, el gradiente exige un flujo fuerte: $|Q_0|V_1^2\gtrsim2\beta_0(1+R_2)$.
+- La cinética exige que el flujo se curve muy cerca de la garganta. Para Ellis, $V_3\lesssim-3V_1$, es decir el máximo del flujo a $\rho\lesssim0.8\,r_0$.
+- El límite sin flujo reproduce §6: $c^2=4\mathcal N_0R_0R_2\beta_{\mathcal N}^2/(A_4\kappa)$ (ver la precisión allí).
+- Comprobación: en el fondo $w=2$, $a=20$, la fórmula da $c^2=-0.0673$, y la evaluación numérica completa del operador da $c=\pm0.2594i$.
+
+**En un punto cualquiera** (`simbolo_general.py`, `simbolo_perfiles.py`; reconstrucción sustituida y $\beta''$ de su EDO):
+$$P_2=\frac{8Q^2r}{\mathcal N'^2}\,\mathfrak B,\qquad \mathfrak B=-2\beta'(rK)'-\frac{Qvr''(r^2W)'}{r}+Q'W\big(r'W-rvr''\big),\qquad W=r^2\Big(\frac vr\Big)',\qquad D=-\frac{4Q^2r^2v^2r''^2}{\mathcal N'^2}.$$
+- **El coeficiente cinético $s_2=-2\mathfrak B/(rv^2r''^2)$ no depende del lapso**: es geometría del fondo, del flujo y de $A_4$.
+- Las rutas "funciones de la teoría" y "perfiles" coinciden a $2\times10^{-12}$ (`verificar_perfiles.py`).
+- Donde el flujo es despreciable ($Z\to0$), la estructura sin flujo de §6 gobierna los números de onda moderados: cinética $\propto r[(Q\dot d)']^2/(Qr')'$, que pide $(Qr')'>0$.
+
+## 13. Reconstrucción y criba (`hiperbolicidad_cubica.py`, `criba_cubica.py`, `criba_masa.py`, `optimiza_masa.py`)
+
+**Dos ejemplos en detalle** (operador completo congelado en 80 puntos, $k=2\times10^3$ y $4\times10^3$):
+
+| fondo | garganta | lejos de la garganta |
+|---|---|---|
+| Ellis, un flujo ($w=2$, $a=20$) | $c=\pm0.26i$: **mal planteado** en $|\rho|\lesssim0.75$ | hiperbólico |
+| Ellis, dos flujos ($w_2=0.2$, $\lambda=0.05$, $a=50$) | $c=\pm0.08$, sano ($\tilde\Gamma=347$, $\hat\Lambda=-234$) | **capa mal planteada** $0.36\lesssim|\rho|\lesssim0.80$: $P_2$ cambia de signo dos veces |
+
+**Criba** (símbolo principal en 420–750 puntos por fondo):
+
+| familia | fondos | $\beta>0$ | hiperbólico en todo $\rho$ | sin fantasma |
+|---|---|---|---|---|
+| Ellis, dos flujos, $A_4$ con pico, lapso algebraico | 500 | 54 | 3 | 0 |
+| cola de energía positiva, $m(r)=M-(M-\tfrac12)r^{-n}$, $A_4\to-1$, lapso con cola $1/\rho$ | 400 | 0 | — | — |
+
+- **Los 3 fondos hiperbólicos de la familia de Ellis** tienen energía positiva en el corte $\tau$ solo en el 34–39 % de los puntos. Lejos, $v\to0$ y $Q\to-2$, de modo que $(Qr')'=-2r''=-2/r^3<0$: la cola de Ellis es exótica y el monopolo tiene allí energía cinética negativa en los dos regímenes ($s_2<0$ y $(Qr')'<0$).
+  - Ahí los conos no están inclinados, así que el corte $\tau$ es espacial para el escalar y para los gravitones, y las energías tienen signos opuestos. Es un fantasma también según el criterio de Babichev et al.
+- **Con cola de energía positiva** (masa de Misner–Sharp creciente hacia fuera y $(r'/\mathcal N)'<0$ lejos), $\beta$ cambia siempre de signo:
+  - o es negativa en la garganta ($\rho\lesssim1$) con $\beta_\infty>0$;
+  - o al revés.
+
+  Es el mecanismo de §5: $K(0)\ge1$ hace que $\beta$ caiga antes de que el flujo la sostenga.
+- Evolución diferencial sobre esa familia (9 parámetros; objetivo $\min\beta/\max|\beta|$):
+  - el mejor valor pasa de $-0.071$ a $-0.043$ en 12 generaciones y a $-0.029$ en 40;
+  - el óptimo se va hacia los bordes de la caja: $A_4$ con un pico cada vez más estrecho ($w_q\to0.24$, límite 0.2) y débil ($a\to2.2$, límite 2), y $\mathcal N(0)\to0.85$ (límite 0.9).
+
+  **No es concluyente**: no se descarta que haya $\beta>0$ con cola de energía positiva fuera de la caja. Si lo hubiera, quedarían por comprobar la hiperbolicidad y el signo cinético.
+
+## 14. Por qué no hay espectro
+
+El criterio de corte de Babichev et al. y el espectro de modos tienen sentido para un problema bien planteado. En los fondos construidos ocurre una de dos cosas:
+- **velocidades imaginarias** en una región: entonces $\mathrm{Im}\,\omega\propto k$ sin cota. Es una inestabilidad de gradiente (mal planteamiento), no un modo con tasa finita, y el espectro no está definido;
+- **energía cinética negativa con conos sin inclinar** en la cola: un fantasma, que ningún cambio de corte arregla.
+
+El operador está listo para un espectro (`monopolo_cubico.py`: coeficientes exactos en $(\nu,w,d)$ con la frecuencia) si aparece un fondo que pase las condiciones locales.
+
+## 15. Conclusiones de la Parte II y siguiente paso
+
+**Establecido.**
+1. Sin término cúbico, la Parte I es concluyente. Con término cúbico y flujo, **no hay no-go algebraico**: (I2) deja que un flujo fuerte pague la garganta, y hay fondos con $G_4>0$ y $A_4<0$ en todo el eje.
+2. La lagrangiana ADM dependiente del tiempo con desplazamiento es exacta, y el símbolo principal del monopolo tiene forma cerrada.
+   - En la garganta depende solo de datos de Taylor ($\tilde\Gamma$, $\hat\Lambda$).
+   - En general, el coeficiente cinético $\mathfrak B$ no depende del lapso.
+   - (I1) liga la positividad de $G_4$ con la condición cinética sin flujo, $(Qr')'>0$.
+3. **Ninguno de los ≈1300 fondos construidos tiene un monopolo localmente sano.** Los mecanismos son dos:
+   - una capa no hiperbólica junto a la garganta, donde $\mathfrak B$ cambia de signo;
+   - una cola exótica con monopolo fantasma; con cola de energía positiva no se ha conseguido $G_4>0$ (no descartado: el óptimo está en el borde de la caja).
+
+**Coherencia con la Fase 2m** (v0.2, vector temporal: el límite de Stückelberg del caso sin flujo). La acción reducida tiene la misma forma que la $T$ de §6, $-\tfrac{2\mathcal G}N\dot d^2+k_2((\mathcal G\dot d/N)')^2$, y la misma regla de signos en la garganta: fantasma monopolar o tensorial.
+
+**No establecido.** No es un teorema: la clase de perfiles es infinito-dimensional. Las condiciones locales (hiperbolicidad, signo cinético en los dos regímenes, $G_4>0$, $(Qr')'>0$ lejos) no se han demostrado incompatibles en general.
+
+**Siguiente paso.**
+- Un teorema combinando (I1) con el signo de $\mathfrak B$. Por ejemplo, $\int\mathfrak B\,\mu$ con un peso que haga aparecer (I1), o la condición de §12 en la garganta junto con $\beta>0$.
+- Si no, dar por cerrada la línea escalar-tensorial de segundo orden con simetría de desplazamiento, con este estado: no-go sin término cúbico, y con él ningún candidato sano. Pasar a redactar el artículo de las Fases 2f–2m.
+- La reducción ADM quíntica sigue pendiente.
 
 ## Archivos
 
@@ -260,7 +397,16 @@ Con las Fases 2l (rotación) y 2m (Proca), que tampoco abren una vía, recomenda
 | `caso_qt.py` | comprobación covariante (chorros exactos, $\psi'=0$) de la estructura ADM, de $T$ y de la ecuación de $\beta$ |
 | `nogo_beta.py` | ecuación de $\beta$ con la fuente del desplazamiento |
 | `reconstruccion_qt.py`, `modo_cero_beta.py`, `modo_cero_beta2.py` | modos cero de $\beta$ en tres familias: siempre con nodos |
-| `beta_cubico.py` | $\beta$ con término cúbico y desplazamiento |
+| `beta_cubico.py` | $\beta$ con término cúbico y desplazamiento ($Q$ constante; superado por la Parte II) |
+| *Parte II* | |
+| `identidad_cubica.py` | identidades (I1) e (I2) de la ecuación de $\beta$ con fuente |
+| `reconstruccion_cubica.py`, `busqueda_cubica.py` | fondos de Ellis con $G_4>0$, $A_4<0$; condición de garganta sana |
+| `adm_tiempo_cov.py` | lagrangiana ADM dependiente del tiempo con desplazamiento frente a la covariante (E-L de la diferencia $\equiv0$) |
+| `monopolo_cubico.py` | operador lineal exacto del monopolo con flujo y reconstrucción del fondo |
+| `simbolo_garganta.py`, `garganta_cubica.py` | símbolo principal en la garganta; $\tilde\Gamma$, $\hat\Lambda$ con el fondo impuesto |
+| `simbolo_general.py`, `simbolo_perfiles.py`, `verificar_perfiles.py` | símbolo en un punto cualquiera; forma de perfiles ($\mathfrak B$, $D$); comprobación entre rutas |
+| `hiperbolicidad_cubica.py` | velocidades características a lo largo del fondo (operador completo congelado) |
+| `criba_cubica.py`, `criba_masa.py`, `optimiza_masa.py` | cribas (Ellis; cola de energía positiva) y evolución diferencial |
 
 ## Reproducibilidad
 
@@ -276,4 +422,14 @@ python nogo_beta.py          # ecuacion de beta
 python caso_qt.py            # comprobacion covariante del caso phi = qt y de la ecuacion de beta (~20 s)
 python adm_t.py              # estructura auxiliar en las variables ADM (chorros, lento)
 python reconstruccion_qt.py; python modo_cero_beta.py; python modo_cero_beta2.py; python beta_cubico.py
+# Parte II
+python identidad_cubica.py; python adm_tiempo_cov.py                 # identidades; ADM con tiempo (segundos)
+python simbolo_garganta.py; python garganta_cubica.py                 # simbolo en la garganta (~10 min)
+python simbolo_general.py; python simbolo_perfiles.py                 # simbolo general (necesita monopolo_cubico.operador)
+python verificar_perfiles.py
+python hiperbolicidad_cubica.py; python hiperbolicidad_cubica.py 2.0 50 1.0 1.0 2.0 0.2 0.05
+python reconstruccion_cubica.py; python busqueda_cubica.py 300
+python criba_cubica.py 500   # ~1 h
+python criba_masa.py 400     # ~1 h
+python optimiza_masa.py 40   # ~40 min
 ```

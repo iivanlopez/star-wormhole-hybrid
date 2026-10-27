@@ -1,0 +1,2 @@
+{'w': 2.0, 'a': 20.0, 'wq': 1.0, 'beta_inf_V1': 1.678, 'positiva': True, 'V0': 0.7719, 'vmax': 0.4682, 'beta0': 0.0709, 'beta_min': 0.0709}
+1 de 72 formas con beta > 0 (G4 > 0) y Q < 0 (A4 < 0)

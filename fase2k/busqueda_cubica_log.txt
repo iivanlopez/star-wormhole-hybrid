@@ -1,0 +1,2 @@
+{'w1': 1.192, 'w2': 5.381, 'lam': 2.372, 'a': 52.61, 'wq': 0.6531, 'B': True, 'V0': 0.2466, 'beta0': 0.009343, 'V1': 0.3156, 'V3': -0.4481, 'Gam': -16.8, 'Lam': -113.9, 'G': False, 'vmax': 0.3549}
+300 formas: beta > 0 en 1; ademas garganta sana (Gam > 0, Lam^ < 0) en 0

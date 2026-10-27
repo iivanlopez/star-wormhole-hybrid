@@ -1,0 +1,4 @@
+fondo en la garganta: {beta2: -(Q0*R0**2*V1**2 + 2*R0*R2*beta0 + 2*beta0)/(2*R0**2), p0: -2*beta0/R0**2}
+Gam (kinetico, con el fondo): 2*N0**2*(Q0*R0**4*R2*V1*V3 - Q0*R0**4*R4*V1**2 + Q0*R0**3*R2**2*V1**2 - Q0*R0**2*R2*V1**2 - 2*R0**3*R2*R4*beta0 - 2*R0**2*R4*beta0 - 2*R0*R2**2*beta0 - 2*R2*beta0)/R0**3
+Lam^ (gradiente; B > 0 <=> Lam^/A4 > 0): -N0*(Q0**2*R0**4*V1**4 + 2*Q0*R0**3*R2*V1**2*beta0 - 4*R0**2*R2**2*beta0**2 - 8*R0*R2*beta0**2 - 4*beta0**2)/(4*R0**3)
+a3_N - 4 V1 a4 R2/(N0 R0 N2) = 0

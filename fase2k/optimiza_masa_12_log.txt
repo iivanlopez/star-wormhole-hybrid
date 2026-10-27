@@ -1,0 +1,13 @@
+[   118 s] mejor objetivo (-min/max) = +0.0713
+[   170 s] mejor objetivo (-min/max) = +0.0713
+[   223 s] mejor objetivo (-min/max) = +0.0537
+[   275 s] mejor objetivo (-min/max) = +0.0537
+[   327 s] mejor objetivo (-min/max) = +0.0537
+[   380 s] mejor objetivo (-min/max) = +0.0537
+[   432 s] mejor objetivo (-min/max) = +0.0537
+[   484 s] mejor objetivo (-min/max) = +0.0537
+[   537 s] mejor objetivo (-min/max) = +0.0537
+[   589 s] mejor objetivo (-min/max) = +0.0537
+[   641 s] mejor objetivo (-min/max) = +0.0430
+[   694 s] mejor objetivo (-min/max) = +0.0430
+optimo: {'M': np.float64(1.6781453834524986), 'n': np.float64(0.391741472223049), 'MN': np.float64(3.4508058813313984), 'wn': np.float64(6.9386025690446855), 'w': np.float64(3.946942535548247), 'w2': np.float64(0.6811526107566112), 'lam': np.float64(0.09821867520152033), 'a': np.float64(3.349282796963664), 'wq': np.float64(0.2950708415916288)}  min beta/max|beta| = -0.04304862248566614

@@ -1,0 +1,4 @@
+[   1.7 s] lagrangiana covariante
+[   2.5 s] E-L de L_cov - L_ADM respecto de Nc: 0
+[   3.2 s] E-L de L_cov - L_ADM respecto de v: 0
+[   4.2 s] E-L de L_cov - L_ADM respecto de r: 0
