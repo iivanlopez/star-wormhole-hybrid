@@ -141,6 +141,10 @@ Las perturbaciones estáticas (independientes de $t$, que es lo mismo que de $\t
 - Por tanto: **o $\psi'\equiv0$ ($\phi=qt$) o $A_4\equiv0$** (coeficiente de $K^2-K_{ij}^2$ nulo, el caso degenerado).
 - El escalar con $\psi'\neq0$ que "fluye" por la garganta necesita el término cúbico.
 
+**La prueba $d=N$ y la ligadura de momento.** Linealizando $E_v$ con $\nu=0$ ($\delta X=0$) y usando la ligadura del fondo (simbólico, `energia_estatica.py`):
+$$\delta E_v=-2v\big[Q\,r^2(d/r)'\big]'-2r(Qr')'\,w .$$
+La prueba de las Fases 2g–2j ($w=0$, $d=Nf$) la viola salvo que $v=0$ o $N/r$ sea constante. Si se corrige con $w\neq0$ (cuando $(Qr')'\neq0$), aparece la contribución $+S_w^2/2|k_w|$ de los auxiliares, que depende de las funciones libres.
+
 ## 5. No-go para $\phi=qt$ y para $G_3=0$ (`nogo_beta.py`, `caso_qt.py`, `reconstruccion_qt.py`, `modo_cero_beta*.py`)
 
 **La ecuación de $\beta$.** Eliminando $p$ entre $H=0$ y $E_r$, y usando la ligadura de momento (simbólico, exacto):
@@ -250,9 +254,8 @@ Con las Fases 2l (rotación) y 2m (Proca), que tampoco abren una vía, recomenda
 | `verificar_t.py` | stealth de Babichev–Charmousis y modos gauge exactos (`G5`: quíntica) |
 | `estructura_t.py` | pares de chorros de la acción cuadrática en el gauge unitario (variables estáticas) |
 | `adm_t.py` | ecuaciones en las variables ADM del corte: lapso y desplazamiento algebraicos |
-| `prueba_dN_t.py` | la prueba $d=N$ ($n=\tilde\beta=h=0$) frente a las ligaduras con $\psi'\neq0$ |
 | `adm_estatico.py` | lagrangiana estática cerrada; E-L de la diferencia con la covariante $\equiv0$; Painlevé–Gullstrand |
-| `energia_estatica.py` | familia $\delta X=0$: $-L_2=-2\beta r^2[(d/r)']^2+$ derivada total; $\delta E_{\mathcal N}=-4\beta_{\mathcal N}\mathcal D[d]$ |
+| `energia_estatica.py` | familia $\delta X=0$: $-L_2=-2\beta r^2[(d/r)']^2+$ derivada total; $\delta E_{\mathcal N}=-4\beta_{\mathcal N}\mathcal D[d]$; ligadura de momento linealizada |
 | `adm_dinamico.py` | acción cuadrática dependiente del tiempo con $v=0$; E-L de la diferencia $\equiv0$ |
 | `caso_qt.py` | comprobación covariante (chorros exactos, $\psi'=0$) de la estructura ADM, de $T$ y de la ecuación de $\beta$ |
 | `nogo_beta.py` | ecuación de $\beta$ con la fuente del desplazamiento |

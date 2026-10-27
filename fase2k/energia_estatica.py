@@ -88,4 +88,12 @@ rest = sp.expand((-L2.subs(w, 0) + 2 * be * r ** 2 * D(d / r) ** 2).subs(p, p_so
 A_ = sp.Symbol("A_")
 print("    resto de -L2(0,0,d) (con E_r):", sp.factor(sp.simplify(rest)), flush=True)
 RES["resto_v"] = str(sp.factor(sp.simplify(rest)))
+# ligadura de momento linealizada a nu = 0 (con E_v de fondo): dE_v = -2 v (Q r^2 (d/r)')' - 2 r (Q r')' w;
+# la prueba d = N f, w = 0 de las Fases 2g-2j la viola salvo que N/r sea constante (o v = 0)
+a3p_sol = sp.solve(Ev, D(a3))[0]
+lig_v = sp.simplify(sp.expand(dEv.subs(D(a3), a3p_sol).doit().subs(D(a3, 2), D(a3p_sol)).doit())
+                    - sp.expand(-2 * v * D(Q * r ** 2 * D(d / r)) - 2 * r * D(Q * D(r)) * w))
+RES["ligadura_momento_nu0"] = str(lig_v)
+print(f"(3) dE_v(nu = 0) + 2 v (Q r^2 (d/r)')' + 2 r (Q r')' w = {lig_v}", flush=True)
+assert lig_v == 0
 json.dump(RES, open(os.path.join(AQUI, "resultados", "energia_estatica.json"), "w"), indent=1)
