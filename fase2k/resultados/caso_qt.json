@@ -1,0 +1,23 @@
+{
+ "0": {
+  "fondo": true,
+  "E_n": true,
+  "E_B": true,
+  "E_d_cinetico": true,
+  "ecuacion_beta": true
+ },
+ "1": {
+  "fondo": true,
+  "E_n": true,
+  "E_B": true,
+  "E_d_cinetico": true,
+  "ecuacion_beta": true
+ },
+ "2": {
+  "fondo": true,
+  "E_n": true,
+  "E_B": true,
+  "E_d_cinetico": true,
+  "ecuacion_beta": true
+ }
+}

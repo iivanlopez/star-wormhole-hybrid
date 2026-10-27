@@ -1,0 +1,5 @@
+{
+ "resto_v0": "0",
+ "resto_v": "-(-Q(rho)*r(rho)**2*v(rho)*Derivative(v(rho), (rho, 2)) - Q(rho)*r(rho)**2*Derivative(v(rho), rho)**2 + Q(rho)*r(rho)*v(rho)**2*Derivative(r(rho), (rho, 2)) + Q(rho)*v(rho)**2*Derivative(r(rho), rho)**2 - r(rho)**2*v(rho)*Derivative(Q(rho), rho)*Derivative(v(rho), rho) + r(rho)*v(rho)**2*Derivative(Q(rho), rho)*Derivative(r(rho), rho))/(2*r(rho)**2)",
+ "Ev": "-(2*Q(rho)*v(rho)*Derivative(r(rho), (rho, 2)) - r(rho)*Derivative(a3(rho), rho) + 2*v(rho)*Derivative(Q(rho), rho)*Derivative(r(rho), rho))*r(rho)"
+}

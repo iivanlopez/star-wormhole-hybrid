@@ -1,0 +1,8 @@
+{
+ "EL_diferencia": {
+  "nu": "0",
+  "w": "0",
+  "d": "0"
+ },
+ "Ev_fondo": "R(rho)**2*Derivative(a3(rho), rho)"
+}

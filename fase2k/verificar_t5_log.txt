@@ -1,0 +1,3 @@
+1. stealth Schwarzschild (Babichev-Charmousis), 2 signos x 2 puntos: {'A': '5.3e-51', 'b': '5.3e-51', 'B': '1.3e-51', 'C': '8.4e-53', 'p': '5.0e-52', 'J': '6.7e-52'}
+   control (psi' x 1.1): residuo maximo 1.87e-01 (no nulo)
+2. modos gauge xi^t, xi^l: las 5 ecuaciones lineales se anulan exactamente en 2 chorros de la capa de masas

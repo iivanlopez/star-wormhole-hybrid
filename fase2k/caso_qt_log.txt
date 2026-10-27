@@ -1,0 +1,3 @@
+chorro 0: (1) fondo, J, E_b = 0; (2) E_n sin iw y parte en d = -4 beta_N D[d]/N: True; (3) E_B: True; (4) E_d cinetico: True; (5) ecuacion de beta: True
+chorro 1: (1) fondo, J, E_b = 0; (2) E_n sin iw y parte en d = -4 beta_N D[d]/N: True; (3) E_B: True; (4) E_d cinetico: True; (5) ecuacion de beta: True
+chorro 2: (1) fondo, J, E_b = 0; (2) E_n sin iw y parte en d = -4 beta_N D[d]/N: True; (3) E_B: True; (4) E_d cinetico: True; (5) ecuacion de beta: True

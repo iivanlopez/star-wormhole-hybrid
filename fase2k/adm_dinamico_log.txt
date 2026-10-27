@@ -1,0 +1,2 @@
+Euler-Lagrange de L2 - prediccion: {'nu': 0, 'w': 0, 'd': 0}
+ligadura de momento del fondo (orden e): R(rho)**2*Derivative(a3(rho), rho)

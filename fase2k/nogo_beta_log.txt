@@ -1,0 +1,2 @@
+E_r con p de H, normalizada:  r[(beta'/r)' + K beta/r^3] + resto;  resto(v = 0) = 0
+resto con v != 0 (ligadura de momento usada): -(-Q(rho)*r(rho)**2*v(rho)*Derivative(v(rho), (rho, 2)) - Q(rho)*r(rho)**2*Derivative(v(rho), rho)**2 + Q(rho)*r(rho)*v(rho)**2*Derivative(r(rho), (rho, 2)) + Q(rho)*v(rho)**2*Derivative(r(rho), rho)**2 - r(rho)**2*v(rho)*Derivative(Q(rho), rho)*Derivative(v(rho), rho) + r(rho)*v(rho)**2*Derivative(Q(rho), rho)*Derivative(r(rho), rho))/(2*r(rho)**2)

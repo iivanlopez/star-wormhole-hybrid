@@ -1,0 +1,46 @@
+[    2.2 s] geometria
+[   15.4 s] lagrangiana en chorros: 2940 operaciones (independiente de theta: 1.1e-165)
+[   21.4 s] derivadas primeras
+[   59.9 s] primeras derivadas en el fondo
+[   61.3 s] ecuaciones de fondo: A: 254, b: 191, B: 242, C: 425, p: 993, J: 179
+[   61.9 s] (a) identidad de Noether del fondo (l): se anula identicamente
+[   62.5 s] (b) E_p = -D_l J identica;  qt E_p + D_l(e^(2Phi) E_b) = 0
+[   62.6 s] (b') e^(2Phi) E_b - qt J = 0
+[   63.0 s] (c) limite qt = 0: ecuaciones del fondo identicas a las de la fase de referencia
+[  320.8 s]    hessiano: fila 1/29
+[  350.0 s]    hessiano: fila 2/29
+[  409.5 s]    hessiano: fila 3/29
+[  409.5 s]    hessiano: fila 4/29
+[  409.5 s]    hessiano: fila 5/29
+[  410.0 s]    hessiano: fila 6/29
+[  689.6 s]    hessiano: fila 7/29
+[  713.2 s]    hessiano: fila 8/29
+[  737.2 s]    hessiano: fila 9/29
+[  737.2 s]    hessiano: fila 10/29
+[  737.5 s]    hessiano: fila 11/29
+[  737.5 s]    hessiano: fila 12/29
+[  894.7 s]    hessiano: fila 13/29
+[  920.1 s]    hessiano: fila 14/29
+[  930.9 s]    hessiano: fila 15/29
+[  931.0 s]    hessiano: fila 16/29
+[  931.0 s]    hessiano: fila 17/29
+[  931.0 s]    hessiano: fila 18/29
+[  958.6 s]    hessiano: fila 19/29
+[  965.4 s]    hessiano: fila 20/29
+[  971.8 s]    hessiano: fila 21/29
+[  971.9 s]    hessiano: fila 22/29
+[  971.9 s]    hessiano: fila 23/29
+[  971.9 s]    hessiano: fila 24/29
+[ 1009.5 s]    hessiano: fila 25/29
+[ 1030.7 s]    hessiano: fila 26/29
+[ 1031.1 s]    hessiano: fila 27/29
+[ 1031.5 s]    hessiano: fila 28/29
+[ 1031.5 s]    hessiano: fila 29/29
+[ 1033.5 s] accion cuadratica: 158 entradas no nulas del hessiano, 1608 terminos
+[ 1034.1 s] (c') limite qt = 0: accion cuadratica identica a la de la fase de referencia
+[ 1045.6 s] ecuacion lineal E_a: 310 terminos
+[ 1056.0 s] ecuacion lineal E_be: 270 terminos
+[ 1065.7 s] ecuacion lineal E_c: 297 terminos
+[ 1074.5 s] ecuacion lineal E_d: 583 terminos
+[ 1109.8 s] ecuacion lineal E_q: 1280 terminos
+[ 1109.8 s] guardado resultados/t_simbolico.pkl
