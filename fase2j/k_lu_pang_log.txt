@@ -1,0 +1,5 @@
+K en chorros genericos de la capa de masas: [0.10326183621895811, -2.045250805224299, 0.22310456228115622, 0.4927547803875922]
+Lu-Pang al 0.1 M 1 r 2.7 (40 cifras): K = 4.5918e-41, P = -0.0582951143422
+Lu-Pang al 0.5 M 1 r 4.1 (40 cifras): K = 4.5918e-41, P = -0.0154679010264
+Lu-Pang al 0.9 M 1 r 7.7 (40 cifras): K = 0.0, P = -0.000783833214781
+Lu-Pang al 0.5 M 2 r 9 (40 cifras): K = 0.0, P = -0.00233847835836

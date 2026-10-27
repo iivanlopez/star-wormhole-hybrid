@@ -1,0 +1,11 @@
+{
+ "noether_fondo": "0 (identica)",
+ "limite_cuartico_fondo": "identico a la Fase 2f",
+ "lu_pang": {
+  "A": 3.156845180430948e-41,
+  "B": 1.7577887936490505e-41,
+  "C": 5.3809861030072976e-43,
+  "p": 1.4349296274686127e-41
+ },
+ "limite_cuartico_L2": "identica a la Fase 2f"
+}
