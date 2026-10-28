@@ -1,4 +1,4 @@
-C:\Users\ivanl\Desktop\gusanos\fase2g\criba.py:156: RuntimeWarning: invalid value encountered in sqrt
+fase2g/criba.py:156: RuntimeWarning: invalid value encountered in sqrt
   r = N * np.sqrt(u)
 1200 muestras: 820 fondos validos; errores 0
   E1 >= 0: 31

@@ -20,11 +20,13 @@
 \newcommand{\Ncal}{\mathcal N}
 \newcommand{\dd}{\mathrm d}
 \newcommand{\B}{\mathfrak B}
+\setlength{\emergencystretch}{3em}
 
 \title{El déficit $d=N$ y el fantasma de la garganta:\\
 un mecanismo común para la inestabilidad monopolar de los agujeros de gusano\\
 en teorías escalares y vectoriales--tensoriales de segundo orden}
-\author{Iván\thanks{\href{https://github.com/iivanlopez/gusanos}{github.com/iivanlopez/gusanos}. Cálculos simbólicos y numéricos realizados con asistencia de Claude (Anthropic).}}
+\author{Iván López Martín\\[2pt]
+\small Investigador independiente\thanks{Código y datos: \href{https://github.com/iivanlopez/gusanos}{github.com/iivanlopez/gusanos}. Cálculos simbólicos y numéricos realizados con asistencia de Claude (Anthropic).}}
 \date{27 de octubre de 2026}
 
 \begin{document}
@@ -72,7 +74,10 @@ con $G_i(\phi,X)$ y $F_4(\phi,X)$, y su extensión quíntica de Horndeski con $G
 $\G$ es el coeficiente cinético del sector impar~\cite{KMS1} (con $\G>0$, el sector impar no tiene fantasmas) y también, como veremos, el de las ondas tensoriales en el corte $\phi=$~cte.
 
 \paragraph{Vector.} La Proca generalizada cuártica~\cite{Heisenberg},
-$\mathcal L=G_2(X,F)+G_3(X)\nabla_\mu A^\mu+G_4(X)R+G_{4X}[(\nabla_\mu A^\mu)^2-\nabla_\rho A_\sigma\nabla^\sigma A^\rho]$, con $A_\mu=(A_0,A_1,0,0)$, $X=-\tfrac12A_\mu A^\mu$ y $F=-\tfrac14F_{\mu\nu}F^{\mu\nu}$. Aquí $\G=G_4-2XG_{4X}$.
+\begin{equation}
+\mathcal L=G_2(X,F)+G_3(X)\nabla_\mu A^\mu+G_4(X)R+G_{4X}\big[(\nabla_\mu A^\mu)^2-\nabla_\rho A_\sigma\nabla^\sigma A^\rho\big],
+\end{equation}
+con $A_\mu=(A_0,A_1,0,0)$, $X=-\tfrac12A_\mu A^\mu$ y $F=-\tfrac14F_{\mu\nu}F^{\mu\nu}$. Aquí $\G=G_4-2XG_{4X}$.
 
 \paragraph{Maquinaria.} Para cada teoría derivamos simbólicamente la acción reducida esférica y su desarrollo cuadrático $l=0$ con funciones de la teoría generales, (para el sector par de Horndeski, véase~\cite{KMS2}) y lo comprobamos con identidades de Noether exactas en aritmética racional, con modos gauge exactos sobre chorros en la capa de masas y con soluciones conocidas: Schwarzschild, Reissner--Nordström, Kerr lineal, Hartle--Thorne, el agujero negro de Lü--Pang~\cite{LuPang} a 40 cifras y el agujero negro ``stealth'' de Babichev--Charmousis~\cite{BabichevCharmousis} a 50 cifras.
 
@@ -259,13 +264,13 @@ El Lema~\ref{lem:cola} excluye, con cualesquiera $A_4$ y lapso, todas las colas 
 
 \paragraph{Evidencia numérica.} Reconstruimos fondos eligiendo $(r,v,Q,\Ncal)$ y resolviendo~\eqref{eq:betafuente} para la solución par acotada, y evaluamos el símbolo principal en 420--750 puntos por fondo:
 \begin{center}
-\begin{tabular}{lccc}
+\small\begin{tabular}{p{6.2cm}ccc}
 \toprule
 familia & fondos & $\beta>0$ & localmente sanos \\
 \midrule
 Ellis, uno o dos flujos, $A_4$ con pico (2k) & 872 & 56 & 0 \\
-cola de energía positiva, $\varepsilon>0$ en todo el eje (2k) & 400 (+ optimización) & 0 & 0 \\
-núcleo de Ellis y cola de energía positiva (2n) & 600 (+ 2160 en optimización) & 34 & 0 \\
+cola de energía positiva, $\varepsilon>0$ en todo el eje (2k) & 400 (+ optim.) & 0 & 0 \\
+núcleo de Ellis y cola de energía positiva (2n) & 600 (+ 2160 optim.) & 34 & 0 \\
 \bottomrule
 \end{tabular}
 \end{center}

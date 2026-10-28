@@ -14,3 +14,12 @@ ENV/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Notas privadas de publicacion (no forman parte de la reproduccion)
+fase2n/articulo/PUBLICAR.md
+
+# Intermedios de LaTeX
+*.aux
+*.log
+*.toc
+*.out
