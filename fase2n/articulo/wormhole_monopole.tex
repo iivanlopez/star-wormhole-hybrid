@@ -26,7 +26,7 @@
 a common mechanism for the monopole instability of wormholes\\
 in second-order scalar- and vector-tensor theories}
 \author{Iván López Martín\\[2pt]
-\small Independent researcher\thanks{Code and data: \href{https://github.com/iivanlopez/gusanos}{github.com/iivanlopez/gusanos}. Symbolic and numerical computations were carried out with the assistance of Claude (Anthropic).}}
+\small Independent researcher\thanks{Code and data: \href{https://github.com/iivanlopez/star-wormhole-hybrid}{github.com/iivanlopez/star-wormhole-hybrid}. Symbolic and numerical computations were carried out with the assistance of Claude (Anthropic).}}
 \date{October 2026}
 
 \begin{document}
@@ -39,7 +39,6 @@ $E[N]=-2\int N^3\G\,[(\ln r/N)']^2\,\dd\ell$, with no free functions, where $\G$
 
 \tableofcontents
 
-%======================================================================
 \section{Introduction}
 
 A static traversable wormhole requires, in general relativity (GR), matter violating the null energy condition at the throat~\cite{MorrisThorne}. The canonical example, the Ellis--Bronnikov throat~\cite{Ellis,Bronnikov} supported by a phantom scalar, is unstable in the radial sector~\cite{GonzalezGuzmanSarbach}. Second-order scalar-tensor theories offer an alternative: the null-condition violation may be produced by a healthy scalar, or by a curvature coupling as in Einstein--scalar--Gauss--Bonnet~\cite{KKK,Canate}. In Horndeski theory, however, there are no static, spherically symmetric, asymptotically flat throats free of ghosts and gradient instabilities~\cite{Rubakov,EvseevMelichev}. The proof relies on a structure that ceases to exist beyond Horndeski~\cite{Franciolini}, and Mironov, Rubakov and Volkova (MRV) constructed throats in the quartic theory of Gleyzes--Langlois--Piazza--Vernizzi (GLPV)~\cite{GLPV} that satisfy the high-energy conditions in both parity sectors~\cite{MRV1,MRV2,MRV3}. The monopole sector has been treated as one more part of the even sector, and the complete analysis of Mironov and Volkova~\cite{MironovVolkova} assumes that it gives no additional conditions.
@@ -58,7 +57,6 @@ The natural ways out (rotation, charge, matter, the quintic term, exact throats 
 \end{equation}
 with $\ell\in\mathbb R$ the proper length, a throat at $\ell=0$ ($r'(0)=0$, $r''(0)>0$) and $r\to\infty$, $N\to1$ at both ends. The $l=0$ perturbations are $\delta g_{tt}=-2N^2a$, $\delta g_{t\ell}=\beta$, $\delta g_{\ell\ell}=2c$, $\delta r=d$.
 
-%======================================================================
 \section{Theories and structure of the monopole}\label{sec:framework}
 
 \paragraph{Scalar.} Quartic GLPV theory~\cite{GLPV,Kobayashi},
@@ -88,7 +86,6 @@ L_2=-F\,W+L_{\rm rest}(c,d),\qquad F=N^2a'+\dot\beta,\qquad W=\gamma c+\alpha_1d
 \end{equation}
 The lapse and shift enter only through the multiplier $F$, which imposes the momentum constraint $W=0$; $c$ is auxiliary; after eliminating it a single field $d$ remains, with $S_{\rm red}=\int\dd t\,\dd\ell\,[K\dot d^2-Pd'^2-Ud^2]$. The identity $\alpha_0=-\Phi'\alpha_1$ is exact in the quartic and in the quintic theory.
 
-%======================================================================
 \section{Radial field: the $d=N$ deficit}\label{sec:radial}
 
 \begin{theorem}[monopole deficit; Phases 2g, 2j, 2m]\label{thm:dN}
@@ -114,7 +111,6 @@ The Rayleigh quotient contains neither $G_2$, $G_3$ nor the normalization of the
 
 \paragraph{Frame invariance.} With a static scalar, a disformal transformation $\bar g_{\mu\nu}=C(X)g_{\mu\nu}+D(X)\phi_\mu\phi_\nu$ leaves the trial function invariant ($\delta X=0$ and the lapse does not change), so its energy is the same in both frames (Phase~2j). This carries the theorem over to the exact Bakopoulos--Charmousis--Kanti (BCK) throats~\cite{BCK}, built by disformal transformation from the Lü--Pang black hole (\S\ref{sec:BCK}).
 
-%======================================================================
 \section{Temporal field: the throat ghost}\label{sec:temporal}
 
 If the scalar depends linearly on time, $\phi=qt+\psi(\ell)$, the metric can be static in shift-symmetric theories~\cite{BabichevCharmousis}. Unitary gauge then fixes the \emph{time}, and the structure~\eqref{eq:structure} is lost: the lapse and shift of the slicing $\phi=$~const become algebraic auxiliaries with their own quadratic terms, and the trial function $d=N$ no longer satisfies the constraints. The same happens with the temporal component $A_0$ of a vector, which in Stückelberg language is a $\dot\pi$.
@@ -189,7 +185,6 @@ For the scalar, $Q=2A_4/N=-2\G/N$ turns~\eqref{eq:Tqt} into~\eqref{eq:Tcommon} w
 
 With $G_4=1$, $(Qr')'\propto\rho+p$ is the null-condition combination, and~\eqref{eq:Tcommon} is the kinetic energy of a fluid: the theorem is the general version of ``phantom fluid $\Rightarrow$ ghost''. The refinement given by the principal symbol at the throat (Phase~2k \S12) is that, with $\G(0)>0$, either the radial speeds are imaginary (ill-posed problem) or the whole sector has the opposite sign to the gravitons. With untilted causal cones at the throat, the slicing criterion of Babichev et al.~\cite{BCEL1,BCEL2} does not avoid it.
 
-%======================================================================
 \section{Ways out that do not work}\label{sec:exits}
 
 \subsection{Charge and slow rotation}
@@ -217,7 +212,6 @@ $E_m=C^2N[\tilde p_t(r'^2+rr'')+\tilde\rho\,r^2N''/(2N)]$ \emph{without any elas
 
 In the frame of the seed (the exterior of the Lü--Pang black hole, doubled), $E[N]<0$ for all nine parameter sets tested ($-0.17$ to $-0.53$ in units of $M$), with $\G\ge1$. Furthermore, the kinetic coefficient of the monopole vanishes identically, $K\equiv0$, on that solution (not on generic quintic backgrounds), and $P<0$ in some region: the BCK monopole is strongly coupled and linear analysis does not apply.
 
-%======================================================================
 \section{The open case: cubic galileon with flux}\label{sec:cubic}
 
 With $G_3\neq0$ and $\psi'\neq0$ the momentum constraint allows $v\neq0$ with $A_4\neq0$, and~\eqref{eq:beta} acquires a source:
@@ -280,7 +274,6 @@ The backgrounds fail either through a non-hyperbolic layer next to the throat (w
 Every static, symmetric, asymptotically flat throat of the cubic galileon with flux in shift-symmetric quartic GLPV theory has an ill-posed monopole or one with a ghost.
 \end{conjecture}
 
-%======================================================================
 \section{Discussion}\label{sec:discussion}
 
 \paragraph{The mechanism.} In both cases the cause is the two-ended topology. With a radial field, the throat pays with $\sigma=(\ln r/N)'\neq0$: the ratio $r/N$ has to grow towards both sides, and the trial function $d=N$ turns this into negative energy weighted by the same $\G$ that makes the odd sector healthy. With a temporal field, the integrated Sturm--Liouville potential of~\eqref{eq:beta}, $\int(1+r'^2)/r^3$, is positive, and the flaring-out $r''(0)>0$ ties the sign of the kinetic energy to that of $-\G(0)$. No term of the theory can compensate the former (it contains no free functions); the latter can only be compensated by flipping the tensor sector.
@@ -291,7 +284,6 @@ Every static, symmetric, asymptotically flat throat of the cubic galileon with f
 
 \paragraph{Consequence for the star--throat hybrid.} The solar throat is extremely weak-field ($M/r_0\sim10^{-6}$): by Theorem~\ref{thm:dN} it has a tachyon with growth time $\sim\sqrt{Mr_0}$, of milliseconds, and the matter of the star does not stop it.
 
-%======================================================================
 \section{Conclusions}
 
 \begin{enumerate}
@@ -331,7 +323,7 @@ All computations are in the repository~\cite{repo}. The symbolic machinery and t
 
 \bibitem{MironovVolkova} S. Mironov and V. Volkova, \emph{Complete stability for spherically symmetric backgrounds in beyond Horndeski theory}, \href{https://arxiv.org/abs/2404.06297}{arXiv:2404.06297}.
 
-\bibitem{repo} \emph{gusanos: star--wormhole hybrid} (2026), \url{https://github.com/iivanlopez/gusanos}.
+\bibitem{repo} \emph{star-wormhole-hybrid: code and data} (2026), \url{https://github.com/iivanlopez/star-wormhole-hybrid}.
 
 \bibitem{Kobayashi} T. Kobayashi, \emph{Horndeski theory and beyond: a review}, Rept. Prog. Phys. \textbf{82} (2019) 086901, \href{https://arxiv.org/abs/1901.07183}{arXiv:1901.07183}.
 

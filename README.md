@@ -1,4 +1,4 @@
-# gusanos: monopole instability of wormhole throats
+# star-wormhole-hybrid: monopole instability of wormhole throats
 
 Code, data and reports accompanying the paper
 

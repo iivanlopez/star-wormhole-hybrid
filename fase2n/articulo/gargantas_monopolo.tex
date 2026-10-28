@@ -26,7 +26,7 @@
 un mecanismo común para la inestabilidad monopolar de los agujeros de gusano\\
 en teorías escalares y vectoriales--tensoriales de segundo orden}
 \author{Iván López Martín\\[2pt]
-\small Investigador independiente\thanks{Código y datos: \href{https://github.com/iivanlopez/gusanos}{github.com/iivanlopez/gusanos}. Cálculos simbólicos y numéricos realizados con asistencia de Claude (Anthropic).}}
+\small Investigador independiente\thanks{Código y datos: \href{https://github.com/iivanlopez/star-wormhole-hybrid}{github.com/iivanlopez/star-wormhole-hybrid}. Cálculos simbólicos y numéricos realizados con asistencia de Claude (Anthropic).}}
 \date{27 de octubre de 2026}
 
 \begin{document}
@@ -39,7 +39,6 @@ $E[N]=-2\int N^3\G\,[(\ln r/N)']^2\,\dd\ell$, sin funciones libres, donde $\G$ e
 
 \tableofcontents
 
-%======================================================================
 \section{Introducción}
 
 Un agujero de gusano atravesable estático necesita, en relatividad general (RG), materia que viole la condición de energía nula en la garganta~\cite{MorrisThorne}. El ejemplo canónico, la garganta de Ellis--Bronnikov~\cite{Ellis,Bronnikov} sostenida por un escalar fantasma, es inestable en el sector radial~\cite{GonzalezGuzmanSarbach}. Las teorías escalares--tensoriales de segundo orden ofrecen una alternativa: la violación de la condición nula puede producirla un escalar sano, o un acoplo a la curvatura como en Einstein--escalar--Gauss--Bonnet~\cite{KKK,Canate}. En Horndeski, sin embargo, no hay gargantas estáticas, esféricas y asintóticamente planas libres de fantasmas e inestabilidades de gradiente~\cite{Rubakov,EvseevMelichev}. La demostración se apoya en una estructura que deja de existir más allá de Horndeski~\cite{Franciolini}, y Mironov, Rubakov y Volkova (MRV) construyeron gargantas en la teoría cuártica de Gleyzes--Langlois--Piazza--Vernizzi (GLPV)~\cite{GLPV} que cumplen las condiciones de alta energía en los dos sectores de paridad~\cite{MRV1,MRV2,MRV3}. El sector monopolar se ha tratado como uno más del sector par, y el análisis completo de Mironov y Volkova~\cite{MironovVolkova} supone que no da condiciones adicionales.
@@ -58,7 +57,6 @@ Las salidas naturales (rotación, carga, materia, el término quíntico, gargant
 \end{equation}
 con $\ell\in\mathbb R$ la longitud propia, una garganta en $\ell=0$ ($r'(0)=0$, $r''(0)>0$) y $r\to\infty$, $N\to1$ en los dos extremos. Las perturbaciones $l=0$ son $\delta g_{tt}=-2N^2a$, $\delta g_{t\ell}=\beta$, $\delta g_{\ell\ell}=2c$, $\delta r=d$.
 
-%======================================================================
 \section{Teorías y estructura del monopolo}\label{sec:marco}
 
 \paragraph{Escalar.} La GLPV cuártica~\cite{GLPV,Kobayashi},
@@ -88,7 +86,6 @@ L_2=-F\,W+L_{\rm rest}(c,d),\qquad F=N^2a'+\dot\beta,\qquad W=\gamma c+\alpha_1d
 \end{equation}
 El lapso y el desplazamiento entran solo a través del multiplicador $F$, que impone la ligadura de momento $W=0$; $c$ es auxiliar; tras eliminarla queda un único campo $d$ con $S_{\rm red}=\int\dd t\,\dd\ell\,[K\dot d^2-Pd'^2-Ud^2]$. La identidad $\alpha_0=-\Phi'\alpha_1$ es exacta en la cuártica y en la quíntica.
 
-%======================================================================
 \section{Campo radial: el déficit $d=N$}\label{sec:radial}
 
 \begin{teorema}[déficit del monopolo; Fases 2g, 2j, 2m]\label{teo:dN}
@@ -114,7 +111,6 @@ El cociente de Rayleigh no contiene $G_2$, $G_3$ ni la normalización del escala
 
 \paragraph{Invariancia de marco.} Con escalar estático, una transformación disforme $\bar g_{\mu\nu}=C(X)g_{\mu\nu}+D(X)\phi_\mu\phi_\nu$ deja invariante la prueba ($\delta X=0$ y el lapso no cambia), de modo que su energía es la misma en los dos marcos (Fase~2j). Esto lleva el teorema a las gargantas exactas de Bakopoulos--Charmousis--Kanti (BCK)~\cite{BCK}, construidas por transformación disforme a partir del agujero negro de Lü--Pang (\S\ref{sec:BCK}).
 
-%======================================================================
 \section{Campo temporal: el fantasma de la garganta}\label{sec:temporal}
 
 Si el escalar depende linealmente del tiempo, $\phi=qt+\psi(\ell)$, la métrica puede ser estática en teorías con simetría de desplazamiento~\cite{BabichevCharmousis}. El gauge unitario fija entonces el \emph{tiempo}, y la estructura~\eqref{eq:estructura} se pierde: el lapso y el desplazamiento del corte $\phi=$~cte pasan a ser auxiliares algebraicos, con términos cuadráticos propios, y la prueba $d=N$ deja de cumplir las ligaduras. Lo mismo ocurre con la componente temporal $A_0$ de un vector, que en el lenguaje de Stückelberg es un $\dot\pi$.
@@ -189,7 +185,6 @@ Para el escalar, $Q=2A_4/N=-2\G/N$ transforma~\eqref{eq:Tqt} en~\eqref{eq:Tcomun
 
 Con $G_4=1$, $(Qr')'\propto\rho+p$ es la combinación de la condición nula, y~\eqref{eq:Tcomun} es la energía cinética de un fluido: el teorema es la versión general de ``fluido fantasma $\Rightarrow$ fantasma''. La precisión del símbolo principal en la garganta (Fase~2k \S12) es que, con $\G(0)>0$, o las velocidades radiales son imaginarias (problema mal planteado) o el sector entero tiene el signo cambiado frente a los gravitones. Con conos causales sin inclinar en la garganta, el criterio de corte de Babichev et al.~\cite{BCEL1,BCEL2} no lo evita.
 
-%======================================================================
 \section{Las salidas que no funcionan}\label{sec:salidas}
 
 \subsection{Carga y rotación lenta}
@@ -217,7 +212,6 @@ $E_m=C^2N[\tilde p_t(r'^2+rr'')+\tilde\rho\,r^2N''/(2N)]$ \emph{sin ningún mód
 
 En el marco de la semilla (el exterior del agujero negro de Lü--Pang, duplicado), $E[N]<0$ en los nueve juegos de parámetros probados ($-0.17$ a $-0.53$ en unidades de $M$), con $\G\ge1$. Además, el coeficiente cinético del monopolo se anula idénticamente, $K\equiv0$, sobre esa solución (no en fondos quínticos genéricos), y $P<0$ en alguna región: el monopolo de BCK está fuertemente acoplado y el análisis lineal no se aplica.
 
-%======================================================================
 \section{El caso abierto: galileón cúbico con flujo}\label{sec:cubico}
 
 Con $G_3\neq0$ y $\psi'\neq0$ la ligadura de momento permite $v\neq0$ con $A_4\neq0$, y~\eqref{eq:beta} gana una fuente:
@@ -280,7 +274,6 @@ Los fondos fallan por una capa no hiperbólica junto a la garganta (donde $\B$ c
 Toda garganta estática, simétrica y asintóticamente plana del galileón cúbico con flujo en la GLPV cuártica con simetría de desplazamiento tiene un monopolo mal planteado o con fantasma.
 \end{conjetura}
 
-%======================================================================
 \section{Discusión}\label{sec:discusion}
 
 \paragraph{El mecanismo.} En los dos casos la causa es la topología de dos extremos. Con un campo radial, la garganta paga con $\sigma=(\ln r/N)'\neq0$: el cociente $r/N$ tiene que crecer hacia los dos lados, y la prueba $d=N$ lo convierte en energía negativa ponderada por el mismo $\G$ que hace sano el sector impar. Con un campo temporal, el potencial de Sturm--Liouville integrado de~\eqref{eq:beta}, $\int(1+r'^2)/r^3$, es positivo, y el abocinamiento $r''(0)>0$ liga el signo de la energía cinética al de $-\G(0)$. Ningún término de la teoría puede compensar el primero (no contiene funciones libres); el segundo solo se compensa invirtiendo el sector tensorial.
@@ -291,7 +284,6 @@ Toda garganta estática, simétrica y asintóticamente plana del galileón cúbi
 
 \paragraph{Consecuencia para el híbrido estrella--garganta.} La garganta solar es de campo extremadamente débil ($M/r_0\sim10^{-6}$): por el Teorema~\ref{teo:dN} tiene un taquión con tiempo de crecimiento $\sim\sqrt{Mr_0}$, de milisegundos, y la materia de la estrella no lo detiene.
 
-%======================================================================
 \section{Conclusiones}
 
 \begin{enumerate}
@@ -331,7 +323,7 @@ Todos los cálculos están en~\cite{repo}: la maquinaria simbólica y las compro
 
 \bibitem{MironovVolkova} S. Mironov y V. Volkova, \emph{Complete stability for spherically symmetric backgrounds in beyond Horndeski theory}, \href{https://arxiv.org/abs/2404.06297}{arXiv:2404.06297}.
 
-\bibitem{repo} \emph{gusanos: híbrido estrella--agujero de gusano} (2026), \url{https://github.com/iivanlopez/gusanos}.
+\bibitem{repo} \emph{star-wormhole-hybrid: código y datos} (2026), \url{https://github.com/iivanlopez/star-wormhole-hybrid}.
 
 \bibitem{Kobayashi} T. Kobayashi, \emph{Horndeski theory and beyond: a review}, Rept. Prog. Phys. \textbf{82} (2019) 086901, \href{https://arxiv.org/abs/1901.07183}{arXiv:1901.07183}.
 
